@@ -1,0 +1,21 @@
+uuid: 0a4f67a7-dccf-4f25-be8a-eff1a89bbcf2
+langcode: en
+status: true
+dependencies:
+  module:
+    - text
+    - we_notification
+_core:
+  default_config_hash: YTjCKsLd659akt_qTTHt642RCAtgVeLVy9o0lXVFgoM
+id: we_notification.field_body
+field_name: field_body
+entity_type: we_notification
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

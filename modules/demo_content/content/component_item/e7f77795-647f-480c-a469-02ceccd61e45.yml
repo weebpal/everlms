@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: e7f77795-647f-480c-a469-02ceccd61e45
+  bundle: push_image
+  default_langcode: en
+  depends:
+    e82eeda1-318a-4513-9e91-8745d695066d: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Push Image Item: What is a Good Score for IELTS?'
+  title:
+    -
+      value: 'What is a Good Score for IELTS?'
+  created:
+    -
+      value: 1703478340
+  revision_translation_affected:
+    -
+      value: true
+  field_pi_body:
+    -
+      value: '<p><em><strong>Overall Band Scores:</strong></em></p><p>The IELTS exam is graded on a scale of 0 to 9, with 9 being the highest. The overall band score is the average of the scores obtained in each section. Different institutions or immigration authorities may require specific band scores, so research the requirements of your intended institution or country.</p><p><em><strong>Differentiate Band Scores:</strong></em></p><p>The band scores correspond to different levels of English language proficiency. While a band score of 4 or 4.5 indicates limited language skills, a score of 6 or above demonstrates a good command of English. Higher band scores, such as 7 or 8, are usually required for academic or professional purposes.</p><p><em><strong>Individual Section Scores:</strong></em></p><p>Apart from the overall band score, individual section scores are also important. Institutions or authorities may have minimum requirements for each section, so aim to achieve balanced scores across all sections.</p><p><em><strong>Benchmarking and Comparison:</strong></em></p><p>Remember that a “good” score is relative to your goals and the requirements of the institution or country you are applying to. Research the average scores accepted by your desired institution and use them as benchmarks to assess your performance.</p>'
+      format: full_html
+  field_pi_image:
+    -
+      entity: e82eeda1-318a-4513-9e91-8745d695066d
+      alt: Get-a-high-IELTS-score
+      title: ''
+      width: 1000
+      height: 668

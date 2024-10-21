@@ -1,0 +1,96 @@
+uuid: 0c1cdfff-fd46-4ccf-aba6-b50d06e9c8b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.audio
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - media.type.video
+  module:
+    - comment
+    - file
+    - lms_answer
+    - lms_certificate
+    - lms_lesson
+    - lms_question
+    - lms_question_response
+    - lms_quiz
+    - lms_quiz_result
+    - media
+    - node
+    - path
+    - profile
+    - system
+    - toolbar
+id: teacher
+label: Teacher
+weight: -6
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access lesson detail'
+  - 'access lms_answer overview'
+  - 'access lms_certificate overview'
+  - 'access lms_lesson overview'
+  - 'access lms_question overview'
+  - 'access lms_question_response overview'
+  - 'access lms_quiz overview'
+  - 'access lms_quiz_result overview'
+  - 'access profile overview'
+  - 'access take quiz'
+  - 'access toolbar'
+  - 'create audio media'
+  - 'create default lms_answer'
+  - 'create default lms_certificate'
+  - 'create default lms_lesson'
+  - 'create default lms_question'
+  - 'create default lms_question_response'
+  - 'create default lms_quiz'
+  - 'create default lms_quiz_result'
+  - 'create document media'
+  - 'create image media'
+  - 'create media'
+  - 'create remote_video media'
+  - 'create teacher profile'
+  - 'create url aliases'
+  - 'create video media'
+  - 'delete own default lms_answer'
+  - 'delete own default lms_lesson'
+  - 'delete own default lms_quiz'
+  - 'delete own files'
+  - 'duplicate any default lms_answer'
+  - 'duplicate any default lms_quiz'
+  - 'duplicate any default lms_quiz_result'
+  - 'duplicate own default lms_certificate'
+  - 'duplicate own default lms_lesson'
+  - 'edit any audio media'
+  - 'edit any document media'
+  - 'edit any image media'
+  - 'edit any remote_video media'
+  - 'edit any video media'
+  - 'edit own audio media'
+  - 'edit own comments'
+  - 'edit own document media'
+  - 'edit own image media'
+  - 'edit own remote_video media'
+  - 'edit own video media'
+  - 'update any default lms_quiz'
+  - 'update any default lms_quiz_result'
+  - 'update any media'
+  - 'update media'
+  - 'update own customer profile'
+  - 'update own default lms_answer'
+  - 'update own default lms_certificate'
+  - 'update own default lms_lesson'
+  - 'update own default lms_quiz'
+  - 'update own default lms_quiz_result'
+  - 'update own teacher profile'
+  - 'view default lms_lesson'
+  - 'view default lms_question'
+  - 'view default lms_question_response'
+  - 'view lms_lesson'
+  - 'view own teacher profile'
+  - 'view the administration theme'

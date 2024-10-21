@@ -1,0 +1,3 @@
+services:
+  lms_answer.utils:
+    class: Drupal\lms_answer\Service\Utils

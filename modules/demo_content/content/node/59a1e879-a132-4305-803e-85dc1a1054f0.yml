@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 59a1e879-a132-4305-803e-85dc1a1054f0
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Accessibility Statement'
+  created:
+    -
+      value: 1695370005
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /accessibility-statement
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Accessibility Commitment</p><p>Our goal is to provide flexible and effective learning and skill development to empower organizations and individuals. We believe that high-quality educational content should be available to everyone, which is why accessibility is a key area of focus for us.</p><p>Our teams are constantly working to improve the accessibility of our services. Here are a few examples of how we are building a more accessible LMS platform:</p><ul><li>Accessibility guidelines. We strive to follow the Web Content Accessibility Guidelines (WCAG) 2.1 standard issued by the World Wide Web Consortium (W3C) and use the Accessible Rich Internet Applications (WAI-ARIA) specification. We evaluate our website and mobile applications using the international version of the standard Voluntary Product Accessibility Template (VPAT).</li><li>Compatibility testing. We test our website and mobile applications for compatibility with multiple screen readers and accessibility tools, such as NonVisual Desktop Access (NVDA), Job Access with Speech (JAWS®), Voiceover for the Macintosh Operating System (macOS) and iPhone Operating System (iOS), and Talkback for Android.</li><li>Subtitles and closed captions. Many of our courses include machine-captioned subtitles available in several languages. Closed captions are also available on some of our courses. Learn more about how to use subtitles on our website and how to use subtitles on our mobile applications.&nbsp;</li><li>Video settings. Our video player includes several features and settings that enable learners to enhance their learning experience. Keyboard shortcuts on Udemy’s marketplace and most Udemy Business products can be used to adjust various video settings. Learn more about how to use our video player settings.&nbsp;</li><li>Search filters. Our search filters on Udemy’s marketplace and most Udemy Business products enable learners to find courses with subtitles and closed captions. Learn more about how to search for courses with subtitles.&nbsp;<br>Design system. Accessibility is a core principle of our internal design system. Our engineers and designers work with accessibility consultants on updates to our design system.&nbsp;</li><li>Instructor recommendations. We provide our instructors with recommendations on how to create accessible and inclusive courses.</li><li>Ongoing research. We work with accessibility consultants to audit and provide recommendations to improve the accessibility of our services.</li></ul>'
+      format: full_html
+      summary: ''

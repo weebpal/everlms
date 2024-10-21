@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: dc9df40b-fe80-4cd9-b402-cd13d0485901
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Setting the objectives'
+  created:
+    -
+      value: 1702953204
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Setting the objectives is foremost in planning and preparing because it provides a clear direction and purpose for the task at hand. By setting objectives, one can determine what needs to be accomplished and can then create a plan to achieve those objectives. Objectives help in defining the desired outcomes and enable effective decision-making throughout the planning and preparation process. It ensures that all efforts are focused on achieving the desired results and helps in prioritizing tasks and allocating resources accordingly.</p>'
+      format: full_html
+      summary: ''
+  field_correct:
+    -
+      value: true

@@ -1,0 +1,52 @@
+uuid: 5f33674e-49b7-45bc-b27c-533f5d6215f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.we_notification.default.field_body
+    - we_notification.we_notification_type.default
+  module:
+    - text
+_core:
+  default_config_hash: RkRVkeQQV2w82sGKgwZchtsdc6stcBRag7bdE_apLdY
+id: we_notification.default.default
+targetEntityType: we_notification
+bundle: default
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  link:
+    type: uri_link
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  changed: true
+  created: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_body: true
+  langcode: true
+  nid: true
+  received_uid: true
+  search_api_excerpt: true
+  source: true
+  status: true
+  uid: true

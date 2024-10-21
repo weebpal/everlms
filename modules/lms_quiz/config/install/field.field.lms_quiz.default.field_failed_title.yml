@@ -1,0 +1,33 @@
+uuid: cfeff111-c3b9-41f2-8fdf-c2013bac8f1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_quiz.field_failed_title
+    - lms_quiz.lms_quiz_type.default
+    - taxonomy.vocabulary.quiz_results
+  content:
+    - 'taxonomy_term:quiz_results:cda05dbe-121d-4348-83e8-6d49ba1949ac'
+id: lms_quiz.default.field_failed_title
+field_name: field_failed_title
+entity_type: lms_quiz
+bundle: default
+label: 'Failed title'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: cda05dbe-121d-4348-83e8-6d49ba1949ac
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      quiz_results: quiz_results
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 604fc8e6-1fa3-4ef8-9d33-e0b8aada3eff
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Overtake
+  created:
+    -
+      value: 1702957139
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

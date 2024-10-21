@@ -1,0 +1,63 @@
+uuid: ab218920-1530-43d6-b3ed-3212ddd88b98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_question.default.field_body
+    - field.field.lms_question.default.field_choices
+    - field.field.lms_question.default.field_difficulty
+    - field.field.lms_question.default.field_score
+    - lms_question.lms_question_type.default
+  module:
+    - text
+_core:
+  default_config_hash: VePAKq9p9MpooPeZi6NofSJRlxnm3Hibzr12qX8nOVA
+id: lms_question.default.default
+targetEntityType: lms_question
+bundle: default
+mode: default
+content:
+  field_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_choices:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_difficulty:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_score:
+    type: number_decimal
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  created: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  status: true
+  uid: true

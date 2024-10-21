@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 56fe88d3-4e21-49ab-b079-f1da7b7de878
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Something with uncertain meaning; something that may have more than one possible interpretation.'
+  created:
+    -
+      value: 1702955768
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

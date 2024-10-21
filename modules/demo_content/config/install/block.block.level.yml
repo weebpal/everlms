@@ -1,0 +1,29 @@
+uuid: 27f62f17-1980-4056-9f9a-da2dd85becb1
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.level
+  module:
+    - facets
+    - system
+  theme:
+    - lms_theme
+id: level
+theme: lms_theme
+region: sidebar_first
+weight: -13
+provider: null
+plugin: 'facet_block:level'
+settings:
+  id: 'facet_block:level'
+  label: Level
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: level
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /courses

@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0eeb8c35-b2bb-41c3-9ea5-8cad9b2838ab
+  bundle: book
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Where can users view the Certificate?'
+  created:
+    -
+      value: 1698983576
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /guides/where-can-users-view-certificate
+      langcode: en
+      pathauto: 0

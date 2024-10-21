@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_lesson
+  uuid: 157990a9-7db8-4570-af86-2f2d6f2e3577
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'My Top 5 Grammar Tips'
+  created:
+    -
+      value: 1702958557
+  status:
+    -
+      value: true
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1702958557
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_embedded_video:
+    -
+      value: 'https://www.youtube.com/watch?v=d0wV9EC3t14'
+  field_free:
+    -
+      value: true

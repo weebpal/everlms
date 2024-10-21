@@ -1,0 +1,29 @@
+uuid: 7dddb831-712d-49e5-8dca-3347d160111d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_quiz_result.field_result
+    - lms_quiz_result.lms_quiz_result_type.default
+    - taxonomy.vocabulary.quiz_results
+id: lms_quiz_result.default.field_result
+field_name: field_result
+entity_type: lms_quiz_result
+bundle: default
+label: Result
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      quiz_results: quiz_results
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,10 @@
+uuid: 2f1962c2-d2ed-48c8-9deb-dd40bdb8a632
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_question_response
+id: lms_question_response.token
+label: Token
+targetEntityType: lms_question_response
+cache: true

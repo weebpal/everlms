@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_lesson
+  uuid: a408e22e-b77c-49b9-a8f9-1753e7d3d5a8
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Academic Style'
+  created:
+    -
+      value: 1703133176
+  status:
+    -
+      value: true
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703133176
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_embedded_video:
+    -
+      value: 'https://www.youtube.com/watch?v=9J8eNNPJvuM'
+  field_free:
+    -
+      value: false

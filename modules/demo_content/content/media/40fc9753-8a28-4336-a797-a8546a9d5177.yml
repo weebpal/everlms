@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 40fc9753-8a28-4336-a797-a8546a9d5177
+  bundle: image
+  default_langcode: en
+  depends:
+    9d039720-6391-4a36-8915-1982e6cf3578: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: getty_614138202_384148.jpg
+  created:
+    -
+      value: 1703068338
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 9d039720-6391-4a36-8915-1982e6cf3578
+      alt: 'Public Speaking: Skills & Tools for Presenting for Impact'
+      title: ''
+      width: 1920
+      height: 1080

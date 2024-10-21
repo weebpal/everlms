@@ -1,0 +1,24 @@
+uuid: c07f7050-3f50-4b60-9372-8221e81d4c58
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - field_permissions
+    - fivestar
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: commerce_product.field_rating
+field_name: field_rating
+entity_type: commerce_product
+type: fivestar
+settings:
+  vote_type: vote
+module: fivestar
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

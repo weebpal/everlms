@@ -1,0 +1,4 @@
+services:
+  lms_user_course.manager:
+    class: Drupal\lms_user_course\LMSUserCourseManager
+    arguments: [ '@entity_type.manager', '@lms_base.manager', '@lms_quiz_result.manager', '@lms_base.permission_manager' ]

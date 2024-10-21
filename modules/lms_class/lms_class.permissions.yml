@@ -1,0 +1,4 @@
+administer lms_class_type:
+  title: 'Administer lms_class types'
+  description: 'Maintain the types of class types available and the fields that are associated with those types.'
+  restrict access: true

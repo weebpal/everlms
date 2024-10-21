@@ -1,0 +1,9 @@
+name: Answer
+type: module
+description: 'Defines the LMSAnswer entity and associated features.'
+package: Custom Entity Modules
+core_version_requirement: ^9.3 || ^10
+configure: entity.lms_answer.collection
+dependencies:
+  - entity:entity
+  - lms_base:lms_base

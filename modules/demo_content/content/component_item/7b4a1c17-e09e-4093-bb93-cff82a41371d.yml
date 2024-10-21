@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 7b4a1c17-e09e-4093-bb93-cff82a41371d
+  bundle: basic_component
+  default_langcode: en
+  depends:
+    dce0db72-d2c9-4c9b-a64b-19363f5aa88e: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: 1. Participate in Online News via Comments'
+  title:
+    -
+      value: '1. Participate in Online News via Comments'
+  created:
+    -
+      value: 1702916339
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Everyone wants to know more about their surroundings in today’s society, and the finest source for this is the news. Try to discover news that is relevant to your interests and read it; this will allow you to expand your knowledge and improve your reading skills. Then, in the comments section, individuals from all around the world remark on various news stories and share their thoughts with others. It is good practice to share your point of view with others while also improving your writing skills.</p>'
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: dce0db72-d2c9-4c9b-a64b-19363f5aa88e
+      alt: ''
+      title: ''
+      width: 759
+      height: 422

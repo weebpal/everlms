@@ -1,0 +1,24 @@
+uuid: 04362387-3f82-430f-b0ef-ab864d632b99
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - lms_room
+    - user
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: lms_room.field_host
+field_name: field_host
+entity_type: lms_room
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

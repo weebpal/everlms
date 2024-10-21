@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: dcd4cbd3-f3ad-478e-8ef7-2c822d1f7508
+  bundle: default
+  default_langcode: en
+  depends:
+    a20a3b6c-c144-482a-ab16-3b926ac88ce4: lms_answer
+    281a5909-01c7-44b5-b454-88c97f4a45d4: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'We learn to use our memory as soon as we are born.'
+  created:
+    -
+      value: 1702954960
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: a20a3b6c-c144-482a-ab16-3b926ac88ce4
+    -
+      entity: 281a5909-01c7-44b5-b454-88c97f4a45d4
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

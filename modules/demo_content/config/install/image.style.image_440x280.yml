@@ -1,0 +1,15 @@
+uuid: 9745db00-8412-4993-816a-a50d32d0da02
+langcode: en
+status: true
+dependencies: {  }
+name: image_440x280
+label: 'Image (440x280)'
+effects:
+  3f794adf-84ce-40b0-b98d-552ef0d15db5:
+    uuid: 3f794adf-84ce-40b0-b98d-552ef0d15db5
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 440
+      height: 280
+      anchor: center-center

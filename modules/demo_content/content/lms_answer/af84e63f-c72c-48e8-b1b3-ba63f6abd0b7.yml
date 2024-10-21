@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: af84e63f-c72c-48e8-b1b3-ba63f6abd0b7
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Avoid eye contacts with the audience'
+  created:
+    -
+      value: 1702953114
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

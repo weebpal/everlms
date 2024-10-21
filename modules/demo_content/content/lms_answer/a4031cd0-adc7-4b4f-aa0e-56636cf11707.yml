@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: a4031cd0-adc7-4b4f-aa0e-56636cf11707
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'It is used for an action that happened at an unspecific time in the past.'
+  created:
+    -
+      value: 1702954141
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

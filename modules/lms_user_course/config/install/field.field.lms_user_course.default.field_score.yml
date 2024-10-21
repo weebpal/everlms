@@ -1,0 +1,23 @@
+uuid: 841f155f-6260-48b5-81b4-04b01a45f0df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_user_course.field_score
+    - lms_user_course.lms_user_course_type.default
+id: lms_user_course.default.field_score
+field_name: field_score
+entity_type: lms_user_course
+bundle: default
+label: Score
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

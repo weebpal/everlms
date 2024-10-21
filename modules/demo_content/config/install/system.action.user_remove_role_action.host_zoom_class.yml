@@ -1,0 +1,14 @@
+uuid: 0489b4c8-7cba-4edd-bee7-837ab3c871e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.host_zoom_class
+  module:
+    - user
+id: user_remove_role_action.host_zoom_class
+label: 'Remove the Host zoom class role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: host_zoom_class

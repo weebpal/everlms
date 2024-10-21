@@ -1,0 +1,29 @@
+uuid: 814eea1e-2fb7-4cf6-a652-92615061545f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_quiz.field_questions
+    - lms_question.lms_question_type.default
+    - lms_quiz.lms_quiz_type.default
+id: lms_quiz.default.field_questions
+field_name: field_questions
+entity_type: lms_quiz
+bundle: default
+label: Questions
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:lms_question'
+  handler_settings:
+    target_bundles:
+      default: default
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

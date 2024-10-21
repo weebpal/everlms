@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 637a1ae9-c752-43cd-935f-85c493e677fa
+  bundle: category
+  default_langcode: en
+  depends:
+    600058ea-4f8f-4347-aee8-1b9558936d59: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Teaching Online'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /category/teaching-online
+      langcode: en
+      pathauto: 1
+  field_image:
+    -
+      entity: 600058ea-4f8f-4347-aee8-1b9558936d59
+      alt: 'Teaching Online'
+      title: ''
+      width: 300
+      height: 168
+  field_top_category:
+    -
+      value: false

@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 7defc2d6-a226-4954-8af7-be5e5f998b81
+  bundle: push_image
+  default_langcode: en
+  depends:
+    11c23422-b694-411c-aed2-f84afb18466f: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Push Image Item: So, Is Duolingo the best way to learn a language?'
+  title:
+    -
+      value: 'So, Is Duolingo the best way to learn a language?'
+  created:
+    -
+      value: 1703477873
+  revision_translation_affected:
+    -
+      value: true
+  field_pi_body:
+    -
+      value: '<p>Duolingo provides a convenient and accessible platform for language learning – and for learning many different languages. However, when looking specifically at English language learning, its limitations in terms of developing advanced language skills and live conversation practice make it less suitable for those seeking a comprehensive language learning experience.</p><p>Other alternatives like Perfectly Spoken, on the other hand, offer self-study materials with live practice led by expert teachers. This delivers a more well-rounded approach to language acquisition. By utilizing a combination of self-study and live practice, learners can enhance their language skills and develop the fluency and confidence to interact in real-life situations.</p>'
+      format: full_html
+  field_pi_image:
+    -
+      entity: 11c23422-b694-411c-aed2-f84afb18466f
+      alt: duolingo-alternatives
+      title: ''
+      width: 1000
+      height: 628

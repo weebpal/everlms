@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_lesson
+  uuid: db60b760-21b9-4d34-9a20-9a1493a89e6b
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Improving Teacher Talk'
+  created:
+    -
+      value: 1703063458
+  status:
+    -
+      value: true
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703063458
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_embedded_video:
+    -
+      value: 'https://www.youtube.com/watch?v=YV2Y_5nXRgQ'
+  field_free:
+    -
+      value: false

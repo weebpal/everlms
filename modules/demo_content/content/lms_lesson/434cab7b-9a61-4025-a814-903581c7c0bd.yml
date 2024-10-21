@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_lesson
+  uuid: 434cab7b-9a61-4025-a814-903581c7c0bd
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'How to Make Your Audience Care'
+  created:
+    -
+      value: 1703068477
+  status:
+    -
+      value: true
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703068477
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_embedded_video:
+    -
+      value: 'https://www.youtube.com/watch?v=vB2pl1QbY3I'
+  field_free:
+    -
+      value: false

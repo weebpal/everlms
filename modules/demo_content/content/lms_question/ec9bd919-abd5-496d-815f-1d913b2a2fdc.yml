@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: ec9bd919-abd5-496d-815f-1d913b2a2fdc
+  bundle: default
+  default_langcode: en
+  depends:
+    53ed01d4-f3f6-4eb6-a9ba-6c0ee940d3b1: lms_answer
+    5e561103-88ae-459a-ad61-39c7878ef3d8: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Teaching helps us to memorize.'
+  created:
+    -
+      value: 1702954790
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 53ed01d4-f3f6-4eb6-a9ba-6c0ee940d3b1
+    -
+      entity: 5e561103-88ae-459a-ad61-39c7878ef3d8
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

@@ -1,0 +1,98 @@
+<?php
+
+use Drupal\user\Entity\Role;
+use Drupal\user\RoleInterface;
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ *
+ * @see system_install()
+ */
+function demo_content_install() {
+  $permissions_anonymous = [
+    "access comments",
+    "access content",
+    "access lesson detail",
+    "access site-wide contact form",
+    "rate content",
+    "search content",
+    "subscribe to newsletters",
+    "use text format restricted_html",
+    "view commerce_product",
+    "view component_item",
+    "view component_wrapper",
+    "view default lms_quiz",
+    "view default lms_quiz_result",
+    "view lms_lesson",
+    "view lms_question",
+    "view lms_question_response",
+    "view lms_quiz",
+    "view lms_quiz_result",
+    "view media"
+  ];
+  $permissions_authenticate = [
+    "access checkout",
+    "access comments",
+    "access content",
+    "access lesson detail",
+    "access shortcuts",
+    "access site-wide contact form",
+    "access take quiz",
+    "access user profiles",
+    "create customer profile",
+    "create default lms_user_course",
+    "delete own files",
+    "duplicate own default lms_user_course",
+    "edit own comments",
+    "manage own commerce_payment_method",
+    "post comments",
+    "rate content",
+    "search content",
+    "skip comment approval",
+    "subscribe to newsletters",
+    "update own customer profile",
+    "update own default lms_user_course",
+    "use text format basic_html",
+    "use text format full_html",
+    "view commerce_product",
+    "view commerce_store",
+    "view component_item",
+    "view component_wrapper",
+    "view default lms_answer",
+    "view default lms_certificate",
+    "view default lms_quiz",
+    "view default lms_quiz_result",
+    "view default lms_user_course",
+    "view lms_answer",
+    "view lms_certificate",
+    "view lms_lesson",
+    "view lms_question",
+    "view lms_question_response",
+    "view lms_quiz",
+    "view lms_quiz_result",
+    "view lms_user_certificate",
+    "view lms_user_course",
+    "view media",
+    "view own commerce_order",
+    "view own customer profile",
+    "view own profile",
+  ];
+
+  $role = Role::load('anonymous');
+  if ($role instanceof RoleInterface) {
+    foreach ($permissions_anonymous as $permission_anonymous) {
+      $role->grantPermission($permission_anonymous);
+    }
+    $role->save();
+  }
+
+  $role_authenticated = Role::load('authenticated');
+  if ($role_authenticated instanceof  RoleInterface) {
+    foreach ($permissions_authenticate as $permission_authenticate) {
+      $role_authenticated->grantPermission($permission_authenticate);
+    }
+    $role_authenticated->save();
+  }
+}

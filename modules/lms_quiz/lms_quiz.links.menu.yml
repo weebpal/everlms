@@ -1,0 +1,25 @@
+lms_quiz.root:
+  title: 'Quiz'
+  description: 'Manage your quiz.'
+  parent: 'lms_base.admin'
+  route_name: 'lms_quiz.root'
+  weight: -80
+
+entity.lms_quiz.collection:
+  title: 'Quiz items'
+  route_name: 'entity.lms_quiz.collection'
+  parent: 'lms_quiz.root'
+  description: 'Manage your quiz items.'
+  weight: 50
+
+entity.lms_quiz_type.collection:
+  title: 'Quiz types'
+  route_name: 'entity.lms_quiz_type.collection'
+  parent: 'lms_quiz.root'
+  description: 'Manage fields, form and display settings for your quiz types.'
+  weight: 50
+
+lms_quiz.grouped_entity_links:
+  class: Drupal\lms_quiz\Plugin\Menu\GroupedEntityLinks
+  deriver: Drupal\lms_quiz\Plugin\Derivative\GroupedEntityLinksDeriver
+  menu_name: lms_quiz

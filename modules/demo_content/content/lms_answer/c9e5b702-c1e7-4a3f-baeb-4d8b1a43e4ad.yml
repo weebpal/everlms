@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: c9e5b702-c1e7-4a3f-baeb-4d8b1a43e4ad
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Reference to well-known historical or cultural knowledge.'
+  created:
+    -
+      value: 1702955454
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: true

@@ -1,0 +1,10 @@
+uuid: bab130c7-9834-41ed-84e1-16bc22101a61
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_quiz
+id: lms_quiz.teaser
+label: Teaser
+targetEntityType: lms_quiz
+cache: true

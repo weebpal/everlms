@@ -1,0 +1,86 @@
+uuid: f3ea597d-cc9a-423f-b297-7632d65b87dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.lesson_default.default
+    - field.field.lms_lesson.default.field_body
+    - field.field.lms_lesson.default.field_class_time
+    - field.field.lms_lesson.default.field_comments
+    - field.field.lms_lesson.default.field_embedded_video
+    - field.field.lms_lesson.default.field_free
+    - field.field.lms_lesson.default.field_google_meet_data
+    - field.field.lms_lesson.default.field_google_meet_link
+    - field.field.lms_lesson.default.field_lesson_type
+    - field.field.lms_lesson.default.field_zoom_class
+    - field.field.lms_lesson.default.field_zoom_class_data
+    - field.field.lms_lesson.default.field_zoom_class_link
+    - lms_lesson.lms_lesson_type.default
+  module:
+    - comment
+    - video_embed_field
+_core:
+  default_config_hash: qr18QSTrq_83LK9Pr9SHh2IfYC2Wiltu7N1uzB5v4Jc
+id: lms_lesson.default.default
+targetEntityType: lms_lesson
+bundle: default
+mode: default
+content:
+  field_comments:
+    type: comment_default
+    label: hidden
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_embedded_video:
+    type: video_embed_field_video
+    label: hidden
+    settings:
+      autoplay: true
+      responsive: true
+      width: 854
+      height: 480
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_zoom_class:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  zoom_meeting:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  created: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_body: true
+  field_class_time: true
+  field_free: true
+  field_google_meet_data: true
+  field_google_meet_link: true
+  field_lesson_type: true
+  field_zoom_class_data: true
+  field_zoom_class_link: true
+  langcode: true
+  search_api_excerpt: true
+  status: true
+  uid: true

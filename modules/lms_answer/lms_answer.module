@@ -1,0 +1,45 @@
+<?php
+
+/**
+ * @file
+ * Defines the LMSAnswer entity and associated features.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Render\Element;
+
+/**
+ * Implements hook_theme().
+ */
+function lms_answer_theme() {
+  return [
+    'lms_answer' => [
+      'render element' => 'elements',
+    ],
+    'lms_answer_form' => [
+      'render element' => 'form',
+    ],
+  ];
+}
+
+/**
+ * Prepares variables for lms_answer templates.
+ *
+ * Default template: lms-answer.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An associative array containing rendered fields.
+ *   - attributes: HTML attributes for the containing element.
+ */
+function template_preprocess_lms_answer(array &$variables) {
+  /** @var Drupal\lms_answer\Entity\LMSAnswerInterface $lms_answer */
+  $lms_answer = $variables['elements']['#lms_answer'];
+
+  $variables['lms_answer_entity'] = $lms_answer;
+  $variables['lms_answer_url'] = $lms_answer->isNew() ? '' : $lms_answer->toUrl();
+  $variables['lms_answer'] = [];
+  foreach (Element::children($variables['elements']) as $key) {
+    $variables['lms_answer'][$key] = $variables['elements'][$key];
+  }
+}

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e9eb38bb-20a2-467d-8875-bedaee90ea29
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 780078_e409_2.jpg
+  uri:
+    -
+      value: 'public://2023-12/780078_e409_2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 48641
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702959930

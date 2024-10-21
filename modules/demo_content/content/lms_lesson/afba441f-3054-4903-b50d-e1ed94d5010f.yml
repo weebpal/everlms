@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_lesson
+  uuid: afba441f-3054-4903-b50d-e1ed94d5010f
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Short Refresher Videos (Watch These to Stay Sharp) Part 1'
+  created:
+    -
+      value: 1703133872
+  status:
+    -
+      value: true
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703133872
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_embedded_video:
+    -
+      value: 'https://www.youtube.com/watch?v=0HCryLjGHIo'
+  field_free:
+    -
+      value: false

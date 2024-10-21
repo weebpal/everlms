@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 358eef75-260f-47ab-bc82-2fd7aeb3f34f
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Present perfect can be used instead of simple present tense, but simple past cannot.'
+  created:
+    -
+      value: 1702954477
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

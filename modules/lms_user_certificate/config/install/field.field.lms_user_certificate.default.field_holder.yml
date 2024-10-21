@@ -1,0 +1,29 @@
+uuid: 86c1def9-a713-48b8-bd53-62fb7459d7c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_user_certificate.field_holder
+    - lms_user_certificate.lms_user_certificate_type.default
+id: lms_user_certificate.default.field_holder
+field_name: field_holder
+entity_type: lms_user_certificate
+bundle: default
+label: Holder
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    filter:
+      type: _none
+    include_anonymous: true
+field_type: entity_reference

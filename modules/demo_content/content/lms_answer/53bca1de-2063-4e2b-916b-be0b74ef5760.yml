@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 53bca1de-2063-4e2b-916b-be0b74ef5760
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Using similar sentence construction to create emphasis.'
+  created:
+    -
+      value: 1702955285
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

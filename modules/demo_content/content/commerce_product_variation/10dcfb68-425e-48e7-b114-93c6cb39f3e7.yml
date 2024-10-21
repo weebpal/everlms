@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 10dcfb68-425e-48e7-b114-93c6cb39f3e7
+  bundle: course
+  default_langcode: en
+  depends:
+    e912d8b5-e6b1-4935-88f2-2add7a1e9f50: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: e912d8b5-e6b1-4935-88f2-2add7a1e9f50
+  sku:
+    -
+      value: 'How to speak to anyone'
+  title:
+    -
+      value: 'How to speak to anyone & be fearless - in less than 55 min'
+  price:
+    -
+      number: '0.000000'
+      currency_code: USD
+      formatted: $0.00
+  created:
+    -
+      value: 1702960031

@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: efeab7f8-efba-4951-8fe3-3db22d04e6ae
+  bundle: news
+  default_langcode: en
+  depends:
+    de099674-3686-48df-aa9b-43bbd3857421: component_wrapper
+    2fbe2c17-3456-47b8-ae1b-9f7a0d304ba0: taxonomy_term
+    2a7009d4-507e-4344-b89c-c6d9c94eacda: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Year 10 Geography Trip to Ba Vi'
+  created:
+    -
+      value: 1702915674
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /news/year-10-geography-trip-ba-vi
+      langcode: en
+      pathauto: 1
+  field_components:
+    -
+      entity: de099674-3686-48df-aa9b-43bbd3857421
+  field_tags:
+    -
+      entity: 2fbe2c17-3456-47b8-ae1b-9f7a0d304ba0
+  field_thumb:
+    -
+      entity: 2a7009d4-507e-4344-b89c-c6d9c94eacda
+      alt: 'Year 10 Geography Trip to Ba Vi'
+      title: ''
+      width: 887
+      height: 499

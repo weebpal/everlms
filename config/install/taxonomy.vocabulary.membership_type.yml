@@ -1,0 +1,8 @@
+uuid: 3f945c46-b46d-46f5-b149-5f7340e5521f
+langcode: en
+status: true
+dependencies: {  }
+name: 'Membership Type'
+vid: membership_type
+description: ''
+weight: 0

@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: component_wrapper
+  uuid: e21580cc-f313-480e-9966-81d755c2d63a
+  default_langcode: en
+  depends:
+    7d67e02d-eb5d-418e-b1ff-021d7bf7ddc2: taxonomy_term
+    5c70ad6d-7717-46b0-81b1-393351c89102: component_item
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  title:
+    -
+      value: 'Having a clear vision of your needs and goals'
+  component_type:
+    -
+      entity: 7d67e02d-eb5d-418e-b1ff-021d7bf7ddc2
+  display_title:
+    -
+      value: false
+  display_header:
+    -
+      value: false
+  display_footer:
+    -
+      value: false
+  display_image:
+    -
+      value: false
+  display_in_region:
+    -
+      value: false
+  field_region:
+    -
+      value: headline
+  created:
+    -
+      value: 1702914620
+  revision_translation_affected:
+    -
+      value: true
+  field_basic_component:
+    -
+      entity: 5c70ad6d-7717-46b0-81b1-393351c89102

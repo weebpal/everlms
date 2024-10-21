@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 5c70ad6d-7717-46b0-81b1-393351c89102
+  bundle: basic_component
+  default_langcode: en
+  depends:
+    1637220f-7a2a-419e-9491-ddc9b637d35b: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Having a clear vision of your needs and goals'
+  title:
+    -
+      value: 'Having a clear vision of your needs and goals'
+  created:
+    -
+      value: 1702914610
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Whether the platforms you’re considering for your business market themselves as an LMS learning platform or other related terminology, each system will have different features and capabilities. Before choosing a learning platform, there is a lot to consider.</p><p>Some teachers or tutors may find great value in a platform with e-commerce features that will help with payment systems in certain countries, while others are looking for student management and scheduling systems to better serve their growing student portfolios. Still other teachers may want an interactive classroom and access to ready-made curricula and other teaching materials.</p>'
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: 1637220f-7a2a-419e-9491-ddc9b637d35b
+      alt: ''
+      title: ''
+      width: 500
+      height: 295

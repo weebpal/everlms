@@ -1,0 +1,89 @@
+uuid: 45b7edea-d1f3-4f91-b5b5-a4d9daca9432
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.lms_user_certificate.inline_entity_form
+    - field.field.lms_user_certificate.default.field_body
+    - field.field.lms_user_certificate.default.field_certificate
+    - field.field.lms_user_certificate.default.field_get_time
+    - field.field.lms_user_certificate.default.field_holder
+    - field.field.lms_user_certificate.default.field_link
+    - field.field.lms_user_certificate.default.field_pdf
+    - lms_user_certificate.lms_user_certificate_type.default
+  module:
+    - file
+_core:
+  default_config_hash: W6ox8-_S9w4HAosEysalhCeYw9SJFnLJpP0mpUcKEO0
+id: lms_user_certificate.default.inline_entity_form
+targetEntityType: lms_user_certificate
+bundle: default
+mode: inline_entity_form
+content:
+  field_certificate:
+    type: entity_reference_autocomplete
+    weight: 4
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_get_time:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_holder:
+    type: entity_reference_autocomplete
+    weight: 1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_link:
+    type: string_textfield
+    weight: 5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_pdf:
+    type: file_generic
+    weight: 6
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_body: true
+  status: true
+  uid: true

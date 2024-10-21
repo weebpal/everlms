@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: c92cbd74-b8f5-4afe-8b81-bf09bc11a6f5
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Having a list of materials'
+  created:
+    -
+      value: 1702953212
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

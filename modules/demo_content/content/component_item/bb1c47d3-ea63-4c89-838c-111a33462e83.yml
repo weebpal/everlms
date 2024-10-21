@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: bb1c47d3-ea63-4c89-838c-111a33462e83
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Not Always Easy'
+  title:
+    -
+      value: 'Not Always Easy'
+  created:
+    -
+      value: 1702916817
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Even though the news is very useful and a great way to learn and practice English, we know it is not always easy. A lot of news websites have large articles with 1000s of words and this can be very hard to work through as an English learner. Even watching videos of news can be complicated if people speak very fast. But it is worth the effort and there are lots of different news outlets that have smaller articles that are easier to understand.</p><p>The important things to remember are:</p><ul><li>Read as much news as you can but make sure you take time to try to understand it</li><li>Make a list of words that you do not understand, look them up, learn them and then re-read the news article</li><li>Find a friend or someone at work who will talk about the news article with you. You could even send the article to a friend online and have a video or phone call to talk about it in English to practice.</li><li>Pick subjects and topics you find interesting or that are very important. Trying to learn from things you find boring will not be as useful or easy as something you are interested in.</li></ul>'
+      format: full_html
+      summary: ''

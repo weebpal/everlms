@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: ee7602f6-da26-46b3-bda1-e8b9d6de5693
+  bundle: basic_component
+  default_langcode: en
+  depends:
+    d532a8cc-9216-44e2-b8e3-41ffe4be9e22: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Online Language Learning Platforms'
+  title:
+    -
+      value: 'Online Language Learning Platforms'
+  created:
+    -
+      value: 1703472786
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>There are many online platforms dedicated to helping you improve your English skills. One of these platforms is Perfectly Spoken, which offers a wide range of English courses and resources. We have courses for all levels, from beginners to advanced learners, making it a suitable choice for anyone looking to enhance their English-speaking abilities.</p><p>Perfectly Spoken provides a flexible and convenient combination of self-study lessons, practice exercises, and opportunities to practise your speaking with other students from around the world under the guidance of expert teachers to help you improve fluency and speak confidently and correctly.</p>'
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: d532a8cc-9216-44e2-b8e3-41ffe4be9e22
+      alt: 'Online Language Learning Platforms'
+      title: ''
+      width: 1536
+      height: 1024

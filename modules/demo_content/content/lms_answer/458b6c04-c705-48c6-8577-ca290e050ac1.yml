@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 458b6c04-c705-48c6-8577-ca290e050ac1
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Qualified Teacher Lecturer Status'
+  created:
+    -
+      value: 1702951328
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

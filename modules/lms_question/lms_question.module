@@ -1,0 +1,45 @@
+<?php
+
+/**
+ * @file
+ * Defines the LMSQuestion entity and associated features.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Render\Element;
+
+/**
+ * Implements hook_theme().
+ */
+function lms_question_theme() {
+  return [
+    'lms_question' => [
+      'render element' => 'elements',
+    ],
+    'lms_question_form' => [
+      'render element' => 'form',
+    ],
+  ];
+}
+
+/**
+ * Prepares variables for lms_question templates.
+ *
+ * Default template: lms-question.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An associative array containing rendered fields.
+ *   - attributes: HTML attributes for the containing element.
+ */
+function template_preprocess_lms_question(array &$variables) {
+  /** @var Drupal\lms_question\Entity\LMSQuestionInterface $lms_question */
+  $lms_question = $variables['elements']['#lms_question'];
+
+  $variables['lms_question_entity'] = $lms_question;
+  $variables['lms_question_url'] = $lms_question->isNew() ? '' : $lms_question->toUrl();
+  $variables['lms_question'] = [];
+  foreach (Element::children($variables['elements']) as $key) {
+    $variables['lms_question'][$key] = $variables['elements'][$key];
+  }
+}

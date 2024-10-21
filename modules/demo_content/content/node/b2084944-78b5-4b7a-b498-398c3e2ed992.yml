@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b2084944-78b5-4b7a-b498-398c3e2ed992
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Careers
+  created:
+    -
+      value: 1695374163
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /careers
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<h2>Let’s revolutionize learning</h2><p>Individually, we bring our unique perspectives to reimagine the way knowledge is shared. Together, we can improve lives by empowering our employees, our learners, instructors, and businesses.</p><p>We aspire to be as vibrant and dynamic as the communities we serve, as inquisitive as those who use our platform, and as revolutionary as the future we strive to open for everyone.</p><p>There are so many reasons our people choose to join us at LSM &nbsp;– whether it’s the mission, the culture, or the opportunity to grow.</p><p>You can find out more about all of them.</p><h4>Employee Stories</h4><p>The best way to learn about life at Udemy is to hear from our people. Each one brings their unique background, perspective, and experience — and Udemy is better for it.</p>'
+      format: full_html
+      summary: ''

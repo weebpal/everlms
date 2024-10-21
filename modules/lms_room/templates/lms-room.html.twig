@@ -1,0 +1,24 @@
+{#
+/**
+ * @file
+ *
+ * Default template for room item.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the wrapper.
+ * - lms_room: The rendered lms_room fields.
+ *   Use 'lms_room' to print them all, or print a subset such as
+ *   'lms_room.name'. Use the following code to exclude the
+ *   printing of a given field:
+ *   @code
+ *   {{ lms_room|without('name') }}
+ *   @endcode
+ * - lms_room_entity: The lms_room entity.
+ * - lms_room_url: The lms_room URL.
+ *
+ * @ingroup themeable
+ */
+#}
+<article{{ attributes }}>
+  {{ lms_room }}
+</article>

@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 6e0d7da0-583c-4641-a7e6-224877c7de06
+  bundle: basic_component
+  default_langcode: en
+  depends:
+    28f509af-a614-49ab-8c45-bfb34a9cf952: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Reason 1'
+  title:
+    -
+      value: 'Reason 1'
+  created:
+    -
+      value: 1702916722
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>News is a great way to read something interesting that will help your English. Reading phrases from courses and books can be helpful but it can also be quite boring. Keeping up to date with world news will help keep your mind engaged while you are also learning.</p>'
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: 28f509af-a614-49ab-8c45-bfb34a9cf952
+      alt: ''
+      title: ''
+      width: 1350
+      height: 901

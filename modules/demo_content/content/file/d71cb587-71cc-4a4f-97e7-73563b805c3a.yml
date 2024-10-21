@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d71cb587-71cc-4a4f-97e7-73563b805c3a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Top-14-Advanced-Communications-Skills-Leaders-Need.jpg
+  uri:
+    -
+      value: 'public://2023-12/Top-14-Advanced-Communications-Skills-Leaders-Need.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 45365
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703044715

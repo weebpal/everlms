@@ -1,0 +1,58 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8aa89583-0f3d-4cdb-98b0-f54b8bf3e39e
+  bundle: news
+  default_langcode: en
+  depends:
+    617b3e4b-8ea3-4d44-886c-b2f91e877495: component_wrapper
+    85494eee-d1e3-44b4-8309-0f3ae88d2efc: taxonomy_term
+    921b0948-66b9-43a5-94d1-d674ed4cd481: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'How our university counsellor helps BVIS Hanoi students secure their first-choice university'
+  created:
+    -
+      value: 1702914934
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /news/how-our-university-counsellor-helps-bvis-hanoi-students-secure-their-first-choice-university
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>How our university counsellor helps BVIS Hanoi students secure their first-choice university Three key components that our university counsellor focuses on at BVIS Hanoi to guide students.<br>At BVIS Hanoi, the world’s top universities welcome our students every year, and a central element in our students’ success is the role of our university counsellor.</p><p>Our university counsellor helps our students navigate the journey between Year 12-13 and university, by providing personalised support and guidance so our students feel empowered and informed to make the right decision for their futures.</p><p>There are three key components that our university counsellor focuses on at BVIS Hanoi.</p>'
+      format: full_html
+      summary: ''
+  field_components:
+    -
+      entity: 617b3e4b-8ea3-4d44-886c-b2f91e877495
+  field_tags:
+    -
+      entity: 85494eee-d1e3-44b4-8309-0f3ae88d2efc
+  field_thumb:
+    -
+      entity: 921b0948-66b9-43a5-94d1-d674ed4cd481
+      alt: 'How our university counsellor helps BVIS Hanoi students '
+      title: ''
+      width: 887
+      height: 499

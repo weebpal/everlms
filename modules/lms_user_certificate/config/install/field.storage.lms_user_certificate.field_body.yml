@@ -1,0 +1,21 @@
+uuid: ab52e156-8499-4153-8676-36b9db41e2ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_user_certificate
+    - text
+_core:
+  default_config_hash: Hh9Pzp3dfVqSgbx4zqKhDm61g4nGV7GpvYSNt0iC3lQ
+id: lms_user_certificate.field_body
+field_name: field_body
+entity_type: lms_user_certificate
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

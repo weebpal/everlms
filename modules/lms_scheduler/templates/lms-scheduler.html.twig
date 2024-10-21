@@ -1,0 +1,24 @@
+{#
+/**
+ * @file
+ *
+ * Default template for lms scheduler item.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the wrapper.
+ * - lms_scheduler: The rendered lms_scheduler fields.
+ *   Use 'lms_scheduler' to print them all, or print a subset such as
+ *   'lms_scheduler.name'. Use the following code to exclude the
+ *   printing of a given field:
+ *   @code
+ *   {{ lms_scheduler|without('name') }}
+ *   @endcode
+ * - lms_scheduler_entity: The lms_scheduler entity.
+ * - lms_scheduler_url: The lms_scheduler URL.
+ *
+ * @ingroup themeable
+ */
+#}
+<article{{ attributes }}>
+  {{ lms_scheduler }}
+</article>

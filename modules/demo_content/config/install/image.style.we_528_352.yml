@@ -1,0 +1,15 @@
+uuid: 74eb80d8-8093-4495-ac25-bc4ae980c969
+langcode: en
+status: true
+dependencies: {  }
+name: we_528_352
+label: 'Component Builder (528*352)'
+effects:
+  e93e7f36-7f12-477c-a6ea-40c33e7d8962:
+    uuid: e93e7f36-7f12-477c-a6ea-40c33e7d8962
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 528
+      height: 352
+      anchor: center-center

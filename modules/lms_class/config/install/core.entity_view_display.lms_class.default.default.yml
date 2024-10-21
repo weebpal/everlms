@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_class.default.field_body
+    - lms_class.lms_class_type.default
+  module:
+    - text
+id: lms_class.default.default
+targetEntityType: lms_class
+bundle: default
+mode: default
+content:
+  field_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  uid: true

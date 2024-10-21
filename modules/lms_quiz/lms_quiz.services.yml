@@ -1,0 +1,8 @@
+services:
+  lms_quiz.utils:
+    class: Drupal\lms_quiz\Service\Utils
+  lms_quiz.create:
+    class: Drupal\lms_quiz\Service\Create
+  lms_quiz.quiz_manager:
+    class: Drupal\lms_quiz\LMSQuizManager
+    arguments: [ '@entity_type.manager', '@state', '@database', '@logger.factory' ]

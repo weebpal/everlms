@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 9a6f88b0-bac7-44b8-9528-4bc3bd5acbae
+  bundle: default
+  default_langcode: en
+  depends:
+    dc9df40b-fe80-4cd9-b402-cd13d0485901: lms_answer
+    c92cbd74-b8f5-4afe-8b81-bf09bc11a6f5: lms_answer
+    4beca496-67c1-4ef1-85b1-d16457c0188a: lms_answer
+    c38b3422-9bce-49a3-b85b-d1d4e3f757a4: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Which of the following is foremost in planning and preparing'
+  created:
+    -
+      value: 1702953231
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: dc9df40b-fe80-4cd9-b402-cd13d0485901
+    -
+      entity: c92cbd74-b8f5-4afe-8b81-bf09bc11a6f5
+    -
+      entity: 4beca496-67c1-4ef1-85b1-d16457c0188a
+    -
+      entity: c38b3422-9bce-49a3-b85b-d1d4e3f757a4
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

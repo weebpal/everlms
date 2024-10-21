@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 424a8036-8a21-4f29-8376-6e12c306ccec
+  bundle: basic_component
+  default_langcode: en
+  depends:
+    2208c4c3-c28f-4038-a71d-adf7b27ffc3e: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Movie or Film?'
+  title:
+    -
+      value: 'Movie or Film?'
+  created:
+    -
+      value: 1702916943
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>There are many things in the English language that have more than one word to describe it and movies are one of them. The word movie is something that has come from the USA and is certainly a term that is not traditionally used in the UK. British people tend to use the word film instead. However, ironically due to American movies being watched more and more across the world the word film is now less common and movies are used a lot. Both words are fine to use in the UK but the movie is probably better in other English speaking countries.</p>'
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: 2208c4c3-c28f-4038-a71d-adf7b27ffc3e
+      alt: ''
+      title: ''
+      width: 1440
+      height: 1080

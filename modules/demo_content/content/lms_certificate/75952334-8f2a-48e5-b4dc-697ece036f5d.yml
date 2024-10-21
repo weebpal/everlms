@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_certificate
+  uuid: 75952334-8f2a-48e5-b4dc-697ece036f5d
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Professional english certificate'
+  created:
+    -
+      value: 1695195886
+  status:
+    -
+      value: true
+  field_twig_template:
+    -
+      value: "<html>\r\n<div class=\"certificate\">\r\n<div class=\"border-pattern\">\r\n<div class=\"content\">\r\n<div class=\"inner-content\">\r\n<h1 class=\"title\">Certificate</h1>\r\n<h2 class=\"certificate-type\">of Excellence</h2>\r\n<h3 class=\"\">This Certificate Is Proudly Presented To</h3>\r\n<p>[name]</p>\r\n<h3 class=\"certificate-course\">Has Completed</h3>\r\n<p>[course]</p>\r\n<h3 class=\"certificate-score\">Score</h3>\r\n<p>[score]</p>\r\n<h3 class=\"certificate-date\">On</h3>\r\n<p>[date]</p>\r\n<div class=\"badge\">\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</html>"

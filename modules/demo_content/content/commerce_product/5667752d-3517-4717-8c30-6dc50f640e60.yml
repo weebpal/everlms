@@ -1,0 +1,133 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 5667752d-3517-4717-8c30-6dc50f640e60
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    fbdc9b81-e239-401a-aa92-383324e4a4df: commerce_product_variation
+    100d2b6c-1630-48a9-8bd1-5c7e9ae75123: taxonomy_term
+    516c2dcf-8eec-4ec8-8a7e-168acc3b4eaf: media
+    9ae7bba4-df99-4f70-8573-9018ebcc334e: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    64dc10ff-71e3-4342-8761-a1900d6c3420: lms_lesson
+    a408e22e-b77c-49b9-a8f9-1753e7d3d5a8: lms_lesson
+    0ec45ba6-1c4c-48c8-b588-cc95ac55b34b: lms_lesson
+    ffec01cc-9bcd-4884-927b-0d4edca69124: lms_lesson
+    e74a7793-5a42-44dd-8cf1-d3d74b3d992f: taxonomy_term
+    fa9cdc4c-7d9b-4d17-86e8-ffb26a597571: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'Writing Academic English for Beginner'
+  variations:
+    -
+      entity: fbdc9b81-e239-401a-aa92-383324e4a4df
+  default_variation:
+    -
+      entity: fbdc9b81-e239-401a-aa92-383324e4a4df
+  path:
+    -
+      alias: /course/writing-academic-english-beginner
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1703132606
+  body:
+    -
+      value: '<p><strong>Purpose:</strong></p><ol><li>To make it easy for you to write your assignment or thesis.</li><li>Provide a ‘toolbox’ that you can use.</li></ol><p><strong>What is Academic Writing?</strong></p><p>Most students have to write to write assignments or a thesis at the end of their study period.</p><p>This requires a certain style of writing. It is called academic writing.</p><p>Academic writing features:</p><ul><li>Give Reference to other sources of information (books/ articles/journals … anything!).</li><li>Discussion and evaluation of information by the author (you!).</li><li>impersonal, objective tone.</li></ul><p><strong>Content:</strong></p><p><em>4 Units (based on features of Academic Writing)</em></p><ul><li>The Writing Process &nbsp;</li><li>Academic Style &nbsp;</li><li>Using Sources &nbsp;</li><li>Organising &nbsp;</li></ul><p><em>Individual Lessons based on each unit</em></p>'
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: 100d2b6c-1630-48a9-8bd1-5c7e9ae75123
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703133086
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: 516c2dcf-8eec-4ec8-8a7e-168acc3b4eaf
+  field_featured_course:
+    -
+      value: false
+  field_free:
+    -
+      value: false
+  field_image:
+    -
+      entity: 9ae7bba4-df99-4f70-8573-9018ebcc334e
+      alt: 'Writing Academic English for Beginner'
+      title: ''
+      width: 480
+      height: 270
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 2342
+  field_lessons:
+    -
+      entity: 64dc10ff-71e3-4342-8761-a1900d6c3420
+    -
+      entity: a408e22e-b77c-49b9-a8f9-1753e7d3d5a8
+    -
+      entity: 0ec45ba6-1c4c-48c8-b588-cc95ac55b34b
+    -
+      entity: ffec01cc-9bcd-4884-927b-0d4edca69124
+  field_level:
+    -
+      entity: e74a7793-5a42-44dd-8cf1-d3d74b3d992f
+  field_quiz:
+    -
+      entity: fa9cdc4c-7d9b-4d17-86e8-ffb26a597571
+  field_quizzes:
+    -
+      entity: fa9cdc4c-7d9b-4d17-86e8-ffb26a597571
+  field_rating:
+    -
+      rating: 80
+      target: 0
+  field_requirements:
+    -
+      value: '<p>be able to using computer</p>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>The Writing Process, Academic Style, Using Sources, Organising</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 2
+  field_total_lessons:
+    -
+      value: 4
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>student will be able to writing paper/thesis</li></ul>'
+      format: full_html

@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 72fe0069-7224-49d5-ac58-aff62362114d
+  bundle: default
+  default_langcode: en
+  depends:
+    a073cacb-63fc-4b39-9e3e-0c45d6150096: lms_answer
+    751147f7-ebd6-49b6-99d0-7705b078daf4: lms_answer
+    78dd93fd-b977-4177-b195-fff6847d9453: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'What year was the Education Reform Act?'
+  created:
+    -
+      value: 1702951042
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: a073cacb-63fc-4b39-9e3e-0c45d6150096
+    -
+      entity: 751147f7-ebd6-49b6-99d0-7705b078daf4
+    -
+      entity: 78dd93fd-b977-4177-b195-fff6847d9453
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

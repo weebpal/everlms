@@ -1,0 +1,83 @@
+uuid: a51fdef3-cd60-45ec-bf60-d5afacf80d3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_question_response.default.field_answers
+    - field.field.lms_question_response.default.field_body
+    - field.field.lms_question_response.default.field_correct
+    - field.field.lms_question_response.default.field_question
+    - field.field.lms_question_response.default.field_quiz
+    - field.field.lms_question_response.default.field_score
+    - lms_question_response.lms_question_response_type.default
+  module:
+    - text
+_core:
+  default_config_hash: DPwQZ5KzYQBFLXyzEb3qgpbLHgWAH1VmnLnusUuFcro
+id: lms_question_response.default.default
+targetEntityType: lms_question_response
+bundle: default
+mode: default
+content:
+  field_answers:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_correct:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_question:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_quiz:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_score:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  created: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  status: true
+  uid: true

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: f12cfc13-95bd-482c-98a5-6ae5b0d84dd8
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: 4. Practice Summarizing'
+  title:
+    -
+      value: '4. Practice Summarizing'
+  created:
+    -
+      value: 1702916393
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>After reading or listening to the news, try to summarize it. It is best practice to check your comprehension. This practice will improve your writing abilities and allow you to practice new words. You can also use it to print a news story, read it, and then jot down the primary point you want to make. Request that your teacher or a study partner review your summary.</p>'
+      format: full_html
+      summary: ''

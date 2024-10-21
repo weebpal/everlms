@@ -1,0 +1,24 @@
+{#
+/**
+ * @file
+ *
+ * Default template for certificate item.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the wrapper.
+ * - lms_certificate: The rendered lms_certificate fields.
+ *   Use 'lms_certificate' to print them all, or print a subset such as
+ *   'lms_certificate.name'. Use the following code to exclude the
+ *   printing of a given field:
+ *   @code
+ *   {{ lms_certificate|without('name') }}
+ *   @endcode
+ * - lms_certificate_entity: The lms_certificate entity.
+ * - lms_certificate_url: The lms_certificate URL.
+ *
+ * @ingroup themeable
+ */
+#}
+<article{{ attributes }}>
+  {{ lms_certificate }}
+</article>

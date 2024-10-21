@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: cff7d6db-e899-4cac-850e-83c6ddde06ab
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Simple past'
+  created:
+    -
+      value: 1702954406
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

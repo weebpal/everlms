@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: component_wrapper
+  uuid: 78508074-b9e0-435d-ac5b-9bce390ace75
+  default_langcode: en
+  depends:
+    e9f5fe1a-c262-4de2-8db7-2ad9bfef4b67: taxonomy_term
+    03e70f58-5363-41f7-8ce9-871677250949: component_item
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  title:
+    -
+      value: 'Top Category'
+  component_type:
+    -
+      entity: e9f5fe1a-c262-4de2-8db7-2ad9bfef4b67
+  display_title:
+    -
+      value: false
+  display_header:
+    -
+      value: false
+  display_footer:
+    -
+      value: false
+  display_image:
+    -
+      value: false
+  display_in_region:
+    -
+      value: false
+  field_region:
+    -
+      value: headline
+  created:
+    -
+      value: 1698733985
+  revision_translation_affected:
+    -
+      value: true
+  field_embed_block:
+    -
+      entity: 03e70f58-5363-41f7-8ce9-871677250949

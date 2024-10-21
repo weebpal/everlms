@@ -1,0 +1,11 @@
+uuid: 5c5c3e85-ea13-48a7-baae-c40f06ace93d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: HBe2B0oFe5WgL8aa0qEXKlePx4_AKmajZvG2qjVaveM
+id: default
+label: Question
+description: ''
+traits: null
+locked: null

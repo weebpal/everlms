@@ -1,0 +1,22 @@
+uuid: 85d26dc3-a171-482d-b079-562bdac2ec42
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: courses
+label: Course
+type: 'canonical_entities:commerce_product'
+pattern: 'course/[commerce_product:title]'
+selection_criteria:
+  f6300d67-1d5a-4da0-afdb-40ead7356442:
+    id: 'entity_bundle:commerce_product'
+    negate: false
+    uuid: f6300d67-1d5a-4da0-afdb-40ead7356442
+    context_mapping:
+      commerce_product: commerce_product
+    bundles:
+      course: course
+selection_logic: and
+weight: -5
+relationships: {  }

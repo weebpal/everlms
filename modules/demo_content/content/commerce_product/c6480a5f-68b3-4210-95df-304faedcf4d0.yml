@@ -1,0 +1,129 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: c6480a5f-68b3-4210-95df-304faedcf4d0
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    81988ec2-da55-48e6-88df-9a0a4292784e: commerce_product_variation
+    49dc3822-865a-4238-9c1a-a9df42524ca3: taxonomy_term
+    d431483c-1ee8-426c-a349-98bffe0cf439: media
+    e93c1dcc-dbc0-4d32-ac2e-1611845bb127: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    15508a73-d2ff-4b08-8ed9-0406c0d9e786: lms_lesson
+    38edf21a-032c-4858-a760-4b6da2a2220f: lms_lesson
+    5588920c-908b-43b2-a692-70154844555c: lms_lesson
+    9d4355ac-ba3f-425f-9f1b-4d11e5155868: lms_lesson
+    4fe024cf-521a-4294-97c2-ca2230c8e129: taxonomy_term
+    61bef378-ed7b-460c-b196-d2a9ffcb6fb5: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'Basic information in different categories of English'
+  variations:
+    -
+      entity: 81988ec2-da55-48e6-88df-9a0a4292784e
+  default_variation:
+    -
+      entity: 81988ec2-da55-48e6-88df-9a0a4292784e
+  path:
+    -
+      alias: /course/basic-information-different-categories-english
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1702957337
+  body:
+    -
+      value: '<p>Know about the differents advance in technology and science, vocabulary and grammar. Also know more about vocabulary and learn in a interactive way with the PDF presentations. Is focus to students with intermediate English level because is easy to understand and learn, thats the main objetive of the group, that the students know in an easy way the concepts that we are gonna show in this udemy course</p><p>We hope that you enjoy the time of duration of the course and you learn something new with us!.</p>'
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: 49dc3822-865a-4238-9c1a-a9df42524ca3
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1702957792
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: d431483c-1ee8-426c-a349-98bffe0cf439
+  field_featured_course:
+    -
+      value: false
+  field_free:
+    -
+      value: true
+  field_image:
+    -
+      entity: e93c1dcc-dbc0-4d32-ac2e-1611845bb127
+      alt: 'Basic information in different categories of English'
+      title: ''
+      width: 750
+      height: 500
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 3326
+  field_lessons:
+    -
+      entity: 15508a73-d2ff-4b08-8ed9-0406c0d9e786
+    -
+      entity: 38edf21a-032c-4858-a760-4b6da2a2220f
+    -
+      entity: 5588920c-908b-43b2-a692-70154844555c
+    -
+      entity: 9d4355ac-ba3f-425f-9f1b-4d11e5155868
+  field_level:
+    -
+      entity: 4fe024cf-521a-4294-97c2-ca2230c8e129
+  field_quiz:
+    -
+      entity: 61bef378-ed7b-460c-b196-d2a9ffcb6fb5
+  field_quizzes:
+    -
+      entity: 61bef378-ed7b-460c-b196-d2a9ffcb6fb5
+  field_requirements:
+    -
+      value: '<ul><li>Basic knowledge of English and a computer</li><li>Wifi connection</li><li>Be able of understand all the words with an easy way of teach to all of you</li></ul>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Focus on students to improve their knowledge with easy forms of teaching, also this course is called World</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 2
+  field_total_lessons:
+    -
+      value: 4
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>Know more about vocabulary and the grammar part</li><li>Have on mind the things that they learn in this course</li></ul>'
+      format: full_html

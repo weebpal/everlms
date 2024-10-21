@@ -1,0 +1,25 @@
+lms_quiz_result.root:
+  title: 'Quiz Result'
+  description: 'Manage your quiz result.'
+  parent: 'lms_base.admin'
+  route_name: 'lms_quiz_result.root'
+  weight: -70
+
+entity.lms_quiz_result.collection:
+  title: 'Quiz Result items'
+  route_name: 'entity.lms_quiz_result.collection'
+  parent: 'lms_quiz_result.root'
+  description: 'Manage your quiz result items.'
+  weight: 50
+
+entity.lms_quiz_result_type.collection:
+  title: 'Quiz Result types'
+  route_name: 'entity.lms_quiz_result_type.collection'
+  parent: 'lms_quiz_result.root'
+  description: 'Manage fields, form and display settings for your quiz result types.'
+  weight: 50
+
+lms_quiz_result.grouped_entity_links:
+  class: Drupal\lms_quiz_result\Plugin\Menu\GroupedEntityLinks
+  deriver: Drupal\lms_quiz_result\Plugin\Derivative\GroupedEntityLinksDeriver
+  menu_name: lms_quiz_result

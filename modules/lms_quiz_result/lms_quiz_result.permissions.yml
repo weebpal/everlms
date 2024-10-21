@@ -1,0 +1,4 @@
+administer lms_quiz_result_type:
+  title: 'Administer lms_quiz_result types'
+  description: 'Maintain the types of quiz result types available and the fields that are associated with those types.'
+  restrict access: true

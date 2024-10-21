@@ -1,0 +1,29 @@
+uuid: a274fec9-ac84-4076-83e2-5a4fbedc96fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.language
+  module:
+    - facets
+    - system
+  theme:
+    - lms_theme
+id: language_2
+theme: lms_theme
+region: sidebar_first
+weight: -14
+provider: null
+plugin: 'facet_block:language'
+settings:
+  id: 'facet_block:language'
+  label: Language
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: language_2
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /courses

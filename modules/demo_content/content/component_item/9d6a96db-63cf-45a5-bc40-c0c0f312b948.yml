@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 9d6a96db-63cf-45a5-bc40-c0c0f312b948
+  bundle: basic_component
+  default_langcode: en
+  depends:
+    eb70bc7a-73e2-4bf9-a8f1-63e3cb6a6eac: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Untitled'
+  created:
+    -
+      value: 1702915230
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: "<p>STEAM learning soars in popularity, Nord Anglia data shows Nord Anglia Education released global figures today showing that online STEAM courses taken by its students between April and June this year were twice as popular compared to the same period last year.<br>Nord Anglia Education released global figures today showing that online STEAM courses taken by its students between April and June this year were twice as popular compared to the same period last year. The figures are based on students' co-curricular activities on Global Campus, Nord Anglia's online learning platform used by its 68,000 students in 31 countries.</p><p>The latest figures show that 57% of Nord Anglia's students opted for courses on Science, Tech, Engineering, Art and Mathematics (STEAM), representing a significant increase compared to 23% during the same period in 2020. April to June's top ten most popular learning activities on Global Campus featured six STEAM courses, including 'Space Sustainability', developed in collaboration with the Massachusetts Institute of Technology (MIT) to challenge students to create thoughtful solutions and promote sustainable space exploration.&nbsp;</p><p>With 73 schools based in the Americas, China, Southeast Asia, Middle East, India and Europe, Nord Anglia's analysis shows:</p><ul><li>STEAM activities were the most popular and accounted for 57% of all online learning activities globally for Nord Anglia's students, proving especially popular with students in China, North America and Latin America, and India respectively.</li><li>One in two students (48%) opted for courses centred on developing creativity, with students in China, India and Southeast Asia engaging most frequently with creative arts activities.</li><li>Nearly a third of students (30%) opted for global citizenship activities to learn more about sustainable social impact. This area proved most popular with schools in India (1 in 5 visits).</li><li>1 in 5 students (20%) took part in wellbeing activities with Yoga one of the most popular online courses.</li><li>Nord Anglia's data found that between April and June this year, Global Campus recorded a 120% rise in users year on year.</li></ul>"
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: eb70bc7a-73e2-4bf9-a8f1-63e3cb6a6eac
+      alt: ''
+      title: ''
+      width: 887
+      height: 499

@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 0e37b98f-8959-4617-b84b-7577d866cc9b
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Anything original, clever, smart, or funny.'
+  created:
+    -
+      value: 1702955606
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

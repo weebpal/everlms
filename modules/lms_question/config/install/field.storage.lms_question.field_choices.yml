@@ -1,0 +1,20 @@
+uuid: d0a76fce-e45f-4dc7-90bf-e0a568635943
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_answer
+    - lms_question
+id: lms_question.field_choices
+field_name: field_choices
+entity_type: lms_question
+type: entity_reference
+settings:
+  target_type: lms_answer
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: d4650fe2-10c7-491e-84ea-c00c27e873c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_quiz
+    - text
+_core:
+  default_config_hash: JjJKx9JHJPJ4uon_nPM9RoTjmvdgqlSXbG9XPTfug4U
+id: lms_quiz.field_body
+field_name: field_body
+entity_type: lms_quiz
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

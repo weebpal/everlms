@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: e00b48ea-7d5e-4826-80a1-9637cfb6937a
+  bundle: image
+  default_langcode: en
+  depends:
+    c04f760b-bebd-4822-a34e-b27fb5f1ea92: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 56835_056e_8.jpg
+  created:
+    -
+      value: 1703132224
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: c04f760b-bebd-4822-a34e-b27fb5f1ea92
+      alt: 'How to speak like an American: Part 2'
+      title: ''
+      width: 750
+      height: 422

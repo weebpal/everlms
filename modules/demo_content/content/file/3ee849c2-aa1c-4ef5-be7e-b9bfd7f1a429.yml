@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3ee849c2-aa1c-4ef5-be7e-b9bfd7f1a429
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: How-to-read-the-IELTS-Score-3.jpg
+  uri:
+    -
+      value: 'public://2023-12/How-to-read-the-IELTS-Score-3.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 487665
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703476678

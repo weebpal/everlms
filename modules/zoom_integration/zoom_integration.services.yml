@@ -1,0 +1,7 @@
+services:
+  logger.channel.zoom_integration:
+    parent: logger.channel_base
+    arguments: ['zoom_integration']
+  zoom_integration.client:
+    class: '\Drupal\zoom_integration\Client\ZoomAPIClient'
+    arguments: ['@http_client', '@config.factory', '@logger.channel.zoom_integration', '@datetime.time']

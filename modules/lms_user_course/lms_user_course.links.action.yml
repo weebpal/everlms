@@ -1,0 +1,11 @@
+entity.lms_user_course.add_page:
+  route_name: entity.lms_user_course.add_page
+  title: 'Add user course item'
+  appears_on:
+    - entity.lms_user_course.collection
+
+entity.lms_user_course_type.add_form:
+  route_name: entity.lms_user_course_type.add_form
+  title: 'Add user course type'
+  appears_on:
+    - entity.lms_user_course_type.collection

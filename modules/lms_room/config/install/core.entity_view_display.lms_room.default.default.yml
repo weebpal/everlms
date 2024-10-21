@@ -1,0 +1,33 @@
+uuid: 1d9de52e-01aa-492e-af71-7af6eaea9d65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_room.default.field_body
+    - lms_room.lms_room_type.default
+  module:
+    - text
+_core:
+  default_config_hash: lji4_S7Orz1j2rpkLYImZvzAjwyLQSRqsQI-a7kJOKE
+id: lms_room.default.default
+targetEntityType: lms_room
+bundle: default
+mode: default
+content:
+  field_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  status: true
+  uid: true

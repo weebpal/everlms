@@ -1,0 +1,139 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: f0ffe2db-7b4d-4773-a2d7-fc7fa70e060c
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    e4cff6d2-e259-4609-b8ef-0f779f020124: commerce_product_variation
+    34d91d19-06fa-4cb6-b2d4-a9893464cbae: taxonomy_term
+    4f0069d7-00b2-4a71-933d-f6b2a064bc56: media
+    86c53c38-9364-450f-bb5c-b575836823d1: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    7e2ce1cf-4548-48f2-888f-0f85be6f6c88: lms_lesson
+    4e78dbb8-6949-40e4-b6aa-ff1b66d5d9e0: lms_lesson
+    8b02876c-7c73-4b09-990b-9b6f510e3670: lms_lesson
+    95c0197d-3e55-4c7e-b6ee-ca998e079397: lms_lesson
+    8092a81b-0855-4ce5-ac15-4d10ea40c79e: lms_lesson
+    d8cd37de-7449-4174-957a-99c16aaf6b62: lms_lesson
+    f1d32cd7-8c61-4794-86a3-b345a692dd8b: taxonomy_term
+    ad1ef75b-6487-4213-a440-25623cc9b80b: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: '160 Top Tips for Public Speakers'
+  variations:
+    -
+      entity: e4cff6d2-e259-4609-b8ef-0f779f020124
+  default_variation:
+    -
+      entity: e4cff6d2-e259-4609-b8ef-0f779f020124
+  path:
+    -
+      alias: /course/160-top-tips-public-speakers
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1702978459
+  body:
+    -
+      value: '<p>Do you have to give an important talk or presentation in the near future? Do you feel nervous about constructing and delivering your talk? &nbsp;This course will dramatically improve your speaking confidence and performance. It will help a beginner become a good public speaker and it will help a good speaker become a great speaker. It will benefit anyone who wants to speak like a professional. It contains more concise tips, more trade secrets and more winning tactics than other speaking courses. It comes in short sharp sections which are packed with practical, proven tips to transform your speaking skills. You will gain the confidence and methods to construct and deliver inspiring talks.</p><p>There are 24 short downloadable lectures containing 165 tips in all. You can dip in at any point, watch the video and read the corresponding tips in the book. &nbsp;The course comes with a 31 page booklet detailing all the tips. It is recommended that you print out this script and use it as a workbook.</p><p>Professional speakers are constantly in demand for corporate events and conferences.Someone who can challenge, stimulate and energise an audience with strong relevant messages will be offered plenty of well-remunerated work. The tips in this book include many secrets used by successful professional speakers. If you apply them assiduously, they are guaranteed to significantly improve your speaking performance and your income.</p><p>There are many courses on public speaking so what makes this one different? First, it is concise and packaged into bite-sized chunks in just two hours of video. I saw one online course which has 30 hours of video and 500 lectures. If you are busy and want to get to the point quickly, then this course is the one for you. Secondly, these are not theoretical or academic points but practical tips which will really work for you and quickly set you on the road to becoming a great speaker. &nbsp;Thirdly, the course comes with a booklet listing all the tips numbered from 1 to 165 so that you can reinforce your learnings from the lectures. And fourthly this course has a detailed section on how to market your services as a speaker.</p><p>This course will equip you to be a super speaker and expert communicator. &nbsp;It will boost your authority and your career.</p>'
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: 34d91d19-06fa-4cb6-b2d4-a9893464cbae
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1702978568
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: 4f0069d7-00b2-4a71-933d-f6b2a064bc56
+  field_featured_course:
+    -
+      value: true
+  field_free:
+    -
+      value: false
+  field_image:
+    -
+      entity: 86c53c38-9364-450f-bb5c-b575836823d1
+      alt: '160 Top Tips for Public Speakers'
+      title: ''
+      width: 480
+      height: 270
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 12422
+  field_lessons:
+    -
+      entity: 7e2ce1cf-4548-48f2-888f-0f85be6f6c88
+    -
+      entity: 4e78dbb8-6949-40e4-b6aa-ff1b66d5d9e0
+    -
+      entity: 8b02876c-7c73-4b09-990b-9b6f510e3670
+    -
+      entity: 95c0197d-3e55-4c7e-b6ee-ca998e079397
+    -
+      entity: 8092a81b-0855-4ce5-ac15-4d10ea40c79e
+    -
+      entity: d8cd37de-7449-4174-957a-99c16aaf6b62
+  field_level:
+    -
+      entity: f1d32cd7-8c61-4794-86a3-b345a692dd8b
+  field_quiz:
+    -
+      entity: ad1ef75b-6487-4213-a440-25623cc9b80b
+  field_quizzes:
+    -
+      entity: ad1ef75b-6487-4213-a440-25623cc9b80b
+  field_rating:
+    -
+      rating: 100
+      target: 0
+  field_requirements:
+    -
+      value: '<p>Willingness to practise speaking skills</p>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>How to Prepare a Great Talk and Speak like a Professional</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 2
+  field_total_lessons:
+    -
+      value: 6
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>Become an expert speaker and presenter</li><li>Develop self-confidence in your performance on stage</li><li>Construct brilliant talks that impress people</li><li>Deliver your talk with assurance and authority</li><li>Market yourself as a paid speaker</li><li>More concise tips than any other course</li><li>Replace anxiety with confidence</li></ul>'
+      format: full_html

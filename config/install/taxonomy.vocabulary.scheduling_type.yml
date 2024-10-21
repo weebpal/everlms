@@ -1,0 +1,8 @@
+uuid: 9fbe0a0b-fdd1-4e3d-a544-2920f5fbcd4c
+langcode: en
+status: true
+dependencies: {  }
+name: 'Scheduling type'
+vid: scheduling_type
+description: 'Scheduling type (Automatically, Manually, Mix)'
+weight: 0

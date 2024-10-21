@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d628e0cc-c773-423f-93c5-a9619ef7b3a4
+  bundle: book
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'How do I create a new course?'
+  created:
+    -
+      value: 1698983523
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /guides/how-do-i-create-new-course
+      langcode: en
+      pathauto: 0

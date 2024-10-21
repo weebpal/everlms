@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7c419674-8a37-47fe-a02b-efe0a62ad71a
+  bundle: news
+  default_langcode: en
+  depends:
+    d43d072b-973a-4a60-8b2a-4d1af7df1d09: component_wrapper
+    fb725f1d-b546-4100-8bfe-6c52760acd10: component_wrapper
+    02ef47c3-099b-475a-9d68-f8a9b11c29ff: component_wrapper
+    ba163e94-a25b-439b-86fe-7ea7b119f657: taxonomy_term
+    fe0bd8d2-6f74-4ab2-9c5e-9b3ca3981364: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Is Duolingo the best way to learn a language?'
+  created:
+    -
+      value: 1703477514
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /news/duolingo-best-way-learn-language
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>In today’s interconnected world, learning a new language, such as English, has become increasingly vital. With the advent of online learning platforms, students now have access to a wide range of tools and resources to aid their language learning journey.</p><p>Before making a final decision it’s important to examine the effectiveness of Duolingo as a language learning platform and look at the best alternatives.</p><p>Duolingo has gained significant popularity as a language learning app due to its user-friendly interface and gamified approach. It offers bite-sized lessons, interactive exercises, and a fun learning experience. However, whether or not Duolingo is the best way to learn a language depends on various factors and individual preferences.</p>'
+      format: full_html
+      summary: ''
+  field_components:
+    -
+      entity: d43d072b-973a-4a60-8b2a-4d1af7df1d09
+    -
+      entity: fb725f1d-b546-4100-8bfe-6c52760acd10
+    -
+      entity: 02ef47c3-099b-475a-9d68-f8a9b11c29ff
+  field_tags:
+    -
+      entity: ba163e94-a25b-439b-86fe-7ea7b119f657
+  field_thumb:
+    -
+      entity: fe0bd8d2-6f74-4ab2-9c5e-9b3ca3981364
+      alt: duolingo-alternatives
+      title: ''
+      width: 1000
+      height: 628

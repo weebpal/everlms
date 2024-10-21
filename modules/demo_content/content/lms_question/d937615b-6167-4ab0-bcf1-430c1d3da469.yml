@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: d937615b-6167-4ab0-bcf1-430c1d3da469
+  bundle: default
+  default_langcode: en
+  depends:
+    39bf64b0-fabe-4bb5-aa27-9a0c004a2624: lms_answer
+    48e91ee9-6385-4264-8d98-25bc5257f350: lms_answer
+    8ced36ae-84db-41ac-9d4b-b5b2925b3c4f: lms_answer
+    604fc8e6-1fa3-4ef8-9d33-e0b8aada3eff: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The boss was good enough to ....... my mistake.'
+  created:
+    -
+      value: 1702957139
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 39bf64b0-fabe-4bb5-aa27-9a0c004a2624
+    -
+      entity: 48e91ee9-6385-4264-8d98-25bc5257f350
+    -
+      entity: 8ced36ae-84db-41ac-9d4b-b5b2925b3c4f
+    -
+      entity: 604fc8e6-1fa3-4ef8-9d33-e0b8aada3eff
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

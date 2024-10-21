@@ -1,0 +1,25 @@
+lms_answer.root:
+  title: 'Answer'
+  description: 'Manage your answer.'
+  parent: 'lms_base.admin'
+  route_name: 'lms_answer.root'
+  weight: -40
+
+entity.lms_answer.collection:
+  title: 'Answer items'
+  route_name: 'entity.lms_answer.collection'
+  parent: 'lms_answer.root'
+  description: 'Manage your answer items.'
+  weight: 50
+
+entity.lms_answer_type.collection:
+  title: 'Answer types'
+  route_name: 'entity.lms_answer_type.collection'
+  parent: 'lms_answer.root'
+  description: 'Manage fields, form and display settings for your answer types.'
+  weight: 50
+
+lms_answer.grouped_entity_links:
+  class: Drupal\lms_answer\Plugin\Menu\GroupedEntityLinks
+  deriver: Drupal\lms_answer\Plugin\Derivative\GroupedEntityLinksDeriver
+  menu_name: lms_answer

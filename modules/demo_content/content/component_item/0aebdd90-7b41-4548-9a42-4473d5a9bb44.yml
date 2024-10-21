@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 0aebdd90-7b41-4548-9a42-4473d5a9bb44
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Reason 2'
+  title:
+    -
+      value: 'Reason 2'
+  created:
+    -
+      value: 1702916739
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>The news is a great thing to talk about and it is a great thing to practice talking English with. A good news topic can be perfect for people learning English to talk about together in English. If you are living in an English speaking country or working with English speaking people a news topic is a brilliant way to start a conversation and get some practice in.</p>'
+      format: full_html
+      summary: ''

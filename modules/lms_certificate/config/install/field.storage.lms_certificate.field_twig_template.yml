@@ -1,0 +1,23 @@
+uuid: cd7ca98a-bd34-4d33-9a13-f8a9688c8dc5
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - lms_certificate
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: lms_certificate.field_twig_template
+field_name: field_twig_template
+entity_type: lms_certificate
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

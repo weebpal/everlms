@@ -1,0 +1,117 @@
+uuid: a2c8a04a-9d4a-4224-b7b1-263380d0ea73
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_user_course.default.field_body
+    - field.field.lms_user_course.default.field_course
+    - field.field.lms_user_course.default.field_quiz_results
+    - field.field.lms_user_course.default.field_result
+    - field.field.lms_user_course.default.field_score
+    - field.field.lms_user_course.default.field_total_quiz_pass
+    - field.field.lms_user_course.default.field_user
+    - field.field.lms_user_course.default.field_user_certificate
+    - lms_user_course.lms_user_course_type.default
+_core:
+  default_config_hash: ON4tR4PtrJLerS1aJMDwk1hD549YgbNUAIQ6Do-SgJw
+id: lms_user_course.default.default
+targetEntityType: lms_user_course
+bundle: default
+mode: default
+content:
+  field_course:
+    type: entity_reference_autocomplete
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_quiz_results:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_result:
+    type: entity_reference_autocomplete
+    weight: 8
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_score:
+    type: number
+    weight: 7
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_total_quiz_pass:
+    type: number
+    weight: 6
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_user:
+    type: entity_reference_autocomplete
+    weight: 2
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_user_certificate:
+    type: entity_reference_autocomplete
+    weight: 4
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 9
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_body: true
+  uid: true

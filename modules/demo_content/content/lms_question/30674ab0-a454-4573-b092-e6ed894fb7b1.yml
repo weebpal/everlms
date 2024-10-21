@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 30674ab0-a454-4573-b092-e6ed894fb7b1
+  bundle: default
+  default_langcode: en
+  depends:
+    31452b59-d12a-4187-8b76-f13949a5a3d2: lms_answer
+    fe4fba8a-8cd1-4916-85e4-0b87a2d75182: lms_answer
+    343807e6-c76f-41de-b020-3d36f10bbf1f: lms_answer
+    1df3f86c-6d30-488a-aa80-e70fcbdbf9ed: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Can you hear what he is .......?'
+  created:
+    -
+      value: 1702956850
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 31452b59-d12a-4187-8b76-f13949a5a3d2
+    -
+      entity: fe4fba8a-8cd1-4916-85e4-0b87a2d75182
+    -
+      entity: 343807e6-c76f-41de-b020-3d36f10bbf1f
+    -
+      entity: 1df3f86c-6d30-488a-aa80-e70fcbdbf9ed
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

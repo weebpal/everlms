@@ -1,0 +1,9 @@
+name: Quiz Result
+type: module
+description: 'Defines the LMSQuizResult entity and associated features.'
+package: Custom Entity Modules
+core_version_requirement: ^9.3 || ^10
+configure: entity.lms_quiz_result.collection
+dependencies:
+  - entity:entity
+  - lms_base:lms_base

@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 25d1b826-673c-49c1-bcf5-029116fef90e
+  bundle: default
+  default_langcode: en
+  depends:
+    41f9840c-ded5-4d77-b1eb-253f21f9cc38: lms_answer
+    af84e63f-c72c-48e8-b1b3-ba63f6abd0b7: lms_answer
+    dae2d40d-ec36-4f62-8744-7cfaf40acddc: lms_answer
+    0dbde4c8-0d9c-413d-a3d6-be7ed2192a88: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'To ensure that the demonstration works, we ought to'
+  created:
+    -
+      value: 1702953133
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 41f9840c-ded5-4d77-b1eb-253f21f9cc38
+    -
+      entity: af84e63f-c72c-48e8-b1b3-ba63f6abd0b7
+    -
+      entity: dae2d40d-ec36-4f62-8744-7cfaf40acddc
+    -
+      entity: 0dbde4c8-0d9c-413d-a3d6-be7ed2192a88
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '20.00'

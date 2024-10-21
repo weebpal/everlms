@@ -1,0 +1,25 @@
+uuid: 570b47c0-e3bf-4781-8ffc-7f24ae1061c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_question_response.field_body
+    - lms_question_response.lms_question_response_type.default
+  module:
+    - text
+_core:
+  default_config_hash: jxODvVidUEfcHkwgSYV2zSiSODwbauNY50FH3mR8bso
+id: lms_question_response.default.field_body
+field_name: field_body
+entity_type: lms_question_response
+bundle: default
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

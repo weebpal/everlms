@@ -1,0 +1,3 @@
+services:
+  lms_user_certificate.utils:
+    class: Drupal\lms_user_certificate\Service\Utils

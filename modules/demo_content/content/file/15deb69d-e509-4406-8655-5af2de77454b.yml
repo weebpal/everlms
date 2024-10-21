@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 15deb69d-e509-4406-8655-5af2de77454b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 5257400_67a3_2.jpg
+  uri:
+    -
+      value: 'public://2023-12/5257400_67a3_2_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 22817
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703059193

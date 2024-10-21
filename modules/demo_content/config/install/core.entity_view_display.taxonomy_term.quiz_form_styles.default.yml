@@ -1,0 +1,38 @@
+uuid: a74dfc8e-602a-4da1-a781-0268014ac5af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.quiz_form_styles.field_key
+    - taxonomy.vocabulary.quiz_form_styles
+  module:
+    - manage_display
+    - text
+id: taxonomy_term.quiz_form_styles.default
+targetEntityType: taxonomy_term
+bundle: quiz_form_styles
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  name:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_key: true
+  langcode: true
+  search_api_excerpt: true

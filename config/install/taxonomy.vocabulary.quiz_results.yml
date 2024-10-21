@@ -1,0 +1,8 @@
+uuid: 78baa259-c2bd-46c7-bdcd-a52b4cf7d19e
+langcode: en
+status: true
+dependencies: {  }
+name: 'Quiz Results'
+vid: quiz_results
+description: 'Quiz Results (Passed, Failed)'
+weight: 0

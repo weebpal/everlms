@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 3c36ef52-2040-4dda-b191-d0332066151e
+  bundle: default
+  default_langcode: en
+  depends:
+    27a588ee-494f-438b-8162-2f8ab6b5a206: lms_answer
+    db611bb4-eadd-49bf-897e-44637831e12d: lms_answer
+    3a185a2c-851c-4a0d-ac61-e5ab7c3c67e9: lms_answer
+    d73e4317-0c21-4a6d-b88a-524abe539a21: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'She looks ....... a famous film star.'
+  created:
+    -
+      value: 1702956987
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 27a588ee-494f-438b-8162-2f8ab6b5a206
+    -
+      entity: db611bb4-eadd-49bf-897e-44637831e12d
+    -
+      entity: 3a185a2c-851c-4a0d-ac61-e5ab7c3c67e9
+    -
+      entity: d73e4317-0c21-4a6d-b88a-524abe539a21
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

@@ -1,0 +1,8 @@
+uuid: 665d886a-ceb3-442c-8a28-844bb15f8ad9
+langcode: en
+status: true
+dependencies: {  }
+id: categories
+label: Categories
+description: ''
+locked: false

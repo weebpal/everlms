@@ -1,0 +1,24 @@
+{#
+/**
+ * @file
+ *
+ * Default template for quiz result item.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the wrapper.
+ * - lms_quiz_result: The rendered lms_quiz_result fields.
+ *   Use 'lms_quiz_result' to print them all, or print a subset such as
+ *   'lms_quiz_result.name'. Use the following code to exclude the
+ *   printing of a given field:
+ *   @code
+ *   {{ lms_quiz_result|without('name') }}
+ *   @endcode
+ * - lms_quiz_result_entity: The lms_quiz_result entity.
+ * - lms_quiz_result_url: The lms_quiz_result URL.
+ *
+ * @ingroup themeable
+ */
+#}
+<article{{ attributes }}>
+  {{ lms_quiz_result }}
+</article>

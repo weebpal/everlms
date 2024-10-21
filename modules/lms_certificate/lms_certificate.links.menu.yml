@@ -1,0 +1,25 @@
+lms_certificate.root:
+  title: 'Certificate'
+  description: 'Manage your certificate.'
+  parent: 'lms_base.admin'
+  route_name: 'lms_certificate.root'
+  weight: -20
+
+entity.lms_certificate.collection:
+  title: 'Certificate items'
+  route_name: 'entity.lms_certificate.collection'
+  parent: 'lms_certificate.root'
+  description: 'Manage your certificate items.'
+  weight: 50
+
+entity.lms_certificate_type.collection:
+  title: 'Certificate types'
+  route_name: 'entity.lms_certificate_type.collection'
+  parent: 'lms_certificate.root'
+  description: 'Manage fields, form and display settings for your certificate types.'
+  weight: 50
+
+lms_certificate.grouped_entity_links:
+  class: Drupal\lms_certificate\Plugin\Menu\GroupedEntityLinks
+  deriver: Drupal\lms_certificate\Plugin\Derivative\GroupedEntityLinksDeriver
+  menu_name: lms_certificate

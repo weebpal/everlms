@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 01c4daf1-cd93-4872-a2ba-45e7d1cc2fda
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    c16144ee-a50a-4885-a2e8-23a0cbdd80fe: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'How to use Ever LMS'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'https://guide.everlms.com/guides/how-we-help-you'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -49
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:c16144ee-a50a-4885-a2e8-23a0cbdd80fe'
+  revision_translation_affected:
+    -
+      value: true

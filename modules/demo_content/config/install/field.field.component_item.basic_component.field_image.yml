@@ -1,0 +1,38 @@
+uuid: bf036d2e-9e21-441b-8ae3-271d3aff020d
+langcode: en
+status: true
+dependencies:
+  config:
+    - component_builder.component_item_type.basic_component
+    - field.storage.component_item.field_image
+  module:
+    - image
+id: component_item.basic_component.field_image
+field_name: field_image
+entity_type: component_item
+bundle: basic_component
+label: Image
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

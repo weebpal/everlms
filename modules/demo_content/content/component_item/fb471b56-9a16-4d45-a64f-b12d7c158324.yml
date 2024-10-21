@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: fb471b56-9a16-4d45-a64f-b12d7c158324
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Reason 3'
+  title:
+    -
+      value: 'Reason 3'
+  created:
+    -
+      value: 1702916756
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Knowing what is going on in the world is very important. It is also very useful to be aware of news stories that affect the country you may be working or studying in. it can help you talk with friends, understand different cultures and it is also very useful if you are going for job interviews in English. Being able to discuss some basic news items in English can really make a great impression at an interview.</p>'
+      format: full_html
+      summary: ''

@@ -1,0 +1,21 @@
+uuid: 1e096e44-74e0-4938-bc4d-b2e8123b4562
+langcode: en
+status: true
+dependencies:
+  config:
+    - component_builder.component_item_type.push_image
+    - field.storage.component_item.field_pi_body
+  module:
+    - text
+id: component_item.push_image.field_pi_body
+field_name: field_pi_body
+entity_type: component_item
+bundle: push_image
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

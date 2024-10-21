@@ -1,0 +1,23 @@
+uuid: 5c10c618-68c7-4974-bee2-b4a4ee4c0690
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_lesson.field_zoom_class_link
+    - lms_lesson.lms_lesson_type.default
+  module:
+    - link
+id: lms_lesson.default.field_zoom_class_link
+field_name: field_zoom_class_link
+entity_type: lms_lesson
+bundle: default
+label: 'Zoom class link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 16
+field_type: link

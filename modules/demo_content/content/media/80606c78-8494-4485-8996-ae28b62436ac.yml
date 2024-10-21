@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 80606c78-8494-4485-8996-ae28b62436ac
+  bundle: image
+  default_langcode: en
+  depends:
+    ea24fec6-9cbf-448f-a296-5c0d5e9cf80f: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 5106134_145c_5.jpg
+  created:
+    -
+      value: 1703142093
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: ea24fec6-9cbf-448f-a296-5c0d5e9cf80f
+      alt: 'Unlock your hidden potential: Public-Speaking'
+      title: ''
+      width: 750
+      height: 422

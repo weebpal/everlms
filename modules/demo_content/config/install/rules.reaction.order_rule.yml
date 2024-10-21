@@ -1,0 +1,14 @@
+uuid: 514c9234-4e79-4c0b-971e-51b9682865e8
+langcode: en
+status: true
+dependencies: {  }
+id: order_rule
+label: 'Order Rule'
+events:
+  -
+    event_name: 'rules_entity_presave:commerce_order'
+description: ''
+tags: {  }
+config_version: '3'
+expression:
+  id: rules_rule

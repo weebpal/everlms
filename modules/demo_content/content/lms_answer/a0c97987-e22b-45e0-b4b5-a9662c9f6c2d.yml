@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: a0c97987-e22b-45e0-b4b5-a9662c9f6c2d
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Ovation
+  created:
+    -
+      value: 1702957188
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: true

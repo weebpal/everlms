@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_room
+  uuid: 2575c93c-d418-4c2d-88c3-84e08dd45fae
+  bundle: zoom_class
+  default_langcode: en
+  depends:
+    8534ba1f-c3e9-4d9e-bc5a-4faa60e3e0bc: user
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Room 1'
+  created:
+    -
+      value: 1707989023
+  status:
+    -
+      value: true
+  field_host:
+    -
+      entity: 8534ba1f-c3e9-4d9e-bc5a-4faa60e3e0bc

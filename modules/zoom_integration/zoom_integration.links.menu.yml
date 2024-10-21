@@ -1,0 +1,6 @@
+zoom_integration.settings:
+  title: 'Zoom API Settings'
+  description: 'Zoom API settings'
+  parent: system.admin_config_services
+  route_name: zoom_integration.settings
+  weight: 100

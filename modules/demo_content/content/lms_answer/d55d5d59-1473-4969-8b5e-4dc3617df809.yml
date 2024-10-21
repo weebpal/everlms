@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: d55d5d59-1473-4969-8b5e-4dc3617df809
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: ' It is used for an action that happened in the past and finished in the past.'
+  created:
+    -
+      value: 1702954122
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: true

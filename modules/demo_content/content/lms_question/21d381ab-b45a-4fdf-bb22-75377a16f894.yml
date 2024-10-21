@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 21d381ab-b45a-4fdf-bb22-75377a16f894
+  bundle: default
+  default_langcode: en
+  depends:
+    ea5b7d40-c624-4253-9bd3-7b5ead6b06df: lms_answer
+    3a28f275-c00c-4dea-a92f-362706ca708e: lms_answer
+    aece7f92-00f4-4887-b024-02176fa4623c: lms_answer
+    469b0570-306a-48bd-955e-9f2d7d05cef2: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'What verb tense is used in the following sentence? The police came to my house in the afternoon.'
+  created:
+    -
+      value: 1702954516
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: ea5b7d40-c624-4253-9bd3-7b5ead6b06df
+    -
+      entity: 3a28f275-c00c-4dea-a92f-362706ca708e
+    -
+      entity: aece7f92-00f4-4887-b024-02176fa4623c
+    -
+      entity: 469b0570-306a-48bd-955e-9f2d7d05cef2
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

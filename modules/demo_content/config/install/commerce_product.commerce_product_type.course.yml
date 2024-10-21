@@ -1,0 +1,14 @@
+uuid: 362055bb-6d12-4fc2-9f6a-639351dbaafd
+langcode: en
+status: true
+dependencies: {  }
+id: course
+label: Course
+traits: {  }
+locked: false
+description: ''
+variationType: course
+variationTypes:
+  - course
+multipleVariations: true
+injectVariationFields: true

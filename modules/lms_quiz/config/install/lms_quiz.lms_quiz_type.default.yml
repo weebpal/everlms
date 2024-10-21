@@ -1,0 +1,11 @@
+uuid: 4d44cbbc-f0a1-437e-85b0-730d1d576f71
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: HBe2B0oFe5WgL8aa0qEXKlePx4_AKmajZvG2qjVaveM
+id: default
+label: Quiz
+description: ''
+traits: null
+locked: null

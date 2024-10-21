@@ -1,0 +1,65 @@
+uuid: eab072f6-7daa-454c-81eb-076e984176d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - component_builder.component_item_type.basic_component
+    - field.field.component_item.basic_component.field_body
+    - field.field.component_item.basic_component.field_image
+    - field.field.component_item.basic_component.field_link
+  module:
+    - image
+    - link
+    - text
+id: component_item.basic_component.default
+targetEntityType: component_item
+bundle: basic_component
+mode: default
+content:
+  field_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  admin_title: true
+  created: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true
+  search_api_excerpt: true
+  uid: true

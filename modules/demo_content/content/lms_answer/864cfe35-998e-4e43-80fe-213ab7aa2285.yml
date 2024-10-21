@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 864cfe35-998e-4e43-80fe-213ab7aa2285
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Avoid the COIK (Clear Only If Known) fallacy'
+  created:
+    -
+      value: 1702952953
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

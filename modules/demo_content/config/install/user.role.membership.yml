@@ -1,0 +1,15 @@
+uuid: ae136e50-3e1d-4fd6-9fe9-c7977e8957b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - we_notification
+id: membership
+label: Membership
+weight: -8
+is_admin: null
+permissions:
+  - 'delete own files'
+  - 'view default we_notification'
+  - 'view we_notification'

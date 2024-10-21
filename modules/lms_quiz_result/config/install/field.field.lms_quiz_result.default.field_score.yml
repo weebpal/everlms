@@ -1,0 +1,23 @@
+uuid: 4d0e8b70-035e-4c9c-b7a3-ac0534963159
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_quiz_result.field_score
+    - lms_quiz_result.lms_quiz_result_type.default
+id: lms_quiz_result.default.field_score
+field_name: field_score
+entity_type: lms_quiz_result
+bundle: default
+label: 'Score (%)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

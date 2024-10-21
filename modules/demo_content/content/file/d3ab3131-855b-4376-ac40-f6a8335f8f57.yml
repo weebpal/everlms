@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d3ab3131-855b-4376-ac40-f6a8335f8f57
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Young-Preply-character-reading-English-stories-scaled.jpg
+  uri:
+    -
+      value: 'public://2023-12/Young-Preply-character-reading-English-stories-scaled_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 115752
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703128320

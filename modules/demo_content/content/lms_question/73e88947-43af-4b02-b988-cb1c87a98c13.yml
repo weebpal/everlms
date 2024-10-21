@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 73e88947-43af-4b02-b988-cb1c87a98c13
+  bundle: default
+  default_langcode: en
+  depends:
+    018e4ea8-ddd5-4c28-901a-ea5ca30cef0b: lms_answer
+    8fcce30c-65f4-4c67-9c09-e5405d418549: lms_answer
+    b5ffc715-ce01-4d09-80bd-b51825cd196d: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: "In terms of teaching & learning, what does 'acceleration' mean?"
+  created:
+    -
+      value: 1702951424
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 018e4ea8-ddd5-4c28-901a-ea5ca30cef0b
+    -
+      entity: 8fcce30c-65f4-4c67-9c09-e5405d418549
+    -
+      entity: b5ffc715-ce01-4d09-80bd-b51825cd196d
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

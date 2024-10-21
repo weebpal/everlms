@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: d10b48ac-fb53-406a-b22a-e0efc29c7b98
+  bundle: category
+  default_langcode: en
+  depends:
+    325c33d3-eade-412f-bb40-23b38f0e748a: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Communication Skills'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /category/communication-skills
+      langcode: en
+      pathauto: 1
+  field_image:
+    -
+      entity: 325c33d3-eade-412f-bb40-23b38f0e748a
+      alt: 'Communication Skills'
+      title: ''
+      width: 1369
+      height: 914
+  field_top_category:
+    -
+      value: true

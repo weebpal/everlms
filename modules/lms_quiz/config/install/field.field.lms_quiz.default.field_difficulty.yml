@@ -1,0 +1,33 @@
+uuid: dd3ca47f-0fde-4eb2-a59e-fb73ec01612d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_quiz.field_difficulty
+    - lms_quiz.lms_quiz_type.default
+    - taxonomy.vocabulary.difficulty
+  content:
+    - 'taxonomy_term:difficulty:f2781227-4116-4dc5-b809-fdd9186a6f28'
+id: lms_quiz.default.field_difficulty
+field_name: field_difficulty
+entity_type: lms_quiz
+bundle: default
+label: Difficulty
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: f2781227-4116-4dc5-b809-fdd9186a6f28
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      difficulty: difficulty
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

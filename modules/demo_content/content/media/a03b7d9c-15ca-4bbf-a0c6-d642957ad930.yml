@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: a03b7d9c-15ca-4bbf-a0c6-d642957ad930
+  bundle: image
+  default_langcode: en
+  depends:
+    ea585a8d-b0b8-4303-9767-db586015c3be: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: English-Grammar.png
+  created:
+    -
+      value: 1702958422
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: ea585a8d-b0b8-4303-9767-db586015c3be
+      alt: 'English Grammar'
+      title: ''
+      width: 1000
+      height: 470

@@ -1,0 +1,45 @@
+<?php
+
+/**
+ * @file
+ * Defines the LMSCertificate entity and associated features.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Render\Element;
+
+/**
+ * Implements hook_theme().
+ */
+function lms_certificate_theme() {
+  return [
+    'lms_certificate' => [
+      'render element' => 'elements',
+    ],
+    'lms_certificate_form' => [
+      'render element' => 'form',
+    ],
+  ];
+}
+
+/**
+ * Prepares variables for lms_certificate templates.
+ *
+ * Default template: lms-certificate.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An associative array containing rendered fields.
+ *   - attributes: HTML attributes for the containing element.
+ */
+function template_preprocess_lms_certificate(array &$variables) {
+  /** @var Drupal\lms_certificate\Entity\LMSCertificateInterface $lms_certificate */
+  $lms_certificate = $variables['elements']['#lms_certificate'];
+
+  $variables['lms_certificate_entity'] = $lms_certificate;
+  $variables['lms_certificate_url'] = $lms_certificate->isNew() ? '' : $lms_certificate->toUrl();
+  $variables['lms_certificate'] = [];
+  foreach (Element::children($variables['elements']) as $key) {
+    $variables['lms_certificate'][$key] = $variables['elements'][$key];
+  }
+}

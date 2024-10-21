@@ -1,0 +1,25 @@
+lms_question.root:
+  title: 'Question'
+  description: 'Manage your question.'
+  parent: 'lms_base.admin'
+  route_name: 'lms_question.root'
+  weight: -60
+
+entity.lms_question.collection:
+  title: 'Question items'
+  route_name: 'entity.lms_question.collection'
+  parent: 'lms_question.root'
+  description: 'Manage your question items.'
+  weight: 50
+
+entity.lms_question_type.collection:
+  title: 'Question types'
+  route_name: 'entity.lms_question_type.collection'
+  parent: 'lms_question.root'
+  description: 'Manage fields, form and display settings for your question types.'
+  weight: 50
+
+lms_question.grouped_entity_links:
+  class: Drupal\lms_question\Plugin\Menu\GroupedEntityLinks
+  deriver: Drupal\lms_question\Plugin\Derivative\GroupedEntityLinksDeriver
+  menu_name: lms_question

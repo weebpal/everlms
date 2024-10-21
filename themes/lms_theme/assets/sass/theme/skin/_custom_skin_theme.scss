@@ -1,0 +1,247 @@
+@mixin custom-skin-theme(
+    $color-text: $color-text,
+    $color-heading: $color-heading,
+    $font: $font,
+    $bg: $bg,
+    $bg-hover: $bg-hover
+) {
+    header {
+        &.header {
+            background-color: $bg;
+        }
+    }
+
+    .component-wrapper.component-wrapper--type-push_image .component-item .field--name-field-pi-link a {
+        background-color: $bg;
+    }
+
+    .component-wrapper.component-wrapper--type-push_image .component-item .field--name-title {
+        color: $color-heading;
+    }
+
+    .view-product-index:not(.view-featured-courses),
+    .view-product-taxonomy {
+        .field--name-price {
+            color: $bg;
+        }
+        .field--name-field-category a {
+            color: $bg;
+        }
+        .group-image .group-tags > .field--name-field-free {
+            background-color: $bg;
+        }
+    }
+
+    .view-featured-courses .field--name-price {
+        color: $bg;
+    }
+
+    .btn-view-detail,
+    .btn-start-course {
+        background-color: $bg;
+        border-color: $bg;
+        &:hover {
+            background-color: $bg-hover;
+        }
+    }
+
+    form.contact-form > .form-actions input[type="submit"] {
+        background-color: $bg;
+        border-color: $bg;
+        &:hover {
+            background-color: $bg-hover;
+        }
+    }
+
+    nav.pager .pager__items .pager__item.is-active > a {
+        background-color: $bg;
+    }
+
+    aside .block-facets .facets-widget-checkbox input:checked ~ label:before {
+        background-color: $bg;
+        border-color: $bg;
+    }
+}
+
+// .everlms-theme-language-green {
+//     $bg: #387975;
+//     $bg-hover: #295b58;
+//     @include skin-theme(#387975, null, null, null);
+//     //custom
+//     font-weight: 500;
+//     &.path-product article .group-content-layout {
+//         .group-info {
+//             .field--name-field-what-you-learn {
+//                 background-color: #e2edec;
+//             }
+//             .field--name-field-short-description {
+//                 color: #535756;
+//             }
+//         }
+//     }
+
+//     form input[type="submit"] {
+//         background-color: #387975;
+//         border-color: #387975;
+//     }
+
+//     .region {
+//         &.region-header {
+//             .block-commerce-cart {
+//                 margin-right: 0;
+//                 .cart-block--link__expand {
+//                     background-color: #387975;
+//                     border-radius: 50px;
+//                 }
+//                 .cart-block--summary__count {
+//                     top: 7px;
+//                     right: 7px;
+//                     width: 10px;
+//                 }
+//             }
+//             .menu--main > .navbar-nav {
+//                 > .nav-item.menu-item--expanded {
+//                     .navbar-nav.child::before {
+//                         background-color: #f4fdf8;
+//                     }
+//                 }
+//                 .nav-link {
+//                     color: #535756;
+//                     &:after {
+//                         background-image: url(../../images/icon-arrown-down-language-green.svg);
+//                     }
+//                     &:hover::after {
+//                         background-image: url(../../images/icon-arrown-down-language-green.svg);
+//                     }
+//                 }
+//             }
+//         }
+//         &-banner .component-wrapper--type-push_image {
+//             border: 0;
+//         }
+
+//         &.region-footer-first .site-name a {
+//             color: #141414;
+//             font-size: 30px;
+//             white-space: nowrap;
+//         }
+//     }
+
+//     .view {
+//         &-category:not(.view-top-category) {
+//             border: 0;
+//         }
+//         &-popular-category {
+//             background-image: url(../../images/6419c0440c40974a5143ce30_Background.jpg);
+//             background-position: 50% 100%;
+//             background-repeat: no-repeat;
+//             background-size: cover;
+//             padding-bottom: 96px;
+//         }
+//         &-featured-courses .group-info .group-text .field--name-field-category a {
+//             color: #387975;
+//         }
+
+//         &-product-index:not(.view-featured-courses) .field--name-list-price,
+//         &-product-taxonomy .field--name-list-price {
+//             color: #535756;
+//         }
+//     }
+
+//     header {
+//         &.header {
+//             background-color: transparent;
+//             border: 0;
+//             background-image: linear-gradient(160deg, #f4fdf8 22%, #dffffd);
+//             .site-name a {
+//                 color: #535756;
+//             }
+//         }
+//     }
+
+//     nav.menu--account .menu {
+//         gap: 16px;
+//         li {
+//             background-color: #387975;
+//             border-radius: 50px;
+//             a {
+//                 display: block;
+//             }
+//             li {
+//                 background-color: transparent;
+//             }
+//         }
+//     }
+
+//     .section-main {
+//         margin-bottom: 0;
+//         padding-bottom: 40px;
+//         padding-top: 40px;
+//         margin-top: 0;
+//     }
+
+//     .banner {
+//         background-image: url(../../images/6419c0440c40974a5143ce30_Background.jpg);
+//         background-position: 50% 100%;
+//         background-repeat: no-repeat;
+//         background-size: cover;
+//         overflow: hidden;
+//         position: relative;
+//     }
+
+//     .component-wrapper {
+//         &.component-wrapper--type-push_image .component-item {
+//             .field--name-title {
+//                 text-transform: capitalize;
+//                 margin-top: 10px;
+//                 margin-bottom: 10px;
+//                 font-family: Epilogue, sans-serif;
+//                 font-size: 42px;
+//                 font-weight: 900;
+//                 line-height: 1.2em;
+//             }
+//             .field--name-field-pi-link a {
+//                 letter-spacing: 0.5px;
+//                 border-radius: 10px;
+//                 padding: 16px 30px;
+//                 font-size: 20px;
+//                 font-weight: 500;
+//                 line-height: 1em;
+//                 text-decoration: none;
+//                 transition: all 0.3s;
+//             }
+//         }
+//     }
+
+//     .section-footer {
+//         background-color: transparent;
+//         background-image: linear-gradient(160deg, #fff9f4 22%, #dffffd);
+//         color: #387975;
+//         padding-bottom: 97px;
+//         margin-bottom: -97px;
+//         margin-top: 0;
+//         padding-top: 96px;
+//         z-index: -1;
+//         nav.block-menu {
+//             > h2 {
+//                 color: #387975;
+//                 font-size: 22px;
+//                 font-weight: 900;
+//                 line-height: 1.2em;
+//             }
+//             ul li a {
+//                 color: #387975;
+//             }
+//         }
+
+//         &-bottom {
+//             background: transparent;
+//             // background-image: linear-gradient(160deg, #fff9f4 22%, #dffffd);
+
+//             span,
+//             p {
+//                 color: #535756;
+//             }
+//         }
+//     }
+// }

@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_lesson
+  uuid: d8620669-4362-4797-a4ba-15afb97db7db
+  bundle: default
+  default_langcode: en
+  depends:
+    9049778d-acd1-4925-a9cc-445b44b3a2af: taxonomy_term
+    2575c93c-d418-4c2d-88c3-84e08dd45fae: lms_room
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The English alphabet'
+  created:
+    -
+      value: 1707989836
+  status:
+    -
+      value: true
+  field_class_time:
+    -
+      value: '2024-02-18T08:00:00'
+      end_value: '2024-02-18T11:00:00'
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1707989836
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_free:
+    -
+      value: true
+  field_lesson_type:
+    -
+      entity: 9049778d-acd1-4925-a9cc-445b44b3a2af
+  field_zoom_class:
+    -
+      entity: 2575c93c-d418-4c2d-88c3-84e08dd45fae
+  field_zoom_class_data:
+    -
+      value: "{\r\n  \"uuid\": \"hMyDgkscSnyeoJF7HeLQqw==\",\r\n  \"id\": 75506024104,\r\n  \"host_id\": \"xL8srG5xT6m6DTeGegGjYQ\",\r\n  \"host_email\": \"hainn.we@gmail.com\",\r\n  \"topic\": \"Zoom Meeting\",\r\n  \"type\": 2,\r\n  \"status\": \"waiting\",\r\n  \"start_time\": \"2024-02-18T08:00:00Z\",\r\n  \"duration\": 60,\r\n  \"timezone\": \"Asia/Saigon\",\r\n  \"created_at\": \"2024-02-15T09:37:13Z\",\r\n  \"start_url\": \"https://us04web.zoom.us/s/75506024104?zak=eyJ0eXAiOiJKV1QiLCJzdiI6IjAwMDAwMSIsInptX3NrbSI6InptX28ybSIsImFsZyI6IkhTMjU2In0.eyJhdWQiOiJjbGllbnRzbSIsInVpZCI6InhMOHNyRzV4VDZtNkRUZUdlZ0dqWVEiLCJpc3MiOiJ3ZWIiLCJzayI6Ijg5MzIzMTQ5NzU2MTc5MzE1Iiwic3R5IjoxMDAsIndjZCI6InVzMDQiLCJjbHQiOjAsIm1udW0iOiI3NTUwNjAyNDEwNCIsImV4cCI6MTcwNzk5NzAzMywiaWF0IjoxNzA3OTg5ODMzLCJhaWQiOiJNdWJDV3FpV1NmeU1VOFNNMTFtZXdBIiwiY2lkIjoiIn0.egUMdqkRBjqiNFu2FLJs7O2YFfmmTRso-coz8QDPo44\",\r\n  \"join_url\": \"https://us04web.zoom.us/j/75506024104?pwd=DZRo6WjTrlWn3NTIWDuG5n2Zu3TcLj.1\",\r\n  \"password\": \"8Zjkg1\",\r\n  \"h323_password\": \"744675\",\r\n  \"pstn_password\": \"744675\",\r\n  \"encrypted_password\": \"DZRo6WjTrlWn3NTIWDuG5n2Zu3TcLj.1\",\r\n  \"settings\": {\r\n    \"host_video\": false,\r\n    \"participant_video\": false,\r\n    \"cn_meeting\": false,\r\n    \"in_meeting\": false,\r\n    \"join_before_host\": false,\r\n    \"jbh_time\": 0,\r\n    \"mute_upon_entry\": false,\r\n    \"watermark\": false,\r\n    \"use_pmi\": false,\r\n    \"approval_type\": 2,\r\n    \"audio\": \"voip\",\r\n    \"auto_recording\": \"none\",\r\n    \"enforce_login\": false,\r\n    \"enforce_login_domains\": \"\",\r\n    \"alternative_hosts\": \"\",\r\n    \"alternative_host_update_polls\": false,\r\n    \"close_registration\": false,\r\n    \"show_share_button\": false,\r\n    \"allow_multiple_devices\": false,\r\n    \"registrants_confirmation_email\": true,\r\n    \"waiting_room\": true,\r\n    \"request_permission_to_unmute_participants\": false,\r\n    \"registrants_email_notification\": true,\r\n    \"meeting_authentication\": false,\r\n    \"encryption_type\": \"enhanced_encryption\",\r\n    \"approved_or_denied_countries_or_regions\": {\r\n      \"enable\": false\r\n    },\r\n    \"breakout_room\": {\r\n      \"enable\": false\r\n    },\r\n    \"internal_meeting\": false,\r\n    \"continuous_meeting_chat\": {\r\n      \"enable\": false,\r\n      \"auto_add_invited_external_users\": false\r\n    },\r\n    \"participant_focused_meeting\": false,\r\n    \"push_change_to_calendar\": false,\r\n    \"resources\": [],\r\n    \"alternative_hosts_email_notification\": true,\r\n    \"show_join_info\": false,\r\n    \"device_testing\": false,\r\n    \"focus_mode\": false,\r\n    \"enable_dedicated_group_chat\": false,\r\n    \"private_meeting\": false,\r\n    \"email_notification\": true,\r\n    \"host_save_video_order\": false,\r\n    \"sign_language_interpretation\": {\r\n      \"enable\": false\r\n    },\r\n    \"email_in_attendee_report\": false\r\n  },\r\n  \"pre_schedule\": false\r\n}"
+  field_zoom_class_link:
+    -
+      uri: 'https://us04web.zoom.us/j/75506024104?pwd=DZRo6WjTrlWn3NTIWDuG5n2Zu3TcLj.1'
+      title: ''
+      options: {  }

@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: ba79cd00-10d1-4f2f-befd-e77ebf2be2d0
+  bundle: course
+  default_langcode: en
+  depends:
+    ea8d4bb7-6868-490f-b16f-2c8ff083b239: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: ea8d4bb7-6868-490f-b16f-2c8ff083b239
+  sku:
+    -
+      value: 'Advanced English Vocabulary'
+  title:
+    -
+      value: 'Advanced English Vocabulary'
+  list_price:
+    -
+      number: '75.000000'
+      currency_code: USD
+      formatted: $75.00
+  price:
+    -
+      number: '25.000000'
+      currency_code: USD
+      formatted: $25.00
+  created:
+    -
+      value: 1703128707

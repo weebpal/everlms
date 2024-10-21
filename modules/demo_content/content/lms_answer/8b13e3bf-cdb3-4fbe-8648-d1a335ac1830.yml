@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 8b13e3bf-cdb3-4fbe-8648-d1a335ac1830
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'A series of words to create a sensory impression in your mind.'
+  created:
+    -
+      value: 1702955393
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

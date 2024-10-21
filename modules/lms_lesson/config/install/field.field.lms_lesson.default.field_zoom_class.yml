@@ -1,0 +1,29 @@
+uuid: ad0a9ec9-c5f3-4f2e-93ce-957f62f123b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_lesson.field_zoom_class
+    - lms_lesson.lms_lesson_type.default
+    - lms_room.lms_room_type.zoom_class
+id: lms_lesson.default.field_zoom_class
+field_name: field_zoom_class
+entity_type: lms_lesson
+bundle: default
+label: 'Zoom class'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:lms_room'
+  handler_settings:
+    target_bundles:
+      zoom_class: zoom_class
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

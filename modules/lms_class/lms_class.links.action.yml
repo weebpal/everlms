@@ -1,0 +1,11 @@
+entity.lms_class.add_page:
+  route_name: entity.lms_class.add_page
+  title: 'Add class item'
+  appears_on:
+    - entity.lms_class.collection
+
+entity.lms_class_type.add_form:
+  route_name: entity.lms_class_type.add_form
+  title: 'Add class type'
+  appears_on:
+    - entity.lms_class_type.collection

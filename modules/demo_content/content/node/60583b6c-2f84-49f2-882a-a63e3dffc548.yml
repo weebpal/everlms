@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 60583b6c-2f84-49f2-882a-a63e3dffc548
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Affiliate
+  created:
+    -
+      value: 1695374281
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /affiliate
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>LMS is a leading destination for learning and teaching online. Become an affiliate partner today and promote a product that creates new possibilities for people everywhere.</p>'
+      format: full_html
+      summary: ''

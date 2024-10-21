@@ -1,0 +1,15 @@
+uuid: 77b257aa-6da6-492b-81c3-bbf4c2ae1415
+langcode: en
+status: true
+dependencies: {  }
+name: image_220x124
+label: 'Image (220x124)'
+effects:
+  bc3dac6d-6802-4f88-81c3-01d1892d44f6:
+    uuid: bc3dac6d-6802-4f88-81c3-01d1892d44f6
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 220
+      height: 124
+      anchor: center-center

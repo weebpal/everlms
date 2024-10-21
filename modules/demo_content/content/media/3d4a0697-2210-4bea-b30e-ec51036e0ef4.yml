@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 3d4a0697-2210-4bea-b30e-ec51036e0ef4
+  bundle: remote_video
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Active Listening in English - Improve English Communication Skills'
+  created:
+    -
+      value: 1703143929
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_oembed_video:
+    -
+      value: 'https://www.youtube.com/watch?v=aCutWBCCMaA'

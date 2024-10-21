@@ -1,0 +1,18 @@
+entity.lms_user_ceritificate.collection:
+  title: 'User Ceritificate items'
+  route_name: 'entity.lms_user_ceritificate.collection'
+  parent: 'system.admin_content'
+  description: 'Manage your user ceritificate items.'
+  weight: 50
+
+entity.lms_user_ceritificate_type.collection:
+  title: 'User Ceritificate types'
+  route_name: 'entity.lms_user_ceritificate_type.collection'
+  parent: 'system.admin_structure'
+  description: 'Manage fields, form and display settings for your user ceritificate types.'
+  weight: 50
+
+lms_user_ceritificate.grouped_entity_links:
+  class: Drupal\lms_user_ceritificate\Plugin\Menu\GroupedEntityLinks
+  deriver: Drupal\lms_user_ceritificate\Plugin\Derivative\GroupedEntityLinksDeriver
+  menu_name: lms_user_ceritificate

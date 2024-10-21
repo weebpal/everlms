@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 318aee4f-f35d-4f6f-a86a-5ba74d4a2aee
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Simple present'
+  created:
+    -
+      value: 1702954584
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

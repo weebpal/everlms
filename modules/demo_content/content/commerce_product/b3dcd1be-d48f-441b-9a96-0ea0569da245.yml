@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: b3dcd1be-d48f-441b-9a96-0ea0569da245
+  bundle: membership
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    d442980f-546c-43bf-9e88-fd73352cb10d: commerce_product_variation
+    16d29d2f-1bc0-49ee-9e92-d523be78c718: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: Year
+  variations:
+    -
+      entity: d442980f-546c-43bf-9e88-fd73352cb10d
+  default_variation:
+    -
+      entity: d442980f-546c-43bf-9e88-fd73352cb10d
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  created:
+    -
+      value: 1699929940
+  body:
+    -
+      value: '<p>Year plan features plus:</p><ul><li>View all course information</li><li>All-access booking site</li><li><span class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr">Add new course</span></li><li><span class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr">Add new lesson</span></li><li><span class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr">Add new question</span></li><li><span class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr">Add new certification</span></li><li>Limited use by year</li></ul>'
+      format: full_html
+      summary: ''
+  field_membership_type:
+    -
+      entity: 16d29d2f-1bc0-49ee-9e92-d523be78c718
+  field_subtitle:
+    -
+      value: 'All you need to grow an online knowledge business'

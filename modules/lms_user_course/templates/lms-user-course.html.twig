@@ -1,0 +1,24 @@
+{#
+/**
+ * @file
+ *
+ * Default template for user course item.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the wrapper.
+ * - lms_user_course: The rendered lms_user_course fields.
+ *   Use 'lms_user_course' to print them all, or print a subset such as
+ *   'lms_user_course.name'. Use the following code to exclude the
+ *   printing of a given field:
+ *   @code
+ *   {{ lms_user_course|without('name') }}
+ *   @endcode
+ * - lms_user_course_entity: The lms_user_course entity.
+ * - lms_user_course_url: The lms_user_course URL.
+ *
+ * @ingroup themeable
+ */
+#}
+<article{{ attributes }}>
+  {{ lms_user_course }}
+</article>

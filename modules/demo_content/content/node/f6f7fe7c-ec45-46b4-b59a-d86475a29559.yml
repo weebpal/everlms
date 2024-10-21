@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f6f7fe7c-ec45-46b4-b59a-d86475a29559
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: FAQs
+  created:
+    -
+      value: 1695374458
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /faqs
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>We have all the answers to your most commonly-asked questions about food, cooking and recipes.</p>'
+      format: full_html
+      summary: ''

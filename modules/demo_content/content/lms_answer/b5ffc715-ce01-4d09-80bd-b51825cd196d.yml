@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: b5ffc715-ce01-4d09-80bd-b51825cd196d
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'This is were deadlines are shortened to increase throughput of student work'
+  created:
+    -
+      value: 1702951424
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

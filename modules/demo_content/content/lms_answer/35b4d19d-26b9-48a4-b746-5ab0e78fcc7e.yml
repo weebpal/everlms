@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 35b4d19d-26b9-48a4-b746-5ab0e78fcc7e
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Using non-fiction to develop irony.'
+  created:
+    -
+      value: 1702955296
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

@@ -1,0 +1,25 @@
+lms_class.root:
+  title: 'Class'
+  description: 'Manage your lesson.'
+  parent: 'lms_base.admin'
+  route_name: 'lms_class.root'
+  weight: -100
+
+entity.lms_class.collection:
+  title: 'Class items'
+  route_name: 'entity.lms_class.collection'
+  parent: 'lms_class.root'
+  description: 'Manage your class items.'
+  weight: 50
+
+entity.lms_class_type.collection:
+  title: 'Class types'
+  route_name: 'entity.lms_class_type.collection'
+  parent: 'lms_class.root'
+  description: 'Manage fields, form and display settings for your class types.'
+  weight: 50
+
+lms_class.grouped_entity_links:
+  class: Drupal\lms_class\Plugin\Menu\GroupedEntityLinks
+  deriver: Drupal\lms_class\Plugin\Derivative\GroupedEntityLinksDeriver
+  menu_name: lms_class

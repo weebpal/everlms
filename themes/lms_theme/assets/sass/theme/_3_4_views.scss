@@ -1,0 +1,2845 @@
+/* --- View Basic --- */
+.view {
+  /*--------start layout--------*/
+  .view-content.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .views-view-grid {
+    width: 100%;
+
+    &.cols-5 {
+      .views-col {
+        max-width: calc(20% - 24px);
+        width: 100% !important;
+        margin: 0 12px;
+        margin-bottom: 24px;
+        border-radius: 6px;
+        padding: 0;
+        @media (max-width: 991px) {
+          max-width: calc(25% - 16px);
+          margin: 0 8px;
+        }
+        @media (max-width: 767px) {
+          max-width: calc(50% - 16px);
+          margin: 0 8px;
+        }
+      }
+    }
+
+    &.cols-4 {
+      .views-col {
+        max-width: calc(25% - 24px);
+        width: 100% !important;
+        margin: 0 12px;
+        margin-bottom: 24px;
+        border-radius: 6px;
+        padding: 0;
+      }
+    }
+
+    &.cols-2 {
+      .views-col {
+        max-width: calc(50% - 24px);
+        width: 100% !important;
+        margin: 0 12px;
+        margin-bottom: 24px;
+        border-radius: 6px;
+        padding: 0;
+        @media (max-width: 991px) {
+          max-width: 100%;
+          margin: 0 0 24px 0;
+        }
+      }
+    }
+  }
+
+  .flex-views-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    .flexslider {
+      margin: 0;
+
+      .slides {
+        width: 100%;
+      }
+    }
+  }
+
+  .views-row.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+    float: unset;
+    width: unset;
+    @media (max-width: 767px) {
+      margin-left: -8px;
+      margin-right: -8px;
+    }
+  }
+
+  /*------------end layout------*/
+
+  .view-fields-bestsellfer {
+    margin-right: 4px;
+    @include font-plexsans-bold(10px, 12px, #fff);
+    text-transform: uppercase;
+    padding: 4px 8px;
+    border-radius: 12px;
+    display: inline-block;
+    background-color: #eb5757;
+  }
+
+  .view-fields-sale {
+    margin-right: 4px;
+    @include font-plexsans-bold(10px, 12px, #fff);
+    text-transform: uppercase;
+    padding: 4px 8px;
+    border-radius: 12px;
+    display: inline-block;
+    background-color: #14a67b;
+  }
+
+  .flex-direction-nav {
+    .flex-nav-prev,
+    .flex-nav-next {
+      position: absolute;
+      top: 67.5px;
+      opacity: 1;
+      display: block;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        background-color: #fff;
+        position: relative;
+        font-size: 0;
+        left: 0;
+        right: 0;
+        opacity: 1;
+
+        &:before {
+          position: absolute;
+          content: "";
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+        }
+
+        &.flex-disabled {
+          opacity: 1 !important;
+        }
+      }
+    }
+
+    .flex-nav-prev {
+      left: -20px;
+
+      a {
+        &:before {
+          background: url(../images/arrow-left.svg) no-repeat;
+          background-size: contain;
+          background-position: center;
+        }
+      }
+    }
+
+    .flex-nav-next {
+      right: -20px;
+
+      a {
+        &:before {
+          background: url(../images/arrow-right.svg) no-repeat;
+          background-size: contain;
+          background-position: center;
+        }
+      }
+    }
+  }
+
+  .flexslider {
+    height: auto !important;
+    border: none;
+    background-color: transparent;
+
+    &:hover .flex-direction-nav .flex-next {
+      left: -10px;
+      opacity: 0.75;
+    }
+
+    &:hover .flex-direction-nav .flex-prev {
+      right: -10px;
+      opacity: 0.75;
+    }
+  }
+
+  .flex-control-nav {
+    display: none;
+  }
+
+  .price--container {
+    display: flex;
+
+    .view-field-discount {
+      @include font-plexsans-bold(16px, 24px, #14a67b);
+      display: inline-block;
+      margin-right: 12px;
+    }
+
+    .field-discount-exist {
+      display: inline-block;
+      @include font-plexsans-regular(16px, 24px, #4b4b4b);
+      text-decoration: line-through;
+    }
+
+    > div {
+      &:only-child {
+        @include font-plexsans-bold(16px, 24px, #121212);
+        display: inline-block;
+      }
+    }
+  }
+
+  /*----------start view proggram-----*/
+
+  &.view-programs {
+    text-align: center;
+    padding-top: 96px;
+    padding-bottom: 64px;
+    border-bottom: 1px solid #f2f2f2;
+
+    .view-filters {
+      border: none;
+    }
+
+    .views-view-grid.cols-4 {
+      .views-row.row {
+        .views-col {
+          position: relative;
+        }
+
+        &:last-child {
+          .views-col {
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      .views-field-title {
+        position: absolute;
+        left: 0px;
+        bottom: 35px;
+        width: 100%;
+        padding: 0 20px;
+        @media (max-width: 767px) {
+          padding: 0 16px;
+        }
+
+        .field-content {
+          @include font-plexsans-semibold(14px, 20px, #fff);
+          text-align: center;
+          width: 100%;
+          text-transform: uppercase;
+          cursor: pointer;
+
+          &:focus,
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+
+      .views-field-field-program-image {
+        img {
+          width: 282px;
+          height: 90px;
+          border-radius: 6px;
+        }
+      }
+
+      .view-filters {
+        .form--inline {
+          display: flex;
+
+          input[type="text"] {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+
+    //page programs
+    .views-view-grid.cols-2 {
+      padding-top: 32px;
+
+      .views-row {
+        margin-bottom: 40px;
+        margin-left: -12px;
+        margin-right: -12px;
+
+        .views-col {
+          padding: 0;
+          display: flex;
+          gap: 20px;
+          text-align: left;
+        }
+      }
+
+      .views-field-fieldset,
+      .views-field-fieldset-1 {
+        margin-bottom: 8px;
+
+        .field-content {
+          > * {
+            display: flex;
+            gap: 10px;
+          }
+        }
+      }
+
+      .views-field-body {
+        p {
+          margin-bottom: 8px;
+        }
+      }
+
+      .views-field-field-program-image {
+        // flex: 0 0 40%;
+        img {
+          max-height: 258px;
+          height: 147.2px;
+          @media (max-width: 991px) {
+            height: 90px;
+          }
+          @media (max-width: 767px) {
+            height: 60px;
+          }
+        }
+      }
+
+      .views-field-fieldset-2 {
+        flex: 1 0 60%;
+      }
+
+      .views-field-title {
+        position: unset;
+
+        a {
+          @include font-plexsans-semibold(16px, 24px, #121212);
+          margin-bottom: 8px;
+        }
+      }
+
+      .views-field-view-courses {
+        a {
+          @include btn-green;
+        }
+      }
+    }
+
+    .pager {
+      ul {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+
+  /*----- star courses   Start learning with Free Courses,Featured Courses------- */
+  &.view-courses {
+    margin-top: 64px;
+    padding-bottom: 64px;
+
+    .view-header {
+      text-align: center;
+    }
+
+    .view-content.row .views-row.row .views-col {
+      padding: 0;
+      position: relative;
+      flex: 1;
+    }
+
+    .slides {
+      margin-right: -12px;
+      margin-left: -12px;
+
+      > li {
+        // max-width: 220.8px;
+        margin-left: 24px;
+        position: relative;
+      }
+    }
+
+    .views-field-field-course-image {
+      img {
+        max-height: 147.2px;
+        object-fit: cover;
+        border-radius: 6px;
+        height: 100%;
+      }
+    }
+
+    .views-field-field-topics {
+      padding: 12px 0 0;
+
+      .field-content {
+        @include font-plexsans-bold(10px, 12px, #14a67b);
+      }
+
+      h2 {
+        margin: 0;
+      }
+
+      a {
+        @include font-plexsans-bold(10px, 12px, #14a67b);
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover,
+        &:focus {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .views-field-free {
+      @include font-plexsans-bold(10px, 12px, #fff);
+      text-transform: uppercase;
+      padding: 4px 8px;
+      border-radius: 12px;
+      background-color: #2f80ed;
+      cursor: default;
+    }
+
+    .views-field-nothing {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      display: flex;
+    }
+
+    .views-field-title {
+      padding: 4px 24px 0 0;
+
+      h2 {
+        margin-bottom: 8px;
+        color: #121212;
+
+        &:last-child {
+          display: none;
+        }
+      }
+
+      a {
+        @include font-plexsans-semibold(16px, 24px, #121212);
+        text-decoration: none;
+        display: inline-block;
+
+        &:hover,
+        &:focus {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .views-field-field-full-name {
+      @include font-plexsans-regular(14px, 24px, #4b4b4b);
+      padding: 0 24px 4px 0;
+    }
+
+    .views-field-price__number {
+      @include font-plexsans-bold(16px, 24px, #121212);
+    }
+
+    .view-footer {
+      text-align: center;
+
+      a {
+        @include btn-default();
+      }
+    }
+  }
+
+  /*----- star introduction  ------- */
+  &.view-introduction {
+    background-color: #fff2f2;
+    padding: 96px 0;
+    position: relative;
+    // margin-bottom: 48px;
+    &:before,
+    &:after {
+      position: absolute;
+      content: "";
+      top: 0;
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      background-color: #fff2f2;
+    }
+
+    &:before {
+      left: -100%;
+    }
+
+    &::after {
+      right: -100%;
+    }
+
+    .flexslider {
+      background-color: transparent;
+      border: none;
+      height: auto !important;
+      position: relative;
+    }
+
+    .slides {
+      li ~ li {
+        display: none !important;
+      }
+
+      > li,
+      .flex-active-slide {
+        display: flex !important;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+    }
+
+    .views-field-nothing {
+      order: -1;
+      max-width: 50%;
+      flex: 0 0 50%;
+      padding-right: 12px;
+    }
+
+    .views-field-field-introduction-image {
+      max-width: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-left: 12px;
+
+      img {
+        max-height: 384px;
+        object-fit: cover;
+      }
+    }
+
+    .views-field-title {
+      @include font-robotoserif-semibold(32px, 42px, #121212);
+      margin-bottom: 56px;
+    }
+
+    .views-field-body {
+      @include font-plexsans-regular(18px, 32px, #000);
+      margin-bottom: 40px;
+
+      p {
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .flex-control-nav {
+      position: absolute;
+      left: -6px;
+      text-align: left;
+      bottom: 244px;
+      z-index: 2;
+      display: block;
+      height: 32px;
+
+      li a {
+        height: 8px;
+        width: 8px;
+      }
+    }
+
+    .flex-direction-nav {
+      display: none;
+    }
+
+    .view-fields-link {
+      a {
+        @include btn-default();
+        padding-top: 15px;
+        padding-bottom: 15px;
+        line-height: 24px;
+      }
+    }
+  }
+
+  /*----- instructor  ------- */
+  &.view-instructor {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 64px;
+
+    .slides {
+      > li {
+        max-width: 384px;
+        padding: 24px 16px;
+        border-radius: 6px;
+        border: solid 1px #c9c8d3;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-left: 24px;
+        display: flex !important;
+      }
+    }
+
+    .flex-control-nav {
+      display: none;
+    }
+
+    .flex-direction-nav {
+      .flex-nav-prev,
+      .flex-nav-next {
+        position: absolute;
+        top: 70%;
+        transform: translate(0px, -43px);
+        opacity: 1;
+        display: block;
+      }
+    }
+
+    .views-field {
+      img {
+        max-width: 72px;
+        height: auto;
+        border-radius: 50%;
+      }
+    }
+
+    .views-field-fieldset {
+      flex: 1;
+      padding-left: 16px;
+      text-align: left;
+    }
+
+    .views-field-field-full-name {
+      .field-content {
+        @include font-plexsans-semibold(16px, 24px, #121212);
+      }
+    }
+
+    .views-field-field-topics {
+      .field-content {
+        @include font-plexsans-regular(16px, 28px, #4b4b4b);
+      }
+    }
+
+    .views-field-field-rating {
+      margin-top: -2px;
+    }
+
+    .views-field-field-learner-number,
+    .views-field-field-course-number {
+      .field-content {
+        @include font-plexsans-regular(14px, 21px, #4b4b4b);
+        font-weight: normal;
+
+        strong {
+          color: #121212;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .form-type-fivestar {
+      .form-type-select {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+    }
+  }
+
+  /*----- star bundle  ------- */
+  &.view-bundle {
+    @extend .view-courses;
+    margin-top: 0;
+
+    .views-field-field-bundle-image img {
+      max-width: 220.8px;
+      max-height: 147.2px;
+      height: 147.2px;
+      object-fit: cover;
+      border-radius: 6px;
+      width: 100%;
+    }
+
+    .flex-control-nav {
+      display: none;
+    }
+
+    .views-field-field-bundle-topic {
+      padding: 12px 0 0;
+
+      .field-content {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      a {
+        @include font-plexsans-bold(10px, 12px, #14a67b);
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover,
+        &:focus {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .views-field-nothing {
+      position: unset;
+    }
+  }
+
+  /*----- star list courses  ------- */
+  &.view-list-courses {
+    .view-content.row {
+      .views-row {
+        display: flex;
+        width: 100%;
+        padding: 24.2px 0;
+        border-bottom: 1px solid #ebebee;
+        gap: 16px;
+      }
+    }
+
+    .view-field-discount {
+      margin-right: 0;
+    }
+
+    .views-field-fieldset-3 {
+      max-width: 282px;
+      max-height: 188px;
+      position: relative;
+
+      .views-field-nothing {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+
+        .field-content {
+          display: flex;
+        }
+      }
+    }
+
+    .views-field-fieldset {
+      flex: 1;
+      padding-right: calc(24px - 16px);
+    }
+
+    .views-field-field-course-image {
+      padding: 0;
+      @media (max-width: 575px) {
+        flex: 1;
+        max-width: 100%;
+        text-align: center;
+      }
+
+      img {
+        vertical-align: middle;
+        border-style: none;
+        border-radius: 6px;
+        object-fit: cover;
+        height: 188px;
+      }
+    }
+
+    .price--container {
+      display: flex;
+      flex-direction: column;
+      margin-top: 24px;
+    }
+
+    .views-field-field-topics {
+      padding-top: 4px;
+
+      .field-content {
+        display: flex;
+      }
+
+      a {
+        @include font-plexsans-bold(10px, 12px, #14a67b);
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+
+        &:hover,
+        &:focus {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .views-field-title {
+      padding: 8px 24px 4px 0;
+
+      span {
+        @include font-plexsans-semibold(16px, 24px, #121212);
+        display: inline-block;
+      }
+
+      a {
+        @include font-plexsans-semibold(16px, 24px, #121212);
+        text-decoration: none;
+        display: inline-block;
+
+        &:hover,
+        &:focus {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .views-field-body {
+      padding: 0 24px 8px 0;
+
+      > span > p {
+        @include font-plexsans-regular(16px, 1.5, #121212);
+        margin-bottom: 0;
+      }
+    }
+
+    .views-field-fieldset-1 {
+      @include font-plexsans-regular(14px, 24px, #4b4b4b);
+      padding-bottom: 4px;
+
+      span {
+        @include font-plexsans-regular(14px, 24px, #4b4b4b);
+        display: inline-block;
+      }
+    }
+
+    .view-field-group-uid-changed {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+
+      .views-field {
+        position: relative;
+
+        &:not(:last-child):before {
+          position: absolute;
+          content: ".";
+          font-size: 30px;
+          color: #4b4b4b;
+          top: -8px;
+          right: -10px;
+        }
+
+        a {
+          text-decoration: none;
+          @include font-plexsans-regular(14px, 24px, #4b4b4b);
+        }
+      }
+    }
+
+    .views-field-fieldset-2 {
+      span {
+        @include font-plexsans-regular(14px, 21px, #4b4b4b);
+      }
+    }
+
+    .view-field-group-total {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 0 0 8px;
+
+      .views-field {
+        position: relative;
+
+        &:not(:last-child):before {
+          position: absolute;
+          content: ".";
+          font-size: 30px;
+          color: #4b4b4b;
+          top: -9px;
+          right: -12px;
+        }
+      }
+    }
+
+    .view-header {
+      margin-top: 25px;
+      @include font-plexsans-semibold(16px, 24px, #4b4b4b);
+      display: none;
+    }
+
+    .views-exposed-form .form--inline {
+      display: flex;
+      align-items: center;
+    }
+
+    input[type="text"] {
+      margin-top: 0;
+    }
+  }
+
+  /*----- popular  courses  ------- */
+  &.view-courses-popular-topics {
+    .view-content.row {
+      .views-view-grid {
+        width: 100%;
+
+        .views-row {
+          display: flex;
+          flex-wrap: wrap;
+          margin: 0 auto;
+
+          .views-col {
+            margin: 0 15px;
+            margin-bottom: 30px;
+            border: 1px solid #368c8b;
+            border-radius: 5px;
+            max-width: calc(33.33% - 30px);
+          }
+        }
+
+        h2 {
+          border-radius: 3px;
+
+          a {
+            color: #368c8b;
+          }
+        }
+      }
+    }
+  }
+
+  &.view-topics {
+    overflow-x: auto;
+
+    .view-content {
+      padding: 16px 32px;
+      width: 1350px;
+      overflow: hidden;
+      display: flex;
+      flex-wrap: nowrap;
+      margin: 0 auto;
+    }
+
+    .views-row {
+      margin-right: 8px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .views-field-name a {
+      display: inline-block;
+      @include font-plexsans-medium(14px, 20px, #121212);
+      padding: 8px 12px;
+      border: 1px solid #c9c8d3;
+      border-radius: 24px;
+
+      &:hover,
+      &:focus {
+        background-color: #c9c8d3;
+      }
+    }
+  }
+
+  &.view-partner {
+    background-color: #caffef;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+    &:before,
+    &:after {
+      position: absolute;
+      content: "";
+      top: 0;
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      background-color: #caffef;
+    }
+
+    &:before {
+      left: -100%;
+    }
+
+    &::after {
+      right: -100%;
+    }
+
+    /* ----- start-view-gird ----*/
+    .views-view-grid {
+      .views-row {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: -12px;
+        margin-right: -12px;
+
+        .views-col {
+          flex: 1;
+          padding: 0;
+          margin: 0 12px;
+        }
+      }
+    }
+
+    .view-header {
+      h2 {
+        max-width: 792px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 0 30px;
+      }
+    }
+
+    /* ----- star content ----*/
+    .views-field-field-thumbnail-image {
+      img {
+        width: 180px;
+        height: 90px;
+        object-fit: contain;
+      }
+    }
+
+    /* ----- end content----*/
+  }
+
+  /*-----------start page detail course ---------*/
+  &.view-course-header {
+    margin-top: 64px;
+    padding-bottom: 48px;
+    margin-right: 38px;
+
+    .total-votes {
+      color: #14a67b;
+    }
+
+    .views-field-body {
+      p {
+        @include font-plexsans-regular(18px, 31.5px, #000);
+        margin-bottom: 16px;
+      }
+    }
+
+    .views-field-field-full-name {
+      padding-bottom: 8px;
+      margin: 0;
+    }
+
+    fieldset {
+      display: flex;
+      gap: 17px;
+
+      .views-field {
+        .field-content {
+          @include font-plexsans-regular(14px, 21px, #4b4b4b);
+          display: block;
+          word-break: break-all;
+        }
+
+        &::before {
+          position: absolute;
+          content: "";
+          background-size: 16px;
+          background-position: center;
+          width: 16px;
+          height: 16px;
+          object-fit: contain;
+          left: 0;
+          color: #000000;
+        }
+      }
+
+      .views-field-field-learner-number {
+        position: relative;
+        padding-left: 25px;
+
+        &::before {
+          background: url(../images/icons/users.svg);
+        }
+      }
+
+      .views-field-changed {
+        position: relative;
+        padding-left: 25px;
+
+        &::before {
+          background: url(../images/icons/info.svg);
+          top: 2px;
+        }
+      }
+
+      .views-field-field-languages {
+        position: relative;
+        padding-left: 25px;
+
+        &::before {
+          background: url(../images/icons/globe.svg);
+          top: 2px;
+        }
+      }
+
+      .views-field-field-subtitles {
+        position: relative;
+        padding-left: 25px;
+
+        &::before {
+          background: url(../images/icons/substitles.svg);
+          top: 2px;
+        }
+      }
+    }
+  }
+
+  &.view-what-you-learn {
+    background-color: #fafafa;
+    padding: 24px;
+    margin-top: 0;
+    margin-right: 38px;
+
+    .views-field-field-course-knowledge {
+      ul {
+        padding-left: 0;
+        display: flex;
+        flex-flow: row wrap;
+        gap: 8px 24px;
+
+        li {
+          max-width: calc(50% - 24px);
+          width: 100%;
+          list-style: none;
+          position: relative;
+          padding-left: 43px;
+
+          &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            background: url(../images/icon-check.svg);
+            background-size: 28px;
+            background-position: center;
+            width: 28px;
+            height: 28px;
+          }
+
+          p {
+            @include font-plexsans-regular(16px, 28px, #000);
+            margin-bottom: 8px;
+          }
+        }
+      }
+    }
+  }
+
+  &.view-course-content {
+    padding: 48px 0 0 0;
+    margin-right: 38px;
+    margin-top: 0;
+
+    .views-field-nothing {
+      display: block;
+      position: unset;
+    }
+
+    .view-content.row .views-row {
+      display: flex;
+      width: 100%;
+      padding: 0 0 16px;
+    }
+
+    .views-field-fieldset {
+      flex: 1;
+
+      > span > * {
+        display: flex;
+        position: relative;
+
+        &:not(:last-child):before {
+          position: absolute;
+          content: ".";
+          font-size: 30px;
+          color: #4b4b4b;
+          top: -8px;
+          right: -10px;
+        }
+      }
+    }
+
+    .view-fields-expand-all-sections {
+      @include font-plexsans-semibold(14px, 21px, #14a67b);
+    }
+
+    .views-field {
+      .field-content {
+        @include font-plexsans-regular(14px, 21px, #4b4b4b);
+        font-weight: normal;
+      }
+    }
+
+    .views-field-field-total-lessons {
+      margin-left: 20px;
+
+      .field-content {
+        @include font-plexsans-regular(14px, 21px, #4b4b4b);
+        font-weight: normal;
+        display: list-item;
+        list-style-type: disc;
+      }
+    }
+
+    .views-field-field-total-hours {
+      margin-left: 20px;
+
+      .field-content {
+        @include font-plexsans-regular(14px, 21px, #4b4b4b);
+        font-weight: normal;
+        display: list-item;
+        list-style-type: disc;
+      }
+    }
+  }
+
+  &.view-course-content-chapter {
+    margin-right: 38px;
+    padding: 0 0 48px;
+
+    .view-content.row {
+      width: 100%;
+
+      .views-row {
+        width: 100%;
+      }
+
+      .views-accordion-header {
+        background-color: #fafafa;
+        padding: 11px 24px;
+        margin: 0;
+        border: solid 1px #ebebee;
+        border-bottom: none;
+
+        span {
+          @include font-plexsans-regular(16px, 24px, #121212);
+          font-weight: bold;
+        }
+      }
+
+      .ui-accordion-content {
+        padding: 0;
+        margin: 0;
+      }
+
+      .views-field-field-lessons {
+        ul {
+          padding: 24px;
+          margin-bottom: 0;
+
+          li {
+            list-style: none;
+            margin: 0;
+
+            a {
+              position: relative;
+              padding-right: 36px;
+              text-decoration: none;
+              @include font-plexsans-regular(15px, 24px, #4b4b4b);
+
+              &::before {
+                position: absolute;
+                content: "";
+                margin-right: 8px;
+                transform: rotateZ(180deg);
+                transition: all 0.3s;
+                background: url(../images/up.svg);
+                top: 0;
+                right: 0;
+                width: 16px;
+                height: 16px;
+                background-color: #fafafa;
+                border-radius: 2px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .ui-icon-triangle-1-s {
+      display: inline-block;
+      margin-right: 8px;
+      transform: rotateZ(360deg);
+      transition: all 0.3s;
+      background: url(../images/up.svg);
+    }
+
+    .ui-icon-triangle-1-e {
+      transition: all 0.3s;
+      margin-right: 8px;
+      transform: rotateZ(180deg);
+      background: url(../images/up.svg);
+    }
+  }
+
+  &.view-requirements {
+    margin-right: 38px;
+    margin-top: 0;
+    padding: 0 0 48px;
+
+    .views-field {
+      .field-content ul {
+        padding-left: 25px;
+
+        li {
+          p {
+            @include font-plexsans-regular(16px, 24px, #4b4b4b);
+            font-weight: normal;
+          }
+        }
+
+        li::marker {
+          color: #4b4b4b;
+        }
+      }
+    }
+
+    .header-block-left {
+      margin-bottom: 16px;
+    }
+  }
+
+  &.view-description {
+    margin-right: 38px;
+    margin-top: 0;
+    padding: 0 0 48px;
+
+    .views-field {
+      .field-content {
+        ul {
+          padding-left: 25px;
+
+          li {
+            p {
+              @include font-plexsans-regular(16px, 24px, #4b4b4b);
+              font-weight: normal;
+            }
+          }
+
+          li::marker {
+            color: #4b4b4b;
+          }
+        }
+      }
+
+      p {
+        @include font-plexsans-regular(16px, 24px, #4b4b4b);
+
+        a {
+          @include font-plexsans-semibold(15px, 20px, #14a67b);
+          text-decoration: underline solid 1px #ebebee;
+        }
+      }
+    }
+
+    .header-block-left {
+      margin-bottom: 16px;
+    }
+  }
+
+  &.view-students-also-bought {
+    margin-right: 38px;
+    margin-top: 0;
+    padding: 0 0 48px;
+
+    .view-content {
+      .views-row {
+        display: flex;
+        width: 100%;
+        padding: 20px 0;
+        border-bottom: 1px solid #ebebee;
+
+        > * {
+          margin-right: 32px;
+
+          &:first-child {
+            margin-right: 16px;
+          }
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+
+        &:first-child {
+          padding-top: 0;
+        }
+
+        &:last-child {
+          border: 0;
+        }
+      }
+    }
+
+    .header-block-left {
+      margin-bottom: 16px;
+    }
+
+    .views-field-field-learner-number {
+      .field-content {
+        @include font-plexsans-regular(14px, 21px, #4b4b4b);
+        position: relative;
+        padding-left: 25px;
+
+        &::after {
+          position: absolute;
+          content: "";
+          background: url(../images/icons/users.svg);
+          top: 1px;
+          left: 0;
+          height: 16px;
+          width: 16px;
+        }
+      }
+    }
+
+    .views-field-field-course-image {
+      max-height: 120px;
+      max-width: 120px;
+      width: 100%;
+      margin-right: -16px;
+      margin-bottom: 0;
+
+      img {
+        object-fit: cover;
+        height: 120px;
+        max-width: 120px;
+      }
+    }
+
+    .views-field-fieldset {
+      flex-grow: 1;
+      // flex: 0 0 305px;
+    }
+
+    .views-field-title {
+      padding: 0 24px 4px 0;
+    }
+
+    .price--container {
+      flex-direction: column;
+
+      .view-field-discount {
+        margin-right: 0;
+      }
+    }
+
+    .views-field-nothing {
+      position: unset;
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+
+    .views-field-nothing-2 {
+      .field-content {
+        width: 40px;
+        height: 40px;
+        border-radius: 4px;
+        border: solid 1px #ebebee;
+        display: block;
+        position: relative;
+
+        .view-fields-favourite {
+          font-size: 0;
+          content: "";
+          position: absolute;
+          background: url(../images/icons/heart.svg);
+          background-size: 24px 24px;
+          height: 24px;
+          width: 24px;
+          top: 7px;
+          left: 7px;
+        }
+      }
+    }
+
+    .views-field-nothing {
+      padding: 0 0 4px;
+    }
+
+    .views-field-title {
+      @include font-plexsans-semibold(16px, 24px, #121212);
+    }
+
+    .views-field-field-rating {
+      .form-item {
+        margin-bottom: 0;
+      }
+    }
+
+    .views-field-fieldset-1 span > * {
+      display: flex;
+      gap: 16px;
+
+      * {
+        @include font-plexsans-regular(14px, 24px, #4b4b4b);
+        position: relative;
+
+        &:not(:last-child):before {
+          position: absolute;
+          content: ".";
+          font-size: 30px;
+          color: #4b4b4b;
+          top: -9px;
+          right: -12px;
+        }
+      }
+    }
+
+    .view-fields-show-more {
+      text-align: left;
+
+      a {
+        padding: 8px 0;
+        border: none;
+        padding: 0;
+        margin: 0;
+        background: none;
+        @include font-plexsans-semibold(15px, 20px, #14a67b);
+        margin-bottom: 16px;
+        display: inline-block;
+        border-bottom: 1px solid #ebebee;
+
+        &:hover {
+          background: unset;
+          border: unset;
+        }
+      }
+    }
+  }
+
+  &.views-instructor-detail-courses {
+    padding: 0 0 48px;
+    margin-top: 0;
+    margin-right: 38px;
+
+    .views-row {
+      padding: 24px;
+      border-radius: 6px;
+      border: solid 1px #ebebee;
+      background-color: #fafafa;
+    }
+
+    fieldset {
+      display: flex;
+    }
+
+    .views-field-fieldset {
+      fieldset {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .views-field-field-full-name {
+      .field-content {
+        @include font-plexsans-semibold(18px, 27px, #121212);
+      }
+    }
+
+    .views-field-field-image {
+      img {
+        border-radius: 50%;
+        max-width: 120px;
+      }
+    }
+
+    .views-field-field-learner-number {
+      margin-bottom: 4px;
+    }
+
+    .views-field-field-rating {
+      position: relative;
+      margin-top: 8px;
+      margin-bottom: 4px;
+    }
+
+    .views-field-field-instructor-description {
+      text-align: left;
+      margin-bottom: 8px;
+    }
+
+    .views-field-nothing {
+      text-align: left;
+
+      a {
+        margin: 8px 0;
+        @include font-plexsans-semibold(15px, 20px, #14a67b);
+        margin-bottom: 24px;
+        display: inline-block;
+        border-bottom: 1px solid #ebebee;
+      }
+    }
+  }
+
+  &.view-frequently-bought-together {
+    @extend .view-students-also-bought;
+
+    .views-field-fieldset {
+      flex-grow: 1;
+    }
+
+    // .views-field-nothing-1 {
+    //   // flex: 1;
+    // }
+  }
+
+  &.view-program-overview {
+    padding: 64px 0;
+
+    .view-header {
+      display: none;
+    }
+
+    .views-row {
+      display: flex;
+      gap: 128px;
+      width: 100%;
+      align-items: center;
+    }
+
+    .views-field-field-program-image {
+      // flex: 0 0 486px;
+      // height: auto;
+      img {
+        max-width: 486px;
+        width: 100%;
+        height: 486px;
+      }
+    }
+
+    .views-field-fieldset {
+      flex: 1;
+      padding-right: 102px;
+      text-align: left;
+    }
+
+    .views-field-title {
+      position: unset;
+      max-width: unset;
+      width: unset;
+      margin-bottom: 24px;
+
+      .field-content {
+        @include font-robotoserif-semibold(32px, 41.6px, #121212);
+        text-transform: capitalize;
+
+        &:focus,
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .views-field-body {
+      ul {
+        padding: 0 0 0 5.5px;
+        margin-bottom: 0;
+
+        li {
+          position: relative;
+          padding-left: 30px;
+          list-style: none;
+          margin-bottom: 8px;
+          @include font-plexsans-regular(16px, 28px, #000);
+
+          &:last-child {
+            margin-bottom: 32px;
+          }
+
+          &::after {
+            content: "";
+            position: absolute;
+            left: -3px;
+            top: 0;
+            background: url(../images/icon-check.svg);
+            background-size: 28px;
+            background-position: center;
+            width: 28px;
+            height: 28px;
+          }
+        }
+      }
+
+      p {
+        @include font-plexsans-regular(18px, 31.5px, #000);
+        margin-bottom: 24px;
+      }
+    }
+
+    .views-field-view-all-courses {
+      margin-top: 32px;
+
+      a {
+        @include btn-green;
+      }
+    }
+  }
+
+  /*----------------end pages detail courses--------*/
+
+  /*--------view review page caourses detail------*/
+  &.view-review {
+    margin-top: 0;
+    padding: 0;
+    margin-right: 48px;
+
+    .views-row {
+      width: 100%;
+    }
+
+    //content start
+    .field--name-field-student-full-name {
+      @include font-plexsans-semibold(16px, 24px, #121212);
+    }
+
+    .field_submitted {
+      position: relative;
+      @include font-plexsans-regular(14px, 16px, #4b4b4b);
+      padding-left: 20px;
+      margin-left: 8px;
+
+      &::after {
+        position: absolute;
+        content: ".";
+        color: #4b4b4b;
+        font-size: 50px;
+        left: 0;
+        top: -14px;
+      }
+    }
+
+    .text-formatted p {
+      @include font-plexsans-regular(16px, 28px, #4b4b4b);
+      margin-bottom: 0;
+    }
+
+    .indented {
+      margin: 0;
+      padding: 0 0 24px 72px;
+      border-radius: 6px;
+
+      article .content {
+        padding: 12px 8px;
+        border-radius: 6px;
+        border: solid 1px #ebebee;
+        background-color: #fafafa;
+      }
+    }
+
+    //content end
+  }
+
+  &.view-free-courses {
+    .view-footer {
+      margin-top: 40px;
+    }
+  }
+
+  &.view-preview-content {
+    padding-top: 0;
+
+    video {
+      width: 100%;
+      max-height: 216px;
+    }
+
+    .view-content.row {
+      border: 1px solid #f2f2f2;
+      padding-bottom: 32px;
+    }
+
+    .views-row {
+      width: 100%;
+      position: relative;
+    }
+
+    .views-field {
+      &:not(:first-child) {
+        margin-left: 24px;
+        margin-right: 24px;
+      }
+    }
+
+    .views-field-field-course-end-discount {
+      margin-bottom: 16px;
+
+      .view_fields_end_discount {
+        @include font-plexsans-regular(14px, 21px, #eb5757);
+        margin-top: 8px;
+        padding-left: 22px;
+        position: relative;
+
+        &::before {
+          position: absolute;
+          content: "";
+          //background: url(../images/icons/clock.svg);
+          height: 16px;
+          width: 16px;
+          top: 1px;
+          left: 0;
+        }
+      }
+
+      // .field-content {
+      // }
+    }
+
+    .price--container {
+      margin-top: 24px;
+      display: flex;
+      gap: 16px;
+      align-items: center;
+
+      .view-field-discount {
+        @include font-plexsans-bold(32px, normal, #121212);
+        font-weight: bold;
+        margin-right: 0;
+      }
+
+      .field-discount-exist {
+        @include font-plexsans-regular(18px, 31.5px, #4b4b4b);
+        font-weight: normal;
+      }
+
+      .view-fields-discount-percent {
+        @include font-plexsans-regular(18px, 31.5px, #eb5757);
+        font-weight: normal;
+      }
+    }
+
+    .form-actions {
+      margin: 0;
+    }
+
+    .button--add-to-cart {
+      width: 100%;
+      padding: 14px 32px;
+      border-radius: 4px;
+      background-color: #14a67b;
+      border-radius: 4px;
+      // margin-top: 16px;
+      @include font-plexsans-semibold(15px, 20px, #fff);
+    }
+
+    .views-field-nothing {
+      margin-top: 8px;
+      display: flex;
+      justify-content: center;
+      max-width: 278px;
+      width: 100%;
+      position: unset;
+      padding: 11px 32px;
+      border-radius: 4px;
+      border: solid 1px #121212;
+    }
+
+    .view-fields-buy-now {
+      a {
+        @include font-plexsans-semibold(15px, 20px, #121212);
+        display: inline-block;
+      }
+    }
+
+    .views-field-nothing-2 {
+      position: absolute;
+      padding: 12px;
+      border-radius: 4px;
+      border: solid 1px #121212;
+      height: 48px;
+      width: 48px;
+      bottom: 0;
+      right: 0;
+
+      span {
+        &::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          background: url(../images/icons/heart.svg);
+          background-size: 28px;
+          background-position: center;
+          width: 24px;
+          height: 24px;
+          left: 12px;
+          top: 12px;
+        }
+      }
+
+      .view-fields-favourite {
+        display: none;
+      }
+    }
+  }
+
+  &.view-blogs {
+    .views-field-title {
+      margin-bottom: 16px;
+
+      a {
+        @include font-plexsans-semibold(16px, 24px, #121212);
+      }
+    }
+
+    .views-field-body {
+      margin-bottom: 24px;
+
+      p {
+        @include font-plexsans-regular(18px, 31.5px, #121212);
+      }
+    }
+
+    .views-field-join-our-team {
+      a {
+        @include btn-green;
+      }
+    }
+  }
+}
+
+/*title h2*/
+
+.view-header {
+  h2 {
+    @include font-robotoserif-semibold(32px, 41.6px, #121212);
+
+    &:focus,
+    &:hover {
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+
+  .header-block-left {
+    text-align: left;
+  }
+
+  .header-block-center {
+    text-align: center;
+  }
+}
+
+/*view filter page all courser*/
+//.views-exposed-form {
+//  border-bottom: 1px solid #ebebee;
+//  padding: 24px 0;
+//
+//  .form-item {
+//    float: unset;
+//    margin: 0;
+//
+//    &:first-child {
+//      display: none;
+//    }
+//
+//    &.form-item-sort-by {
+//      flex-direction: row;
+//      align-items: center;
+//      margin-right: 8px;
+//
+//      label {
+//        margin: 0;
+//      }
+//    }
+//
+//    display: flex;
+//    flex-direction: column;
+//    padding: 16px;
+//    border-radius: 4px;
+//    border: solid 1px #121212;
+//    @include font-plexsans-semibold(16px, 24px, #121212);
+//
+//    select {
+//      border: none;
+//
+//      option {
+//        @include font-plexsans-semibold(16px, 24px, #121212);
+//      }
+//    }
+//  }
+//
+//  .form-actions {
+//    display: none;
+//  }
+//
+//  .form--inline {
+//    display: flex;
+//  }
+//}
+
+.views-form {
+  width: 100%;
+}
+
+.view {
+  .row > * {
+    padding: 0;
+  }
+
+  &-product-index:not(.view-featured-courses),
+  &-product-taxonomy {
+    .row > * {
+      padding: 0;
+    }
+
+    .views-row {
+      padding: 24px 0;
+      border-bottom: 1px solid #ebebee;
+    }
+
+    .group-wrapper {
+      display: flex;
+      gap: 16px;
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+    }
+
+    .group-information {
+      flex: 1;
+    }
+
+    .group-image {
+      max-width: 282px;
+      max-height: 188px;
+      position: relative;
+      flex: 0 0 220px;
+
+      img {
+        height: 100%;
+        min-height: 188px;
+        border-radius: 4px;
+        object-fit: cover;
+      }
+
+      .group-tags {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+
+        > .field {
+          display: inline-block;
+          @include font-plexsans-bold(10px, 12px, #fff);
+          padding: 4px 8px;
+          border-radius: 12px;
+          text-transform: uppercase;
+          margin-right: 4px;
+
+          &:empty {
+            display: none;
+          }
+
+          &--name-field-free {
+            background-color: #14a67b;
+          }
+
+          &--name-field-bestseller {
+            background-color: #eb5757;
+          }
+        }
+      }
+    }
+
+    .group-authour {
+      display: flex;
+      gap: 8px;
+      @include font-plexsans-regular(14px, 24px, #4b4b4b);
+      margin-bottom: 4px;
+
+      > .field {
+        display: flex;
+        position: relative;
+
+        .field__label {
+          padding-right: 5px;
+
+          &:after {
+            content: unset;
+          }
+        }
+
+        //&:not(:first-child) {
+        //  &:before {
+        //    content: ".";
+        //    display: inline-flex;
+        //    position: absolute;
+        //    font-size: 30px;
+        //    top: 50%;
+        //    transform: translateY(-50%);
+        //  }
+        //}
+      }
+    }
+
+    .field {
+      margin: 0;
+    }
+
+    .field--name-field-category {
+      line-height: 12px;
+
+      a {
+        @include font-plexsans-bold(10px, 12px, #14a67b);
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+
+        &:hover,
+        &:focus {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .field--name-title {
+      padding: 8px 24px 4px 0;
+
+      span {
+        @include font-plexsans-semibold(16px, 24px, #121212);
+        display: inline-block;
+      }
+
+      a {
+        @include font-plexsans-semibold(16px, 24px, #121212);
+        text-decoration: none;
+        display: inline-block;
+
+        &:hover,
+        &:focus {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .field--name-variations {
+      margin-bottom: 10px;
+    }
+
+    .field--name-price {
+      @include font-plexsans-bold(16px, 24px, #14a67b);
+    }
+
+    //.product--variation-field--variation_price__3 {
+    //  @include font-plexsans-bold(16px, 24px, #14a67b);
+    //}
+
+    .field--name-list-price {
+      @include font-plexsans-regular(16px, 24px, #4b4b4b);
+      text-decoration: line-through;
+    }
+
+    .group-total {
+      display: flex;
+      gap: 8px;
+      @include font-plexsans-regular(14px, 21px, #4b4b4b);
+    }
+
+    //.btn-view-detail {
+    //  @include btn-green();
+    //  white-space: nowrap;
+    //}
+  }
+
+  &-category:not(.view-top-category) {
+    border-bottom: 1px solid #ebebee;
+
+    .splide {
+      max-width: 1240px;
+      margin: 0 auto;
+
+      &:hover {
+        .splide__arrows {
+          transition: all 0.3s;
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+
+    .splide__track {
+      //display: flex;
+      //justify-content: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    .splide__list {
+      //max-width: 1240px;
+    }
+
+    .splide__arrows {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .view-content.row {
+      padding: 16px 32px;
+      overflow: auto;
+      display: flex;
+      flex-wrap: nowrap;
+      margin: 0 auto;
+      max-width: 1240px;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      .views-row {
+        display: inline-block;
+        width: auto;
+        padding: 0;
+        margin-right: 8px;
+      }
+    }
+
+    .views-field-name {
+      a {
+        display: inline-block;
+        @include font-plexsans-medium(14px, 20px, #121212);
+        padding: 8px 12px;
+        border: 1px solid #c9c8d3;
+        border-radius: 24px;
+        white-space: nowrap;
+
+        &:hover {
+          background-color: #97f0d6;
+          border-color: #97f0d6;
+        }
+      }
+    }
+  }
+
+  &-commerce-cart-form {
+    table {
+      margin-bottom: 30px;
+
+      input[type="submit"] {
+        @include btn-green();
+      }
+    }
+
+    .views-form {
+      margin-bottom: 24px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .field--name-total-price {
+      margin-bottom: 30px;
+
+      .order-total-line {
+        @include font-plexsans-semibold(16px, 24px, #121212);
+        padding: 0;
+
+        .order-total-line-label {
+          position: relative;
+
+          &:after {
+            content: ":";
+            position: absolute;
+          }
+        }
+
+        &.order-total-line__total {
+          .order-total-line-value {
+            color: #14a67b;
+          }
+        }
+      }
+    }
+
+    .paypal-buttons-container {
+      margin-top: 24px;
+    }
+
+    .form-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 16px;
+
+      input {
+        @include btn-green();
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  &-lession {
+    .views-field-name {
+      a {
+        @include font-plexsans-medium(18px, 30px, #14a67b);
+      }
+    }
+  }
+
+  &-slide-banner {
+    .splide {
+      &__arrow {
+        background-color: #2d2f31;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #6a6f73;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08),
+          0 4px 12px rgba(0, 0, 0, 0.08);
+
+        svg {
+          fill: #fff;
+          width: 16px;
+          height: 16px;
+        }
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .banner_content {
+      position: absolute;
+      left: 72px;
+      top: 64px;
+      max-width: 440px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+      padding: 24px;
+      background-color: #fff;
+
+      a {
+        @include font-plexsans-bold(32px, 40px, #2d2f31);
+        margin-bottom: 8px;
+      }
+
+      p {
+        @include font-plexsans-regular(16px, 22.4px, #2d2f31);
+        margin: 0;
+      }
+    }
+  }
+
+  &-best-sellers {
+    .group-authour {
+      display: flex;
+      gap: 8px;
+      @include font-plexsans-regular(14px, 24px, #4b4b4b);
+      margin-bottom: 4px;
+
+      > .field {
+        display: flex;
+        position: relative;
+
+        .field__label {
+          padding-right: 5px;
+
+          &:after {
+            content: unset;
+          }
+        }
+
+        //&:not(:first-child) {
+        //  &:before {
+        //    content: ".";
+        //    display: inline-flex;
+        //    position: absolute;
+        //    font-size: 30px;
+        //    top: 50%;
+        //    transform: translateY(-50%);
+        //  }
+        //}
+      }
+    }
+
+    .field {
+      margin: 0;
+    }
+
+    .field--name-field-category {
+      line-height: 12px;
+
+      a {
+        @include font-plexsans-bold(10px, 12px, #14a67b);
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+
+        &:hover,
+        &:focus {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .field--name-title {
+      padding: 8px 24px 4px 0;
+
+      span {
+        @include font-plexsans-semibold(16px, 24px, #121212);
+        display: inline-block;
+      }
+
+      a {
+        @include font-plexsans-semibold(16px, 24px, #121212);
+        text-decoration: none;
+        display: inline-block;
+
+        &:hover,
+        &:focus {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .field--name-variations {
+      margin-bottom: 10px;
+    }
+
+    .field--name-price {
+      @include font-plexsans-bold(16px, 24px, #14a67b);
+    }
+
+    //.product--variation-field--variation_price__3 {
+    //  @include font-plexsans-bold(16px, 24px, #14a67b);
+    //}
+
+    .field--name-list-price {
+      @include font-plexsans-regular(16px, 24px, #4b4b4b);
+      text-decoration: line-through;
+    }
+
+    .group-total {
+      display: flex;
+      gap: 8px;
+      @include font-plexsans-regular(14px, 21px, #4b4b4b);
+    }
+  }
+
+  &-top-category {
+    padding-bottom: 64px;
+    border-bottom: 1px solid $border-color;
+
+    .view-content.row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      @media (max-width: 991px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @media (max-width: 767px) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+    .views-row {
+      position: relative;
+      overflow: hidden;
+
+      &::before {
+        position: absolute;
+        top: 0;
+        left: -75%;
+        z-index: 2;
+        display: block;
+        content: "";
+        width: 50%;
+        height: 100%;
+        background: -webkit-linear-gradient(
+          left,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 0.3) 100%
+        );
+        background: linear-gradient(
+          to right,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 0.8) 100%
+        );
+        -webkit-transform: skewX(-25deg);
+        transform: skewX(-25deg);
+      }
+
+      &:hover,
+      &:focus {
+        cursor: pointer;
+
+        &::before {
+          -webkit-animation: shine 0.75s;
+          animation: shine 0.75s;
+        }
+      }
+    }
+
+    .views-field-image {
+      &:before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.35);
+        border-radius: 6px;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 6px;
+      }
+    }
+
+    .views-field-name {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+
+      @include font-plexsans-semibold(14px, 20px, #fff);
+      text-transform: uppercase;
+      display: inline-block;
+      white-space: nowrap;
+    }
+  }
+
+  &-featured-courses {
+    padding-bottom: 64px;
+    border-bottom: 1px solid $border-color;
+
+    .view-content.row {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 24px;
+      @media (max-width: 1280px) {
+        grid-template-columns: repeat(4, 1fr);
+      }
+      @media (max-width: 991px) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      @media (max-width: 767px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @media (max-width: 575px) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+    .field--name-field-image {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 6px;
+      }
+    }
+
+    .group-info {
+      .group-image {
+        position: relative;
+
+        .group-tags {
+          position: absolute;
+          top: 12px;
+          left: 12px;
+
+          > .field {
+            display: inline-block;
+            @include font-plexsans-bold(10px, 12px, #fff);
+            padding: 4px 8px;
+            border-radius: 12px;
+            text-transform: uppercase;
+            margin-right: 4px;
+
+            &:empty {
+              display: none;
+            }
+
+            &--name-field-free {
+              background-color: #14a67b;
+            }
+
+            &--name-field-bestseller {
+              background-color: #eb5757;
+            }
+          }
+        }
+      }
+
+      .group-text {
+        display: flex;
+        flex-direction: column;
+
+        .field--name-field-category {
+          order: 1;
+          padding-top: 12px;
+
+          a {
+            @include font-plexsans-bold(10px, 12px, $primary-color);
+            text-transform: uppercase;
+          }
+        }
+
+        .field--name-title {
+          order: 2;
+          padding-top: 4px;
+
+          a {
+            @include font-plexsans-semibold(16px, 24px, $txt-color);
+          }
+        }
+
+        .field--name-uid {
+          display: flex;
+          order: 3;
+          @include font-plexsans-regular(14px, 24px, #4b4b4b);
+          padding: 0 24px 4px 0;
+        }
+
+        .field--name-field-rating {
+          order: 4;
+        }
+      }
+    }
+
+    .field--name-price {
+      @include font-plexsans-bold(16px, 24px, #14a67b);
+    }
+
+    .field--name-list-price {
+      @include font-plexsans-regular(16px, 24px, #4b4b4b);
+      text-decoration: line-through;
+    }
+
+    .view-footer {
+      text-align: center;
+      margin-top: 50px;
+
+      a {
+        @include btn-white();
+      }
+    }
+  }
+
+  &-free-courses {
+    border-bottom: 1px solid $border-color;
+
+    .field--name-field-image {
+      img {
+        border-radius: 6px;
+      }
+    }
+
+    .field--name-uid {
+      display: flex;
+      @include font-plexsans-regular(14px, 24px, #4b4b4b);
+      padding: 0 24px 4px 0;
+    }
+
+    .slides > li {
+      margin-left: 24px;
+    }
+  }
+
+  &-news {
+    .views-infinite-scroll-content-wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .field--name-field-thumb {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .field--name-title h2 {
+      margin-bottom: 0;
+
+      a {
+        @include font-plexsans-semibold(28px, 31.5px, #121212);
+      }
+    }
+
+    .field--name-body {
+      font-size: 18px;
+    }
+
+    .field--name-field-tags a {
+      @include font-plexsans-bold(14px, 16px, #14a67b);
+    }
+  }
+
+  &-taxonomy-term {
+    .view-header h2 a {
+      color: #121212;
+    }
+
+    .views-infinite-scroll-content-wrapper {
+      @include flex-layout(three, 24px);
+    }
+
+    .field--name-title h2 {
+      @include font-plexsans-semibold(16px, 24px, #121212);
+      margin-bottom: 12px;
+
+      a {
+        @include font-plexsans-semibold(16px, 24px, #121212);
+        text-decoration: none;
+        display: inline-block;
+
+        &:hover,
+        &:focus {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .field--name-field-tags a {
+      @include font-plexsans-bold(10px, 12px, $primary-color);
+      text-transform: uppercase;
+    }
+  }
+
+  &-membership {
+    .views-view-grid {
+      @include resetGrid();
+    }
+
+    .views-view-grid .views-row {
+      @include flex-layout(two, 24px);
+
+      .views-col {
+        background-color: #fff;
+        padding: 24px;
+        box-shadow: 8px 10px 24px -4px rgba(150, 150, 150, 0.24);
+        border-top: 8px solid $primary-color;
+      }
+    }
+
+    .views-field-title {
+      margin-bottom: 8px;
+    }
+
+    .views-field-field-subtitle {
+      margin-bottom: 24px;
+    }
+
+    .views-field-price__number {
+      @include font-plexsans-regular(48px, 60px, rgb(27, 73, 66));
+      margin-bottom: 8px;
+      @media (max-width: 991px) {
+        font-size: 32px;
+        line-height: 48px;
+      }
+    }
+
+    .views-field-list-price__number {
+      @include font-plexsans-regular(20px, 28px, rgb(27, 73, 66));
+      text-decoration: line-through;
+      margin-bottom: 12px;
+    }
+
+    .views-field-body {
+      margin-top: 24px;
+      padding-top: 24px;
+      border-top: 1px solid #ddd;
+
+      p {
+        @include font-plexsans-bold(inherit, inherit, #000);
+      }
+
+      ul {
+        li {
+          display: flex;
+          align-items: center;
+          margin-bottom: 8px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          &:before {
+            content: "";
+            display: inline-block;
+            background-image: url("../images/icon-check.svg");
+            background-repeat: no-repeat;
+            background-size: 24px;
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+  }
+
+  &-my-courses {
+    .view-filters {
+      margin-bottom: 32px;
+    }
+    .views-exposed-form {
+      .form-type-select {
+        select {
+          @include select(bg-black);
+        }
+      }
+
+      .form-type-textfield {
+        input[type="text"] {
+          max-height: 40px;
+        }
+      }
+    }
+    .form--inline {
+      @include flex-layout(four, 24px);
+      align-items: flex-end;
+
+      > .form-item {
+        display: flex;
+        flex-direction: column;
+
+        > label {
+          display: block;
+          margin-bottom: 8px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

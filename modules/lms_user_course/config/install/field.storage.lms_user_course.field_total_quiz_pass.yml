@@ -1,0 +1,24 @@
+uuid: 8d42da2f-2f5d-45c7-8198-c77fb8896b82
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - lms_user_course
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: lms_user_course.field_total_quiz_pass
+field_name: field_total_quiz_pass
+entity_type: lms_user_course
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

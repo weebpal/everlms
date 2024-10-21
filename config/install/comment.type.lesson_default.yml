@@ -1,0 +1,8 @@
+uuid: f228a14c-6852-4e5e-aa3c-552e6440b32e
+langcode: en
+status: true
+dependencies: {  }
+id: lesson_default
+label: 'Lesson default'
+target_entity_type_id: lms_lesson
+description: ''

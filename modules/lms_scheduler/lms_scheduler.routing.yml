@@ -1,0 +1,7 @@
+lms_scheduler.root:
+  path: '/admin/lms/lms-scheduler'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Scheduler'
+  requirements:
+    _permission: 'administer lms_scheduler'

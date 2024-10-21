@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 01853481-10f9-4c56-b24d-da565b004c2c
+  bundle: default
+  default_langcode: en
+  depends:
+    f75e1f01-c509-4aa2-b43f-96d966d7e2d2: lms_answer
+    633214b7-a932-4137-8207-4bbfd9660761: lms_answer
+    53bca1de-2063-4e2b-916b-be0b74ef5760: lms_answer
+    35b4d19d-26b9-48a4-b746-5ab0e78fcc7e: lms_answer
+    f7ba1cea-39c2-4ffa-9a3f-ad7f16d4bfe9: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Allegory
+  created:
+    -
+      value: 1702955306
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: f75e1f01-c509-4aa2-b43f-96d966d7e2d2
+    -
+      entity: 633214b7-a932-4137-8207-4bbfd9660761
+    -
+      entity: 53bca1de-2063-4e2b-916b-be0b74ef5760
+    -
+      entity: 35b4d19d-26b9-48a4-b746-5ab0e78fcc7e
+    -
+      entity: f7ba1cea-39c2-4ffa-9a3f-ad7f16d4bfe9
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

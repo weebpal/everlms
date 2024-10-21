@@ -1,0 +1,19 @@
+uuid: 150de4da-5471-456b-af01-740260cb3828
+langcode: en
+status: true
+dependencies:
+  module:
+    - component_builder
+id: component_wrapper.field_basic_component
+field_name: field_basic_component
+entity_type: component_wrapper
+type: entity_reference
+settings:
+  target_type: component_item
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

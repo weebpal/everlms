@@ -1,0 +1,11 @@
+uuid: 1a435039-8dc7-499e-bc3c-f91881607172
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3xF1i7Y9vxKBRX6iPpYUXG1-U3AFQQ2bo0Zd9Ij0QFw
+id: default
+label: 'LMS Scheduler'
+description: ''
+traits: null
+locked: null

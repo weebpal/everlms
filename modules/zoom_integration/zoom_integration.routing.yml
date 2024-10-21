@@ -1,0 +1,27 @@
+zoom_integration.settings:
+  path: '/admin/config/zoom-integration'
+  defaults:
+    _form: '\Drupal\zoom_integration\Form\ZoomIntegrationConfigForm'
+    _title: 'Zoom API Settings'
+  requirements:
+    _permission: 'administer site configuration'
+zoom_integration.webhooks:
+  path: '/zoom-integration-webhooks'
+  defaults:
+    _controller: '\Drupal\zoom_integration\Controller\ZoomAPIWebhooksController::capture'
+    _title: 'Zoom API Webhooks Controller'
+  methods: [POST]
+  requirements:
+    _custom_access: '\Drupal\zoom_integration\Controller\ZoomAPIWebhooksController::authorize'
+  options:
+    no_cache: TRUE
+zoom_integration.test:
+  path: '/admin/zoom-integration/test'
+  defaults:
+    _controller: '\Drupal\zoom_integration\Controller\ZoomAPIController::test'
+    _title: 'Test'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: TRUE
+

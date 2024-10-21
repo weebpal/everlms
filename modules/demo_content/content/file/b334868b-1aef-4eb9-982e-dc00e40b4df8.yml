@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b334868b-1aef-4eb9-982e-dc00e40b4df8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Top-10-confusing-words-in-English.png
+  uri:
+    -
+      value: 'public://2023-12/Top-10-confusing-words-in-English.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 206311
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703473305

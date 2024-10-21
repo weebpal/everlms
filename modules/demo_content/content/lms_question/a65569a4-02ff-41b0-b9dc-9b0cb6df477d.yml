@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: a65569a4-02ff-41b0-b9dc-9b0cb6df477d
+  bundle: default
+  default_langcode: en
+  depends:
+    57702fae-8b60-4c3e-93e3-800acd94e8ef: lms_answer
+    e90fc037-6e0a-4042-b95c-a0bc8d751f5e: lms_answer
+    fa6b5dda-eebc-4c21-91ec-af1f3e07d452: lms_answer
+    785e1421-d94c-4c33-b1bc-9dded0b1def2: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Anastrophe
+  created:
+    -
+      value: 1702955817
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 57702fae-8b60-4c3e-93e3-800acd94e8ef
+    -
+      entity: e90fc037-6e0a-4042-b95c-a0bc8d751f5e
+    -
+      entity: fa6b5dda-eebc-4c21-91ec-af1f3e07d452
+    -
+      entity: 785e1421-d94c-4c33-b1bc-9dded0b1def2
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

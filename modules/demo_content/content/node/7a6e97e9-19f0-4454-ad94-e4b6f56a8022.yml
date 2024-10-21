@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7a6e97e9-19f0-4454-ad94-e4b6f56a8022
+  bundle: page
+  default_langcode: en
+  depends:
+    4ca6fad9-27b3-4b09-a8eb-5b1a3c9fc0a0: component_wrapper
+    78508074-b9e0-435d-ac5b-9bce390ace75: component_wrapper
+    ea9a9ae9-d53a-4760-8226-0b25d186f4e2: component_wrapper
+    ed1ddd7b-e7c0-41b7-ad36-7533b3e649e4: component_wrapper
+    e4892de8-9a86-44ae-922b-5d6a84ee430d: component_wrapper
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Home
+  created:
+    -
+      value: 1693897232
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /home
+      langcode: en
+      pathauto: 1
+  field_components:
+    -
+      entity: 4ca6fad9-27b3-4b09-a8eb-5b1a3c9fc0a0
+    -
+      entity: 78508074-b9e0-435d-ac5b-9bce390ace75
+    -
+      entity: ea9a9ae9-d53a-4760-8226-0b25d186f4e2
+    -
+      entity: ed1ddd7b-e7c0-41b7-ad36-7533b3e649e4
+    -
+      entity: e4892de8-9a86-44ae-922b-5d6a84ee430d

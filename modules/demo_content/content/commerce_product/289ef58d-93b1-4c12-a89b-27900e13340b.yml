@@ -1,0 +1,136 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 289ef58d-93b1-4c12-a89b-27900e13340b
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    1b6e11d7-6028-4744-ac5f-8fa2ba278c56: commerce_product_variation
+    7ec8d4f0-2271-4012-ada5-5fd2deea26f1: taxonomy_term
+    e8e92a46-f25f-4215-a4ae-ae0f8be1f3de: media
+    920def96-5a5b-40cf-b44c-c859f4f1da9f: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    536f2e3a-fb87-4663-93b9-a032af0be54b: lms_lesson
+    b9fc7bfa-a444-42f1-83e3-fcf6c4209231: lms_lesson
+    f13562d1-6c7d-4754-8bb8-9f96c4a9e363: lms_lesson
+    96749538-8dce-43fa-be2d-7fa5bd787af7: lms_lesson
+    68964467-6c14-48e8-a418-9842737d88cd: lms_lesson
+    4fe024cf-521a-4294-97c2-ca2230c8e129: taxonomy_term
+    ad1ef75b-6487-4213-a440-25623cc9b80b: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'Advanced English Fluency - The Complete Guide'
+  variations:
+    -
+      entity: 1b6e11d7-6028-4744-ac5f-8fa2ba278c56
+  default_variation:
+    -
+      entity: 1b6e11d7-6028-4744-ac5f-8fa2ba278c56
+  path:
+    -
+      alias: /course/advanced-english-fluency-complete-guide
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1703059047
+  body:
+    -
+      value: "<p>Welcome to the Advanced English Fluency - The Complete Guide course!</p><p>If you want to speak English fluently in conversations, then you've come to the right place.</p><p>Our comprehensive course will help you speak English confidently and fluently in English conversations.</p><p><strong>Who is this course for?</strong></p><p>This course is suitable for you, if...</p><p>You want better English conversation skills</p><p>You want to improve your English fluency</p><p>You have at least A2 level English</p><p>You study English and want to improve your exam scores</p><p>You work in English and want to improve your Business English speaking skills</p><p>You enjoy improving your language skills and want to have better English conversations with your friends</p><p>The course is divided into four sections, each focused on a specific area of English conversation skills.</p><p>120+ Idioms</p><p>220+ Phrasal Verbs</p><p>Hundreds of Collocations</p><p>Conversation practice (29 model conversations)</p><ul><li>What will you learn in this course?</li><li>Learn to speak English with great fluency</li><li>Understand what native English speakers are saying</li><li>Stop having long pauses when you speak English</li><li>Improve your English speaking &amp; conversation confidence</li><li>Make sure English native speakers always understand you</li><li>Use natural English language (not the words you learned at school!)</li></ul><p><strong>Who is your teacher?</strong></p><p>Francis Carlisle - qualified IELTS examiner</p><p>78,000+ students on Udemy</p><p>13 years of teaching experience</p><p>Latest course (British English Pronunciation) has 4.98 rating on Udemy!</p><p><strong>Section Description:</strong></p><p>In the first section, you will learn 120+ commonly used idioms in English conversation. Idioms are phrases that have a different meaning from the literal definition of the words used. Mastering these idioms will help you to communicate more effectively with native English speakers to improve your English conversation skills.</p><p>The second section of the course is dedicated to phrasal verbs. Phrasal verbs are a combination of a verb and a preposition or adverb. There are over 220 phrasal verbs in this course that you will learn to enhance your English conversation speaking and comprehension.</p><p>In the third section, you will learn hundreds of collocations, which are groups of words that commonly occur together. This will help you to improve your English vocabulary and accuracy in English. When you learn these collocations, English conversation will seem extremely easy to you!</p><p>Finally, in the fourth section, you will get plenty of English conversation practice through 29 model English conversations. These conversations cover a wide range of topics and will help you to increase your confidence in speaking English fluently.</p><p>With our course, you will gain the ability to understand what native English speakers are saying, eliminate long pauses during conversations, improve your overall speaking and conversation confidence, and ensure that native English speakers always understand you. Enroll now and start your journey towards mastering English conversation and fluency!</p>"
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: 7ec8d4f0-2271-4012-ada5-5fd2deea26f1
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703059575
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: e8e92a46-f25f-4215-a4ae-ae0f8be1f3de
+  field_featured_course:
+    -
+      value: true
+  field_free:
+    -
+      value: false
+  field_image:
+    -
+      entity: 920def96-5a5b-40cf-b44c-c859f4f1da9f
+      alt: 'Advanced English Fluency - The Complete Guide'
+      title: ''
+      width: 480
+      height: 270
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 324
+  field_lessons:
+    -
+      entity: 536f2e3a-fb87-4663-93b9-a032af0be54b
+    -
+      entity: b9fc7bfa-a444-42f1-83e3-fcf6c4209231
+    -
+      entity: f13562d1-6c7d-4754-8bb8-9f96c4a9e363
+    -
+      entity: 96749538-8dce-43fa-be2d-7fa5bd787af7
+    -
+      entity: 68964467-6c14-48e8-a418-9842737d88cd
+  field_level:
+    -
+      entity: 4fe024cf-521a-4294-97c2-ca2230c8e129
+  field_quiz:
+    -
+      entity: ad1ef75b-6487-4213-a440-25623cc9b80b
+  field_quizzes:
+    -
+      entity: ad1ef75b-6487-4213-a440-25623cc9b80b
+  field_rating:
+    -
+      rating: 100
+      target: 0
+  field_requirements:
+    -
+      value: '<p>At least A2-level English</p>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Get great English Conversation skills and improve your English Fluency</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 2
+  field_total_lessons:
+    -
+      value: 5
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: "<ul><li>You'll learn to speak English confidently and fluently</li><li>You'll improve your English conversation skills and English fluency</li><li>You'll learn great high-level English vocabulary</li><li>You'll learn 120+ idioms, 220+ phrasal verbs and hundreds of collocations</li><li>You'll improve your English listening skills so you can understand native speakers easily</li><li>You'll improve your English grammar skills</li></ul>"
+      format: full_html

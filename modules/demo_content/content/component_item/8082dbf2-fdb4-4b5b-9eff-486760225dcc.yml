@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 8082dbf2-fdb4-4b5b-9eff-486760225dcc
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: 3. Write Down New Vocabulary'
+  title:
+    -
+      value: '3. Write Down New Vocabulary'
+  created:
+    -
+      value: 1702916376
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Note uncommon words and expressions in your notebook when you read or listen to English news. It is an excellent and beneficial idea to collect terminology from various areas such as sports, politics, celebrity gossip, and so on. Only put down vocabulary that appears numerous times. If you try to learn every expression you come across, you will forget it! This is especially true for uncommon terminology in English.</p>'
+      format: full_html
+      summary: ''

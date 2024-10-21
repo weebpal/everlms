@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 4f797ea6-1b5e-46fe-bd2a-a06d1f2593e7
+  bundle: course
+  default_langcode: en
+  depends:
+    7296c0b4-894a-430f-880a-539d19dc03ed: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 7296c0b4-894a-430f-880a-539d19dc03ed
+  sku:
+    -
+      value: 'Table Talk'
+  title:
+    -
+      value: 'Table Talk: Learn How to Teach & Test English Conversation'
+  list_price:
+    -
+      number: '35.000000'
+      currency_code: USD
+      formatted: $35.00
+  price:
+    -
+      number: '33.000000'
+      currency_code: USD
+      formatted: $33.00
+  created:
+    -
+      value: 1703063373

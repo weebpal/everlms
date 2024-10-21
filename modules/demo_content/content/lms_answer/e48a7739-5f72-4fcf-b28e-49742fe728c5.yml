@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: e48a7739-5f72-4fcf-b28e-49742fe728c5
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Something out of place in time.'
+  created:
+    -
+      value: 1702955539
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: true

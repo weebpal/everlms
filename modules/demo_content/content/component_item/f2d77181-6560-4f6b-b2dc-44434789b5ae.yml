@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: f2d77181-6560-4f6b-b2dc-44434789b5ae
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Singing and Vocab'
+  title:
+    -
+      value: 'Singing and Vocab'
+  created:
+    -
+      value: 1702917372
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Most popular songs are sung with a wide range of both good and bad pronunciation. You can listen to one song and understand what they are singing about then another song comes on and it makes no sense at all. This is why it can be so helpful, well partly. By listening to vocab sung in songs by all sorts of different voices and styles you will build up your experience with those words. The great thing with the internet is that you can look up the words any time. So sing along, learn the words if you can but check online so you know what the words are and what they mean. It can be a great way to not only learn new words but learn new slang and regional words too.</p>'
+      format: full_html
+      summary: ''

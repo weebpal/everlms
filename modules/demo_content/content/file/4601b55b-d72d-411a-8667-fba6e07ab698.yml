@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4601b55b-d72d-411a-8667-fba6e07ab698
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Understanding-IELTS-score.jpg
+  uri:
+    -
+      value: 'public://2023-12/Understanding-IELTS-score.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 69879
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703476476

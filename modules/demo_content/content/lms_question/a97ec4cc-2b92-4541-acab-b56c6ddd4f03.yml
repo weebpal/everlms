@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: a97ec4cc-2b92-4541-acab-b56c6ddd4f03
+  bundle: default
+  default_langcode: en
+  depends:
+    d23eb895-89af-4748-b469-467d5c1b78a0: lms_answer
+    dc893a7c-6518-422b-bbe4-0e9ee2a08499: lms_answer
+    c17d913b-a79d-4b32-b3e5-c97dba0cdf35: lms_answer
+    5bc35eff-0fca-46c8-8f2a-28fedf1ca772: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Antithesis
+  created:
+    -
+      value: 1702956627
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: d23eb895-89af-4748-b469-467d5c1b78a0
+    -
+      entity: dc893a7c-6518-422b-bbe4-0e9ee2a08499
+    -
+      entity: c17d913b-a79d-4b32-b3e5-c97dba0cdf35
+    -
+      entity: 5bc35eff-0fca-46c8-8f2a-28fedf1ca772
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

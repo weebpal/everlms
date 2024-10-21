@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: f6614fd0-0b77-47fd-b156-efc6a91870b3
+  bundle: video
+  default_langcode: en
+  depends:
+    c46b999f-63ca-4854-bd73-5e9572512f5f: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Communication skills.mp4'
+  created:
+    -
+      value: 1703039058
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_video_file:
+    -
+      entity: c46b999f-63ca-4854-bd73-5e9572512f5f
+      display: false
+      description: ''

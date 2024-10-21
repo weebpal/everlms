@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 0dc1f458-d616-4173-a52d-20d640d39f09
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'A Master teacher shows how to use effectively a teaching strategy'
+  created:
+    -
+      value: 1702952883
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>The correct answer is "a Master teacher shows how to use effectively a teaching strategy." This answer accurately describes the concept of demonstration in teaching, where a skilled teacher showcases and models the effective use of a teaching strategy to their students. This approach allows students to observe and learn from the teacher''s expertise, enhancing their understanding and application of the strategy in their own learning.</p>'
+      format: full_html
+      summary: ''
+  field_correct:
+    -
+      value: true

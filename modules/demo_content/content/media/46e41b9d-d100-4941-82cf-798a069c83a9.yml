@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 46e41b9d-d100-4941-82cf-798a069c83a9
+  bundle: image
+  default_langcode: en
+  depends:
+    522f9047-f44e-431e-a8cf-6cfea312d162: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 780078_e409_2.jpg
+  created:
+    -
+      value: 1702959935
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 522f9047-f44e-431e-a8cf-6cfea312d162
+      alt: 'How to speak to anyone & be fearless - in less than 55 min'
+      title: ''
+      width: 750
+      height: 422

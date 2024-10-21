@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2208c4c3-c28f-4038-a71d-adf7b27ffc3e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: cinema-food-movie-theater-33129-2_0.jpg
+  uri:
+    -
+      value: 'public://2023-12/cinema-food-movie-theater-33129-2_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1052450
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702917023

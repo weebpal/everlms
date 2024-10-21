@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3f112e5b-ad52-48ce-98f6-bd85b2a18a97
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: gabriel-barletta-87533_0.jpg
+  uri:
+    -
+      value: 'public://2023-12/gabriel-barletta-87533_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 941191
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702917344

@@ -1,0 +1,88 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_quiz
+  uuid: 82410c0b-1326-4704-a3a5-e4dc43ed0333
+  bundle: default
+  default_langcode: en
+  depends:
+    b8287b6b-2505-40a2-b554-19f82a013bd6: lms_certificate
+    5e1660d7-89f5-434c-82f2-2639b043b1a9: taxonomy_term
+    cda05dbe-121d-4348-83e8-6d49ba1949ac: taxonomy_term
+    cce46126-d0ea-4670-b813-88dba3ff61a3: taxonomy_term
+    41e09b55-91ab-4588-be5f-c908021a33b9: taxonomy_term
+    01853481-10f9-4c56-b24d-da565b004c2c: lms_question
+    b26c1078-965b-47ee-9e43-3aa56b4c6a1a: lms_question
+    2c1ea3a4-8d63-4f7a-b23f-6cf5175faafb: lms_question
+    26efca7e-e11a-4e44-9f79-273d36622a1c: lms_question
+    109ed964-2b07-4549-bc1b-2c87a7b6e74c: lms_question
+    5ea96daf-e5c1-4d6f-8d4d-9e55624f21aa: lms_question
+    d74b9fc6-39bb-48f7-9eb4-f3116a205470: lms_question
+    4a16a972-a553-4094-a764-af21e8e575d1: lms_question
+    a65569a4-02ff-41b0-b9dc-9b0cb6df477d: lms_question
+    a97ec4cc-2b92-4541-acab-b56c6ddd4f03: lms_question
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'AP English Language Quiz: Terms And Definitions!'
+  created:
+    -
+      value: 1702955237
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Welcome to the very first AP English language practice test</p>'
+      format: full_html
+      summary: ''
+  field_certificate:
+    -
+      entity: b8287b6b-2505-40a2-b554-19f82a013bd6
+  field_difficulty:
+    -
+      entity: 5e1660d7-89f5-434c-82f2-2639b043b1a9
+  field_display_right_answer:
+    -
+      value: false
+  field_failed_title:
+    -
+      entity: cda05dbe-121d-4348-83e8-6d49ba1949ac
+  field_form_style:
+    -
+      entity: cce46126-d0ea-4670-b813-88dba3ff61a3
+  field_passed_title:
+    -
+      entity: 41e09b55-91ab-4588-be5f-c908021a33b9
+  field_question_count:
+    -
+      value: 10
+  field_questions:
+    -
+      entity: 01853481-10f9-4c56-b24d-da565b004c2c
+    -
+      entity: b26c1078-965b-47ee-9e43-3aa56b4c6a1a
+    -
+      entity: 2c1ea3a4-8d63-4f7a-b23f-6cf5175faafb
+    -
+      entity: 26efca7e-e11a-4e44-9f79-273d36622a1c
+    -
+      entity: 109ed964-2b07-4549-bc1b-2c87a7b6e74c
+    -
+      entity: 5ea96daf-e5c1-4d6f-8d4d-9e55624f21aa
+    -
+      entity: d74b9fc6-39bb-48f7-9eb4-f3116a205470
+    -
+      entity: 4a16a972-a553-4094-a764-af21e8e575d1
+    -
+      entity: a65569a4-02ff-41b0-b9dc-9b0cb6df477d
+    -
+      entity: a97ec4cc-2b92-4541-acab-b56c6ddd4f03
+  field_threshold:
+    -
+      value: '70.00'
+  field_time_limit:
+    -
+      value: 15

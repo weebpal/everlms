@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: a62fe6d7-833f-4bdc-ab9a-7c11ddf5381a
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The speaker shows the product and tells all the good things about the product'
+  created:
+    -
+      value: 1702952866
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

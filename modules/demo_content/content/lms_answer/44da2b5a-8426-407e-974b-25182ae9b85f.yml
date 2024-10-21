@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 44da2b5a-8426-407e-974b-25182ae9b85f
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'A question used for effect when no answer is expected.'
+  created:
+    -
+      value: 1702955626
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

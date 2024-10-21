@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: c35ccceb-c413-4b52-9464-9e78020e9ca7
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Four out every ten children'
+  created:
+    -
+      value: 1702951287
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>The survey by the National Literacy Trust, of 18,141 young people found that four in 10 boys did not own any books, compared to three in 10 girls.</p>'
+      format: full_html
+      summary: ''
+  field_correct:
+    -
+      value: true

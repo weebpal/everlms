@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 977fc54a-5711-4433-ae14-78c4e71746f9
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The use of a word to govern or modify two or more words when it is appropriate to one of them, or appropriate to each of them in. different ways.'
+  created:
+    -
+      value: 1702955599
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

@@ -1,0 +1,25 @@
+uuid: 7e146130-eec6-4c89-8e82-5b2057b83aa3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_lesson.field_body
+    - lms_lesson.lms_lesson_type.default
+  module:
+    - text
+_core:
+  default_config_hash: zXs6t9weUFzV-vPVcPFqCHZ072bbzA27_-gdbGxM-Ik
+id: lms_lesson.default.field_body
+field_name: field_body
+entity_type: lms_lesson
+bundle: default
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

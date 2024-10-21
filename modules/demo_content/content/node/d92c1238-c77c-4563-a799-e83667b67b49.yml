@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d92c1238-c77c-4563-a799-e83667b67b49
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'About us'
+  created:
+    -
+      value: 1695198597
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /about-us
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<div class="et_pb_module et_pb_text et_pb_text_0 et_pb_text_align_left et_pb_bg_layout_light" style="-webkit-text-stroke-width:0px;animation-duration:0.2s;animation-timing-function:linear;background:50% center / cover no-repeat rgb(255, 255, 255);border:0px;box-sizing:border-box;color:rgb(0, 0, 0);font-family:&quot;Open Sans&quot;, Helvetica, Arial, Lucida, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:500;letter-spacing:normal;margin:0px 0px 19.9074px;orphans:2;outline:0px;overflow-wrap:break-word;padding:0px;position:relative;text-align:left;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-size-adjust:100%;text-transform:none;vertical-align:baseline;white-space:normal;widows:2;word-spacing:0px;"><div class="et_pb_text_inner" style="background:transparent;border:0px;box-sizing:border-box;font-size:14px;margin:0px;outline:0px;padding:0px;position:relative;text-size-adjust:100%;vertical-align:baseline;"><h2>Introduction</h2><p><strong>Prepare for a Career in the Service Industry</strong></p><p>Learn how to prepare and cook food using multiple cooking methods. Gain valuable life skills as you learn to serve up meals for your friends and family.</p><p><strong>Learn about:</strong></p><ul><li>Essential cooking skills</li><li>Food preparation and knife handling skills</li><li>Plating techniques &amp; presentation</li><li>Hygiene practices &amp; food safety</li><li>Food &amp; beverage service skills</li></ul><p><strong>Enrol in our Cookery Skills Programme to:</strong></p><ul><li>Learn essential cooking skills including preparing hot and cold foods</li><li>Practice frying, baking, poaching, steaming, grilling, roasting, braising &amp; stewing cooking methods</li><li>Plate up and present dishes</li></ul></div></div><p><strong>Improving lives through learning</strong></p><p>Whether you want to learn or to share what you know, you’ve come to the right place. As a global destination for online learning, we empower organizations and individuals with flexible and effective skill development.</p><p><strong>We just keep growing</strong></p><p>Our global community and our course catalog get bigger every day. &nbsp;Check out our latest numbers as of June 2023.</p><p>We help organizations of all types and sizes prepare for the path ahead — wherever it leads. Our curated collection of business and technical courses help companies, governments, and nonprofits go further by placing learning at the center of their strategies.</p><p><strong>Work with us</strong></p><p>At LMS, we’re all learners and instructors. We live out our values every day to create a culture that is diverse, inclusive, and committed to helping employees thrive.</p><p><strong>See our research</strong></p><p>We’re committed to improving lives through learning. Dig into our original research to learn about the forces that are shaping the modern workplace.</p><p><strong>Read our blog</strong></p><p>Want to know what we’ve been up to lately? Check out the Udemy blog to get the scoop on the latest news, ideas and projects, and more.</p>'
+      format: full_html
+      summary: ''

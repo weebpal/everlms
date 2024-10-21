@@ -1,0 +1,20 @@
+uuid: 86285d68-b4cd-40d1-b722-615f58772380
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_quiz
+id: lms_quiz.field_question_count
+field_name: field_question_count
+entity_type: lms_quiz
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

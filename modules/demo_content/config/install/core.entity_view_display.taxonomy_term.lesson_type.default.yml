@@ -1,0 +1,45 @@
+uuid: e5080961-82de-4b37-b576-5c253a563c25
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.lesson_type.field_key
+    - taxonomy.vocabulary.lesson_type
+  module:
+    - manage_display
+    - text
+id: taxonomy_term.lesson_type.default
+targetEntityType: taxonomy_term
+bundle: lesson_type
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_key:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  name:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true
+  search_api_excerpt: true

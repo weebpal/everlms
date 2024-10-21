@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 00d0a0d0-f4f7-4a85-b3fa-ba2e33b0af35
+  bundle: push_image
+  default_langcode: en
+  depends:
+    e0cdc956-e407-4d53-91a0-6342e646e185: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Push Image Item: Untitled'
+  created:
+    -
+      value: 1703475729
+  revision_translation_affected:
+    -
+      value: true
+  field_pi_body:
+    -
+      value: '<p><strong>Then vs. Than:</strong></p><ul><li>Then (adverb): Refers to a point in time or a sequence of events.</li><li>Than (conjunction): Used for making comparisons.</li></ul><p>Confusion: These words are often confused in comparative sentences.<br><em>Example:</em><br>Correct: She is taller than her brother. They had dinner and then they went to the movies.<br>Incorrect: She is taller then her brother. They had dinner and than they went to the movies.</p><p>&nbsp;</p><p><strong>Hear vs. Listen to:</strong></p><ul><li>Hear (verb): The act of perceiving sound through the ears without any intentional effort</li><li>Listen (verb): To actively pay attention and focus on a sound.</li></ul><p>Confusion: Learners often confuse passive hearing with active listening.<br><em>Example:</em><br>Correct: I hear people talking on the radio, but I need to listen carefully to understand what they are saying.<br>Incorrect: I listen people talking on the radio, but I need to hear carefully to understand what they are saying.</p>'
+      format: full_html
+  field_pi_image:
+    -
+      entity: e0cdc956-e407-4d53-91a0-6342e646e185
+      alt: Top-10-confusing-words-in-English-4
+      title: ''
+      width: 768
+      height: 512

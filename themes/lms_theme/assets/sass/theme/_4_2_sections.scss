@@ -1,0 +1,151 @@
+.header {
+  // padding-top: 16px;
+  // padding-bottom: 16px;
+  border-bottom: 1px solid #f2f2f2;
+  background-color: #121212;
+  @media (max-width: 991px) {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .site-name a {
+    @include font-robotoserif-semibold(24px, 36px, #fff);
+    text-transform: capitalize;
+    margin-right: 32px;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+}
+
+.breadcrumb {
+  background-color: transparent;
+  display: none;
+}
+
+.section-main {
+  overflow: hidden;
+  margin: 64px 0;
+}
+
+.content_fourth {
+  overflow: hidden;
+
+  .block.udemium-banner--block {
+    h2 {
+      font-size: 32px;
+      line-height: 42px;
+      margin-bottom: 24px;
+    }
+
+    .field--name-field-link {
+      a {
+        @include btn-green();
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
+    }
+  }
+}
+
+.section-footer {
+  background-color: #121212;
+  padding-top: 96px;
+  padding-bottom: 64px;
+  margin-top: 64px;
+
+  nav.block-menu {
+    > h2 {
+      font-size: 18px;
+      line-height: 31.5px;
+      margin-bottom: 16px;
+      color: #fff;
+    }
+
+    ul {
+      margin-left: 0;
+
+      li {
+        padding-top: 0;
+
+        a {
+          display: inline-block;
+          @include font-plexsans-regular(16px, 28px, rgba(#fff, 0.6));
+          text-decoration: none;
+          margin-bottom: 8px;
+
+          &:hover,
+          &:focus {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+.section-footer-bottom {
+  background-color: #121212;
+  padding-bottom: 34px;
+
+  span,
+  p {
+    @include font-plexsans-regular(16px, 28px, rgba(#fff, 0.6));
+
+    &:only-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .region-footer-bottom {
+    padding-top: 34px;
+    border-top: 1px solid #2d3748;
+  }
+
+  .group {
+    display: flex;
+    align-items: center;
+
+    .group-left {
+      flex: 1;
+    }
+
+    .group-right {
+      display: flex;
+      gap: 4px;
+      flex-direction: row-reverse;
+
+      .info {
+        float: right;
+        background: #333;
+        border-radius: 50%;
+        padding: 4px;
+        width: 32px;
+        height: 32px;
+
+        > img {
+          height: 24px;
+          width: 24px;
+          object-fit: contain;
+          margin-bottom: 2px;
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+}
+
+.section-mobile-menu {
+  display: none;
+}
+
+//.banner {
+//  .container {
+//    padding: 0;
+//    max-width: 1340px;
+//    margin: 0 auto;
+//  }
+//}

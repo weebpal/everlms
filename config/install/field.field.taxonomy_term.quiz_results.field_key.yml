@@ -1,0 +1,19 @@
+uuid: b571014f-212d-4ab8-a23c-21089ecd055a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_key
+    - taxonomy.vocabulary.quiz_results
+id: taxonomy_term.quiz_results.field_key
+field_name: field_key
+entity_type: taxonomy_term
+bundle: quiz_results
+label: Key
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

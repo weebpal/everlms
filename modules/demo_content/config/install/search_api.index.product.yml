@@ -1,0 +1,287 @@
+uuid: d799a554-3525-40da-a7b8-8f59d08d212c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.commerce_product.field_age
+    - field.storage.commerce_product.body
+    - field.storage.commerce_product.field_category
+    - field.storage.commerce_product.field_featured_course
+    - field.storage.commerce_product.field_free
+    - field.storage.commerce_product.field_image
+    - field.storage.commerce_product.field_language
+    - field.storage.commerce_product.field_learner_number
+    - field.storage.commerce_product.field_lessons
+    - field.storage.commerce_product.field_level
+    - field.storage.commerce_product.field_quiz
+    - field.storage.commerce_product.field_rating
+    - field.storage.commerce_product.field_requirements
+    - field.storage.commerce_product.field_short_description
+    - field.storage.commerce_product.field_total_hours
+    - field.storage.commerce_product.field_total_lessons
+    - search_api.server.default_server
+  module:
+    - commerce_product
+    - search_api
+id: product
+name: Product
+description: ''
+read_only: false
+field_settings:
+  body:
+    label: Body
+    datasource_id: 'entity:commerce_product'
+    property_path: body
+    type: text
+    dependencies:
+      config:
+        - field.storage.commerce_product.body
+  changed:
+    label: Changed
+    datasource_id: 'entity:commerce_product'
+    property_path: changed
+    type: date
+    dependencies:
+      module:
+        - commerce_product
+  created:
+    label: Created
+    datasource_id: 'entity:commerce_product'
+    property_path: created
+    type: date
+    dependencies:
+      module:
+        - commerce_product
+  field_age:
+    label: Age
+    datasource_id: 'entity:commerce_product'
+    property_path: field_age
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_age
+  field_category:
+    label: Category
+    datasource_id: 'entity:commerce_product'
+    property_path: field_category
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_category
+  field_featured_course:
+    label: 'Featured Course'
+    datasource_id: 'entity:commerce_product'
+    property_path: field_featured_course
+    type: boolean
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_featured_course
+  field_free:
+    label: Free
+    datasource_id: 'entity:commerce_product'
+    property_path: field_free
+    type: boolean
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_free
+  field_image:
+    label: Image
+    datasource_id: 'entity:commerce_product'
+    property_path: field_image
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_image
+  field_language:
+    label: Language
+    datasource_id: 'entity:commerce_product'
+    property_path: field_language
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_language
+  field_learner_number:
+    label: 'Learner number'
+    datasource_id: 'entity:commerce_product'
+    property_path: field_learner_number
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_learner_number
+  field_lessons:
+    label: Lessons
+    datasource_id: 'entity:commerce_product'
+    property_path: field_lessons
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_lessons
+  field_level:
+    label: Level
+    datasource_id: 'entity:commerce_product'
+    property_path: field_level
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_level
+  field_quiz:
+    label: Quiz
+    datasource_id: 'entity:commerce_product'
+    property_path: field_quiz
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_quiz
+  field_rating:
+    label: Rating
+    datasource_id: 'entity:commerce_product'
+    property_path: field_rating
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_rating
+  field_requirements:
+    label: Requirements
+    datasource_id: 'entity:commerce_product'
+    property_path: field_requirements
+    type: text
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_requirements
+  field_short_description:
+    label: 'Short description'
+    datasource_id: 'entity:commerce_product'
+    property_path: field_short_description
+    type: text
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_short_description
+  field_total_hours:
+    label: 'Total hours'
+    datasource_id: 'entity:commerce_product'
+    property_path: field_total_hours
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_total_hours
+  field_total_lessons:
+    label: 'Total lessons'
+    datasource_id: 'entity:commerce_product'
+    property_path: field_total_lessons
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_total_lessons
+  product_id:
+    label: ID
+    datasource_id: 'entity:commerce_product'
+    property_path: product_id
+    type: integer
+    dependencies:
+      module:
+        - commerce_product
+  status:
+    label: Published
+    datasource_id: 'entity:commerce_product'
+    property_path: status
+    type: boolean
+    dependencies:
+      module:
+        - commerce_product
+  title:
+    label: Title
+    datasource_id: 'entity:commerce_product'
+    property_path: title
+    type: text
+    dependencies:
+      module:
+        - commerce_product
+  type:
+    label: 'Product type'
+    datasource_id: 'entity:commerce_product'
+    property_path: type
+    type: string
+    dependencies:
+      module:
+        - commerce_product
+  uid:
+    label: Author
+    datasource_id: 'entity:commerce_product'
+    property_path: uid
+    type: integer
+    dependencies:
+      module:
+        - commerce_product
+  variations:
+    label: Variations
+    datasource_id: 'entity:commerce_product'
+    property_path: variations
+    type: integer
+    dependencies:
+      module:
+        - commerce_product
+datasource_settings:
+  'entity:commerce_product':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+  'entity:commerce_product_variation':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  entity_status: {  }
+  entity_type: {  }
+  html_filter:
+    weights:
+      preprocess_index: -15
+      preprocess_query: -15
+    all_fields: false
+    fields:
+      - body
+      - field_requirements
+      - field_short_description
+      - title
+      - type
+    title: true
+    alt: true
+    tags:
+      b: 2
+      em: 1
+      h1: 5
+      h2: 3
+      h3: 2
+      strong: 2
+      u: 1
+  language_with_fallback: {  }
+  rendered_item: {  }
+  tokenizer:
+    weights:
+      preprocess_index: -6
+      preprocess_query: -6
+    all_fields: false
+    fields:
+      - body
+      - field_requirements
+      - field_short_description
+      - title
+    spaces: ''
+    ignored: ._-
+    overlap_cjk: 1
+    minimum_word_size: '3'
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  cron_limit: 50
+  index_directly: true
+  track_changes_in_references: true
+server: default_server

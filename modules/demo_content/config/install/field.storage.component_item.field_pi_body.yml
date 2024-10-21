@@ -1,0 +1,19 @@
+uuid: 8d804736-e0cc-439d-8b67-5424a228f722
+langcode: en
+status: true
+dependencies:
+  module:
+    - component_builder
+    - text
+id: component_item.field_pi_body
+field_name: field_pi_body
+entity_type: component_item
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

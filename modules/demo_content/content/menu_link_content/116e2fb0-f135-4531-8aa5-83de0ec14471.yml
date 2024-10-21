@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 116e2fb0-f135-4531-8aa5-83de0ec14471
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    c16144ee-a50a-4885-a2e8-23a0cbdd80fe: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Demo: OfficeMasters LMS'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'https://microsoft.everlms.com/'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -42
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:c16144ee-a50a-4885-a2e8-23a0cbdd80fe'
+  revision_translation_affected:
+    -
+      value: true

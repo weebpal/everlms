@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4f3aa808-8f7e-4e28-85cd-923db33e9b30
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: RS9037_GettyImages-1295852170_1440x960_0.jpg
+  uri:
+    -
+      value: 'public://2023-12/RS9037_GettyImages-1295852170_1440x960_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 41173
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702913332

@@ -1,0 +1,22 @@
+{#
+/**
+ * @file
+ * Template for the lms_room add/edit form.
+ *
+ * Available variables:
+ * - form: The form.
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="layout-lms-room-form clearfix">
+  <div class="layout-region layout-region-lms-room-main">
+    {{ form|without('advanced', 'actions') }}
+  </div>
+  <div class="layout-region layout-region-lms-room-secondary">
+    {{ form.advanced }}
+  </div>
+  <div class="layout-region layout-region-lms-room-footer">
+    {{ form.actions }}
+  </div>
+</div>

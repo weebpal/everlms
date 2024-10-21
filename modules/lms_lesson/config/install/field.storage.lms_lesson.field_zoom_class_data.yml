@@ -1,0 +1,23 @@
+uuid: 8a32b9f3-6c0a-4351-9d20-912e3be6fbc3
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - lms_lesson
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: lms_lesson.field_zoom_class_data
+field_name: field_zoom_class_data
+entity_type: lms_lesson
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

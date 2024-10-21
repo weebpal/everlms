@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 12d30a8c-1576-4bdb-a4e9-ca73b34c6661
+  bundle: default
+  default_langcode: en
+  depends:
+    59569e53-9a31-4d64-86f3-dbd88c488fe0: lms_answer
+    4a98c579-a6b6-41c1-9a1b-38db977aa128: lms_answer
+    9207d5e8-0f43-4fd2-8778-619ad7b54c12: lms_answer
+    a225b1bb-c89b-462c-9eb1-23a18d9eeba3: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'After the demonstration, it is also necessary to'
+  created:
+    -
+      value: 1702953532
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 59569e53-9a31-4d64-86f3-dbd88c488fe0
+    -
+      entity: 4a98c579-a6b6-41c1-9a1b-38db977aa128
+    -
+      entity: 9207d5e8-0f43-4fd2-8778-619ad7b54c12
+    -
+      entity: a225b1bb-c89b-462c-9eb1-23a18d9eeba3
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

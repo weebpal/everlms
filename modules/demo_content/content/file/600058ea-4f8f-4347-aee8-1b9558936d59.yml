@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 600058ea-4f8f-4347-aee8-1b9558936d59
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Teaching Online.jpg'
+  uri:
+    -
+      value: 'public://2023-12/Teaching Online.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 5414
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702958927

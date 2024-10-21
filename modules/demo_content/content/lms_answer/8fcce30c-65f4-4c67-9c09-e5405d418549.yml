@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 8fcce30c-65f4-4c67-9c09-e5405d418549
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'This is were very bright school students are put forward a year'
+  created:
+    -
+      value: 1702951415
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>One of the influences categorised by Hattie in his research of influences in the classroom.<br>&nbsp;</p>'
+      format: full_html
+      summary: ''
+  field_correct:
+    -
+      value: true

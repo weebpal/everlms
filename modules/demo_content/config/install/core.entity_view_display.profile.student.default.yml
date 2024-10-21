@@ -1,0 +1,53 @@
+uuid: ca3061d2-62ea-4cd6-9b79-6c951361694b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.student.field_description
+    - field.field.profile.student.field_first_name
+    - field.field.profile.student.field_full_name
+    - field.field.profile.student.field_last_name
+    - profile.type.student
+  module:
+    - text
+id: profile.student.default
+targetEntityType: profile
+bundle: student
+mode: default
+content:
+  field_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_first_name:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_full_name:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_last_name:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  search_api_excerpt: true

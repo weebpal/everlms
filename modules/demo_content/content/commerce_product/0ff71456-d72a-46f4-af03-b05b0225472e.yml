@@ -1,0 +1,136 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 0ff71456-d72a-46f4-af03-b05b0225472e
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    7347f3dc-f7bb-4ae0-8bc8-4f7d1c307951: commerce_product_variation
+    637a1ae9-c752-43cd-935f-85c493e677fa: taxonomy_term
+    e25f6634-c0f1-465b-b2b9-80a8e47cf87d: media
+    ff7975b0-22e6-4998-96d5-26cf23d95f23: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    3e7716f6-a134-496a-9e90-c939463f37a8: lms_lesson
+    3bdf159e-2374-4bb0-93c9-7beff0e6a4ff: lms_lesson
+    020373f2-b1ec-4b34-a6e0-4080bd8a76c1: lms_lesson
+    e0ab5b25-1757-4285-aac3-1fe4b4037755: lms_lesson
+    65b37efd-aaa8-498c-b19a-d9ebd2f202a4: lms_lesson
+    f1d32cd7-8c61-4794-86a3-b345a692dd8b: taxonomy_term
+    fa9cdc4c-7d9b-4d17-86e8-ffb26a597571: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'Freelance Online English Teaching with LessonSpeak'
+  variations:
+    -
+      entity: 7347f3dc-f7bb-4ae0-8bc8-4f7d1c307951
+  default_variation:
+    -
+      entity: 7347f3dc-f7bb-4ae0-8bc8-4f7d1c307951
+  path:
+    -
+      alias: /course/freelance-online-english-teaching-lessonspeak
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1702958693
+  body:
+    -
+      value: "<p>LessonSpeak is the turnkey solution to getting started as an online teacher/coach. This streamlined process will get you started teaching English online, the easy way.</p><p>Teaching English online using the LessonSpeak way is the fastest way to get your teaching gig up and running right away. Using this tried and tested method, you will quickly find new students and learn the core skills to becoming a successful freelance online English teacher. A lot of what it takes to become a successful online teacher involves things that you may not expect. Things like healthy habits, properly managing your time, and developing your entrepreneurial skills.</p><p>&nbsp;</p><p>From what I've seen, most people don't make it through this course. That's because if you can't make it through a course like this, then maybe you're not destined to teach. You really don't need a certification to teach, you just need to take action! You need to commit to learning, executing and reflecting. Getting through this course is just a small stepping stone in the many other stones that you'll have to traverse in the world of teaching English online. At the end of the day, LessonSpeak can't help you if you don't take action. Put some time aside for learning, use that time to actually learn, and come back to do it again.</p><p>Getting through the course is the easy part... the hard part is actually executing on what you need to do! So good luck and hope to see you on the other side.</p>"
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: 637a1ae9-c752-43cd-935f-85c493e677fa
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1702958888
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: e25f6634-c0f1-465b-b2b9-80a8e47cf87d
+  field_featured_course:
+    -
+      value: false
+  field_free:
+    -
+      value: true
+  field_image:
+    -
+      entity: ff7975b0-22e6-4998-96d5-26cf23d95f23
+      alt: 'Freelance Online English Teaching with LessonSpeak'
+      title: ''
+      width: 750
+      height: 422
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 364
+  field_lessons:
+    -
+      entity: 3e7716f6-a134-496a-9e90-c939463f37a8
+    -
+      entity: 3bdf159e-2374-4bb0-93c9-7beff0e6a4ff
+    -
+      entity: 020373f2-b1ec-4b34-a6e0-4080bd8a76c1
+    -
+      entity: e0ab5b25-1757-4285-aac3-1fe4b4037755
+    -
+      entity: 65b37efd-aaa8-498c-b19a-d9ebd2f202a4
+  field_level:
+    -
+      entity: f1d32cd7-8c61-4794-86a3-b345a692dd8b
+  field_quiz:
+    -
+      entity: fa9cdc4c-7d9b-4d17-86e8-ffb26a597571
+  field_quizzes:
+    -
+      entity: fa9cdc4c-7d9b-4d17-86e8-ffb26a597571
+  field_rating:
+    -
+      rating: 80
+      target: 0
+  field_requirements:
+    -
+      value: '<ul><li>Native English accent</li><li>Stable and fast internet connection</li><li>Bank account</li><li>The willingness and patience to teach English</li></ul>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Get started as a freelance online English teacher, the LessonSpeak way</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 1
+  field_total_lessons:
+    -
+      value: 5
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>Teaching English online</li><li>Marketing yourself online</li><li>Selling online services</li><li>How to use technology to teach</li></ul>'
+      format: full_html

@@ -1,0 +1,133 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: f49a2cc8-62c8-455b-8567-7800559798ca
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    9351f62d-726d-4e67-9e2d-fb5ee4de86a1: commerce_product_variation
+    d10b48ac-fb53-406a-b22a-e0efc29c7b98: taxonomy_term
+    3d4a0697-2210-4bea-b30e-ec51036e0ef4: media
+    9a5fc1df-7496-4508-a522-1d422da8e15a: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    99502b08-5cd8-4332-83dd-5e7c2603b2d5: lms_lesson
+    cf8e8cca-831a-433f-a5c5-51045df1ae4b: lms_lesson
+    2fc15e87-0c27-4cb0-8ef3-dfac959de42f: lms_lesson
+    12daa4c2-1288-4b4c-9236-0f14d3df679c: lms_lesson
+    4fe024cf-521a-4294-97c2-ca2230c8e129: taxonomy_term
+    fa9cdc4c-7d9b-4d17-86e8-ffb26a597571: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'Communication Strategies: Speaking, Listening and Online'
+  variations:
+    -
+      entity: 9351f62d-726d-4e67-9e2d-fb5ee4de86a1
+  default_variation:
+    -
+      entity: 9351f62d-726d-4e67-9e2d-fb5ee4de86a1
+  path:
+    -
+      alias: /course/communication-strategies-speaking-listening-and-online
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1703143786
+  body:
+    -
+      value: '<p>Good communication skills are the abilities that assist you to become effective at sharing information with others. While some communication skills come naturally, you need to develop other essential skills to be able to leave a mark on the people with whom you converse.</p><p>Communication is more important than you think.</p><p>Have you been told several times to improve your communication skills but are struggling to do it? Maybe you don’t know where to start.</p><p>Don’t worry, I’ve got your back (no pun intended).</p><p>First of all, let me ask you a question. Is there a particular area of your life in which you feel the lack of good communication skills is causing challenges?</p><p>Or perhaps, you want to improve these soft skills so that you can excel at work and be a more presentable employee? If so, great!</p><p>You are now aware of the importance of communication in your life – something many people fail to see.</p><p>The good news is that this doesn’t mean that you have reached the ‘end of the road’ as far as improving your communication skills is concerned. It simply means that now is the time when you should start making small changes to your approach to communication.</p><p>That being said, let’s take a look at what makes up good communication skills and how we can make them better.</p><p><strong>1. Active Listening</strong></p><p>Effective communication isn’t about talking; it’s about listening. You can be the most interesting person in the world, but if you don’t know how to listen, you’ll never build a connection with anyone else.</p><p>By listening, I don’t mean simply waiting your turn to speak. I mean practicing active listening — paying close attention to what the other person is saying and asking questions that show you’re engaged with their story. It’s not easy to do when you’re excited about talking about yourself, but it works.</p><p>When you ask the right questions and engage the other person in conversation, they’ll remember the experience of talking with you — and they’ll want to talk to you again. They may even become so invested in the conversation that they forget all about your original purpose for reaching out.</p><p><strong>2. Being Assertive</strong></p><p>Assertiveness is the ability to clearly state your opinion, needs and wants in a way that respects the rights of other people. It’s a skill that can be learned (with practice) and it’s worth learning — being assertive can get you what you want without damaging your relationships.</p><p>When we’re feeling frustrated by someone else’s behavior, our first instinct might be to shout, avoid them, or even give them silent treatment. These strategies may feel satisfying at first, but they don’t solve anything — and they can make the other person feel angry or hurt in return. As a result, everyone ends up upset and nothing gets resolved.</p><p>When it comes to being assertive in business, there’s a fine line between being confident or aggressive. Confidence is when you’re willing and able to state your opinion without fear of repercussions. Aggressive communication is when you steamroll over everyone else so that your opinion can be heard.</p><p>Being assertive is about having a good balance of confidence and humility. It’s about being comfortable with yourself and your place in the world. And it’s something that can help you get ahead in business.</p><p><strong>3. Storytelling</strong></p><p>People remember stories — but not facts, figures or piles of data. That’s why telling a story is one of the best ways to win over an audience and get your message across. It helps people relate to what you’re saying and see how it applies to their own lives.</p><p>If you want to persuade people of something, tell them a story about how someone else overcame a similar problem. If you want to inspire them, tell them a story about how you did something great. If you want to get people excited about something, tell them a story about what it will be like when they’re finished with it.</p><p>The best way to make a case for yourself is through storytelling — not bragging, but sharing the story of your accomplishments in a way that inspires others. In a job interview, for example, you can share stories about your previous success and explain how you will apply those skills in your new role.</p><p><strong>4. Writing Down Your Thoughts</strong></p><p>You might think that the person who gets ahead at work is the person who knows it all, or who works the hardest. But that isn’t necessarily true. The person who gets ahead is usually the one who can get along best with others.</p><p>A good way to develop your written communication skills is to keep a journal, in which you write down your thoughts and feelings. Not only will this help you to clarify your thoughts, but it will also enable you to put them into words.</p><p>Keeping a journal teaches you how to express yourself through writing and how to organize your thoughts in a logical way. Writing daily for five or ten minutes will build up your skills, and soon you’ll be able to express yourself clearly with an open mind.</p><p><strong>5. Know When To Vent And When To Wait</strong></p><p>You know that whole “you’ll never get a second chance to make a first impression” thing? That’s probably the most important piece of advice you can ever receive.</p><p>But it doesn’t end with your first impression. Every word you say and every action you take can either help your career or hurt it. You get to decide which way the pendulum swings by remembering that:</p><p>No one is perfect. You are not perfect, and neither are your coworkers, boss and clients. They will have good days and bad days. And so will you. But when things go wrong, remember to simply keep calm and carry on. Wait until the heat of your anger or frustration passes before you do or say anything that could be interpreted the wrong way (or just plain wrong).</p><p>You should vent — but only when it’s appropriate to do so. Venting has its place in the workplace, but it should be done with discretion. Save it for a trusted associate who is going through something similar, or in an open-door meeting with a manager who is receptive to hearing what’s really going on at work — even if he or she is not directly involved in the issue at hand.</p><p>You don’t need to be an expert communicator to know that venting in the wrong way or at the wrong time is a recipe for disaster. For example, while you’re upset after someone has done something you don’t like doesn’t mean you should storm into his office and let him have it. Instead, take a step back and cool off before confronting him — especially if you’re angry and emotional.</p><p><strong>6. Asking Questions</strong></p><p>It’s easy to make a bad impression when you’re talking to someone. You may not be aware of it, but you might be communicating in ways that come across as abrasive and condescending.</p><p>When you’re meeting with someone new, the most effective way to get things done is to ask questions.</p><p>Salespeople are trained to use questions as a selling tool: They know that asking open-ended questions plants the seed for a purchase, which makes it easier for them to close the deal. But even when you’re just trying to understand what’s going on, a good question can go a long way toward making the other person feel more comfortable and less threatened.</p><p><strong>7. Use Humor appropriately and effectively</strong></p><p>Humor is a tricky thing and can get you in trouble if you don’t use it right. However, when you do use humor appropriately, it can be the most powerful tool in your communication arsenal.</p><p>Humor breaks down barriers, reduces stress and tension, and builds rapport between people.</p><p>Humor can be a great way to get attention, keep attention, and make people like you.</p><p>The other great thing about humor is that it’s one of the few ways to show your personality at work without being cliche or unprofessional. Humor is also a rare tool that lets you emphasize a point without sounding overly aggressive or arrogant.</p><p>Use self-deprecating humor. When you poke fun at yourself, it establishes a connection with others and helps them feel comfortable around you. Don’t take yourself too seriously; if you do, your audience probably will too.</p><p>Use it to calm tense situations. Humor can help diffuse difficult or awkward circumstances. For example, if your boss calls you into their office for a meeting, and you’re pretty sure they’ll have something critical to say, try starting off with something like “I know this isn’t going to be good news.” It immediately breaks the tension and puts both of you on more equal footing.</p><p>Stay positive. There’s nothing wrong with poking fun at yourself or your company as long as it doesn’t undermine trust or send negative messages about the quality of your work product. Make sure that your humor is positive — not sarcastic or condescending.</p><p><strong>8. Non-Verbal Communication</strong></p><p>Once you recognize that face-to-face communication is so much more than words on a page (or screen), you’ll realize that getting your message across means being in tune with many different channels of communication.</p><p>“In fact, only 7 percent of our communication is verbal,” says Kevin Kermes, director of communications for the National Institute for Healthcare Management. “The rest is non-verbal.”</p><p>When you are communicating with someone, be it in a meeting or on the phone, pay attention to their body language. Are they leaning forward or backward? Are they making eye contact or looking away? This can give you some insight into how well your message is being received and whether you need to make some adjustments.</p><p>Communicating with people in an open manner, rather than with crossed arms or a scowl on your face, will help you get ahead. It’s difficult to convince someone of something if they feel you’re being closed off or untrustworthy.</p><p>You may also find yourself in a meeting with people who don’t speak English as their primary language; communicating with these people nonverbally can help you get your point across.</p>'
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: d10b48ac-fb53-406a-b22a-e0efc29c7b98
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703144534
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: 3d4a0697-2210-4bea-b30e-ec51036e0ef4
+  field_featured_course:
+    -
+      value: false
+  field_free:
+    -
+      value: true
+  field_image:
+    -
+      entity: 9a5fc1df-7496-4508-a522-1d422da8e15a
+      alt: 'Communication Strategies: Speaking, Listening and Online'
+      title: ''
+      width: 1201
+      height: 629
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 241
+  field_lessons:
+    -
+      entity: 99502b08-5cd8-4332-83dd-5e7c2603b2d5
+    -
+      entity: cf8e8cca-831a-433f-a5c5-51045df1ae4b
+    -
+      entity: 2fc15e87-0c27-4cb0-8ef3-dfac959de42f
+    -
+      entity: 12daa4c2-1288-4b4c-9236-0f14d3df679c
+  field_level:
+    -
+      entity: 4fe024cf-521a-4294-97c2-ca2230c8e129
+  field_quiz:
+    -
+      entity: fa9cdc4c-7d9b-4d17-86e8-ffb26a597571
+  field_quizzes:
+    -
+      entity: fa9cdc4c-7d9b-4d17-86e8-ffb26a597571
+  field_rating:
+    -
+      rating: 80
+      target: 0
+  field_requirements:
+    -
+      value: '<p>No Requirements Needed</p>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Strategies to be A Better Communicator</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 1
+  field_total_lessons:
+    -
+      value: 4
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>Why Communication is Important</li><li>How to be Good at Speaking</li><li>How to be Good at Listening</li><li>How to be Good at Online Communication</li></ul>'
+      format: full_html

@@ -1,0 +1,21 @@
+uuid: 4906f030-83ff-4c92-9c52-f827adb435dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_quiz_result.field_start_time
+    - lms_quiz_result.lms_quiz_result_type.default
+  module:
+    - datetime
+id: lms_quiz_result.default.field_start_time
+field_name: field_start_time
+entity_type: lms_quiz_result
+bundle: default
+label: 'Start time'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

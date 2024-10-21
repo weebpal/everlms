@@ -1,0 +1,25 @@
+uuid: efbfdb8b-0338-42d3-88e1-d27969698d93
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - lms_user_certificate
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: lms_user_certificate.field_link
+field_name: field_link
+entity_type: lms_user_certificate
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,26 @@
+uuid: 7004c3c1-998d-4594-b560-86be8f7d9305
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_scheduler.field_between_dates
+    - lms_scheduler.lms_scheduler_type.default
+  module:
+    - datetime_range
+id: lms_scheduler.default.field_between_dates
+field_name: field_between_dates
+entity_type: lms_scheduler
+bundle: default
+label: 'Between dates'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+    default_end_date_type: relative
+    default_end_date: '+3 months'
+default_value_callback: ''
+settings: {  }
+field_type: daterange

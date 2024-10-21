@@ -1,0 +1,24 @@
+uuid: 3ee65a77-a1ba-4c37-a1eb-ca13a3bcf4b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - field_permissions
+    - lms_user_course
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: lms_user_course.field_course
+field_name: field_course
+entity_type: lms_user_course
+type: entity_reference
+settings:
+  target_type: commerce_product
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

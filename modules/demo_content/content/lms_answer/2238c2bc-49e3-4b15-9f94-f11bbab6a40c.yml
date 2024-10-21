@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 2238c2bc-49e3-4b15-9f94-f11bbab6a40c
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: ' Simple past is used to talk about a an action at specific time in the past, but present perfect is not.'
+  created:
+    -
+      value: 1702954457
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: true

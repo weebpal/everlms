@@ -1,0 +1,42 @@
+lms_theme.global:
+  label: XSmall
+  mediaQuery:
+  weight: 0
+  multipliers:
+    - 1x
+    - 2x
+lms_theme.big_phone_up:
+  label: Small
+  mediaQuery: '(min-width: 400px)'
+  weight: 1
+  multipliers:
+    - 1x
+    - 2x
+lms_theme.tablet_portrait_up:
+  label: Medium
+  mediaQuery: '(min-width: 600px)'
+  weight: 2
+  multipliers:
+    - 1x
+    - 2x
+lms_theme.tablet_landscape_up:
+  label: Large
+  mediaQuery: '(min-width: 900px)'
+  weight: 3
+  multipliers:
+    - 1x
+    - 2x
+lms_theme.laptop_up:
+  label: XLarge
+  mediaQuery: '(min-width: 1200px)'
+  weight: 4
+  multipliers:
+    - 1x
+    - 2x
+lms_theme.desktop_up:
+  label: XXLarge
+  mediaQuery: '(min-width: 1600px)'
+  weight: 5
+  multipliers:
+    - 1x
+    - 2x

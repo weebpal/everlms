@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: component_wrapper
+  uuid: ea43e534-18c3-4ad0-b41b-4ce8bcd3e515
+  default_langcode: en
+  depends:
+    7d67e02d-eb5d-418e-b1ff-021d7bf7ddc2: taxonomy_term
+    7b4a1c17-e09e-4093-bb93-cff82a41371d: component_item
+    9d14ad91-3721-4024-91cc-047d47f917f9: component_item
+    8082dbf2-fdb4-4b5b-9eff-486760225dcc: component_item
+    f12cfc13-95bd-482c-98a5-6ae5b0d84dd8: component_item
+    a316a8ea-cec6-4c2e-ba08-54a892377562: component_item
+    35c02ffc-283d-47dd-826b-51c6fdf18398: component_item
+    7b910d06-f464-45f4-bb50-42ca1eb0f4f2: component_item
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  title:
+    -
+      value: '1. Participate in Online News via Comments'
+  component_type:
+    -
+      entity: 7d67e02d-eb5d-418e-b1ff-021d7bf7ddc2
+  display_title:
+    -
+      value: false
+  display_header:
+    -
+      value: false
+  display_footer:
+    -
+      value: false
+  display_image:
+    -
+      value: false
+  display_in_region:
+    -
+      value: false
+  field_region:
+    -
+      value: headline
+  created:
+    -
+      value: 1702916477
+  revision_translation_affected:
+    -
+      value: true
+  field_basic_component:
+    -
+      entity: 7b4a1c17-e09e-4093-bb93-cff82a41371d
+    -
+      entity: 9d14ad91-3721-4024-91cc-047d47f917f9
+    -
+      entity: 8082dbf2-fdb4-4b5b-9eff-486760225dcc
+    -
+      entity: f12cfc13-95bd-482c-98a5-6ae5b0d84dd8
+    -
+      entity: a316a8ea-cec6-4c2e-ba08-54a892377562
+    -
+      entity: 35c02ffc-283d-47dd-826b-51c6fdf18398
+    -
+      entity: 7b910d06-f464-45f4-bb50-42ca1eb0f4f2

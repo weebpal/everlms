@@ -1,0 +1,21 @@
+uuid: e432f765-17a2-4db5-a43e-a6e0265b136b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_scheduler.field_time_frames
+    - lms_scheduler.lms_scheduler_type.default
+  module:
+    - time_field
+id: lms_scheduler.default.field_time_frames
+field_name: field_time_frames
+entity_type: lms_scheduler
+bundle: default
+label: 'Time frames'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: time_range

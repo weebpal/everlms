@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: a1aaf8fc-2bea-4e9a-b85a-b9635a4eae93
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Demonstrating the latest beauty product'
+  created:
+    -
+      value: 1702953408
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>The given answer, "demonstrating the latest beauty product," is not included in the concept of Demonstration in Teaching. Demonstration in Teaching refers to the act of showing or explaining something to students to enhance their understanding. It is commonly used to teach practical skills, procedures, or concepts. Demonstrating how to operate an overhead projector and how to make stick drawings are examples of demonstrations that can be used in teaching, as they help students learn specific skills or techniques. However, demonstrating the latest beauty product does not align with the purpose of teaching and does not contribute to the acquisition of knowledge or skills in an educational setting.</p>'
+      format: full_html
+      summary: ''
+  field_correct:
+    -
+      value: true

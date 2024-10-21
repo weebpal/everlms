@@ -1,0 +1,29 @@
+uuid: c215109a-3cd2-40f2-996a-f30ca149479f
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.course
+    - field.storage.commerce_product.field_lessons
+    - lms_lesson.lms_lesson_type.default
+id: commerce_product.course.field_lessons
+field_name: field_lessons
+entity_type: commerce_product
+bundle: course
+label: Lessons
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:lms_lesson'
+  handler_settings:
+    target_bundles:
+      default: default
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

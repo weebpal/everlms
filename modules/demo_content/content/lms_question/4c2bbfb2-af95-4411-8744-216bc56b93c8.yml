@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 4c2bbfb2-af95-4411-8744-216bc56b93c8
+  bundle: default
+  default_langcode: en
+  depends:
+    f3fe660c-60d6-4d17-a45b-921b062d1b86: lms_answer
+    2c654853-a991-4409-9208-95d586cc8da5: lms_answer
+    dd46177d-c279-448b-a8df-d4da03a550ba: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'When does the brain stop growing?'
+  created:
+    -
+      value: 1702951541
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: f3fe660c-60d6-4d17-a45b-921b062d1b86
+    -
+      entity: 2c654853-a991-4409-9208-95d586cc8da5
+    -
+      entity: dd46177d-c279-448b-a8df-d4da03a550ba
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

@@ -1,0 +1,23 @@
+uuid: bdf2c2a2-aed7-4543-a804-c26d036f154c
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.course
+    - field.storage.commerce_product.field_total_quizzes
+id: commerce_product.course.field_total_quizzes
+field_name: field_total_quizzes
+entity_type: commerce_product
+bundle: course
+label: 'Total Quizzes'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' quizzes'
+field_type: integer

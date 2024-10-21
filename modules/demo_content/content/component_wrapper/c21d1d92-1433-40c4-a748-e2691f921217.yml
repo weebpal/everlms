@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: component_wrapper
+  uuid: c21d1d92-1433-40c4-a748-e2691f921217
+  default_langcode: en
+  depends:
+    7d67e02d-eb5d-418e-b1ff-021d7bf7ddc2: taxonomy_term
+    c0b2550d-aa53-4658-b2ee-892b7a36304d: component_item
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  title:
+    -
+      value: Introduction
+  component_type:
+    -
+      entity: 7d67e02d-eb5d-418e-b1ff-021d7bf7ddc2
+  display_title:
+    -
+      value: false
+  display_header:
+    -
+      value: false
+  display_footer:
+    -
+      value: false
+  display_image:
+    -
+      value: false
+  display_in_region:
+    -
+      value: false
+  field_region:
+    -
+      value: headline
+  created:
+    -
+      value: 1702915973
+  revision_translation_affected:
+    -
+      value: true
+  field_basic_component:
+    -
+      entity: c0b2550d-aa53-4658-b2ee-892b7a36304d

@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: fe4fba8a-8cd1-4916-85e4-0b87a2d75182
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Speaking
+  created:
+    -
+      value: 1702956827
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

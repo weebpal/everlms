@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 965d5583-46c3-48ce-952e-ba97e68f79e2
+  bundle: push_image
+  default_langcode: en
+  depends:
+    ae50a021-f11e-4f26-bdbb-a4a2727fd5a9: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Push Image Item: Untitled'
+  created:
+    -
+      value: 1703475144
+  revision_translation_affected:
+    -
+      value: true
+  field_pi_body:
+    -
+      value: '<p><strong>Your vs. You’re:</strong></p><ul><li>Your (pronoun): Indicates possession by someone.</li><li>You’re (contraction): Short for “you are.”</li></ul><p>Confusion: The confusion arises due to the similar sound and spelling.</p><p><em>Example:</em><br>Correct: You’re going to love your new book.<br>Incorrect: Your going to love you’re new book.</p><p>&nbsp;</p><p><strong>Its vs. It’s:</strong></p><ul><li>Its (pronoun): Shows possession by an inanimate object or non-human entity.</li><li>It’s (contraction): Short for “it is” or “it has.”</li></ul><p>Confusion: The apostrophe in “it’s” often leads to mistakes.</p><p><em>Example:</em><br>Correct: The cat chased its tail. It’s always doing crazy things.<br>Incorrect: The cat chased it’s tail. Its always doing crazy things.</p>'
+      format: full_html
+  field_pi_image:
+    -
+      entity: ae50a021-f11e-4f26-bdbb-a4a2727fd5a9
+      alt: Top-10-confusing-words-in-English
+      title: ''
+      width: 501
+      height: 504

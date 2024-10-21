@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: febf1c82-049d-467b-ba2c-6b0e96bb50be
+  bundle: push_image
+  default_langcode: en
+  depends:
+    1cad1d7c-0ee4-4735-8d86-a65c31cb4bc6: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Push Image Item: How to Prepare for the IELTS Exam'
+  title:
+    -
+      value: 'How to Prepare for the IELTS Exam'
+  created:
+    -
+      value: 1703478185
+  revision_translation_affected:
+    -
+      value: true
+  field_pi_body:
+    -
+      value: '<p><em><strong>Understand the Exam Format:</strong></em></p><p>Familiarize yourself with the IELTS exam format, which consists of four sections: Listening, Reading, Writing, and Speaking. Each section assesses specific language skills, and understanding the format will help you prepare effectively.</p><p><em><strong>Know the Assessment Criteria:</strong></em></p><p>Become familiar with the assessment criteria for each section of the exam. This will enable you to understand how your performance will be evaluated and allow you to focus on the key areas of improvement.</p><p><em><strong>Set Clear Goals:</strong></em></p><p>Determine your target score and set clear goals for each section of the exam. This will help you create a study plan and allocate time accordingly to focus on areas that require improvement.</p><p><em><strong>Build Vocabulary:</strong></em></p><p>Enhance your vocabulary by reading extensively, listening to podcasts, and engaging in conversations with native English speakers. Make a habit of noting down new words and phrases, and regularly review and practice using them in different contexts.</p>'
+      format: full_html
+  field_pi_image:
+    -
+      entity: 1cad1d7c-0ee4-4735-8d86-a65c31cb4bc6
+      alt: What-is-IELTS
+      title: ''
+      width: 1000
+      height: 667

@@ -1,0 +1,129 @@
+uuid: 5299ff0e-37b1-45e5-8996-ad019336fdd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_quiz_result.default.field_body
+    - field.field.lms_quiz_result.default.field_end_time
+    - field.field.lms_quiz_result.default.field_questions_response
+    - field.field.lms_quiz_result.default.field_quiz
+    - field.field.lms_quiz_result.default.field_result
+    - field.field.lms_quiz_result.default.field_score
+    - field.field.lms_quiz_result.default.field_start_time
+    - field.field.lms_quiz_result.default.field_take_quiz_time
+    - field.field.lms_quiz_result.default.field_taker
+    - field.field.lms_quiz_result.default.field_user_certificate
+    - lms_quiz_result.lms_quiz_result_type.default
+  module:
+    - datetime
+_core:
+  default_config_hash: phswW-qKvrvHrFdrwdN3CYJQzvb9okovk6jJZoIXXdA
+id: lms_quiz_result.default.default
+targetEntityType: lms_quiz_result
+bundle: default
+mode: default
+content:
+  field_end_time:
+    type: datetime_default
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_questions_response:
+    type: entity_reference_autocomplete
+    weight: 7
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_quiz:
+    type: entity_reference_autocomplete
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_result:
+    type: options_select
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_score:
+    type: number
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_start_time:
+    type: datetime_default
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_take_quiz_time:
+    type: number
+    weight: 4
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_taker:
+    type: entity_reference_autocomplete
+    weight: 9
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_user_certificate:
+    type: entity_reference_autocomplete
+    weight: 10
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 11
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_body: true
+  uid: true

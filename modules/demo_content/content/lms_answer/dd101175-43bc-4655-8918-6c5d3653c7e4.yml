@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: dd101175-43bc-4655-8918-6c5d3653c7e4
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: ' Language used for ordinary, everyday conversation, often particular to a region or a time'
+  created:
+    -
+      value: 1702955551
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

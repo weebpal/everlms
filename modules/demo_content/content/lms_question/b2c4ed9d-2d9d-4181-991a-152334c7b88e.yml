@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: b2c4ed9d-2d9d-4181-991a-152334c7b88e
+  bundle: default
+  default_langcode: en
+  depends:
+    d55d5d59-1473-4969-8b5e-4dc3617df809: lms_answer
+    b703f53a-42f0-4bf4-a22e-77c377fe81dd: lms_answer
+    a4031cd0-adc7-4b4f-aa0e-56636cf11707: lms_answer
+    5525bf8a-4ec0-4e4b-be7e-32c2a7379814: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Which of the following statements is NOT true about the present perfect tense?'
+  created:
+    -
+      value: 1702954153
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: d55d5d59-1473-4969-8b5e-4dc3617df809
+    -
+      entity: b703f53a-42f0-4bf4-a22e-77c377fe81dd
+    -
+      entity: a4031cd0-adc7-4b4f-aa0e-56636cf11707
+    -
+      entity: 5525bf8a-4ec0-4e4b-be7e-32c2a7379814
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

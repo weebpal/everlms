@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: component_wrapper
+  uuid: 5a5eddd0-c84c-487b-8a16-8218ee23097f
+  default_langcode: en
+  depends:
+    2008392b-183b-41fb-819a-3bee9e14e4b7: taxonomy_term
+    e7f77795-647f-480c-a469-02ceccd61e45: component_item
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  title:
+    -
+      value: 'What is a Good Score for IELTS?'
+  component_type:
+    -
+      entity: 2008392b-183b-41fb-819a-3bee9e14e4b7
+  display_title:
+    -
+      value: false
+  display_header:
+    -
+      value: false
+  display_footer:
+    -
+      value: false
+  display_image:
+    -
+      value: false
+  display_in_region:
+    -
+      value: false
+  field_region:
+    -
+      value: headline
+  field_properties:
+    -
+      value: '{"properties":{"styles":{"image-position":"right","background-color":"gray"}}}'
+  created:
+    -
+      value: 1703478342
+  revision_translation_affected:
+    -
+      value: true
+  field_push_image:
+    -
+      entity: e7f77795-647f-480c-a469-02ceccd61e45

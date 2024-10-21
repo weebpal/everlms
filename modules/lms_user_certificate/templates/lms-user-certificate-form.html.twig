@@ -1,0 +1,22 @@
+{#
+/**
+ * @file
+ * Template for the lms_user_certificate add/edit form.
+ *
+ * Available variables:
+ * - form: The form.
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="layout-lms-user-certificate-form clearfix">
+  <div class="layout-region layout-region-lms-user-certificate-main">
+    {{ form|without('advanced', 'actions') }}
+  </div>
+  <div class="layout-region layout-region-lms-user-certificate-secondary">
+    {{ form.advanced }}
+  </div>
+  <div class="layout-region layout-region-lms-user-certificate-footer">
+    {{ form.actions }}
+  </div>
+</div>

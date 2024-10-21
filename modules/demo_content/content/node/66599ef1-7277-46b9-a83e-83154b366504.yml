@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 66599ef1-7277-46b9-a83e-83154b366504
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Privacy Policy'
+  created:
+    -
+      value: 1695364583
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /privacy-policy
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Thank you for joining LMS. We at LMS respect your privacy and want you to understand how we collect, use, and share data about you. This Privacy Policy covers our data collection practices and describes your rights regarding your personal data.</p><p>Unless we link to a different policy or state otherwise, this Privacy Policy applies when you visit or use Udemy websites, mobile applications, APIs, or related services (the “Services”). It also applies to prospective customers of our business and enterprise products.</p><p>By using the Services, you agree to the terms of this Privacy Policy. You shouldn’t use the Services if you don’t agree with this Privacy Policy or any other agreement that governs your use of the Services.</p><h4>1. What Data We Get</h4><p>We collect certain data from you directly, like information you enter yourself, data about your consumption of content, and data from third-party platforms you connect with Udemy. We also collect some data automatically, like information about your device and what parts of our Services you interact with or spend time using. All data listed in this section is subject to the following processing activities: collecting, recording, structuring, storing, altering, retrieving, encrypting, pseudonymizing, erasing, combining, and transmitting.</p><h4>2. How We Get Data About You</h4><p>We use tools like cookies, web beacons, and similar tracking technologies to gather the data listed above. Some of these tools offer you the ability to opt out of data collection.</p>'
+      format: full_html
+      summary: ''

@@ -1,0 +1,25 @@
+lms_question_response.root:
+  title: 'Question Response'
+  description: 'Manage your question response.'
+  parent: 'lms_base.admin'
+  route_name: 'lms_question_response.root'
+  weight: -30
+
+entity.lms_question_response.collection:
+  title: 'Question Response items'
+  route_name: 'entity.lms_question_response.collection'
+  parent: 'lms_question_response.root'
+  description: 'Manage your question response items.'
+  weight: 50
+
+entity.lms_question_response_type.collection:
+  title: 'Question Response types'
+  route_name: 'entity.lms_question_response_type.collection'
+  parent: 'lms_question_response.root'
+  description: 'Manage fields, form and display settings for your question response types.'
+  weight: 50
+
+lms_question_response.grouped_entity_links:
+  class: Drupal\lms_question_response\Plugin\Menu\GroupedEntityLinks
+  deriver: Drupal\lms_question_response\Plugin\Derivative\GroupedEntityLinksDeriver
+  menu_name: lms_question_response

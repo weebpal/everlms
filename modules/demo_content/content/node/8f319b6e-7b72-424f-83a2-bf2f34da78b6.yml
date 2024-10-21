@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8f319b6e-7b72-424f-83a2-bf2f34da78b6
+  bundle: news
+  default_langcode: en
+  depends:
+    c21d1d92-1433-40c4-a748-e2691f921217: component_wrapper
+    85494eee-d1e3-44b4-8309-0f3ae88d2efc: taxonomy_term
+    8e231dd0-e683-496f-892b-a917013a7e18: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: "Primary Production: 'Pied Piper of Hamelin' on 22nd June"
+  created:
+    -
+      value: 1702914831
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /news/primary-production-pied-piper-hamelin-22nd-june
+      langcode: en
+      pathauto: 1
+  field_components:
+    -
+      entity: c21d1d92-1433-40c4-a748-e2691f921217
+  field_tags:
+    -
+      entity: 85494eee-d1e3-44b4-8309-0f3ae88d2efc
+  field_thumb:
+    -
+      entity: 8e231dd0-e683-496f-892b-a917013a7e18
+      alt: 'Pied Piper of Hamelin'
+      title: ''
+      width: 887
+      height: 499

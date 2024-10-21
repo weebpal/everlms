@@ -1,0 +1,10 @@
+uuid: 2247f5ea-c7fa-4a50-b01b-cbdcf2761081
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_certificate
+id: lms_certificate.token
+label: Token
+targetEntityType: lms_certificate
+cache: true

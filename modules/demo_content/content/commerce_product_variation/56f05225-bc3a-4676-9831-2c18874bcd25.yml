@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 56f05225-bc3a-4676-9831-2c18874bcd25
+  bundle: course
+  default_langcode: en
+  depends:
+    545a14ab-fbc8-4fe2-8a74-842ec95d7ff1: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 545a14ab-fbc8-4fe2-8a74-842ec95d7ff1
+  sku:
+    -
+      value: 'English Speaking'
+  title:
+    -
+      value: 'English Speaking Course for Beginners'
+  price:
+    -
+      number: '0.000000'
+      currency_code: USD
+      formatted: $0.00
+  created:
+    -
+      value: 1702959308

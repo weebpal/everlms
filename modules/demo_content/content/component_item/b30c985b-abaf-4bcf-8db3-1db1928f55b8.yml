@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: b30c985b-abaf-4bcf-8db3-1db1928f55b8
+  bundle: basic_component
+  default_langcode: en
+  depends:
+    0e2ea24c-7e90-4cd6-90a7-e9e6b4bbeab8: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Untitled'
+  created:
+    -
+      value: 1702915736
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>On Friday 3rd June, our Year 10 Geography students travelled to Ba Vi to collect their data for their Geography coursework.</p><p>Year 10 Geography Trip to Ba Vi On Friday 3rd June, our Year 10 Geography students travelled to Ba Vi to collect their data for their Geography coursework.<br>On Friday 3rd June, our Year 10 Geography students travelled to Ba Vi to collect their data for their Geography coursework.</p><p>The emphasis of the trip was not only to collect the data but to also trial different fieldwork methods and evaluate them in the field. The students had learnt about the theory of rivers in class and wanted to go and see whether rivers behave like this in the real world. Once arriving at BaVi homestead, the students, accompanied by Mr Stanier and Ms Giang, walked down to the local river. Several sites along the course of the river were selected for the students to examine. At each site, the students carefully recorded the width of the river, followed by the average depth and the speed of the water flow. The students also wanted to record the size and the shape of the stones to see if they changed the further down the river they went. They worked extremely well in small groups and went back to the homestead to start collating the data and to make a start on the analysis. The students will now work hard over the summer to put together a piece of coursework that will account for 27.5% of their final Geography grade.</p><p><strong>Mr Philip Stainer - &nbsp;Geography &amp; Pastoral Care Coordinator</strong></p>'
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: 0e2ea24c-7e90-4cd6-90a7-e9e6b4bbeab8
+      alt: ''
+      title: ''
+      width: 887
+      height: 499

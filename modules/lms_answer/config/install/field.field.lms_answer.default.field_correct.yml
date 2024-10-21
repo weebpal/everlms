@@ -1,0 +1,23 @@
+uuid: 875851cd-abec-483a-8892-e51cbcd05621
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_answer.field_correct
+    - lms_answer.lms_answer_type.default
+id: lms_answer.default.field_correct
+field_name: field_correct
+entity_type: lms_answer
+bundle: default
+label: Correct
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Correct
+  off_label: Incorrect
+field_type: boolean

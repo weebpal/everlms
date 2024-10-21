@@ -1,0 +1,29 @@
+uuid: 84e48cba-4849-42dd-a66e-595b4cc7e351
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.age
+  module:
+    - facets
+    - system
+  theme:
+    - lms_theme
+id: age
+theme: lms_theme
+region: sidebar_first
+weight: -12
+provider: null
+plugin: 'facet_block:age'
+settings:
+  id: 'facet_block:age'
+  label: Age
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: age
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /courses

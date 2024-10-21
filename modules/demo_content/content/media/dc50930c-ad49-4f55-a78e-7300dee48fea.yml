@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: dc50930c-ad49-4f55-a78e-7300dee48fea
+  bundle: video
+  default_langcode: en
+  depends:
+    ae96e25c-6c6a-49de-84b9-dd1f4b3ef4f5: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'How to book more Public Speaking Opportunities - Mini Course.mp4'
+  created:
+    -
+      value: 1702966055
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_video_file:
+    -
+      entity: ae96e25c-6c6a-49de-84b9-dd1f4b3ef4f5
+      display: false
+      description: ''

@@ -1,0 +1,20 @@
+uuid: 866d5140-c5f7-471e-af4f-57cb84bd1934
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_quiz_result
+    - user
+id: lms_quiz_result.field_taker
+field_name: field_taker
+entity_type: lms_quiz_result
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

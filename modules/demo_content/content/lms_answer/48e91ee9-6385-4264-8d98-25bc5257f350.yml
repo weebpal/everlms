@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 48e91ee9-6385-4264-8d98-25bc5257f350
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Overdo
+  created:
+    -
+      value: 1702957117
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

@@ -1,0 +1,10 @@
+uuid: 6f7a3f89-1e33-4662-a08d-cb0c1758215e
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+id: profile.teaser
+label: Teaser
+targetEntityType: profile
+cache: true

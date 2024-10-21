@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 32562121-70c8-4f2f-8f84-7a9eca6ba064
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 4620168_3989_3.jpg
+  uri:
+    -
+      value: 'public://2023-12/4620168_3989_3_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 35531
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703128563

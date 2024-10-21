@@ -1,0 +1,23 @@
+uuid: 29ba9dd6-59fa-414b-b13b-8b16dfa78419
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - lms_scheduler
+    - time_field
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: lms_scheduler.field_time_frames
+field_name: field_time_frames
+entity_type: lms_scheduler
+type: time_range
+settings: {  }
+module: time_field
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

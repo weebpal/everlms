@@ -1,0 +1,29 @@
+uuid: bbc3e519-024a-4e05-a236-25034b3ebd3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_question_response.field_answers
+    - lms_answer.lms_answer_type.default
+    - lms_question_response.lms_question_response_type.default
+id: lms_question_response.default.field_answers
+field_name: field_answers
+entity_type: lms_question_response
+bundle: default
+label: Answers
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:lms_answer'
+  handler_settings:
+    target_bundles:
+      default: default
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

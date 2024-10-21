@@ -1,0 +1,86 @@
+uuid: 2cebc46d-7ed9-4e51-a292-1803402c7d48
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_question.default.field_body
+    - field.field.lms_question.default.field_choices
+    - field.field.lms_question.default.field_difficulty
+    - field.field.lms_question.default.field_score
+    - lms_question.lms_question_type.default
+  module:
+    - inline_entity_form
+    - text
+_core:
+  default_config_hash: VzOyg7ZYq_1tRDdCFlfRCpWdeB6xNDp2T2Bsgq_4NzU
+id: lms_question.default.default
+targetEntityType: lms_question
+bundle: default
+mode: default
+content:
+  field_body:
+    type: text_textarea_with_summary
+    weight: 3
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_choices:
+    type: inline_entity_form_complex
+    weight: 4
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      allow_duplicate: true
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: delete
+    third_party_settings: {  }
+  field_difficulty:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_score:
+    type: number
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

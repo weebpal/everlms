@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 4ed5c550-f400-4251-9a67-5bd41b2601eb
+  bundle: course
+  default_langcode: en
+  depends:
+    4ff273b9-5a36-4551-9c21-df04837ef912: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 4ff273b9-5a36-4551-9c21-df04837ef912
+  sku:
+    -
+      value: 'English Grammar'
+  title:
+    -
+      value: 'English Grammar'
+  price:
+    -
+      number: '0.000000'
+      currency_code: USD
+      formatted: $0.00
+  created:
+    -
+      value: 1702958494

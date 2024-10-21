@@ -1,0 +1,88 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_quiz
+  uuid: 75a2ac7a-3ef5-47ee-afbd-bf36a130db8d
+  bundle: default
+  default_langcode: en
+  depends:
+    235d3848-6481-4a68-988d-f684f7f3a24d: lms_certificate
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+    cda05dbe-121d-4348-83e8-6d49ba1949ac: taxonomy_term
+    9920f7c1-9056-4601-990f-d9f2de53bac8: taxonomy_term
+    41e09b55-91ab-4588-be5f-c908021a33b9: taxonomy_term
+    30674ab0-a454-4573-b092-e6ed894fb7b1: lms_question
+    d731286d-2bf4-464d-b83d-514f2cf4764d: lms_question
+    e28e111d-01f4-4412-980f-a0320906c915: lms_question
+    3c36ef52-2040-4dda-b191-d0332066151e: lms_question
+    081c8cda-6dfb-48d0-b93b-cfb928e9b19c: lms_question
+    3d7c7c02-6814-441e-8ffc-ac94a7973613: lms_question
+    d937615b-6167-4ab0-bcf1-430c1d3da469: lms_question
+    7718db54-5cf5-4ded-b2cd-e1159b7be222: lms_question
+    86072ef9-0ce9-4dc0-9736-c289b81b33bf: lms_question
+    8cf8f92c-5845-4094-a526-4e59b5d5a65b: lms_question
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'How Good Your English Language Skills Are?'
+  created:
+    -
+      value: 1702956803
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Before you get employed, most employers wish to know just how much your language skills are and this can easily be decided by taking a competency test. Do you have some doubts about how high your English skills are so far? The quiz below is a quiz English level test and see if you really are good at the language as you think you are.</p>'
+      format: full_html
+      summary: ''
+  field_certificate:
+    -
+      entity: 235d3848-6481-4a68-988d-f684f7f3a24d
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_display_right_answer:
+    -
+      value: false
+  field_failed_title:
+    -
+      entity: cda05dbe-121d-4348-83e8-6d49ba1949ac
+  field_form_style:
+    -
+      entity: 9920f7c1-9056-4601-990f-d9f2de53bac8
+  field_passed_title:
+    -
+      entity: 41e09b55-91ab-4588-be5f-c908021a33b9
+  field_question_count:
+    -
+      value: 10
+  field_questions:
+    -
+      entity: 30674ab0-a454-4573-b092-e6ed894fb7b1
+    -
+      entity: d731286d-2bf4-464d-b83d-514f2cf4764d
+    -
+      entity: e28e111d-01f4-4412-980f-a0320906c915
+    -
+      entity: 3c36ef52-2040-4dda-b191-d0332066151e
+    -
+      entity: 081c8cda-6dfb-48d0-b93b-cfb928e9b19c
+    -
+      entity: 3d7c7c02-6814-441e-8ffc-ac94a7973613
+    -
+      entity: d937615b-6167-4ab0-bcf1-430c1d3da469
+    -
+      entity: 7718db54-5cf5-4ded-b2cd-e1159b7be222
+    -
+      entity: 86072ef9-0ce9-4dc0-9736-c289b81b33bf
+    -
+      entity: 8cf8f92c-5845-4094-a526-4e59b5d5a65b
+  field_threshold:
+    -
+      value: '70.00'
+  field_time_limit:
+    -
+      value: 30

@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 04807478-a63c-4f7a-b33b-96a8313e4d1b
+  bundle: default
+  default_langcode: en
+  depends:
+    d4cd3446-4f37-4244-8f96-66a167df11d4: lms_answer
+    d13d5839-142f-4c94-9277-3575131412c6: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'We can only use one image at a time as an aid to memorization.'
+  created:
+    -
+      value: 1702954841
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: d4cd3446-4f37-4244-8f96-66a167df11d4
+    -
+      entity: d13d5839-142f-4c94-9277-3575131412c6
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

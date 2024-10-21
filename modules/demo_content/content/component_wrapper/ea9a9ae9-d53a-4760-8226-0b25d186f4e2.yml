@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: component_wrapper
+  uuid: ea9a9ae9-d53a-4760-8226-0b25d186f4e2
+  default_langcode: en
+  depends:
+    e9f5fe1a-c262-4de2-8db7-2ad9bfef4b67: taxonomy_term
+    b1efefe8-e1bc-4958-8ffa-2dcbd92b2f0f: component_item
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  title:
+    -
+      value: 'Free Cources'
+  component_type:
+    -
+      entity: e9f5fe1a-c262-4de2-8db7-2ad9bfef4b67
+  display_title:
+    -
+      value: false
+  display_header:
+    -
+      value: false
+  display_footer:
+    -
+      value: false
+  display_image:
+    -
+      value: false
+  display_in_region:
+    -
+      value: false
+  field_region:
+    -
+      value: headline
+  created:
+    -
+      value: 1698734091
+  revision_translation_affected:
+    -
+      value: true
+  field_embed_block:
+    -
+      entity: b1efefe8-e1bc-4958-8ffa-2dcbd92b2f0f

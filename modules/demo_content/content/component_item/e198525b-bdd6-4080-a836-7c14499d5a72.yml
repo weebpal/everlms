@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: e198525b-bdd6-4080-a836-7c14499d5a72
+  bundle: push_image
+  default_langcode: en
+  depends:
+    98285b4f-4fe4-440f-ad3b-b083afb227f5: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Push Image Item: Untitled'
+  created:
+    -
+      value: 1703478279
+  revision_translation_affected:
+    -
+      value: true
+  field_pi_body:
+    -
+      value: '<p><em><strong>Improve Reading Skills:</strong></em></p><p>Develop your reading skills by reading a variety of English texts such as newspapers, magazines, and online articles. Practice summarizing the main ideas, identifying key details, and improving reading speed without compromising comprehension.</p><p><em><strong>Enhance Listening Skills:</strong></em></p><p>Improve your listening skills by regularly listening to English audio materials, such as podcasts, news broadcasts, and TED Talks. Focus on understanding the main ideas, identifying specific details, and following conversations.</p><p><em><strong>Practise Writing Tasks:</strong></em></p><p>Work on your writing skills by practicing different types of writing tasks, including essays, reports, and letters. Pay attention to structuring your writing, using appropriate vocabulary and grammar, and managing time effectively.</p><p><em><strong>Develop Speaking Fluency:</strong></em></p><p>Practice speaking English with friends, English teachers and other English learners. Work on fluency, pronunciation, and coherence by engaging in conversations on various topics. Practice speaking within the time limits to simulate the real exam experience.</p>'
+      format: full_html
+  field_pi_image:
+    -
+      entity: 98285b4f-4fe4-440f-ad3b-b083afb227f5
+      alt: Tips-for-IELTS-exam
+      title: ''
+      width: 1000
+      height: 667

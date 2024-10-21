@@ -1,0 +1,378 @@
+uuid: 96f4080b-b078-4684-8f64-61ffbb4f2660
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.course
+    - core.entity_form_mode.lms_quiz.inline_entity_form
+    - field.field.commerce_product.course.body
+    - field.field.commerce_product.course.field_age
+    - field.field.commerce_product.course.field_bestseller
+    - field.field.commerce_product.course.field_category
+    - field.field.commerce_product.course.field_certificate
+    - field.field.commerce_product.course.field_comments
+    - field.field.commerce_product.course.field_course_preview
+    - field.field.commerce_product.course.field_featured_course
+    - field.field.commerce_product.course.field_free
+    - field.field.commerce_product.course.field_image
+    - field.field.commerce_product.course.field_language
+    - field.field.commerce_product.course.field_learner_number
+    - field.field.commerce_product.course.field_lessons
+    - field.field.commerce_product.course.field_level
+    - field.field.commerce_product.course.field_quiz
+    - field.field.commerce_product.course.field_quizzes
+    - field.field.commerce_product.course.field_rating
+    - field.field.commerce_product.course.field_requirements
+    - field.field.commerce_product.course.field_short_description
+    - field.field.commerce_product.course.field_teacher
+    - field.field.commerce_product.course.field_threshold
+    - field.field.commerce_product.course.field_total_hours
+    - field.field.commerce_product.course.field_total_lessons
+    - field.field.commerce_product.course.field_total_quizzes
+    - field.field.commerce_product.course.field_what_you_learn
+    - image.style.thumbnail
+  module:
+    - commerce
+    - field_group
+    - image
+    - inline_entity_form
+    - media_library
+    - path
+    - text
+third_party_settings:
+  field_group:
+    group_course_information:
+      children:
+        - field_category
+        - field_learner_number
+        - field_total_hours
+        - field_age
+        - field_level
+        - field_language
+      label: 'Course Information'
+      region: content
+      parent_name: group_course_des_info
+      weight: 7
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: true
+        description: ''
+        required_fields: true
+    group_highlighted_tags:
+      children:
+        - field_bestseller
+        - field_free
+        - field_featured_course
+      label: 'Highlighted Tags'
+      region: content
+      parent_name: ''
+      weight: 1
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: true
+        description: ''
+        required_fields: true
+    group_course_des_info:
+      children:
+        - field_course_preview
+        - field_short_description
+        - group_course_information
+        - field_what_you_learn
+        - field_requirements
+        - body
+      label: 'Course description & information'
+      region: content
+      parent_name: ''
+      weight: 4
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: true
+        description: ''
+        required_fields: true
+    group_quizzes:
+      children:
+        - field_threshold
+        - field_quizzes
+        - field_certificate
+      label: Quizzes
+      region: content
+      parent_name: ''
+      weight: 5
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: true
+        description: ''
+        required_fields: true
+    group_lessons:
+      children:
+        - field_teacher
+        - field_lessons
+      label: Lessons
+      region: content
+      parent_name: ''
+      weight: 6
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: true
+        description: ''
+        required_fields: true
+id: commerce_product.course.default
+targetEntityType: commerce_product
+bundle: course
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 10
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_age:
+    type: options_select
+    weight: 25
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_bestseller:
+    type: boolean_checkbox
+    weight: 12
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_category:
+    type: options_select
+    weight: 21
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_certificate:
+    type: inline_entity_form_complex
+    weight: 8
+    region: content
+    settings:
+      form_mode: inline_entity_form
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: keep
+    third_party_settings: {  }
+  field_course_preview:
+    type: media_library_widget
+    weight: 5
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_featured_course:
+    type: boolean_checkbox
+    weight: 14
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_free:
+    type: boolean_checkbox
+    weight: 13
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 3
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_language:
+    type: options_buttons
+    weight: 27
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_learner_number:
+    type: number
+    weight: 22
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_lessons:
+    type: inline_entity_form_complex
+    weight: 29
+    region: content
+    settings:
+      form_mode: inline_entity_form
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: keep
+    third_party_settings: {  }
+  field_level:
+    type: options_select
+    weight: 26
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_quizzes:
+    type: inline_entity_form_complex
+    weight: 7
+    region: content
+    settings:
+      form_mode: inline_entity_form
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: keep
+    third_party_settings: {  }
+  field_requirements:
+    type: text_textarea
+    weight: 9
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_short_description:
+    type: text_textarea
+    weight: 6
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_teacher:
+    type: entity_reference_autocomplete
+    weight: 28
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_threshold:
+    type: number
+    weight: 6
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_total_hours:
+    type: number
+    weight: 23
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_what_you_learn:
+    type: text_textarea
+    weight: 8
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 11
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  stores:
+    type: commerce_entity_select
+    weight: 7
+    region: content
+    settings:
+      hide_single_entity: true
+      autocomplete_threshold: 7
+      autocomplete_size: 60
+      autocomplete_placeholder: ''
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 8
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  field_comments: true
+  field_quiz: true
+  field_rating: true
+  field_total_lessons: true
+  field_total_quizzes: true
+  variations: true

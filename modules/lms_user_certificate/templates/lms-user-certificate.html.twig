@@ -1,0 +1,24 @@
+{#
+/**
+ * @file
+ *
+ * Default template for user certificate item.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the wrapper.
+ * - lms_user_certificate: The rendered lms_user_certificate fields.
+ *   Use 'lms_user_certificate' to print them all, or print a subset such as
+ *   'lms_user_certificate.name'. Use the following code to exclude the
+ *   printing of a given field:
+ *   @code
+ *   {{ lms_user_certificate|without('name') }}
+ *   @endcode
+ * - lms_user_certificate_entity: The lms_user_certificate entity.
+ * - lms_user_certificate_url: The lms_user_certificate URL.
+ *
+ * @ingroup themeable
+ */
+#}
+<article{{ attributes }}>
+  {{ lms_user_certificate }}
+</article>

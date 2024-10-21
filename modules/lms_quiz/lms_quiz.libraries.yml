@@ -1,0 +1,12 @@
+take-quiz:
+  js:
+    js/take-quiz.js: {}
+quiz_notification:
+  js:
+    js/quiz_notification.js: { }
+  dependencies:
+  - core/drupal
+  - core/drupalSettings
+  - core/jquery
+  - core/jquery.once
+  - core/drupal.dialog.ajax

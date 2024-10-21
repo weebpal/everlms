@@ -1,0 +1,25 @@
+lms_user_course.root:
+  title: 'User Course'
+  description: 'Manage your user course.'
+  parent: 'lms_base.admin'
+  route_name: 'lms_user_course.root'
+  weight: -200
+
+entity.lms_user_course.collection:
+  title: 'User Course items'
+  route_name: 'entity.lms_user_course.collection'
+  parent: 'lms_user_course.root'
+  description: 'Manage your user course items.'
+  weight: 50
+
+entity.lms_user_course_type.collection:
+  title: 'User Course types'
+  route_name: 'entity.lms_user_course_type.collection'
+  parent: 'lms_user_course.root'
+  description: 'Manage fields, form and display settings for your user course types.'
+  weight: 50
+
+lms_user_course.grouped_entity_links:
+  class: Drupal\lms_user_course\Plugin\Menu\GroupedEntityLinks
+  deriver: Drupal\lms_user_course\Plugin\Derivative\GroupedEntityLinksDeriver
+  menu_name: lms_user_course

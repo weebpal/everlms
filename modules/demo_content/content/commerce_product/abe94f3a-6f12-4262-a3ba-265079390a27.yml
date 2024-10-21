@@ -1,0 +1,139 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: abe94f3a-6f12-4262-a3ba-265079390a27
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    709891df-f7e6-4dd5-b31b-c2677f797c63: commerce_product_variation
+    100d2b6c-1630-48a9-8bd1-5c7e9ae75123: taxonomy_term
+    adebd0aa-0d23-41b8-841f-39dcbe47916d: media
+    f0685c70-b3e0-4e34-b14d-482862c1690e: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    493f6a06-1a41-40c1-aeac-4ad709d91e51: lms_lesson
+    008c6237-0284-4414-be02-ea613ba7ffe5: lms_lesson
+    6e4ed515-4379-4636-8988-6fd1431bb7e5: lms_lesson
+    138d76f9-92b0-4a13-9ccc-e7e562732105: lms_lesson
+    96ca31c8-8789-4716-9050-fa00e7b5c3e3: lms_lesson
+    19ada0c1-7993-4c07-83ab-d99d90fa9153: lms_lesson
+    e74a7793-5a42-44dd-8cf1-d3d74b3d992f: taxonomy_term
+    61bef378-ed7b-460c-b196-d2a9ffcb6fb5: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'Master English Sentence Structure | Better Grammar, Writing'
+  variations:
+    -
+      entity: 709891df-f7e6-4dd5-b31b-c2677f797c63
+  default_variation:
+    -
+      entity: 709891df-f7e6-4dd5-b31b-c2677f797c63
+  path:
+    -
+      alias: /course/master-english-sentence-structure-better-grammar-writing
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1702957842
+  body:
+    -
+      value: "<p>This course is for <strong>English </strong>learners who want a better understanding of English. Understanding <strong>English parts of speech and sentence structure</strong> are key to improving your speaking, writing and listening. Most students skip English parts of speech and sentence structure and this causes many problems later in their learning. Think about it. If an athlete were to skip the basics of their sport, would they be able to master it? The answer is no, and it's the same for language. Building a solid foundation is just as important as learning the higher-level 'fancy' grammar. And the truth is, if you spend a little extra time learning this now, you will save yourself a whole lot of time down the road.</p><p>Build a strong English foundation and the rest will be easy. In this course you learn:</p><ol><li>The parts of an English sentence</li><li>Nouns</li><li>Verbs</li><li>A Closer Look at Sentence Objects</li><li>The Other Words - Adjectives, Adverbs and More</li><li>Prepositions</li><li>Conjunctions</li><li>The Four Sentence Types</li><li>The Four Sentence Structures.</li></ol><p>Each lesson provides an explanation followed by examples and practice questions.</p><p>In only a few days you will build a complete understanding of English sentences and improve the structure of your own. You will easily be able to build upon your English grammar and master advance concepts thanks to a strong grammar foundation. Make life easier and take this course now!</p>"
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: 100d2b6c-1630-48a9-8bd1-5c7e9ae75123
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1702958062
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: adebd0aa-0d23-41b8-841f-39dcbe47916d
+  field_featured_course:
+    -
+      value: false
+  field_free:
+    -
+      value: true
+  field_image:
+    -
+      entity: f0685c70-b3e0-4e34-b14d-482862c1690e
+      alt: 'Master English Sentence Structure | Better Grammar, Writing'
+      title: ''
+      width: 750
+      height: 422
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 3021
+  field_lessons:
+    -
+      entity: 493f6a06-1a41-40c1-aeac-4ad709d91e51
+    -
+      entity: 008c6237-0284-4414-be02-ea613ba7ffe5
+    -
+      entity: 6e4ed515-4379-4636-8988-6fd1431bb7e5
+    -
+      entity: 138d76f9-92b0-4a13-9ccc-e7e562732105
+    -
+      entity: 96ca31c8-8789-4716-9050-fa00e7b5c3e3
+    -
+      entity: 19ada0c1-7993-4c07-83ab-d99d90fa9153
+  field_level:
+    -
+      entity: e74a7793-5a42-44dd-8cf1-d3d74b3d992f
+  field_quiz:
+    -
+      entity: 61bef378-ed7b-460c-b196-d2a9ffcb6fb5
+  field_quizzes:
+    -
+      entity: 61bef378-ed7b-460c-b196-d2a9ffcb6fb5
+  field_rating:
+    -
+      rating: 80
+      target: 0
+  field_requirements:
+    -
+      value: '<p>A basic understanding of English is needed to listen to the lectures.</p>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Improve your English and master the English sentence types. Learn to master English grammar and speaking the easy way!</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 1
+  field_total_lessons:
+    -
+      value: 6
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>Be ready to take on advanced English grammar topics</li><li>Master the basics of English Grammar</li><li>Learn the English Sentence Structure</li><li>Make Understanding English Easier</li></ul>'
+      format: full_html

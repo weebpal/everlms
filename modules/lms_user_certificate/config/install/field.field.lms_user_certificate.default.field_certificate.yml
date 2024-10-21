@@ -1,0 +1,29 @@
+uuid: a6b8be2a-5ca2-4aa4-9a7e-41b7ef432a20
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_user_certificate.field_certificate
+    - lms_certificate.lms_certificate_type.default
+    - lms_user_certificate.lms_user_certificate_type.default
+id: lms_user_certificate.default.field_certificate
+field_name: field_certificate
+entity_type: lms_user_certificate
+bundle: default
+label: Certificate
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:lms_certificate'
+  handler_settings:
+    target_bundles:
+      default: default
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

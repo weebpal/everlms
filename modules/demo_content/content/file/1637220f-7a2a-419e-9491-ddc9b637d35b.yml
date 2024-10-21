@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1637220f-7a2a-419e-9491-ddc9b637d35b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ELT-News-LMS-Learning-Platforms-500x295-1.jpg
+  uri:
+    -
+      value: 'public://2023-12/ELT-News-LMS-Learning-Platforms-500x295-1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 29733
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702914606

@@ -1,0 +1,11 @@
+entity.lms_room.add_page:
+  route_name: entity.lms_room.add_page
+  title: 'Add room item'
+  appears_on:
+    - entity.lms_room.collection
+
+entity.lms_room_type.add_form:
+  route_name: entity.lms_room_type.add_form
+  title: 'Add room type'
+  appears_on:
+    - entity.lms_room_type.collection

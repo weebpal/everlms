@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 9e48da28-71d0-4c71-9f49-a6570cf3b747
+  bundle: default
+  default_langcode: en
+  depends:
+    318aee4f-f35d-4f6f-a86a-5ba74d4a2aee: lms_answer
+    192c5641-04b9-48c1-8a93-0e805fa9ac49: lms_answer
+    c0c2b3a4-bba0-47dc-b055-0c332e367159: lms_answer
+    95641e01-de93-49fd-8f52-7e98844a0c51: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: "What verb tense is used in the following sentence? We haven't arrived at the airport yet."
+  created:
+    -
+      value: 1702954616
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 318aee4f-f35d-4f6f-a86a-5ba74d4a2aee
+    -
+      entity: 192c5641-04b9-48c1-8a93-0e805fa9ac49
+    -
+      entity: c0c2b3a4-bba0-47dc-b055-0c332e367159
+    -
+      entity: 95641e01-de93-49fd-8f52-7e98844a0c51
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

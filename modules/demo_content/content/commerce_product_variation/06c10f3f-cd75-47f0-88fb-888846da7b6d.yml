@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 06c10f3f-cd75-47f0-88fb-888846da7b6d
+  bundle: course
+  default_langcode: en
+  depends:
+    c7ad12fb-60ec-4e85-9f18-5add2c930edd: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: c7ad12fb-60ec-4e85-9f18-5add2c930edd
+  sku:
+    -
+      value: 'Mastering Public Speaking'
+  title:
+    -
+      value: 'Mastering Public Speaking - A Life Changing Course'
+  list_price:
+    -
+      number: '25.000000'
+      currency_code: USD
+      formatted: $25.00
+  price:
+    -
+      number: '20.000000'
+      currency_code: USD
+      formatted: $20.00
+  created:
+    -
+      value: 1703140973

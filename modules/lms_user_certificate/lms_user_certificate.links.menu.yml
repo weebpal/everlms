@@ -1,0 +1,25 @@
+lms_user_certificate.root:
+  title: 'User certificate'
+  description: 'Manage your user certificate.'
+  parent: 'lms_base.admin'
+  route_name: 'lms_user_certificate.root'
+  weight: -10
+
+entity.lms_user_certificate.collection:
+  title: 'User Certificate items'
+  route_name: 'entity.lms_user_certificate.collection'
+  parent: 'lms_user_certificate.root'
+  description: 'Manage your user certificate items.'
+  weight: 50
+
+entity.lms_user_certificate_type.collection:
+  title: 'User Certificate types'
+  route_name: 'entity.lms_user_certificate_type.collection'
+  parent: 'lms_user_certificate.root'
+  description: 'Manage fields, form and display settings for your user certificate types.'
+  weight: 50
+
+lms_user_certificate.grouped_entity_links:
+  class: Drupal\lms_user_certificate\Plugin\Menu\GroupedEntityLinks
+  deriver: Drupal\lms_user_certificate\Plugin\Derivative\GroupedEntityLinksDeriver
+  menu_name: lms_user_certificate

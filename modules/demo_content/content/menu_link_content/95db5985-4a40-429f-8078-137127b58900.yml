@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 95db5985-4a40-429f-8078-137127b58900
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    c16144ee-a50a-4885-a2e8-23a0cbdd80fe: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Demo: NetMasters LMS'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'https://badminton.everlms.com/'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -43
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:c16144ee-a50a-4885-a2e8-23a0cbdd80fe'
+  revision_translation_affected:
+    -
+      value: true

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8c16af85-e7e4-4433-965d-c34d81240e76
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: How-to-read-the-IELTS-Score-2-300x200.jpg
+  uri:
+    -
+      value: 'public://2023-12/How-to-read-the-IELTS-Score-2-300x200.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 17846
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703477128

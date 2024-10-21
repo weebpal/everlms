@@ -1,0 +1,21 @@
+uuid: ab6d93bb-96c9-45d8-b174-254159cf03eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_membership_time
+    - profile.type.membership
+  module:
+    - datetime_range
+id: profile.membership.field_membership_time
+field_name: field_membership_time
+entity_type: profile
+bundle: membership
+label: 'Membership Time'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

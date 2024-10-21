@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0585724e-1f54-4561-8669-59dbadda939e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: getty_614138202_384148.jpg
+  uri:
+    -
+      value: 'public://2023-12/getty_614138202_384148.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 158080
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703068331

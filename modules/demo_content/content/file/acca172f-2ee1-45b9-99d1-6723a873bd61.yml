@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: acca172f-2ee1-45b9-99d1-6723a873bd61
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'English Vocabulary.jpg'
+  uri:
+    -
+      value: 'public://2023-12/English Vocabulary.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 92173
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702950712

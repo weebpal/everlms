@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_lesson
+  uuid: 6b06f30d-d23e-4d62-9959-8549bf2c2480
+  bundle: default
+  default_langcode: en
+  depends:
+    d90bec65-8bb1-41ed-8e94-06cc59ecdba9: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Feeling Comfortable with your material'
+  created:
+    -
+      value: 1703142860
+  status:
+    -
+      value: true
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703142860
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_embedded_video:
+    -
+      value: 'https://www.youtube.com/watch?v=s4ookaHBh7o'
+  field_free:
+    -
+      value: false
+  field_lesson_type:
+    -
+      entity: d90bec65-8bb1-41ed-8e94-06cc59ecdba9

@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: d74b9fc6-39bb-48f7-9eb4-f3116a205470
+  bundle: default
+  default_langcode: en
+  depends:
+    c208895c-c4af-4b07-a722-61db081906cf: lms_answer
+    ebf68405-4a99-4c4c-ab31-6409fc6d2ca6: lms_answer
+    95cc5523-a40f-44b2-8b17-73a0f180256e: lms_answer
+    c21243c9-ba81-4155-a378-45a2c8a43674: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Analogy
+  created:
+    -
+      value: 1702955691
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: c208895c-c4af-4b07-a722-61db081906cf
+    -
+      entity: ebf68405-4a99-4c4c-ab31-6409fc6d2ca6
+    -
+      entity: 95cc5523-a40f-44b2-8b17-73a0f180256e
+    -
+      entity: c21243c9-ba81-4155-a378-45a2c8a43674
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

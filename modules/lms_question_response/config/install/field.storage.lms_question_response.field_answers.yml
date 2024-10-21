@@ -1,0 +1,20 @@
+uuid: 1b686a41-3a74-4658-9d43-cb632b4799bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_answer
+    - lms_question_response
+id: lms_question_response.field_answers
+field_name: field_answers
+entity_type: lms_question_response
+type: entity_reference
+settings:
+  target_type: lms_answer
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,10 @@
+uuid: aad07c12-9933-491d-a835-faf0486f4bd7
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_question
+id: lms_question.inline_entity_form
+label: 'Inline Entity Form'
+targetEntityType: lms_question
+cache: true

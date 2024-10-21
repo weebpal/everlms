@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: c8750213-3402-4c6f-9691-a3ecbf8f7dbb
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The end of a lesson'
+  created:
+    -
+      value: 1702951151
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>"Plenary", the final part of the traditional three part lesson</p>'
+      format: full_html
+      summary: ''
+  field_correct:
+    -
+      value: true

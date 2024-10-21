@@ -1,0 +1,29 @@
+uuid: 050fa08d-7857-4fc9-987d-03a8a516cefd
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.course
+    - field.storage.commerce_product.field_level
+    - taxonomy.vocabulary.level
+id: commerce_product.course.field_level
+field_name: field_level
+entity_type: commerce_product
+bundle: course
+label: Level
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      level: level
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

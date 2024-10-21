@@ -1,0 +1,19 @@
+uuid: 379a7c7a-bbd1-4c0b-a592-e85203781cac
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_quiz
+id: lms_quiz.field_prerequisite_quizes
+field_name: field_prerequisite_quizes
+entity_type: lms_quiz
+type: entity_reference
+settings:
+  target_type: lms_quiz
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 0348308c-8528-4c01-832d-66769fb84983
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Dr Elise Ecoff'
+  title:
+    -
+      value: 'Dr Elise Ecoff'
+  created:
+    -
+      value: 1702915287
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: "<p><strong>Dr Elise Ecoff, Group Director of Education, Nord Anglia Education</strong>, said: \"Across our schools we know that education technology is a powerful tool to empower teachers to bring learning to life and inspire students whether in the classroom or online. With Global Campus, developed by our team of educational experts, we have created a rich mix of engaging learning materials that complement schools' curricula and encourage students to discover, explore and collaborate with their global classmates.\"</p><p><em><strong>Global Campus</strong></em></p><p>Global Campus is Nord Anglia's exclusive online learning platform containing a rich mix of learning materials and resources that complement school curricula. Designed by Nord Anglia's team of educational experts and based on its collaborations with leading institutions, including The Juilliard School, MIT and UNICEF, the content is designed to nurture key transferable skills and help students further develop critical skills such as creativity, problem solving and communication. &nbsp;</p>"
+      format: full_html
+      summary: ''

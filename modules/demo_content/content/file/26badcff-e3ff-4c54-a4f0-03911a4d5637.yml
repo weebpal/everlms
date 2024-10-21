@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 26badcff-e3ff-4c54-a4f0-03911a4d5637
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Is-duolingo-the-best-way-to-learn-a-language.jpg
+  uri:
+    -
+      value: 'public://2023-12/Is-duolingo-the-best-way-to-learn-a-language.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 648425
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703477696

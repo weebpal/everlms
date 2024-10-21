@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 98285b4f-4fe4-440f-ad3b-b083afb227f5
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Tips-for-IELTS-exam.jpg
+  uri:
+    -
+      value: 'public://2023-12/Tips-for-IELTS-exam.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 40832
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703478268

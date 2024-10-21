@@ -1,0 +1,68 @@
+<?php
+
+/**
+ * @file
+ * Defines the LMSQuiz entity and associated features.
+ */
+
+use Drupal\Core\Access\AccessResult;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Render\Element;
+use Drupal\Core\Session\AccountInterface;
+use Drupal\Core\Url;
+
+/**
+ * Implements hook_theme().
+ */
+function lms_quiz_theme() {
+  return [
+    'lms_quiz' => [
+      'render element' => 'elements',
+    ],
+    'lms_quiz_form' => [
+      'render element' => 'form',
+    ],
+    'lms_result_page' => [
+      'variables' => [
+        'quiz_result' => [],
+      ],
+    ],
+  ];
+}
+
+/**
+ * Implements template_preprocess_HOOK().
+ */
+function lms_quiz_preprocess_lms_quiz(array &$variables) {
+  /** @var Drupal\lms_quiz\Entity\LMSQuizInterface $lms_quiz */
+  $lms_quiz = $variables['elements']['#lms_quiz'];
+  if ($lms_quiz) {
+    $variables['lms_quiz_entity'] = $lms_quiz;
+    $variables['lms_quiz_url'] = $lms_quiz->isNew() ? '' : $lms_quiz->toUrl();
+    $variables['lms_quiz'] = [];
+    foreach (Element::children($variables['elements']) as $key) {
+      $variables['lms_quiz'][$key] = $variables['elements'][$key];
+    }
+    $variables['lms_take_quiz'] = [
+      '#type' => 'link',
+      '#title' => t('Take Quiz'),
+      '#url' => Url::fromRoute('lms_quiz.take_quiz', ['lms_quiz' => $lms_quiz->id()]),
+      '#attributes' => [
+        'class' => ['take-quiz'],
+      ],
+    ];
+  }
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_presave().
+ */
+function lms_quiz_lms_quiz_presave(\Drupal\Core\Entity\EntityInterface $entity) {
+  if ($entity->hasField('field_questions') && $entity->hasField('field_question_count')) {
+    $field_questions = $entity->get('field_questions')->getValue();
+    if ($field_questions) {
+      $entity->set('field_question_count', count($field_questions));
+    }
+  }
+}

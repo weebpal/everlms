@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 081c8cda-6dfb-48d0-b93b-cfb928e9b19c
+  bundle: default
+  default_langcode: en
+  depends:
+    392cce6e-a8d1-4667-a774-e30120827232: lms_answer
+    4532383e-9217-44cd-b98d-5010040fc3fc: lms_answer
+    3f798d7b-b4b0-471d-a221-ac2e24f3deff: lms_answer
+    5bd31146-2c64-46aa-9368-e9e4bf0407d2: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'I want you to tell me the ....... truth.'
+  created:
+    -
+      value: 1702957029
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 392cce6e-a8d1-4667-a774-e30120827232
+    -
+      entity: 4532383e-9217-44cd-b98d-5010040fc3fc
+    -
+      entity: 3f798d7b-b4b0-471d-a221-ac2e24f3deff
+    -
+      entity: 5bd31146-2c64-46aa-9368-e9e4bf0407d2
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

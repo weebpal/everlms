@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 869ebe30-7959-4e07-ab17-4cdc7183a704
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 1251088_0102_2.jpg
+  uri:
+    -
+      value: 'public://2023-12/1251088_0102_2_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 40256
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703063266

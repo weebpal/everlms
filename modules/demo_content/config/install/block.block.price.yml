@@ -1,0 +1,29 @@
+uuid: adceaecd-3ce1-404f-bb0e-b929fe930a0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.price
+  module:
+    - facets
+    - system
+  theme:
+    - lms_theme
+id: price
+theme: lms_theme
+region: sidebar_first
+weight: -11
+provider: null
+plugin: 'facet_block:price'
+settings:
+  id: 'facet_block:price'
+  label: Price
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: price
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /courses

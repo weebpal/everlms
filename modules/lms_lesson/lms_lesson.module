@@ -1,0 +1,262 @@
+<?php
+
+/**
+ * @file
+ * Defines the LMSLesson entity and associated features.
+ */
+
+use Firebase\JWT\JWT;
+use Drupal\Core\Cache\Cache;
+use Drupal\user\Entity\User;
+use Drupal\Core\Render\Element;
+use Drupal\Core\Access\AccessResult;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\lms_lesson\Entity\LMSLesson;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Session\AccountInterface;
+use Drupal\commerce_product\Entity\Product;
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+use Drupal\lms_room\Entity\LMSRoom;
+
+/**
+ * Implements hook_theme().
+ */
+function lms_lesson_theme() {
+  return [
+    'lms_lesson' => [
+      'render element' => 'elements',
+    ],
+    'lms_lesson_form' => [
+      'render element' => 'form',
+    ],
+    'zoom_meeting' => [
+      'variables' => [
+        'is_not_on_time' => null
+      ],
+    ],
+  ];
+}
+
+/**
+ * Prepares variables for lms_lesson templates.
+ *
+ * Default template: lms-lesson.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An associative array containing rendered fields.
+ *   - attributes: HTML attributes for the containing element.
+ */
+function template_preprocess_lms_lesson(array &$variables) {
+  /** @var Drupal\lms_lesson\Entity\LMSLessonInterface $lms_lesson */
+  $lms_lesson = $variables['elements']['#lms_lesson'];
+  $type = $lms_lesson->get('field_lesson_type')->entity;
+  if ($type && $type->get('field_key')->getString() == 'zoom_class') {
+    $currentDateTime = time();
+    if ($lms_lesson->hasField('field_class_time') && !$lms_lesson->get('field_class_time')->isEmpty()) {
+      $class_time_value = $lms_lesson->get('field_class_time')->value;
+      $class_time_end_value = $lms_lesson->get('field_class_time')->end_value;
+      $startDateTime = strtotime($class_time_value);
+      $endDateTime = strtotime($class_time_end_value);
+      if ($currentDateTime > $startDateTime && $endDateTime > $currentDateTime) {
+        $permissionManager = \Drupal::service('lms_base.permission_manager');
+        $current_user = User::load(\Drupal::currentUser()->id());
+        $role = $permissionManager->checkRole($current_user, $lms_lesson);
+        if ($role !== null) {
+          $config = \Drupal::config('zoom_integration.settings');
+          $sdkKey = $config->get('app_client_id');
+          $sdkSecret = $config->get('app_client_secret');
+
+          $client = \Drupal::service('zoom_integration.client');
+          if ($role == 1) {
+            $room_id = $lms_lesson->get('field_zoom_class')->getString();
+            if ($room_id) {
+              $room = LMSRoom::load($room_id);
+              $host = User::load($room->get('field_host')->getString());
+              if (!empty($host)) {
+                $client = \Drupal::service('zoom_integration.client');
+                $user_zoom = $client->getUserByEmail($host->getEmail());
+                if (!empty($user_zoom)) {
+                  $id = $user_zoom['id'];
+                  $token_zak = $client->request('GET', "/users/$id/token", [
+                    'type' => 'zak'
+                  ]);
+                  $variables['#attached']['drupalSettings']['zoom']['zak'] = $token_zak['token'];
+                }
+              }
+            }
+          }
+
+          $userName = $current_user->getDisplayName();
+
+          $meeting_number = 0;
+          $password = '';
+          if ($lms_lesson->hasField('field_zoom_class_data')) {
+            $zoom_class_data = json_decode($lms_lesson->get('field_zoom_class_data')->getString());
+            $meeting_number = $zoom_class_data->id;
+            $password = $zoom_class_data->password;
+          }
+          $signature = $client->generateSignature($sdkKey, $sdkSecret, $meeting_number, $role, $endDateTime);
+
+          $variables['#attached']['drupalSettings']['zoom']['sdkKey'] = $sdkKey;
+          $variables['#attached']['drupalSettings']['zoom']['sdkSecret'] = $sdkSecret;
+          $variables['#attached']['drupalSettings']['zoom']['role'] = $role == 1 ? 'teacher' : 'student';
+          $variables['#attached']['drupalSettings']['zoom']['signature'] = $signature;
+          $variables['#attached']['drupalSettings']['zoom']['meetingNumber'] = $meeting_number;
+          $variables['#attached']['drupalSettings']['zoom']['userName'] = $userName;
+          $variables['#attached']['drupalSettings']['zoom']['password'] = $password;
+          $variables['#attached']['library'][] = 'lms_lesson/lms_lesson.embed_zoom';
+          $variables['#attached']['html_head'][] = [
+            [
+              '#tag' => 'script',
+              '#attributes' => [
+                'src' => 'https://source.zoom.us/2.18.2/lib/vendor/react.min.js',
+              ],
+            ],
+            'zoom_script_react',
+          ];
+          $variables['#attached']['html_head'][] = [
+            [
+              '#tag' => 'script',
+              '#attributes' => [
+                'src' => 'https://source.zoom.us/2.18.2/lib/vendor/react-dom.min.js',
+              ],
+            ],
+            'zoom_script_react_dom',
+          ];
+          $variables['#attached']['html_head'][] = [
+            [
+              '#tag' => 'script',
+              '#attributes' => [
+                'src' => 'https://source.zoom.us/2.18.2/lib/vendor/redux.min.js',
+              ],
+            ],
+            'zoom_script_redux',
+          ];
+          $variables['#attached']['html_head'][] = [
+            [
+              '#tag' => 'script',
+              '#attributes' => [
+                'src' => 'https://source.zoom.us/2.18.2/lib/vendor/redux-thunk.min.js',
+              ],
+            ],
+            'zoom_script_redux_thunk',
+          ];
+          $variables['#attached']['html_head'][] = [
+            [
+              '#tag' => 'script',
+              '#attributes' => [
+                'src' => 'https://source.zoom.us/2.18.2/lib/vendor/lodash.min.js',
+              ],
+            ],
+            'zoom_script_lodash',
+          ];
+          $variables['#attached']['html_head'][] = [
+            [
+              '#tag' => 'script',
+              '#attributes' => [
+                'src' => 'https://source.zoom.us/zoom-meeting-embedded-2.18.2.min.js',
+              ],
+            ],
+            'zoom_script_embedded_min',
+          ];
+        }
+        $variables['elements']['zoom_meeting']['#is_not_on_time'] = FALSE;
+      } else {
+        $variables['elements']['zoom_meeting']['#is_not_on_time'] = TRUE;
+      }
+
+    }
+  }
+
+  $variables['lms_lesson_entity'] = $lms_lesson;
+  $variables['lms_lesson_url'] = $lms_lesson->isNew() ? '' : $lms_lesson->toUrl();
+  $variables['lms_lesson'] = [];
+  foreach (Element::children($variables['elements']) as $key) {
+    $variables['lms_lesson'][$key] = $variables['elements'][$key];
+  }
+}
+
+/**
+ * Implements hook_entity_extra_field_info().
+ */
+function lms_lesson_entity_extra_field_info() {
+  $extra = [];
+
+  $extra['lms_lesson']['default']['display']['zoom_meeting'] = [
+    'label' => t('Zoom Meeting'),
+    'description' => t('Provide markup to render zoom meeting'),
+    'weight' => 100,
+    'visible' => FALSE,
+  ];
+
+  return $extra;
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_view().
+ */
+function lms_lesson_lms_lesson_view(array &$build, EntityInterface $entity, EntityViewDisplayInterface $display, $view_mode) {
+  $bundle = $entity->bundle();
+  if ($bundle == 'default') {
+    $type = $entity->get('field_lesson_type')->entity;
+    if ($type && $type->get('field_key')->getString() == 'zoom_class') {
+      $build['zoom_meeting'] = [
+        '#theme' => 'zoom_meeting',
+      ];
+    } else {
+      unset($build['zoom_meeting']);
+    }
+  }
+}
+
+
+/**
+ * Implements hook_ENTITY_TYPE_update().
+ */
+function lms_lesson_commerce_product_update(EntityInterface $entity) {
+  // update customer report
+  if ($entity->original) {
+    if ($entity->original->get('field_teacher')->getString() != $entity->get('field_teacher')->getString()) {
+      $lessons = $entity->get('field_lessons')->referencedEntities();
+      if (!empty($lessons)) {
+        foreach ($lessons as $lesson) {
+          $type = $lesson->get('field_lesson_type')->referencedEntities();
+          if ($type) {
+            $type = reset($type);
+            if ($type->get('field_key')->getString() == 'zoom_class') {
+              $tags = ['lms_lesson:' . $lesson->id()];
+              Cache::invalidateTags($tags);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/**
+ * Implements hook_entity_access().
+ */
+function lms_lesson_entity_access(EntityInterface $entity, string $operation, AccountInterface $account) {
+  $permissionManager = \Drupal::service('lms_base.permission_manager');
+  $entity_type = $entity->getEntityTypeId();
+  if ($operation == 'view' && $entity_type == 'lms_lesson') {
+    $entity_id = $entity->id();
+    if ($permissionManager->checkLessonPermission($account->id(), $entity_id)) {
+      return  AccessResult::allowed();
+    }
+    return AccessResult::forbidden();
+  }
+  return AccessResult::neutral();
+}
+
+
+/**
+ * Implements hook_form_alter
+ */
+function lms_lesson_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  if (stripos($form_id, 'commerce_product') !== FALSE) {
+    $form['#attached']['library'][] = 'lms_lesson/lms_lesson.inline_entity_add_form';
+  }
+}

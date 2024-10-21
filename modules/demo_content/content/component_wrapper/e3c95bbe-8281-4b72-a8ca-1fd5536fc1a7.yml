@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: component_wrapper
+  uuid: e3c95bbe-8281-4b72-a8ca-1fd5536fc1a7
+  default_langcode: en
+  depends:
+    2008392b-183b-41fb-819a-3bee9e14e4b7: taxonomy_term
+    965d5583-46c3-48ce-952e-ba97e68f79e2: component_item
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  title:
+    -
+      value: '10 Words English learners confuse'
+  component_type:
+    -
+      entity: 2008392b-183b-41fb-819a-3bee9e14e4b7
+  display_title:
+    -
+      value: true
+  display_header:
+    -
+      value: false
+  display_footer:
+    -
+      value: false
+  display_image:
+    -
+      value: false
+  display_in_region:
+    -
+      value: false
+  field_region:
+    -
+      value: headline
+  field_properties:
+    -
+      value: '{"properties":{"styles":{"image-position":"right","background-color":"_none"}}}'
+  created:
+    -
+      value: 1703475153
+  revision_translation_affected:
+    -
+      value: true
+  field_push_image:
+    -
+      entity: 965d5583-46c3-48ce-952e-ba97e68f79e2

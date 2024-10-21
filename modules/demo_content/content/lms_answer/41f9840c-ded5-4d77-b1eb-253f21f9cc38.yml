@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 41f9840c-ded5-4d77-b1eb-253f21f9cc38
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Plan and prepare'
+  created:
+    -
+      value: 1702953106
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>The correct answer is "plan and prepare" because in order to ensure that a demonstration works effectively, it is important to have a well-thought-out plan and to be prepared in terms of materials, equipment, and knowledge. Planning and preparation help to ensure that the demonstration runs smoothly and that any potential issues or obstacles are anticipated and addressed beforehand. Avoiding eye contact with the audience and presenting the demonstration hurriedly are not necessarily essential factors for the success of the demonstration.</p>'
+      format: full_html
+      summary: ''
+  field_correct:
+    -
+      value: true

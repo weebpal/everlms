@@ -1,0 +1,4 @@
+services:
+  lms_quiz_result.manager:
+    class: Drupal\lms_quiz_result\LMSQuizResultManager
+    arguments: [ '@entity_type.manager' ]

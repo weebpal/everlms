@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 624ef2b4-8d18-43d8-a05e-30f7a7bad3ae
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Happy Learning'
+  title:
+    -
+      value: 'Happy Learning'
+  created:
+    -
+      value: 1702917392
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Singing and music can really help with happiness and even during a learning period a music break can help you study a lot better. Obviously playing really loud music while trying to follow one of our online English lessons isn’t going to work but you can pause the lesson if you need a rest and sing a long to a song with English lyrics as a break. Singing is also proven to be very good for your health, so having a good sing can have many benefits.</p>'
+      format: full_html
+      summary: ''

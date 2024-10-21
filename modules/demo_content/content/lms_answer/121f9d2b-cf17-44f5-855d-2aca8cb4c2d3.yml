@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 121f9d2b-cf17-44f5-855d-2aca8cb4c2d3
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Audio presentation'
+  created:
+    -
+      value: 1702953314
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

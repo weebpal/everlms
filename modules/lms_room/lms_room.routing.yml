@@ -1,0 +1,7 @@
+lms_room.root:
+  path: '/admin/lms/lms-room'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Room'
+  requirements:
+    _permission: 'administer lms_room'

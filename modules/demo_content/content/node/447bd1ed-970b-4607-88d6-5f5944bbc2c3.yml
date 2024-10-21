@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 447bd1ed-970b-4607-88d6-5f5944bbc2c3
+  bundle: news
+  default_langcode: en
+  depends:
+    ea43e534-18c3-4ad0-b41b-4ce8bcd3e515: component_wrapper
+    85494eee-d1e3-44b4-8309-0f3ae88d2efc: taxonomy_term
+    b631fe8d-90e5-4a3a-8182-d7fb589ec3bb: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '7 Proven Ways to learn English through News'
+  created:
+    -
+      value: 1702916232
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /news/7-proven-ways-learn-english-through-news
+      langcode: en
+      pathauto: 1
+  field_components:
+    -
+      entity: ea43e534-18c3-4ad0-b41b-4ce8bcd3e515
+  field_tags:
+    -
+      entity: 85494eee-d1e3-44b4-8309-0f3ae88d2efc
+  field_thumb:
+    -
+      entity: b631fe8d-90e5-4a3a-8182-d7fb589ec3bb
+      alt: '7 Proven Ways'
+      title: ''
+      width: 759
+      height: 422

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4a1537a7-ed0e-4b05-91cd-9d0cfcbedf49
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Master English Sentence Structure  Better Grammar, Writing.mp4'
+  uri:
+    -
+      value: 'public://2023-12/Master English Sentence Structure  Better Grammar, Writing.mp4'
+  filemime:
+    -
+      value: video/mp4
+  filesize:
+    -
+      value: 25559679
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702957965

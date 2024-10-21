@@ -1,0 +1,44 @@
+uuid: cf6c9985-7f62-45a9-a8d7-d4a96d7bcd82
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_answer.default.field_body
+    - field.field.lms_answer.default.field_correct
+    - lms_answer.lms_answer_type.default
+  module:
+    - text
+_core:
+  default_config_hash: rmNISm-pnviKrBrvlxvn52lb4eA90FtfgYzRzp7QRyo
+id: lms_answer.default.default
+targetEntityType: lms_answer
+bundle: default
+mode: default
+content:
+  field_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_correct:
+    type: boolean
+    label: inline
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  created: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  status: true
+  uid: true

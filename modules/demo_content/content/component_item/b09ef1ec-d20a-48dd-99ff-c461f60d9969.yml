@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: b09ef1ec-d20a-48dd-99ff-c461f60d9969
+  bundle: push_image
+  default_langcode: en
+  depends:
+    3ee849c2-aa1c-4ef5-be7e-b9bfd7f1a429: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Push Image Item: There are two types of IELTS tests:'
+  title:
+    -
+      value: 'There are two types of IELTS tests:'
+  created:
+    -
+      value: 1703476686
+  revision_translation_affected:
+    -
+      value: true
+  field_pi_body:
+    -
+      value: '<ul><li>IELTS ACADEMIC – This version is suitable for individuals planning to pursue higher education, such as undergraduate or postgraduate courses, in an English-speaking country. It evaluates your academic language skills.</li><li>IELTS General Training – If you intend to work, live, or undertake training programs in an English-speaking country, the General Training version is for you. It focuses on practical language usage in daily life and workplace settings.</li></ul>'
+      format: full_html
+  field_pi_image:
+    -
+      entity: 3ee849c2-aa1c-4ef5-be7e-b9bfd7f1a429
+      alt: How-to-read-the-IELTS-Score-3
+      title: ''
+      width: 1000
+      height: 667

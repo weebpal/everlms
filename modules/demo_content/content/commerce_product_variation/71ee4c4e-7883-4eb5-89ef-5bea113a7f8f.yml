@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 71ee4c4e-7883-4eb5-89ef-5bea113a7f8f
+  bundle: course
+  default_langcode: en
+  depends:
+    f6b51737-5875-4664-9da9-9880b452494c: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: f6b51737-5875-4664-9da9-9880b452494c
+  sku:
+    -
+      value: 'American English Pronunciation for Beginners'
+  title:
+    -
+      value: 'American English Pronunciation for Beginners'
+  price:
+    -
+      number: '10.000000'
+      currency_code: USD
+      formatted: $10.00
+  created:
+    -
+      value: 1707989910

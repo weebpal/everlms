@@ -1,0 +1,6 @@
+services:
+  lms_membership.commands:
+    class: \Drupal\lms_membership\Commands\MembershipCommands
+    arguments: [ '@lms_membership.membership_manager' ]
+    tags:
+      - { name: drush.command }

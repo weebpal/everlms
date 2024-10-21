@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ea585a8d-b0b8-4303-9767-db586015c3be
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: English-Grammar.png
+  uri:
+    -
+      value: 'public://2023-12/English-Grammar_0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 36368
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702958422

@@ -1,0 +1,8 @@
+name: Lms Base
+description: 'Lms base functions'
+type: module
+package: Custom Entity Modules
+core_version_requirement: ^9.3 || ^10
+dependencies:
+  - facets:facets
+  - fivestar:fivestar

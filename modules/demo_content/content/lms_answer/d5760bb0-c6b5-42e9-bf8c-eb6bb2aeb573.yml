@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: d5760bb0-c6b5-42e9-bf8c-eb6bb2aeb573
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: ' "Since" and "ever" are keywords for this tense.'
+  created:
+    -
+      value: 1702954184
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

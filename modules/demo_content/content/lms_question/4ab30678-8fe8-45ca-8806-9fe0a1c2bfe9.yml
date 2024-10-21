@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 4ab30678-8fe8-45ca-8806-9fe0a1c2bfe9
+  bundle: default
+  default_langcode: en
+  depends:
+    a69ec347-c47b-438c-9b3c-e8e274125a9e: lms_answer
+    72ecc94e-bac4-4fde-a9de-f4732c72b84b: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: "Young children can't memorize things."
+  created:
+    -
+      value: 1702954907
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: a69ec347-c47b-438c-9b3c-e8e274125a9e
+    -
+      entity: 72ecc94e-bac4-4fde-a9de-f4732c72b84b
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

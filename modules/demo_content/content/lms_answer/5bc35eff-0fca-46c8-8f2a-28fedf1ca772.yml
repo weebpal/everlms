@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 5bc35eff-0fca-46c8-8f2a-28fedf1ca772
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Something in contrast or direct opposition.'
+  created:
+    -
+      value: 1702956627
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: true

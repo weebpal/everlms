@@ -1,0 +1,25 @@
+uuid: 50768ea6-6515-4336-96ed-d1423af2d989
+langcode: en
+status: true
+dependencies:
+  config:
+    - component_builder.component_item_type.basic_component
+    - field.storage.component_wrapper.field_basic_component
+  module:
+    - component_builder
+id: component_wrapper.component_wrapper.field_basic_component
+field_name: field_basic_component
+entity_type: component_wrapper
+bundle: component_wrapper
+label: 'Basic component Items'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:component_item'
+  handler_settings:
+    target_bundles:
+      - basic_component
+field_type: entity_reference

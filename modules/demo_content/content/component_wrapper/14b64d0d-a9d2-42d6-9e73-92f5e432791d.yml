@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: component_wrapper
+  uuid: 14b64d0d-a9d2-42d6-9e73-92f5e432791d
+  default_langcode: en
+  depends:
+    2008392b-183b-41fb-819a-3bee9e14e4b7: taxonomy_term
+    03272d54-6d0f-42c6-833d-c24cc144dd5b: component_item
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  title:
+    -
+      value: 'Their and To'
+  component_type:
+    -
+      entity: 2008392b-183b-41fb-819a-3bee9e14e4b7
+  display_title:
+    -
+      value: false
+  display_header:
+    -
+      value: false
+  display_footer:
+    -
+      value: false
+  display_image:
+    -
+      value: false
+  display_in_region:
+    -
+      value: false
+  field_region:
+    -
+      value: headline
+  field_properties:
+    -
+      value: '{"properties":{"styles":{"image-position":"left","background-color":"gray"}}}'
+  created:
+    -
+      value: 1703475451
+  revision_translation_affected:
+    -
+      value: true
+  field_push_image:
+    -
+      entity: 03272d54-6d0f-42c6-833d-c24cc144dd5b

@@ -1,0 +1,29 @@
+uuid: 0ceef8b5-e6b1-426a-b530-25ad0f97db07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_question.field_choices
+    - lms_answer.lms_answer_type.default
+    - lms_question.lms_question_type.default
+id: lms_question.default.field_choices
+field_name: field_choices
+entity_type: lms_question
+bundle: default
+label: Choices
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:lms_answer'
+  handler_settings:
+    target_bundles:
+      default: default
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

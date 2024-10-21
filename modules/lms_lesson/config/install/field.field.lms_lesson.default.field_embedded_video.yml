@@ -1,0 +1,25 @@
+uuid: fadf3efd-8440-409f-8f8a-39c0ff57fa24
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_lesson.field_embedded_video
+    - lms_lesson.lms_lesson_type.default
+  module:
+    - video_embed_field
+id: lms_lesson.default.field_embedded_video
+field_name: field_embedded_video
+entity_type: lms_lesson
+bundle: default
+label: 'Embedded video'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube_playlist: youtube_playlist
+    vimeo: vimeo
+    youtube: youtube
+field_type: video_embed_field

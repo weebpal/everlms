@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 645e1447-349b-4757-9291-5224e82ac05a
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Demonstrating how to make stick drawings'
+  created:
+    -
+      value: 1702953393
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 3c0749cf-4f10-4dab-95a5-bb94b9f49161
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The highest point of drama; a decision is made by the main characters to solve the conflict.'
+  created:
+    -
+      value: 1702955474
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

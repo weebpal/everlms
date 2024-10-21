@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7a0cf23d-a28b-40b5-a90e-2756774c12a0
+  bundle: news
+  default_langcode: en
+  depends:
+    3d5f1278-87d0-45ca-b9e4-4e77f5d04a29: component_wrapper
+    2fbe2c17-3456-47b8-ae1b-9f7a0d304ba0: taxonomy_term
+    71ae1126-eb63-4e50-a044-ea152ca94b9d: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Year 7 participated in the English Eloquence Competition'
+  created:
+    -
+      value: 1702915771
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /news/year-7-participated-english-eloquence-competition
+      langcode: en
+      pathauto: 1
+  field_components:
+    -
+      entity: 3d5f1278-87d0-45ca-b9e4-4e77f5d04a29
+  field_tags:
+    -
+      entity: 2fbe2c17-3456-47b8-ae1b-9f7a0d304ba0
+  field_thumb:
+    -
+      entity: 71ae1126-eb63-4e50-a044-ea152ca94b9d
+      alt: 'English Eloquence Competition'
+      title: ''
+      width: 887
+      height: 499

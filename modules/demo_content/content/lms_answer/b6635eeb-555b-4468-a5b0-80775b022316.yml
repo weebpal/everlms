@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: b6635eeb-555b-4468-a5b0-80775b022316
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Establish rapport'
+  created:
+    -
+      value: 1702952942
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Establishing rapport is the first guiding principle in using demonstration in the teaching-learning process. This involves building a positive and trusting relationship between the teacher and the learners. By establishing rapport, the teacher creates a comfortable and supportive environment, which enhances the effectiveness of the demonstration. It helps in engaging the learners, gaining their attention, and fostering open communication. When there is a good rapport, learners are more likely to be motivated, participate actively, and have a better understanding of the demonstrated concepts or skills.</p>'
+      format: full_html
+      summary: ''
+  field_correct:
+    -
+      value: true

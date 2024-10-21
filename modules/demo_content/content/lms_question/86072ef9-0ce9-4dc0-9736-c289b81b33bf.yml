@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 86072ef9-0ce9-4dc0-9736-c289b81b33bf
+  bundle: default
+  default_langcode: en
+  depends:
+    55cc834c-c03a-4512-99e3-6b46e95a8c05: lms_answer
+    e78fd76a-ef51-46de-a511-316fb9c630b6: lms_answer
+    d72cb4e8-7c52-4e9e-ae6e-a9e80fdf9443: lms_answer
+    31aae9bd-570e-4160-b8dc-15bcf76aaf15: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'When the building was completed, all the workers were paid ........'
+  created:
+    -
+      value: 1702957233
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 55cc834c-c03a-4512-99e3-6b46e95a8c05
+    -
+      entity: e78fd76a-ef51-46de-a511-316fb9c630b6
+    -
+      entity: d72cb4e8-7c52-4e9e-ae6e-a9e80fdf9443
+    -
+      entity: 31aae9bd-570e-4160-b8dc-15bcf76aaf15
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

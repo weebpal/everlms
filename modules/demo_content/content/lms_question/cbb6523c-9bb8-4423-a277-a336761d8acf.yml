@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: cbb6523c-9bb8-4423-a277-a336761d8acf
+  bundle: default
+  default_langcode: en
+  depends:
+    cc4d9508-14c5-446e-9721-430037639e2f: lms_answer
+    28aa7892-04c7-4306-ad92-5ec985317e6e: lms_answer
+    c8750213-3402-4c6f-9691-a3ecbf8f7dbb: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Where does a plenary come in a lesson, is it'
+  created:
+    -
+      value: 1702951151
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: cc4d9508-14c5-446e-9721-430037639e2f
+    -
+      entity: 28aa7892-04c7-4306-ad92-5ec985317e6e
+    -
+      entity: c8750213-3402-4c6f-9691-a3ecbf8f7dbb
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

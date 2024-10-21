@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: aece7f92-00f4-4887-b024-02176fa4623c
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Present perfect'
+  created:
+    -
+      value: 1702954552
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

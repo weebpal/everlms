@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: e28e111d-01f4-4412-980f-a0320906c915
+  bundle: default
+  default_langcode: en
+  depends:
+    166a22f5-99b5-46bd-b654-6223eca48a8a: lms_answer
+    43a99c3f-a652-44a1-b379-8dffd8a62f82: lms_answer
+    ccaf0e13-c00d-4824-8e47-70305851590e: lms_answer
+    707205ad-547c-4625-827e-67a90ae7fc16: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: ' I ....... TV yesterday evening.'
+  created:
+    -
+      value: 1702956943
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 166a22f5-99b5-46bd-b654-6223eca48a8a
+    -
+      entity: 43a99c3f-a652-44a1-b379-8dffd8a62f82
+    -
+      entity: ccaf0e13-c00d-4824-8e47-70305851590e
+    -
+      entity: 707205ad-547c-4625-827e-67a90ae7fc16
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

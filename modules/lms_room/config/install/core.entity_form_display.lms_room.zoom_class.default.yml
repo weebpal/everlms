@@ -1,0 +1,43 @@
+uuid: 8b79adcc-437d-498a-a025-e72fb5da6c3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_room.zoom_class.field_host
+    - lms_room.lms_room_type.zoom_class
+id: lms_room.zoom_class.default
+targetEntityType: lms_room
+bundle: zoom_class
+mode: default
+content:
+  field_host:
+    type: options_select
+    weight: 103
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 100
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

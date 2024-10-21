@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4f0069d7-00b2-4a71-933d-f6b2a064bc56
+  bundle: image
+  default_langcode: en
+  depends:
+    df41d418-ae02-44b3-af36-5d4b50094561: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 4524172_001d.jpg
+  created:
+    -
+      value: 1702978482
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: df41d418-ae02-44b3-af36-5d4b50094561
+      alt: '160 Top Tips for Public Speakers'
+      title: ''
+      width: 480
+      height: 270

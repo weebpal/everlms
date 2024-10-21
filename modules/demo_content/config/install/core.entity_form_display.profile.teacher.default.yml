@@ -1,0 +1,65 @@
+uuid: 3643b563-7297-4874-ac4a-f4d26457dc2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.teacher.address
+    - field.field.profile.teacher.field_course_number
+    - field.field.profile.teacher.field_first_name
+    - field.field.profile.teacher.field_full_name
+    - field.field.profile.teacher.field_last_name
+    - field.field.profile.teacher.field_learner_number
+    - profile.type.teacher
+  module:
+    - address
+id: profile.teacher.default
+targetEntityType: profile
+bundle: teacher
+mode: default
+content:
+  address:
+    type: address_default
+    weight: 32
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_course_number:
+    type: number
+    weight: 31
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_first_name:
+    type: string_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_full_name:
+    type: string_textfield
+    weight: 26
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_last_name:
+    type: string_textfield
+    weight: 28
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_learner_number:
+    type: number
+    weight: 30
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  is_default: true

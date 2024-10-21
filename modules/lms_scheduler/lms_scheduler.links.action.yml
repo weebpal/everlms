@@ -1,0 +1,11 @@
+entity.lms_scheduler.add_page:
+  route_name: entity.lms_scheduler.add_page
+  title: 'Add lms scheduler item'
+  appears_on:
+    - entity.lms_scheduler.collection
+
+entity.lms_scheduler_type.add_form:
+  route_name: entity.lms_scheduler_type.add_form
+  title: 'Add lms scheduler type'
+  appears_on:
+    - entity.lms_scheduler_type.collection

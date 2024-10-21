@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 59569e53-9a31-4d64-86f3-dbd88c488fe0
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Evaluate your demonstration'
+  created:
+    -
+      value: 1702953503
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>After the demonstration, it is important to evaluate your demonstration in order to assess its effectiveness and identify any areas for improvement. This evaluation process allows you to reflect on the success of the demonstration, gather feedback from others, and make any necessary adjustments for future demonstrations. By evaluating your demonstration, you can ensure that it meets its objectives and effectively communicates the desired message to the audience.</p>'
+      format: full_html
+      summary: ''
+  field_correct:
+    -
+      value: true

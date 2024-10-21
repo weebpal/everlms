@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e742c0a5-1660-477e-8b1b-fb61c40049a8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 2540988_77af.jpg
+  uri:
+    -
+      value: 'public://2023-12/2540988_77af_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 10312
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703132694

@@ -1,0 +1,145 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: c9d32001-0323-4d60-91c1-dbaeb1ecfbf6
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    fcc6efd3-f0b7-4624-b697-12977f4abf58: commerce_product_variation
+    34d91d19-06fa-4cb6-b2d4-a9893464cbae: taxonomy_term
+    dc50930c-ad49-4f55-a78e-7300dee48fea: media
+    1b95f993-a8cb-4389-b736-2189ac3a5cf3: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    37b04138-5c9b-407b-8769-5e07b5e2a750: lms_lesson
+    d8e4bfb2-4b7b-4c1d-9065-3b9ade2694c6: lms_lesson
+    cdb3fb47-2426-421e-84a2-080f67664052: lms_lesson
+    5bc60705-14c5-44b2-879c-fe1f1bd3bee4: lms_lesson
+    e8ac9233-1772-4c7a-8485-4f4e82fc38d8: lms_lesson
+    88c7aeda-314e-4e89-9952-863fc19660ad: lms_lesson
+    7a917e56-31ca-4ae8-8786-a74005c98f00: lms_lesson
+    c69dcfb6-9ade-4b7a-aa19-da54f7857c98: lms_lesson
+    4fe024cf-521a-4294-97c2-ca2230c8e129: taxonomy_term
+    82410c0b-1326-4704-a3a5-e4dc43ed0333: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'How to book more Public Speaking Opportunities - Mini Course'
+  variations:
+    -
+      entity: fcc6efd3-f0b7-4624-b697-12977f4abf58
+  default_variation:
+    -
+      entity: fcc6efd3-f0b7-4624-b697-12977f4abf58
+  path:
+    -
+      alias: /course/how-book-more-public-speaking-opportunities-mini-course
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1702965958
+  body:
+    -
+      value: "<p><strong>Very unique is that we update our mini-course every couple of weeks, and host online workshops, so the value of the course grows exponentially for users who stay longer.</strong></p><p><em>--Certification for people who finish this course included--</em></p><p><em>--Coming from a team working with clients from Silicon Valley to Amsterdam--</em></p><p><em>--Personal questions are encouraged and included our support staff is available 7 days a week--</em></p><p><strong>Do you believe in making a real positive impact on people?</strong></p><p>In this mini-course, we look at the fundamentals getting you more speaking opportunities as a public speaker. We'll be looking at both a healthy lead generation strategy, as well as content marketing strategies that are required to begin as a public speaker. We'll also encourage you to look into exploring public speaking as a way of acquisition if you're a small business owner. And how you can use this skill to start an organic lead generation cycle.</p><p>We'll be diving deeper into strategies that have allowed us to speak at countless conferences, and what it's like to host and keynote a 1000+ visitor conference.</p><p>In this course, our focus is on you. We are daily practitioners giving you answers when you ask them in the QnA. Making sure you get the most cutting-edge advice out there.</p><p><strong>Are we the real deal?</strong></p><p>Outside of using these principles to help others, we also use them daily on our own team of over 40+ people, and they have been proven to work with the most diverse from small startup team leaders to large corporates C-suite level people, who have dealt with all the struggles you can have in leadership and public speaking.</p><p>If you've ever struggled with getting invited to speak at major events or convincing people that you do have the skills to speak at a major event, and if you're instead looking to stop convincing your potential clients that you have a high-quality message to convey. Then you'll definitely love having access to our team and these strategies.</p><p>We're practitioners, that's why we can provide real use cases, 24/7 support, and a certification from an organization that has delivered thousands of trainings to corporate organizations worldwide.</p><p>This specific Public Speaking Sales Mini-course is approx. 6-7 hours and more heavily focused on getting you up and running. In this course, we will be focused on:</p><ol><li>Fundamentals to lead gen for public speakers</li><li>Content marketing workshop</li><li>Behind-the-scenes</li><li>How we got on big stages</li><li>How we market and sell books</li><li>Basics of starting your own event to speak at</li><li>Important templates, messages, and more...</li></ol><p>Expert interviews (From Startup Entrepreneurs with 1 million + clients to Former executives at Google, as well as some surprise marketing champions and global corporates)</p><p>Even though it is smaller, it's still ongoing and will be updated monthly with new QnA videos until we've answered all your questions. You can request the next topic once inside the course. So make sure to stay engaged once inside.</p><p><strong>THIS IS FOR PEOPLE WHO ARE INTERESTED IN:</strong></p><ul><li>Public speaking</li><li>Speaking on a stage</li><li>Building their first talk</li><li>Improving your presentation skills</li><li>Getting more organic leads as a business owner</li><li>Gaining access to a support team that answers questions and has expertise in this topic</li><li>Public speaking topics that gain attention</li><li>Social media Content strategies for public speakers</li><li>Starting with public speaking by learning the fundamentals of each strategy and how to structure your speech</li><li>Structuring group sessions</li><li>Business owners who are starting with public speaking and want a more organic way of attracting leads</li><li>How to guide your team to become better public speakers</li><li>How to guide and facilitate your team to a certain goal with motivating speech</li><li>A great new way to create additional revenue and give yourself more credibility</li><li>Great step-by-step process and history to explain organic lead generation better to beginners</li></ul><p><strong>DO NOT BUY THIS COURSE IF:</strong></p><p>Only parts of this course may be relevant for you if you are a professional Chief Executive Officer or doing 7-figure sales and up. For that, you'll need our more in-depth courses.</p><p>This course is heavily focused on attracting what you need to get started or improve your basic teachings. You need to be comfortable with advertising and putting yourself in the digital world with your brand to people on the internet to accomplish this.</p><p>Even if you are a beginner or advanced, our entire team is here to answer your questions, so if you have a unique situation, getting this course is a cheaper way to get access to us.</p><p>Extra 3+ hour Expert interviews included.</p><p><strong>A BRAND NEW WAY TO DO IMPACTFUL PUBLIC SPEAKING AND PRESENTATIONS!</strong></p><p>Do you also find it extremely difficult to get more opportunities to speak on big stages and conferences – where you are actually not stressing about where your next speaking gig is coming from?</p><p>I mean let's be honest, most of us get excited when we're asked to be a keynote speaker, yet we wish we'd have more of those types of opportunities coming in every day.</p><p>For the first time ever, we’re launching the ultimate online course that can guide you through that journey, with customer support that answers within 24 hours.</p><p>We’ll be teaching you how we came up with our teachings through countless interactions with our clients from all over the world, from Silicon Valley to Amsterdam, and how we scaled it within our organization of over 40+ people. The best thing is that you can have zero experience starting out and we'll be able to guide you through the essential strategies of sales.</p><p><strong>IS THIS PERFECT FOR YOU?</strong></p><p>This is perfect for you if you’re a business owner, freelancer, or student that is looking to create a career path and wants to learn proven strategies and practices... Whether you're a beginner or a seasoned public speaker we'll cover the basics of lead generation in this course.</p><p>Our practices have been featured in small rooms as well as in front of global audiences with thousands of people at our events.</p><p><strong>GET READY!</strong></p><p>If you ever wondered how to start your public speaking career or explain certain practices to your team… but the only thing stopping you is the experience or lack of resources, then this course will be worth it to you.</p><p><strong>LEARN</strong></p><p>Our learning platform is updated monthly with new videos. If there is a certain topic you want to know about, please request this by asking us a question on the Udemy Platform. Our support and instructor team answer quickly.</p><p>Of course, the practical experience is half the work. That’s why we also invite you to our virtual job shadows, and any of our events, to really get practical with everything you learn. That's right, free access giveaways to our members to visit a live event.</p><p><strong>CULTURE</strong></p><p>We invest highly in the community culture, with live events, meetups, feedback Fridays, and collaborations. It is our everyday mission to create a creative, safe, and fun environment to thrive in.</p><p><strong>ABOUT US</strong></p><p>The Program is a private online training community founded in 2018.</p><p>It’s the ultimate online school for impact creators, designed to teach you how to build and scale any skill that has the potential to bring good into the world and impact human lives, even if you have no idea where to start or you have no technical skills or knowledge.</p><p>Each year we have thousands of new people from all around the world enter our online training programs, and live events and I want to make sure that you can make an informed and educated decision on whether the Program is right for you.</p><p>What people say about our live in-person events</p><p>“The event was fun, energetic, and inspiring… Thank you so much team, keep doing what you do, and stay in the core of all this energy.”</p><p>“This Event really opens up the calendar... I think it’s a win-win situation. I’ll definitely be inviting other partners to join the event as well.”</p><p>“What I really liked at this event is that it’s about giving back… You can be successful. But you can have even more success if you’re in an inspiring environment and today was all about that!”</p><p>“I think this event is one of those potential partnerships where you can get a lot of value out of it.<br>Thank you so much for having us and helping us with the preparations… It was really joyful to be here!”</p><p>“The giving back concept of the event as well as the people making impact is what I love. I think this is the start of a great initiative… Initiatives like this should be started in other places as well.”</p><p>“Empowering, inspiring, and connecting with other people...”</p>"
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: 34d91d19-06fa-4cb6-b2d4-a9893464cbae
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1702966924
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: dc50930c-ad49-4f55-a78e-7300dee48fea
+  field_featured_course:
+    -
+      value: true
+  field_free:
+    -
+      value: false
+  field_image:
+    -
+      entity: 1b95f993-a8cb-4389-b736-2189ac3a5cf3
+      alt: 'How to book more Public Speaking Opportunities - Mini Course'
+      title: ''
+      width: 750
+      height: 422
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 1352
+  field_lessons:
+    -
+      entity: 37b04138-5c9b-407b-8769-5e07b5e2a750
+    -
+      entity: d8e4bfb2-4b7b-4c1d-9065-3b9ade2694c6
+    -
+      entity: cdb3fb47-2426-421e-84a2-080f67664052
+    -
+      entity: 5bc60705-14c5-44b2-879c-fe1f1bd3bee4
+    -
+      entity: e8ac9233-1772-4c7a-8485-4f4e82fc38d8
+    -
+      entity: 88c7aeda-314e-4e89-9952-863fc19660ad
+    -
+      entity: 7a917e56-31ca-4ae8-8786-a74005c98f00
+    -
+      entity: c69dcfb6-9ade-4b7a-aa19-da54f7857c98
+  field_level:
+    -
+      entity: 4fe024cf-521a-4294-97c2-ca2230c8e129
+  field_quiz:
+    -
+      entity: 82410c0b-1326-4704-a3a5-e4dc43ed0333
+  field_quizzes:
+    -
+      entity: 82410c0b-1326-4704-a3a5-e4dc43ed0333
+  field_rating:
+    -
+      rating: 100
+      target: 0
+  field_requirements:
+    -
+      value: '<ul><li>Willingness to learn</li><li>Asking questions through the platform</li></ul>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>As seen on Detailed step-by-step instructions on booking more speaking gigs - Workshop format</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 2
+  field_total_lessons:
+    -
+      value: 8
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>How we get booked for Keynote speeches at major organizations</li><li>How to book more speaking opportunities</li><li>lead generation campaigns for public speakers</li><li>how to get more speaking gigs</li><li>Content marketing strategies to get events reach out to you</li><li>Other creative ways to put you on the map as a speaker</li><li>Other examples of Experts applying the skills to YouTube</li></ul>'
+      format: full_html

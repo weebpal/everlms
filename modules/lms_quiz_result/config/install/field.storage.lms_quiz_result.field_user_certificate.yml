@@ -1,0 +1,24 @@
+uuid: 1f56d70e-d49c-43d2-bfee-b121b1d2c8a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - lms_quiz_result
+    - lms_user_certificate
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: lms_quiz_result.field_user_certificate
+field_name: field_user_certificate
+entity_type: lms_quiz_result
+type: entity_reference
+settings:
+  target_type: lms_user_certificate
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

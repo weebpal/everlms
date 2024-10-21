@@ -1,0 +1,24 @@
+uuid: e783f37d-b941-4124-8704-2eaf433be2fe
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime_range
+    - field_permissions
+    - lms_lesson
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: lms_lesson.field_class_time
+field_name: field_class_time
+entity_type: lms_lesson
+type: daterange
+settings:
+  datetime_type: datetime
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

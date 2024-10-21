@@ -1,0 +1,25 @@
+uuid: e1cd3215-88d9-4dbb-a427-c7656197b63f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_quiz_result.field_body
+    - lms_quiz_result.lms_quiz_result_type.default
+  module:
+    - text
+_core:
+  default_config_hash: nuD7hDwer6oN9sDUC4qfxDdDqqhlnw9Ym4v1NHm6IlQ
+id: lms_quiz_result.default.field_body
+field_name: field_body
+entity_type: lms_quiz_result
+bundle: default
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

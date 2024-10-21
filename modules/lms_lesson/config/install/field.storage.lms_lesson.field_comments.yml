@@ -1,0 +1,20 @@
+uuid: 9f4ac429-efe8-4b5a-8cbd-f821619b58e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - lms_lesson
+id: lms_lesson.field_comments
+field_name: field_comments
+entity_type: lms_lesson
+type: comment
+settings:
+  comment_type: lesson_default
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fe0bd8d2-6f74-4ab2-9c5e-9b3ca3981364
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: duolingo-alternatives.jpg
+  uri:
+    -
+      value: 'public://2023-12/duolingo-alternatives.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 60647
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703477608

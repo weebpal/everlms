@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 048b7fb1-d51a-462f-a9ab-64ccef4f27ad
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Present, Apply, Review'
+  created:
+    -
+      value: 1702951606
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Geoff Petty states that to have a good lesson structure the three elements Present, Apply, Review are essential and they are often visited many times through the lesson.</p>'
+      format: full_html
+      summary: ''
+  field_correct:
+    -
+      value: true

@@ -1,0 +1,29 @@
+uuid: c365de8d-2fe3-4b02-9ad7-2793592b0808
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_quiz_result.field_taker
+    - lms_quiz_result.lms_quiz_result_type.default
+id: lms_quiz_result.default.field_taker
+field_name: field_taker
+entity_type: lms_quiz_result
+bundle: default
+label: Taker
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    filter:
+      type: _none
+    include_anonymous: true
+field_type: entity_reference

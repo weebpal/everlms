@@ -1,0 +1,29 @@
+uuid: 95706e24-d2b4-480f-89e2-5a3b490e089b
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.rating
+  module:
+    - facets
+    - system
+  theme:
+    - lms_theme
+id: rating_2
+theme: lms_theme
+region: sidebar_first
+weight: -16
+provider: null
+plugin: 'facet_block:rating'
+settings:
+  id: 'facet_block:rating'
+  label: Rating
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: rating_2
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /courses

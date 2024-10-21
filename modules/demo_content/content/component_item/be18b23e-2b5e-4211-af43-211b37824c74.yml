@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: be18b23e-2b5e-4211-af43-211b37824c74
+  bundle: basic_component
+  default_langcode: en
+  depends:
+    39f58716-c973-47d4-abd7-d039f7ab956a: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Untitled'
+  created:
+    -
+      value: 1702915847
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>On Wednesday morning, 22 students from Y7 participated in the DOET’s inaugural “camping trip” at Hanoi University.</p><p>Year 7 participated in the English Eloquence Competition On Wednesday morning, 22 students from Y7 participated in the DOET’s inaugural “camping trip” at Hanoi University.<br>On Wednesday morning, 22 students from Y7 participated in the DOET’s inaugural “camping trip” at Hanoi University.</p><p>BVIS was invited to enter the English Eloquence Competition, against other Lower Secondary students from across the district. Dieu Linh Pham Thi from 7V represented BVIS, and delivered a word perfect performance of her speech, My Dream Job, in which she outlined her ambition to follow in the footsteps of some of the world’s greatest scientists and enter the field of medical research. Her passion for working for the greater good of mankind shone through, and all who attended were proud to have her representing our school. &nbsp;Thank you Dieu Linh!</p><p>We would also like to express our sincere gratitude to the DOET for hosting this vibrant event. It was an enriching experience and we look forward to continuing to build links with schools throughout Hanoi.</p><p><strong>Ms Kirstin - English Teacher</strong></p>'
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: 39f58716-c973-47d4-abd7-d039f7ab956a
+      alt: ''
+      title: ''
+      width: 887
+      height: 499

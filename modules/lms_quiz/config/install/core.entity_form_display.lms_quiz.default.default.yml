@@ -1,0 +1,187 @@
+uuid: 5180f777-f59a-476e-94c7-0d92a794338d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.lms_question.inline_entity_form
+    - field.field.lms_quiz.default.field_body
+    - field.field.lms_quiz.default.field_certificate
+    - field.field.lms_quiz.default.field_difficulty
+    - field.field.lms_quiz.default.field_display_right_answer
+    - field.field.lms_quiz.default.field_failed_title
+    - field.field.lms_quiz.default.field_form_style
+    - field.field.lms_quiz.default.field_passed_title
+    - field.field.lms_quiz.default.field_prerequisite_quizes
+    - field.field.lms_quiz.default.field_question_count
+    - field.field.lms_quiz.default.field_questions
+    - field.field.lms_quiz.default.field_take_quiz_number
+    - field.field.lms_quiz.default.field_threshold
+    - field.field.lms_quiz.default.field_time_limit
+    - lms_quiz.lms_quiz_type.default
+  module:
+    - field_group
+    - inline_entity_form
+    - text
+third_party_settings:
+  field_group:
+    group_quiz_:
+      children:
+        - field_take_quiz_number
+        - field_display_right_answer
+        - field_difficulty
+        - field_threshold
+        - field_time_limit
+        - field_form_style
+      label: 'Quiz Settings'
+      region: content
+      parent_name: ''
+      weight: 1
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: true
+        description: ''
+        required_fields: true
+    group_quiz_questions:
+      children:
+        - field_prerequisite_quizes
+        - field_questions
+      label: 'Quiz Questions'
+      region: content
+      parent_name: ''
+      weight: 4
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: true
+        description: ''
+        required_fields: true
+_core:
+  default_config_hash: _D69USU6RYDLB90D589vk0M3wdGTR9duv0CtRD2N56w
+id: lms_quiz.default.default
+targetEntityType: lms_quiz
+bundle: default
+mode: default
+content:
+  field_body:
+    type: text_textarea_with_summary
+    weight: 6
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_certificate:
+    type: options_select
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_difficulty:
+    type: options_select
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_display_right_answer:
+    type: boolean_checkbox
+    weight: 4
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_form_style:
+    type: options_select
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_prerequisite_quizes:
+    type: entity_reference_autocomplete
+    weight: 6
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_questions:
+    type: inline_entity_form_complex
+    weight: 7
+    region: content
+    settings:
+      form_mode: inline_entity_form
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      allow_duplicate: true
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: optional
+    third_party_settings: {  }
+  field_take_quiz_number:
+    type: number
+    weight: 3
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_threshold:
+    type: number
+    weight: 6
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_time_limit:
+    type: number
+    weight: 7
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 7
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_failed_title: true
+  field_passed_title: true
+  field_question_count: true
+  uid: true

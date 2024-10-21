@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: dd46177d-c279-448b-a8df-d4da03a550ba
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The brain and skull reach their full adult sizes by 16 to 18 years of age'
+  created:
+    -
+      value: 1702951541
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: "<p>The brain and skull reach their full adult sizes by 16 to 18 years of age. This is because during adolescence, the brain goes through a process called pruning, where unnecessary connections between neurons are eliminated to increase efficiency. Additionally, the brain's gray matter, which is responsible for processing information, reaches its peak volume during early adolescence and starts to decrease in the late teens. Therefore, by the age of 16 to 18, the brain has reached its maximum size and structural development.</p>"
+      format: full_html
+      summary: ''
+  field_correct:
+    -
+      value: true

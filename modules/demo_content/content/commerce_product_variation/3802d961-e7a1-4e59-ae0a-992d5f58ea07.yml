@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 3802d961-e7a1-4e59-ae0a-992d5f58ea07
+  bundle: course
+  default_langcode: en
+  depends:
+    97094a9f-a60e-4a49-b5d6-68f00e7d6cfb: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 97094a9f-a60e-4a49-b5d6-68f00e7d6cfb
+  sku:
+    -
+      value: 'Communication skills'
+  title:
+    -
+      value: 'Communication skills | How to be a good communicator ?'
+  list_price:
+    -
+      number: '30.000000'
+      currency_code: USD
+      formatted: $30.00
+  price:
+    -
+      number: '25.000000'
+      currency_code: USD
+      formatted: $25.00
+  created:
+    -
+      value: 1703042239

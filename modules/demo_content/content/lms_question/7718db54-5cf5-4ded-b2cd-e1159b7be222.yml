@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 7718db54-5cf5-4ded-b2cd-e1159b7be222
+  bundle: default
+  default_langcode: en
+  depends:
+    c1b146c0-de98-4a93-b098-f025bf7358ab: lms_answer
+    fed3f445-651f-4a80-9009-ff22ad888854: lms_answer
+    c795080d-dcc7-4d76-90e9-0d1afdb0104a: lms_answer
+    a0c97987-e22b-45e0-b4b5-a9662c9f6c2d: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'At the end of the speech the whole assembly gave the speakers a standing ........'
+  created:
+    -
+      value: 1702957188
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: c1b146c0-de98-4a93-b098-f025bf7358ab
+    -
+      entity: fed3f445-651f-4a80-9009-ff22ad888854
+    -
+      entity: c795080d-dcc7-4d76-90e9-0d1afdb0104a
+    -
+      entity: a0c97987-e22b-45e0-b4b5-a9662c9f6c2d
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

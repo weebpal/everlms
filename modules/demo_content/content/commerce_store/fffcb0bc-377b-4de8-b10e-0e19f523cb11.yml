@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_store
+  uuid: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  bundle: online
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Default
+  default_currency:
+    -
+      target_id: USD
+  timezone:
+    -
+      value: UTC
+  address:
+    -
+      langcode: ''
+      country_code: AU
+      administrative_area: NSW
+      locality: '1111'
+      dependent_locality: ''
+      postal_code: '1111'
+      sorting_code: ''
+      address_line1: '111'
+      address_line2: ''
+  billing_countries:
+    -
+      value: AU
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  is_default:
+    -
+      value: true
+  created:
+    -
+      value: 1693708051

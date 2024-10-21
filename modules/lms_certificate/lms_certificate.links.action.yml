@@ -1,0 +1,11 @@
+entity.lms_certificate.add_page:
+  route_name: entity.lms_certificate.add_page
+  title: 'Add certificate item'
+  appears_on:
+    - entity.lms_certificate.collection
+
+entity.lms_certificate_type.add_form:
+  route_name: entity.lms_certificate_type.add_form
+  title: 'Add certificate type'
+  appears_on:
+    - entity.lms_certificate_type.collection

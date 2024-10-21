@@ -1,0 +1,54 @@
+<?php
+
+use Drupal\block\Entity\Block;
+use Drupal\block_content\Entity\BlockContent;
+use Drupal\Core\Render\Markup;
+
+/**
+ * Implements hook_preprocess_HOOK() for HTML document templates.
+ */
+function lms_theme_preprocess_html(&$variables) {
+  // Add information about the number of sidebars.
+  if (!empty($variables['page']['sidebar_first']) && !empty($variables['page']['sidebar_second'])) {
+    $variables['attributes']['class'][] = 'layout-two-sidebars';
+  }
+  elseif (!empty($variables['page']['sidebar_first'])) {
+    $variables['attributes']['class'][] = 'layout-one-sidebar';
+    $variables['attributes']['class'][] = 'layout-sidebar-first';
+  }
+  elseif (!empty($variables['page']['sidebar_second'])) {
+    $variables['attributes']['class'][] = 'layout-one-sidebar';
+    $variables['attributes']['class'][] = 'layout-sidebar-second';
+  }
+  else {
+    $variables['attributes']['class'][] = 'layout-no-sidebars';
+  }
+
+  if (!empty($variables['page']['featured_top'])) {
+    $variables['attributes']['class'][] = 'has-featured-top';
+  }
+
+  $skin_type = theme_get_setting('skin_type');
+  if (isset($skin_type)) {
+    $variables['attributes']['class'][] = $skin_type;
+  }
+}
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function lms_theme_preprocess_page(&$variables) {
+  if (!empty($variables['page']['sidebar_first']) && !empty($variables['page']['sidebar_second'])) {
+    $variables['main_content_width'] = 6;
+    $variables['sidebar_first_width'] = 3;
+    $variables['sidebar_second_width'] = 3;
+  } elseif (!empty($variables['page']['sidebar_first'])) {
+    $variables['main_content_width'] = 9;
+    $variables['sidebar_first_width'] = 3;
+  } elseif (!empty($variables['page']['sidebar_second'])) {
+    $variables['main_content_width'] = 8;
+    $variables['sidebar_second_width'] = 4;
+  } else {
+    $variables['main_content_width'] = 12;
+  }
+}

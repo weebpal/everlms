@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: b1a0fb3a-aa9e-4869-a57d-d3f40f73d178
+  bundle: course
+  default_langcode: en
+  depends:
+    09406d94-288f-48a4-84e8-7f4ed5e6ee1e: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 09406d94-288f-48a4-84e8-7f4ed5e6ee1e
+  sku:
+    -
+      value: 'Written Communication'
+  title:
+    -
+      value: 'Written Communication: Improve Your Business Writing Skills'
+  list_price:
+    -
+      number: '70.000000'
+      currency_code: USD
+      formatted: $70.00
+  price:
+    -
+      number: '25.000000'
+      currency_code: USD
+      formatted: $25.00
+  created:
+    -
+      value: 1703143364

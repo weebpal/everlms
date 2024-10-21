@@ -1,0 +1,21 @@
+uuid: 22f6ce3b-7ecf-40d6-b9de-9dc71809c39a
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.course
+    - field.storage.commerce_product.field_short_description
+  module:
+    - text
+id: commerce_product.course.field_short_description
+field_name: field_short_description
+entity_type: commerce_product
+bundle: course
+label: 'Short description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

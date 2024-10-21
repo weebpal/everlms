@@ -1,0 +1,15 @@
+uuid: 9314ef96-6e07-48af-9bf9-c05c056a0a9d
+langcode: en
+status: true
+dependencies: {  }
+name: image_365x244
+label: 'Image (365x244)'
+effects:
+  4dc6adb0-f560-485d-8f9e-fc1b8e5e5b93:
+    uuid: 4dc6adb0-f560-485d-8f9e-fc1b8e5e5b93
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 365
+      height: 244
+      anchor: center-center

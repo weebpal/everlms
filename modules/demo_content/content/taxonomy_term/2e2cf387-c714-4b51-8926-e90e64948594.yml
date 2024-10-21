@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 2e2cf387-c714-4b51-8926-e90e64948594
+  bundle: category
+  default_langcode: en
+  depends:
+    d82417ad-a9b7-455b-a53f-62f639aacf2a: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Presentation Skills'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /category/presentation-skills
+      langcode: en
+      pathauto: 1
+  field_image:
+    -
+      entity: d82417ad-a9b7-455b-a53f-62f639aacf2a
+      alt: 'Presentation Skills'
+      title: ''
+      width: 2560
+      height: 1341
+  field_top_category:
+    -
+      value: false

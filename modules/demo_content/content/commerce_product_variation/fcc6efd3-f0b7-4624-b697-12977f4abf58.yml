@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: fcc6efd3-f0b7-4624-b697-12977f4abf58
+  bundle: course
+  default_langcode: en
+  depends:
+    c9d32001-0323-4d60-91c1-dbaeb1ecfbf6: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: c9d32001-0323-4d60-91c1-dbaeb1ecfbf6
+  sku:
+    -
+      value: 'Public Speaking Opportunities'
+  title:
+    -
+      value: 'How to book more Public Speaking Opportunities - Mini Course'
+  list_price:
+    -
+      number: '30.000000'
+      currency_code: USD
+      formatted: $30.00
+  price:
+    -
+      number: '25.000000'
+      currency_code: USD
+      formatted: $25.00
+  created:
+    -
+      value: 1702966979

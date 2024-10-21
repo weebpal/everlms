@@ -1,0 +1,7 @@
+lms_class.root:
+  path: '/admin/lms/lms-class'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Class'
+  requirements:
+    _permission: 'administer lms_class'

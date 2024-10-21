@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 27fd3ef6-3a70-491d-a444-632fcbdff2bf
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Advanced Communication Skills.mp4'
+  uri:
+    -
+      value: 'public://2023-12/Advanced Communication Skills.mp4'
+  filemime:
+    -
+      value: video/mp4
+  filesize:
+    -
+      value: 39957074
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703044771

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1cad1d7c-0ee4-4735-8d86-a65c31cb4bc6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: What-is-IELTS.jpg
+  uri:
+    -
+      value: 'public://2023-12/What-is-IELTS.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 44380
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703478179

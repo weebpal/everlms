@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 889578bc-612d-4c28-be52-7330e0b611fe
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 854500_4912_10.jpg
+  uri:
+    -
+      value: 'public://2023-12/854500_4912_10_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 20021
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703131856

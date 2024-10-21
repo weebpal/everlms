@@ -1,0 +1,23 @@
+uuid: 88401af0-417b-4b88-889a-a995aa60445f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_course_number
+    - profile.type.teacher
+id: profile.teacher.field_course_number
+field_name: field_course_number
+entity_type: profile
+bundle: teacher
+label: 'Course number'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

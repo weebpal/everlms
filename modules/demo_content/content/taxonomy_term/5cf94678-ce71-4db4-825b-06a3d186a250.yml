@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 5cf94678-ce71-4db4-825b-06a3d186a250
+  bundle: category
+  default_langcode: en
+  depends:
+    acca172f-2ee1-45b9-99d1-6723a873bd61: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'English Vocabulary'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /category/english-vocabulary
+      langcode: en
+      pathauto: 1
+  field_image:
+    -
+      entity: acca172f-2ee1-45b9-99d1-6723a873bd61
+      alt: 'English Vocabulary'
+      title: ''
+      width: 853
+      height: 480
+  field_top_category:
+    -
+      value: false

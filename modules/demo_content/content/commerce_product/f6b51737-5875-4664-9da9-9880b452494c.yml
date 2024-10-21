@@ -1,0 +1,133 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: f6b51737-5875-4664-9da9-9880b452494c
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    71ee4c4e-7883-4eb5-89ef-5bea113a7f8f: commerce_product_variation
+    2355a8bf-2617-4d60-8011-abaf25324292: taxonomy_term
+    d10b48ac-fb53-406a-b22a-e0efc29c7b98: taxonomy_term
+    b8287b6b-2505-40a2-b554-19f82a013bd6: lms_certificate
+    59b19273-1149-4134-86d9-d9b2ff8e67c6: media
+    1bf249ef-e89a-4b98-a1a5-bbe9d911008a: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    1667b603-6f68-40f0-8a0e-ec5c835a37a4: lms_lesson
+    6e533273-538b-4bbc-84e6-b33aafd6e3de: lms_lesson
+    9e3c0621-b479-4a05-80d2-c9bbd170beb7: lms_lesson
+    d8620669-4362-4797-a4ba-15afb97db7db: lms_lesson
+    e74a7793-5a42-44dd-8cf1-d3d74b3d992f: taxonomy_term
+    75a2ac7a-3ef5-47ee-afbd-bf36a130db8d: lms_quiz
+    0fddb220-889f-44e5-af46-219d6c4aebf5: user
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'American English Pronunciation for Beginners'
+  variations:
+    -
+      entity: 71ee4c4e-7883-4eb5-89ef-5bea113a7f8f
+  default_variation:
+    -
+      entity: 71ee4c4e-7883-4eb5-89ef-5bea113a7f8f
+  path:
+    -
+      alias: /course/american-english-pronunciation-beginners
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1707989287
+  field_age:
+    -
+      entity: 2355a8bf-2617-4d60-8011-abaf25324292
+  field_bestseller:
+    -
+      value: true
+  field_category:
+    -
+      entity: d10b48ac-fb53-406a-b22a-e0efc29c7b98
+  field_certificate:
+    -
+      entity: b8287b6b-2505-40a2-b554-19f82a013bd6
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1707989847
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: 59b19273-1149-4134-86d9-d9b2ff8e67c6
+  field_featured_course:
+    -
+      value: false
+  field_free:
+    -
+      value: false
+  field_image:
+    -
+      entity: 1bf249ef-e89a-4b98-a1a5-bbe9d911008a
+      alt: 'American English Pronunciation for Beginners'
+      title: ''
+      width: 240
+      height: 135
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 4
+  field_lessons:
+    -
+      entity: 1667b603-6f68-40f0-8a0e-ec5c835a37a4
+    -
+      entity: 6e533273-538b-4bbc-84e6-b33aafd6e3de
+    -
+      entity: 9e3c0621-b479-4a05-80d2-c9bbd170beb7
+    -
+      entity: d8620669-4362-4797-a4ba-15afb97db7db
+  field_level:
+    -
+      entity: e74a7793-5a42-44dd-8cf1-d3d74b3d992f
+  field_quizzes:
+    -
+      entity: 75a2ac7a-3ef5-47ee-afbd-bf36a130db8d
+  field_requirements:
+    -
+      value: '<p>Absolutely NO prior knowledge or experience of American English required to take this course</p><p>It is recommended that you use a headset to get the optimal sound quality, and you will hear the correct pronunciations</p><p>A notebook, journal, or electronic device to take notes on is recommended during the entire course</p>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>I welcome you to this - “American English Pronunciation Training - course where I will patiently guide you through the basic techniques you need to pronounce English sounds correctly.</p><p>This course will guide you through the basics of correct American pronunciation and help you learn how to make the sounds of standard American English with confidence.</p>'
+      format: full_html
+  field_teacher:
+    -
+      entity: 0fddb220-889f-44e5-af46-219d6c4aebf5
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 2
+  field_total_lessons:
+    -
+      value: 4
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>Speak words and sentences in standard American English with the correct pronunciation</li><li>Learn to use the muscles of the tongue, lips and mouth to get the right sound.</li><li>Get the correct pronunciations of the difficult words and the sounds such as “TH" “R” “L” “V” “W”</li><li>Understand and use phonetic spelling</li><li>Focused practice of skills learned in the lectures</li><li>Improve your listening skills with Native American English through ear training</li><li>Hear the difference between long vowels and short vowels.</li><li>Say the sounds of the alphabet clearly and correctly</li></ul>'
+      format: full_html

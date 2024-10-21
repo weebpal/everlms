@@ -1,0 +1,52 @@
+/*------------------------------------------------------------------
+CSS
+-------------------------------------------------------------------*/
+
+// Core variables and mixins
+//@import "config/variables";
+//@import "config/mixins";
+
+// ====================
+// Skins
+// Please enable when using skins theme
+// ---
+// @import "base/skin";
+
+// Base
+//@import "base/fonts";
+//@import "base/base";
+//@import "base/elements";
+//@import "base/header";
+//@import "base/footer";
+
+//
+// ====================
+// Drupal Component
+// Please enable when using Drupal
+// ---
+// @import "config/reset";
+
+// Partials
+//@import "partials/view";
+//@import "partials/block";
+//@import "partials/page";
+//@import "partials/responsive";
+//@import "partials/print";
+
+@import "theme/config/variables";
+@import "theme/config/mixins";
+@import "theme/skin/skin_theme.scss";
+@import "theme/skin/_custom_skin_theme";
+@import "theme/1_elements";
+@import "theme/2_fields";
+@import "theme/3_1_components";
+@import "theme/3_2_articles";
+@import "theme/3_3_forms";
+@import "theme/3_4_views";
+@import "theme/3_5_blocks";
+@import "theme/4_1_regions";
+@import "theme/4_2_sections";
+@import "theme/5_pages";
+@import "theme/6_responsive";
+@import "theme/7_rtl";
+@import "theme/8_print";

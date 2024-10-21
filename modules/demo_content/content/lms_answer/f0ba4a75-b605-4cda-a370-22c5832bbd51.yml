@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: f0ba4a75-b605-4cda-a370-22c5832bbd51
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Do not wander from the main idea'
+  created:
+    -
+      value: 1702953275
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

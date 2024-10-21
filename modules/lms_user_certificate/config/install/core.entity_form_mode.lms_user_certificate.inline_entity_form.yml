@@ -1,0 +1,10 @@
+uuid: 338bd7f4-5191-4771-9083-b232c9363a8f
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_user_certificate
+id: lms_user_certificate.inline_entity_form
+label: 'Inline Entity Form'
+targetEntityType: lms_user_certificate
+cache: true

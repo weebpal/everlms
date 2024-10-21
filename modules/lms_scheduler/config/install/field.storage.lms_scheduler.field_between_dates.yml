@@ -1,0 +1,24 @@
+uuid: 50fe21d9-2c3c-4e37-9fdc-eae901ab29d7
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime_range
+    - field_permissions
+    - lms_scheduler
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: lms_scheduler.field_between_dates
+field_name: field_between_dates
+entity_type: lms_scheduler
+type: daterange
+settings:
+  datetime_type: date
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 3513f603-eec4-41e4-8ec2-223fcc4bdfdd
+  bundle: course
+  default_langcode: en
+  depends:
+    c0325078-393d-4890-b52c-a16f55128bfb: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: c0325078-393d-4890-b52c-a16f55128bfb
+  sku:
+    -
+      value: 'English Through Story'
+  title:
+    -
+      value: 'English Through Story - English Language Course- Grammar'
+  list_price:
+    -
+      number: '35.000000'
+      currency_code: USD
+      formatted: $35.00
+  price:
+    -
+      number: '10.000000'
+      currency_code: USD
+      formatted: $10.00
+  created:
+    -
+      value: 1703128423

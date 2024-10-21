@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c46b999f-63ca-4854-bd73-5e9572512f5f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Communication skills.mp4'
+  uri:
+    -
+      value: 'public://2023-12/Communication skills.mp4'
+  filemime:
+    -
+      value: video/mp4
+  filesize:
+    -
+      value: 60733614
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703039058

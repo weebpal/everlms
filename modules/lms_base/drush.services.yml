@@ -1,0 +1,5 @@
+services:
+  lms_base.commands:
+    class: \Drupal\lms_base\Commands\LmsBaseCommands
+    tags:
+      - { name: drush.command }

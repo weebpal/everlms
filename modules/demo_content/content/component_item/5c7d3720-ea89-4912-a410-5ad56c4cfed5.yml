@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 5c7d3720-ea89-4912-a410-5ad56c4cfed5
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Accents'
+  title:
+    -
+      value: Accents
+  created:
+    -
+      value: 1702916980
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>One of the hard things but also very useful things about watching movies is the different ways people speak. While the teacher in your online video lessons may be easy to understand, in the real world people speak with a huge range of accents. By watching a range of movies you can pick up and understand some of these accents and this will help you understand people in the real world. However, it is worth being careful to choose movies with mainstream accents and initially avoid rural accents in places you are not likely to visit. For example, if you are planning on working in Australia then watching a movie about rural Scotland may not be very useful and may be very hard to understand.</p>'
+      format: full_html
+      summary: ''

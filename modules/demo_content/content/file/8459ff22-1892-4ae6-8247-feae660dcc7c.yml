@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8459ff22-1892-4ae6-8247-feae660dcc7c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: DOEThacBaBVIS20161_755x9999.jpg
+  uri:
+    -
+      value: 'public://2023-12/DOEThacBaBVIS20161_755x9999.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 91909
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702915561

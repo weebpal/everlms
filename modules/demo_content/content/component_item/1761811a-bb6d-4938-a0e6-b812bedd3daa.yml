@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 1761811a-bb6d-4938-a0e6-b812bedd3daa
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Simple News for English Learners'
+  title:
+    -
+      value: 'Simple News for English Learners'
+  created:
+    -
+      value: 1702916831
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>We have launched a new news service for English learners called News Flash. This fantastic new service provides news straight from Reuters who are one of the largest news agencies in the world. News Flash not only gives you simple, interesting and useful stories to read about and learn from it also includes a vocabulary test so you can actually score your learning while catching up on important news stories.</p>'
+      format: full_html
+      summary: ''

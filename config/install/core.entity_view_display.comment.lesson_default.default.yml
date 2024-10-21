@@ -1,0 +1,76 @@
+uuid: 2d5f05d2-9162-4811-ad24-c6449402d023
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.lesson_default
+    - field.field.comment.lesson_default.comment_body
+  module:
+    - manage_display
+    - text
+id: comment.lesson_default.default
+targetEntityType: comment
+bundle: lesson_default
+mode: default
+content:
+  comment_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  created:
+    type: timestamp
+    label: hidden
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+      tooltip:
+        date_format: ''
+        custom_date_format: ''
+      time_diff:
+        enabled: false
+        future_format: '@interval hence'
+        past_format: '@interval ago'
+        granularity: 2
+        refresh: 60
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+  pid:
+    type: in_reply_to
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  subject:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h3
+    third_party_settings: {  }
+    weight: -49
+    region: content
+  uid:
+    type: submitted
+    label: hidden
+    settings:
+      user_picture: ''
+    third_party_settings: {  }
+    weight: -51
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true
+  search_api_excerpt: true

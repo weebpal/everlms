@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: c21243c9-ba81-4155-a378-45a2c8a43674
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'A kind of understatement that can strengthen, emphasize, or downplay a thought.'
+  created:
+    -
+      value: 1702955691
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

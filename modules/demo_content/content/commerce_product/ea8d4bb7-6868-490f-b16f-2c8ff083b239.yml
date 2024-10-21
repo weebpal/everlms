@@ -1,0 +1,139 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: ea8d4bb7-6868-490f-b16f-2c8ff083b239
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    ba79cd00-10d1-4f2f-befd-e77ebf2be2d0: commerce_product_variation
+    5cf94678-ce71-4db4-825b-06a3d186a250: taxonomy_term
+    b4faf933-77b7-4368-b466-9710f2cb16b5: media
+    ed11ae4e-5346-43c9-96a7-4ec00ce21124: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    9bdd2997-93df-4b81-bd1f-b0eebddcbc82: lms_lesson
+    081da14b-8ccd-4544-92b3-9bb6dcef7629: lms_lesson
+    defd72e5-7924-4b79-8b32-665ecf103129: lms_lesson
+    1881b764-9898-4efd-baf1-786d699e52fb: lms_lesson
+    7129565a-bb03-4864-a53e-dd51b8231e6d: lms_lesson
+    1b6b8528-cbda-4609-b313-0a6f3f7ec076: lms_lesson
+    4fe024cf-521a-4294-97c2-ca2230c8e129: taxonomy_term
+    75a2ac7a-3ef5-47ee-afbd-bf36a130db8d: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'Advanced English Vocabulary'
+  variations:
+    -
+      entity: ba79cd00-10d1-4f2f-befd-e77ebf2be2d0
+  default_variation:
+    -
+      entity: ba79cd00-10d1-4f2f-befd-e77ebf2be2d0
+  path:
+    -
+      alias: /course/advanced-english-vocabulary
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1703128546
+  body:
+    -
+      value: '<p><strong>This Advanced English Vocabulary course will help you:</strong></p><p>- Learn more English vocabulary</p><p>- Improve your English listening skills</p><p>- Improve your English conversation and English fluency skills</p><p>- Improve your English writing skills</p><p><strong>Altogether, this course includes:</strong></p><p>- 18+ hours of video</p><p>- 500 high-level English vocabulary words/phrases</p><p>- 50 different common English speaking topics</p><p>- 2000+ synonyms and antonyms to build your English vocabulary</p><p>- 2500+ English vocabulary collocations</p><p>- 500 example sentences</p><p><strong>Each topic includes:</strong></p><p>- 10 key advanced English vocabulary words/phrases</p><p>- The meaning of the English vocabulary word/phrase</p><p>- The word family for that English vocabulary word/phrase (verb, noun, adjective, adverb) so you know how to use it flexibly</p><p>- Synonyms of that English vocabulary word (words with the same meaning)</p><p>- Antonyms of that English vocabulary word (words with the opposite meaning)</p><p>- Collocations for that English vocabulary word (how it is normally used in English)</p><p>- An example sentence with the English vocabulary word, so you know how to use it in a real sentence</p><p><strong>The 50 Topics:</strong></p><p>1. Advertising</p><p>2. Animals (wild)</p><p>3. Architecture</p><p>4. Art</p><p>5. Birthdays</p><p>6. Business</p><p>7. Children</p><p>8. Clothes</p><p>9. Communication</p><p>10. Cooking</p><p>11. Crime and Punishment</p><p>12. Culture</p><p>13. Daily Routine</p><p>14. Economy</p><p>15. Education</p><p>16. Employment</p><p>17. Entertainment</p><p>18. Environment</p><p>19. Ethics</p><p>20. Exercise</p><p>21. Family</p><p>22. Food and diet</p><p>23. Friendship</p><p>24. Geography</p><p>25. Globalisation</p><p>26. Government</p><p>27. Health (mental)</p><p>28. Health (physical)</p><p>29. Hometown/Cities</p><p>30. Housing</p><p>31. International Aid</p><p>32. Language</p><p>33. Love</p><p>34. Media &amp; Fame</p><p>35. Money</p><p>36. Movies</p><p>37. Music</p><p>38. Nature</p><p>39. News</p><p>40. Personality</p><p>41. Pets</p><p>42. Shopping</p><p>43. Social Media</p><p>44. Space</p><p>45. Sports</p><p>46. Technology</p><p>47. Transport</p><p>48. Travel and Tourism</p><p>49. Weather</p><p>50. Work</p>'
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: true
+  field_category:
+    -
+      entity: 5cf94678-ce71-4db4-825b-06a3d186a250
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703128692
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: b4faf933-77b7-4368-b466-9710f2cb16b5
+  field_featured_course:
+    -
+      value: false
+  field_free:
+    -
+      value: false
+  field_image:
+    -
+      entity: ed11ae4e-5346-43c9-96a7-4ec00ce21124
+      alt: 'Advanced English Vocabulary'
+      title: ''
+      width: 750
+      height: 422
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 2253
+  field_lessons:
+    -
+      entity: 9bdd2997-93df-4b81-bd1f-b0eebddcbc82
+    -
+      entity: 081da14b-8ccd-4544-92b3-9bb6dcef7629
+    -
+      entity: defd72e5-7924-4b79-8b32-665ecf103129
+    -
+      entity: 1881b764-9898-4efd-baf1-786d699e52fb
+    -
+      entity: 7129565a-bb03-4864-a53e-dd51b8231e6d
+    -
+      entity: 1b6b8528-cbda-4609-b313-0a6f3f7ec076
+  field_level:
+    -
+      entity: 4fe024cf-521a-4294-97c2-ca2230c8e129
+  field_quiz:
+    -
+      entity: 75a2ac7a-3ef5-47ee-afbd-bf36a130db8d
+  field_quizzes:
+    -
+      entity: 75a2ac7a-3ef5-47ee-afbd-bf36a130db8d
+  field_rating:
+    -
+      rating: 100
+      target: 0
+  field_requirements:
+    -
+      value: '<p>Intermediate English (B1+)</p>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>500 High-Level Words/Phrases to take your English to the NEXT LEVEL</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 2
+  field_total_lessons:
+    -
+      value: 6
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>500 Advanced English Vocabulary words and phrases</li><li>English listening and speaking skills through our specially designed course</li><li>2500 high-level English collocations to make your English more natural</li><li>2000 synonyms and antonyms to build your wider English vocabulary</li><li>500 example sentences to improve your English grammar</li></ul>'
+      format: full_html

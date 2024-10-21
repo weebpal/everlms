@@ -1,0 +1,10 @@
+uuid: 4ee4f491-b5f2-4346-a68e-7996ac740c59
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_quiz_result
+id: lms_quiz_result.token
+label: Token
+targetEntityType: lms_quiz_result
+cache: true

@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 3395f7a6-bde0-4dae-98f6-c75e269f5674
+  bundle: push_image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Push Image Item: How to read your IELTS score:'
+  title:
+    -
+      value: 'How to read your IELTS score:'
+  created:
+    -
+      value: 1703476909
+  revision_translation_affected:
+    -
+      value: true
+  field_pi_body:
+    -
+      value: '<p>When you receive your IELTS Test Report Form (TRF), you’ll find your overall band score and individual scores for each section. Here’s how to interpret your scores:</p><p><strong>Overall Band Score: </strong>This is the average of your scores in all four sections. It indicates your general English proficiency level. For instance, if you get a Band 7 overall, it means you are a “Good user” of English.</p><p><strong>Section Scores: </strong>Apart from the overall score, you’ll receive scores for each section. These scores range from 0 to 9 as well. They indicate your performance in specific language skills.</p><ul><li><strong>Listening Score: </strong>Your ability to understand spoken English in various contexts.</li><li><strong>Reading Score: </strong>Your comprehension skills in reading passages and answering questions.</li><li><strong>Writing Score: </strong>Your ability to present and organize ideas coherently in writing tasks.</li><li><strong>Speaking Score:</strong> Your spoken language skills, including fluency, pronunciation, and vocabulary.</li></ul><p><strong>Individual Module Scores (Academic Only):</strong> If you take the IELTS Academic test, you’ll also receive individual scores for the writing and speaking modules. This breakdown provides more detailed insights into your language abilities.</p>'
+      format: full_html

@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 5525bf8a-4ec0-4e4b-be7e-32c2a7379814
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: ' It is used for a repeated action that occurred some time before now.'
+  created:
+    -
+      value: 1702954153
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

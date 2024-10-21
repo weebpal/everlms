@@ -1,0 +1,73 @@
+uuid: 6b0b65b2-f7b5-497e-b4e2-b622100d7f45
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.teacher.address
+    - field.field.profile.teacher.field_course_number
+    - field.field.profile.teacher.field_first_name
+    - field.field.profile.teacher.field_full_name
+    - field.field.profile.teacher.field_last_name
+    - field.field.profile.teacher.field_learner_number
+    - profile.type.teacher
+  module:
+    - address
+id: profile.teacher.default
+targetEntityType: profile
+bundle: teacher
+mode: default
+content:
+  address:
+    type: address_plain
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_course_number:
+    type: number_integer
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_first_name:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_full_name:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_last_name:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_learner_number:
+    type: number_integer
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  search_api_excerpt: true

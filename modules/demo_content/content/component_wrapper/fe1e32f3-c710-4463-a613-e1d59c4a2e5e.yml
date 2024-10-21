@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: component_wrapper
+  uuid: fe1e32f3-c710-4463-a613-e1d59c4a2e5e
+  default_langcode: en
+  depends:
+    7d67e02d-eb5d-418e-b1ff-021d7bf7ddc2: taxonomy_term
+    c10bf29d-cf5f-470d-9696-f2dffb1b55fb: component_item
+    f2d77181-6560-4f6b-b2dc-44434789b5ae: component_item
+    624ef2b4-8d18-43d8-a05e-30f7a7bad3ae: component_item
+    f4b22eb6-fc0b-4420-892b-b6a28814976c: component_item
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  title:
+    -
+      value: 'Big image'
+  component_type:
+    -
+      entity: 7d67e02d-eb5d-418e-b1ff-021d7bf7ddc2
+  display_title:
+    -
+      value: false
+  display_header:
+    -
+      value: false
+  display_footer:
+    -
+      value: false
+  display_image:
+    -
+      value: false
+  display_in_region:
+    -
+      value: false
+  field_region:
+    -
+      value: headline
+  created:
+    -
+      value: 1702917418
+  revision_translation_affected:
+    -
+      value: true
+  field_basic_component:
+    -
+      entity: c10bf29d-cf5f-470d-9696-f2dffb1b55fb
+    -
+      entity: f2d77181-6560-4f6b-b2dc-44434789b5ae
+    -
+      entity: 624ef2b4-8d18-43d8-a05e-30f7a7bad3ae
+    -
+      entity: f4b22eb6-fc0b-4420-892b-b6a28814976c

@@ -1,0 +1,11 @@
+entity.lms_question_response.add_page:
+  route_name: entity.lms_question_response.add_page
+  title: 'Add question response item'
+  appears_on:
+    - entity.lms_question_response.collection
+
+entity.lms_question_response_type.add_form:
+  route_name: entity.lms_question_response_type.add_form
+  title: 'Add question response type'
+  appears_on:
+    - entity.lms_question_response_type.collection

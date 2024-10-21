@@ -1,0 +1,29 @@
+uuid: 6bcf3a5a-9517-4f6d-9949-7789d4674e5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.course
+    - field.storage.commerce_product.field_quizzes
+    - lms_quiz.lms_quiz_type.default
+id: commerce_product.course.field_quizzes
+field_name: field_quizzes
+entity_type: commerce_product
+bundle: course
+label: Quizzes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:lms_quiz'
+  handler_settings:
+    target_bundles:
+      default: default
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

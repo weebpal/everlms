@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9b9940a8-9ba7-4abe-a0c7-54eda96ca402
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: _DSC3985.jpg
+  uri:
+    -
+      value: 'public://2023-12/_DSC3985.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 51254
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702915146

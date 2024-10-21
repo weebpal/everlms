@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 81988ec2-da55-48e6-88df-9a0a4292784e
+  bundle: course
+  default_langcode: en
+  depends:
+    c6480a5f-68b3-4210-95df-304faedcf4d0: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: c6480a5f-68b3-4210-95df-304faedcf4d0
+  sku:
+    -
+      value: 'Basic information'
+  title:
+    -
+      value: 'Basic information in different categories of English'
+  price:
+    -
+      number: '0.000000'
+      currency_code: USD
+      formatted: $0.00
+  created:
+    -
+      value: 1702957808

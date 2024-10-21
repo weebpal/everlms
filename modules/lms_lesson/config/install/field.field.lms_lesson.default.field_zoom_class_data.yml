@@ -1,0 +1,19 @@
+uuid: 780d364e-65e7-4e5f-ac26-7494f575f8d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_lesson.field_zoom_class_data
+    - lms_lesson.lms_lesson_type.default
+id: lms_lesson.default.field_zoom_class_data
+field_name: field_zoom_class_data
+entity_type: lms_lesson
+bundle: default
+label: 'Zoom class data'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

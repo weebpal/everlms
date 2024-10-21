@@ -1,0 +1,22 @@
+uuid: 9df8d74e-6dff-4fdf-92b7-fd5cad69db0e
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - we_core
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: we_core_help
+theme: we_core
+region: header
+weight: -4
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

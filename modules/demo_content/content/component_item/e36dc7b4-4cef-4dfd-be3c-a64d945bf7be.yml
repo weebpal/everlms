@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: e36dc7b4-4cef-4dfd-be3c-a64d945bf7be
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: How to Watch a Movie?'
+  title:
+    -
+      value: 'How to Watch a Movie?'
+  created:
+    -
+      value: 1702916994
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Depending on how advanced you are in English you can watch a movie in different ways. If you are a beginner then use English subtitles while listening to your native language. This will help you associate words. If you are more advanced then try watching in English and using native subtitles. If you are even more advanced then aim to watch the whole movie in English. If you have to pause the film to think about some words or rewind to hear again then do but the best way to get better is to try to watch it all in English.</p><p>If you can you should watch at least one movie a month but once a week would be better. Try getting a group of people together so you can talk about what is happening and learn from each other. Quite often one person will hear something another person may have missed so it is useful to share the learning. If you cannot do this then find some people on our Facebook page who may wish to watch the same movie and then talk about it afterwards on WhatsApp or messenger.</p><p>Movies can be a really fun way to help improve your understanding of spoken English and improve your own ability to speak English. TV shows are also useful and seasons on platforms like Netflix can be good if not better than movies because there are hours of watching time with the same accents and people to listen too.</p>'
+      format: full_html
+      summary: ''

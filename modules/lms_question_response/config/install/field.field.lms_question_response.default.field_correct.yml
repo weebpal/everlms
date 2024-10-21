@@ -1,0 +1,23 @@
+uuid: 80c955ee-4014-40e4-9eb1-d4bc49afa591
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_question_response.field_correct
+    - lms_question_response.lms_question_response_type.default
+id: lms_question_response.default.field_correct
+field_name: field_correct
+entity_type: lms_question_response
+bundle: default
+label: Correct
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Correct
+  off_label: Incorrect
+field_type: boolean

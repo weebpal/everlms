@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: fdb87960-d9c9-48ea-b9f4-a5ad15998405
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: ' Something unknowable, undefined, ambiguous.'
+  created:
+    -
+      value: 1702955445
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

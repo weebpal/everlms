@@ -1,0 +1,11 @@
+entity.lms_quiz.add_page:
+  route_name: entity.lms_quiz.add_page
+  title: 'Add quiz item'
+  appears_on:
+    - entity.lms_quiz.collection
+
+entity.lms_quiz_type.add_form:
+  route_name: entity.lms_quiz_type.add_form
+  title: 'Add quiz type'
+  appears_on:
+    - entity.lms_quiz_type.collection

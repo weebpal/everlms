@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5ff25e5b-42cd-4522-bf18-d533c683e197
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'English Speaking Course for Beginners.jpg'
+  uri:
+    -
+      value: 'public://2023-12/English Speaking Course for Beginners_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 14983
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702959221

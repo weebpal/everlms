@@ -1,0 +1,82 @@
+uuid: 1b17136b-1b42-4462-9fe2-7c08ba302616
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_scheduler.default.field_between_dates
+    - field.field.lms_scheduler.default.field_body
+    - field.field.lms_scheduler.default.field_days_of_the_week
+    - field.field.lms_scheduler.default.field_time_frames
+    - lms_scheduler.lms_scheduler_type.default
+  module:
+    - datetime_range
+    - text
+    - time_field
+_core:
+  default_config_hash: 1O9ESSDgag7Rzx1fPmZL_IWN_EW8o3W1Z7abfqTn_xY
+id: lms_scheduler.default.default
+targetEntityType: lms_scheduler
+bundle: default
+mode: default
+content:
+  field_between_dates:
+    type: daterange_default
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_body:
+    type: text_textarea_with_summary
+    weight: 4
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_days_of_the_week:
+    type: options_buttons
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_time_frames:
+    type: time_range_widget
+    weight: 3
+    region: content
+    settings:
+      enabled: false
+      step: 5
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 100
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

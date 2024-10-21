@@ -1,0 +1,11 @@
+<div class="zoom-meeting-sdk--wrapper">
+  {% if is_not_on_time is not empty %}
+	<div class="zoom-meeting--notice">
+    <h4>
+      {{ 'The Zoom meeting is currently scheduled for a different time!'|t }}
+    </h4>
+	</div>
+  {% else %}
+    <div id="meetingSDKElement"></div>
+  {% endif %}
+</div>

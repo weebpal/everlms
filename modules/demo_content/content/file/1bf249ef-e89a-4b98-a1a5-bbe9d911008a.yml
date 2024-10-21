@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1bf249ef-e89a-4b98-a1a5-bbe9d911008a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 1340518_1fbc_23_0.jpg
+  uri:
+    -
+      value: 'public://2024-02/1340518_1fbc_23_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 9305
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1707989332

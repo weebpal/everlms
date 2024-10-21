@@ -1,0 +1,19 @@
+uuid: 16c76ab2-8fa4-46c7-abc6-68e6c7477013
+langcode: en
+status: true
+dependencies:
+  module:
+    - component_builder
+id: component_wrapper.field_embed_block
+field_name: field_embed_block
+entity_type: component_wrapper
+type: entity_reference
+settings:
+  target_type: component_item
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: c6ce24e7-05c1-48d5-841d-7ba693593c0b
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_quiz_result
+    - text
+_core:
+  default_config_hash: '-bdgq8zI7nm2Rap397M32WSxSbQ72AvupKJd6pSzZ64'
+id: lms_quiz_result.field_body
+field_name: field_body
+entity_type: lms_quiz_result
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

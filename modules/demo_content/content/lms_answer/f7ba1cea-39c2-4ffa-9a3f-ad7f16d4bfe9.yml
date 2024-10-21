@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: f7ba1cea-39c2-4ffa-9a3f-ad7f16d4bfe9
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'A reference to important historical or cultural knowledge.'
+  created:
+    -
+      value: 1702955306
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

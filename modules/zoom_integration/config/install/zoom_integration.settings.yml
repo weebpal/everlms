@@ -1,0 +1,8 @@
+access_token_uri: 'https://zoom.us/oauth/token'
+base_uri: 'https://api.zoom.us/v2'
+account_id: ''
+client_id: ''
+client_secret: ''
+webhook_verification_token: ''
+app_client_id: ''
+app_client_secret: ''

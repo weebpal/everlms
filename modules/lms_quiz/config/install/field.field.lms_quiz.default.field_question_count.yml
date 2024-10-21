@@ -1,0 +1,23 @@
+uuid: a505da69-b3f6-4fdc-9163-d313dbd43b9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_quiz.field_question_count
+    - lms_quiz.lms_quiz_type.default
+id: lms_quiz.default.field_question_count
+field_name: field_question_count
+entity_type: lms_quiz
+bundle: default
+label: 'Question count'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

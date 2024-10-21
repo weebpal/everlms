@@ -1,0 +1,27 @@
+uuid: 12b4aca4-5e54-41ea-b72b-3d9ed1e77218
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_user_certificate.field_pdf
+    - lms_user_certificate.lms_user_certificate_type.default
+  module:
+    - file
+id: lms_user_certificate.default.field_pdf
+field_name: field_pdf
+entity_type: lms_user_certificate
+bundle: default
+label: PDF
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+field_type: file

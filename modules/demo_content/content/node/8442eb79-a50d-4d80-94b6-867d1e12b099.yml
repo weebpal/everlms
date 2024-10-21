@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8442eb79-a50d-4d80-94b6-867d1e12b099
+  bundle: news
+  default_langcode: en
+  depends:
+    67f6dc3b-711b-47b7-81af-475a86cb54af: component_wrapper
+    85494eee-d1e3-44b4-8309-0f3ae88d2efc: taxonomy_term
+    5a91ec2a-650f-4652-8ba8-f8928eac7232: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Year 11 Volunteered for Operation Smile Mission in Vietnam'
+  created:
+    -
+      value: 1702915395
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /news/year-11-volunteered-operation-smile-mission-vietnam
+      langcode: en
+      pathauto: 1
+  field_components:
+    -
+      entity: 67f6dc3b-711b-47b7-81af-475a86cb54af
+  field_tags:
+    -
+      entity: 85494eee-d1e3-44b4-8309-0f3ae88d2efc
+  field_thumb:
+    -
+      entity: 5a91ec2a-650f-4652-8ba8-f8928eac7232
+      alt: 'Volunteered for Operation Smile Mission'
+      title: ''
+      width: 887
+      height: 499

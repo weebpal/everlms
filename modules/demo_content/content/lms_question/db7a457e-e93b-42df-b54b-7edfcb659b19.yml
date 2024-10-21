@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: db7a457e-e93b-42df-b54b-7edfcb659b19
+  bundle: default
+  default_langcode: en
+  depends:
+    d5760bb0-c6b5-42e9-bf8c-eb6bb2aeb573: lms_answer
+    49caf703-7544-4dd2-81d0-a463756fdd9d: lms_answer
+    97f73b4b-be47-4b4d-b3e7-c36b5f329df1: lms_answer
+    822ab0b7-5206-4777-b050-23938d3b5965: lms_answer
+    5e1660d7-89f5-434c-82f2-2639b043b1a9: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Which of the following statements is true about the simple past tense?'
+  created:
+    -
+      value: 1702954336
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: d5760bb0-c6b5-42e9-bf8c-eb6bb2aeb573
+    -
+      entity: 49caf703-7544-4dd2-81d0-a463756fdd9d
+    -
+      entity: 97f73b4b-be47-4b4d-b3e7-c36b5f329df1
+    -
+      entity: 822ab0b7-5206-4777-b050-23938d3b5965
+  field_difficulty:
+    -
+      entity: 5e1660d7-89f5-434c-82f2-2639b043b1a9
+  field_score:
+    -
+      value: '20.00'

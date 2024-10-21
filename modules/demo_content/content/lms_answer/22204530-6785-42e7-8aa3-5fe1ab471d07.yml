@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 22204530-6785-42e7-8aa3-5fe1ab471d07
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: "Simple past uses action verb, but present perfect doesn't."
+  created:
+    -
+      value: 1702954445
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

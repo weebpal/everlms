@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 7b910d06-f464-45f4-bb50-42ca1eb0f4f2
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: 7. Use the Best Mobile Application'
+  title:
+    -
+      value: '7. Use the Best Mobile Application'
+  created:
+    -
+      value: 1702916474
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>We all use our phones frequently throughout the day. So why don’t we learn English with our phones? It will be extremely beneficial. Every news website has a mobile app. It is a simple and straightforward approach to studying English with a mobile device. You can read, listen to, or watch the news whenever you want while traveling or performing daily tasks. Aside from news websites, mobile phones feature a plethora of apps that can help you learn English quickly. Check out this list of the 20 best mobile news apps!</p>'
+      format: full_html
+      summary: ''

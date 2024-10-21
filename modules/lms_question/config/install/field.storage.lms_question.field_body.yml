@@ -1,0 +1,21 @@
+uuid: 56c4e1ce-590d-4a70-8936-7b70591ddb17
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_question
+    - text
+_core:
+  default_config_hash: oP8QItLWwqUYi9Kj2HU5dtvxpUMxgksux_QBJlH8RcM
+id: lms_question.field_body
+field_name: field_body
+entity_type: lms_question
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

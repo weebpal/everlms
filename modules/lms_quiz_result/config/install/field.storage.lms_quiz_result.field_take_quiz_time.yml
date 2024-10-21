@@ -1,0 +1,24 @@
+uuid: 998671e1-44bc-4765-815d-eb3fbdad7f6b
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - lms_quiz_result
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: lms_quiz_result.field_take_quiz_time
+field_name: field_take_quiz_time
+entity_type: lms_quiz_result
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

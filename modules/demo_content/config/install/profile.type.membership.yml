@@ -1,0 +1,15 @@
+uuid: 1c0d2ce8-22db-4afa-b1b4-ceaa41ce80aa
+langcode: en
+status: true
+dependencies: {  }
+third_party_settings:
+  commerce_order:
+    customer_profile_type: false
+id: membership
+label: Membership
+display_label: ''
+multiple: false
+registration: false
+roles: {  }
+allow_revisions: false
+new_revision: false

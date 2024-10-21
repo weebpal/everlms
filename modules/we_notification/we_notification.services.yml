@@ -1,0 +1,7 @@
+services:
+  we_notification.utils:
+    class: Drupal\we_notification\Service\Utils
+    services:
+  we_notification.notification_service:
+    class: Drupal\we_notification\NotificationManager
+    arguments: ['@entity_type.manager']

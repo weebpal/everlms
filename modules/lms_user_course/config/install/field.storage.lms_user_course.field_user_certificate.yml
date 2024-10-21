@@ -1,0 +1,24 @@
+uuid: 8b3a0a07-ec3c-42b0-aaf7-12fd8764c71e
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - lms_user_certificate
+    - lms_user_course
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: lms_user_course.field_user_certificate
+field_name: field_user_certificate
+entity_type: lms_user_course
+type: entity_reference
+settings:
+  target_type: lms_user_certificate
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

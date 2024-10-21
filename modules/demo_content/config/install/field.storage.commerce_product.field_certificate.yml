@@ -1,0 +1,24 @@
+uuid: 32c3c8d4-2c9a-4e2e-84ba-1ca955f59e06
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - field_permissions
+    - lms_certificate
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: commerce_product.field_certificate
+field_name: field_certificate
+entity_type: commerce_product
+type: entity_reference
+settings:
+  target_type: lms_certificate
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

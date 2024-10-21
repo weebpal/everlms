@@ -1,0 +1,60 @@
+uuid: afefae59-df46-4506-903e-d573d4cc2593
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.lms_answer.inline_entity_form
+    - field.field.lms_answer.default.field_body
+    - field.field.lms_answer.default.field_correct
+    - lms_answer.lms_answer_type.default
+  module:
+    - text
+_core:
+  default_config_hash: oJerPq3HwTN_rjQi6VtxJXOGpolYUA_BtRICedlXOSU
+id: lms_answer.default.inline_entity_form
+targetEntityType: lms_answer
+bundle: default
+mode: inline_entity_form
+content:
+  field_body:
+    type: text_textarea_with_summary
+    weight: 2
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_correct:
+    type: boolean_checkbox
+    weight: 1
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

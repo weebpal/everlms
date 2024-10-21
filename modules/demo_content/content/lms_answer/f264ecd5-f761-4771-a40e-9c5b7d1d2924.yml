@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: f264ecd5-f761-4771-a40e-9c5b7d1d2924
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Repetition of the last word or phrase from the end of a sentence or line to start the beginning of the next.'
+  created:
+    -
+      value: 1702955637
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: true

@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 39bf64b0-fabe-4bb5-aa27-9a0c004a2624
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Oversee
+  created:
+    -
+      value: 1702957106
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

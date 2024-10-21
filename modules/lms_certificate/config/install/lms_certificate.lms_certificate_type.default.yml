@@ -1,0 +1,11 @@
+uuid: ed4776b2-17d5-4578-9af0-f377fdb40bcf
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: HBe2B0oFe5WgL8aa0qEXKlePx4_AKmajZvG2qjVaveM
+id: default
+label: Certificate
+description: ''
+traits: null
+locked: null

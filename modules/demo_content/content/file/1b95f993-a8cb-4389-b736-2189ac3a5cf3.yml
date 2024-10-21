@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1b95f993-a8cb-4389-b736-2189ac3a5cf3
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 4699746_55ad_3.jpg
+  uri:
+    -
+      value: 'public://2023-12/4699746_55ad_3.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 27318
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702965969

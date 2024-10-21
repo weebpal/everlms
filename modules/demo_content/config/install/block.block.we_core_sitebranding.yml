@@ -1,0 +1,27 @@
+uuid: 1b6d6252-f07b-401c-9e71-ad65b69301de
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - we_core
+id: we_core_sitebranding
+theme: we_core
+region: sidebar_second
+weight: -8
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /quiz

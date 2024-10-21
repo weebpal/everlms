@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 5d1d49b7-af22-42ca-8fc9-421bb1645918
+  bundle: push_image
+  default_langcode: en
+  depends:
+    3584c18f-f0e7-4c46-8bea-b49540fac6be: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Push Image Item: Untitled'
+  created:
+    -
+      value: 1703475849
+  revision_translation_affected:
+    -
+      value: true
+  field_pi_body:
+    -
+      value: '<p><strong>Emigrate vs. Immigrate:</strong></p><ul><li>Emigrate (verb): To leave one’s own country and go to live in another.</li><li>Immigrate (verb): To come to a new country and establish permanent residence.</li></ul><p>Confusion: Learners often mix up these words due to their similar prefixes.<br><em>Example:</em><br>Correct: They decided to emigrate from their homeland and immigrate to a new country.<br>Incorrect: They decided to immigrate from their homeland and emigrate to a new country.</p><p>&nbsp;</p><p><strong>Lie vs Lay:</strong></p><ul><li>Lie (to recline or be in a resting position)</li><li>Lay (to put or place something down)</li></ul><p><em>Example:</em><br>Correct: After a long day at work, she decided to lie down and rest on the couch.<br>Incorrect: After a long day at work, she decided to lay down and rest on the couch.</p><p>To make it more confusing, in this context, the past of “lie” is “lay” So in the past we would say :<br>Correct: After a long day she lay on her bed<br>Incorrect: After a long day she laid on her bed</p>'
+      format: full_html
+  field_pi_image:
+    -
+      entity: 3584c18f-f0e7-4c46-8bea-b49540fac6be
+      alt: Top-10-confusing-words-in-English-5
+      title: ''
+      width: 667
+      height: 667

@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 26efca7e-e11a-4e44-9f79-273d36622a1c
+  bundle: default
+  default_langcode: en
+  depends:
+    3c0749cf-4f10-4dab-95a5-bb94b9f49161: lms_answer
+    73a461e0-e3e5-46ee-a426-2884cf0ff9a6: lms_answer
+    2a9759ca-4496-4c1a-8c16-eb00d50d1c09: lms_answer
+    12574070-4606-411b-be2a-4444170338bd: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Ambiguity
+  created:
+    -
+      value: 1702955508
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 3c0749cf-4f10-4dab-95a5-bb94b9f49161
+    -
+      entity: 73a461e0-e3e5-46ee-a426-2884cf0ff9a6
+    -
+      entity: 2a9759ca-4496-4c1a-8c16-eb00d50d1c09
+    -
+      entity: 12574070-4606-411b-be2a-4444170338bd
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

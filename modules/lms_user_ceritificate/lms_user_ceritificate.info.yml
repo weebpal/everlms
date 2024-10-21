@@ -1,0 +1,8 @@
+name: User Ceritificate
+type: module
+description: 'Defines the LMSUserCertificate entity and associated features.'
+package: Custom Entity Modules
+core_version_requirement: ^9.3 || ^10
+configure: entity.lms_user_ceritificate.collection
+dependencies:
+  - entity:entity

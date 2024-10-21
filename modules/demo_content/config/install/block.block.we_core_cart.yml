@@ -1,0 +1,21 @@
+uuid: 4e448cdf-361f-4d34-ae85-af064d3ee1c4
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - we_core
+id: we_core_cart
+theme: we_core
+region: header
+weight: -6
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  label_display: '0'
+  provider: commerce_cart
+  dropdown: true
+visibility: {  }

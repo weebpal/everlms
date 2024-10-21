@@ -1,0 +1,4 @@
+administer lms_answer_type:
+  title: 'Administer lms_answer types'
+  description: 'Maintain the types of answer types available and the fields that are associated with those types.'
+  restrict access: true

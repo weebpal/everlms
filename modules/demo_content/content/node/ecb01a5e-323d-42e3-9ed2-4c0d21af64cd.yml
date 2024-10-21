@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ecb01a5e-323d-42e3-9ed2-4c0d21af64cd
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Test
+  created:
+    -
+      value: 1701158388
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /test
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<h5>Who orders a virgin cocktail?</h5><p>Drinking alcohol isn’t for everyone so virgin cocktails are a great alternative for bartenders to offer. In fact there are a lot of reasons people should avoid alcohol – pregnancy or other medical conditions, psychological or previous addiction issues, religious or personal preferences.</p><p>There may also be young ones at the table. I remember as a kid feeling so grown up when I ordered my first virgin cocktail at dinner with my family. The server smiled a little and raised an eyebrow when I said, “I’ll have a Shirley Temple.”</p><p>“Oh, will you now?” she asked knowingly.</p><p>“Yes please,” I said confidently and looked at my parents with pride.</p><p>From behind the bar, it is also good to see one member of a party as the designated driver. There is no reason they can’t toast an occasion with something more fancy than just a glass of water.</p><p><img src="/sites/default/files/inline-images/virgin_cocktails.jpg" data-entity-uuid="d32adf64-2eef-48d9-b440-7d23533973fb" data-entity-type="file" alt="vigin"></p><h5>Why order a virgin cocktail?</h5><p>There are lots of reasons for someone to refrain from alcohol but that shouldn’t stop them from feeling like part of the group with a cocktail in hand.</p><p>Sometimes it is easier to blend into a social scene with something fruity and boozy-looking in your hand. Virgin cocktails can also get pretty creative and tasty, depending on what ingredients you have available.</p><p>Look at your juices and mixes. Review your condiments. There are a lot of directions in which to go!</p><p>People may not want the alcohol but they will happily pay and tip you for a drink if it tastes great.</p><h6>3 Virgin Cocktails</h6><p>Here are three virgin cocktails every bartender should know because even the most humble bar setup should have the simple ingredients needed.</p><h6>1. Bitter Tonic</h6><p>Bitters are actually good for digestion. They are an old remedy for indigestion, nausea, heartburn, gas and bloating.</p><p><em>IMPORTANT NOTE! Digestive bitters are not for pregnant women. They are often made with gentian and angelica, which should be avoided during pregnancy.</em></p><h6><br>Bitter Tonic Recipe</h6><ul><li>Build on ice</li><li>1 muddled lemon wedge</li><li>4 drops of Angostura bitters</li><li>Tonic water</li><li>Lemon wedge to garnish</li></ul><h6>2. Shirley Temple</h6><p>A favourite with children, this virgin cocktail is sweet. The girlie name and sweet taste make it difficult to order as an adult but people shouldn’t judge, am it right?</p><h6>Shirley Temple Recipe</h6><ul><li>Build on ice&nbsp;</li><li>half a glass of orange juice&nbsp;</li><li>half a glass of clear soda (7up or Sprite)&nbsp;</li><li>½ oz of grenadine&nbsp;</li><li>Orange wheel and/or cherry to garnish&nbsp;</li></ul><h6>3. Roy Rogers&nbsp;</h6><p>You have heard of cherry cola, right? Well a Roy Rogers is the fancy virgin cocktail equivalent, except instead of cherry flavour it is pomegranate.</p><p>The thing about cola is that it is already pretty sweet. Adding grenadine makes it that much sweeter, which is why a better cola choice for a Roy Rogers is sweetened with sugar cane rather than high fructose corn syrup. The best option is a cola that is made with the kola nut, which is even less sweet. If you are using a very sweet cola, just use less grenadine so as not to make the cocktail sickly sweet.</p><h6>Roy Rogers Recipe&nbsp;</h6><ul><li>Build on ice&nbsp;</li><li>1 oz of grenadine&nbsp;</li><li>6 oz of cola&nbsp;</li><li>Cherry to garnish</li></ul>'
+      format: full_html
+      summary: ''

@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: c0b2550d-aa53-4658-b2ee-892b7a36304d
+  bundle: basic_component
+  default_langcode: en
+  depends:
+    d0ac6acf-9fc7-442f-82b5-747c38ea5eff: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Untitled'
+  created:
+    -
+      value: 1702915970
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: "<p>The students of Year 5 and 6 are delighted to perform to you the musical, ‘Pied Piper of Hamelin,’ a tale of a strange and wondrous character who arrives in the town of Hamelin and changes the people’s lives forever!</p><p>Primary Production: 'Pied Piper of Hamelin' on 22nd June The 'Pied Piper of Hamelin' show will take place at 5pm in the BVIS main auditorium on Wednesday 22nd June.<br>The students of Year 5 and 6 are delighted to perform to you the musical, ‘Pied Piper of Hamelin,’ a tale of a strange and wondrous character who arrives in the town of Hamelin and changes the people’s lives forever!</p><p>The children have been busily working all term to prepare for the show using their singing, acting, dancing and artistic skills. The performance promises to be a great celebration of these.</p><p>The show will take place at 5pm in the BVIS main auditorium on Wednesday 22nd June. We warmly welcome parents and children so don’t miss the chance to see our talented students in action.</p>"
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: d0ac6acf-9fc7-442f-82b5-747c38ea5eff
+      alt: ''
+      title: ''
+      width: 887
+      height: 499

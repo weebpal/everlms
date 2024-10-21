@@ -1,0 +1,54 @@
+_meta:
+  version: '1.0'
+  entity_type: component_wrapper
+  uuid: fe05bd0b-d53a-488b-83a7-3117095e477f
+  default_langcode: en
+  depends:
+    7d67e02d-eb5d-418e-b1ff-021d7bf7ddc2: taxonomy_term
+    d95a5cf1-0b48-4ed1-a1d7-a6daff3943fd: component_item
+    fa63e45b-d76a-4762-9a6f-e82593d0464e: component_item
+    4b58f961-2814-4f23-b8c1-c71968340c07: component_item
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  title:
+    -
+      value: 'Speak with Native Speakers'
+  component_type:
+    -
+      entity: 7d67e02d-eb5d-418e-b1ff-021d7bf7ddc2
+  display_title:
+    -
+      value: false
+  display_header:
+    -
+      value: false
+  display_footer:
+    -
+      value: false
+  display_image:
+    -
+      value: false
+  display_in_region:
+    -
+      value: false
+  field_region:
+    -
+      value: headline
+  created:
+    -
+      value: 1703473029
+  revision_translation_affected:
+    -
+      value: true
+  field_basic_component:
+    -
+      entity: d95a5cf1-0b48-4ed1-a1d7-a6daff3943fd
+    -
+      entity: fa63e45b-d76a-4762-9a6f-e82593d0464e
+    -
+      entity: 4b58f961-2814-4f23-b8c1-c71968340c07

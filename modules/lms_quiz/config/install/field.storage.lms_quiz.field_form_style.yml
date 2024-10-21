@@ -1,0 +1,20 @@
+uuid: b5ba9082-4bcd-4833-9889-9e7e1fde595b
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_quiz
+    - taxonomy
+id: lms_quiz.field_form_style
+field_name: field_form_style
+entity_type: lms_quiz
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

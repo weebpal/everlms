@@ -1,0 +1,10 @@
+uuid: efc1ce49-5f2a-497b-983c-7909464feaf5
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_lesson
+id: lms_lesson.teaser
+label: Teaser
+targetEntityType: lms_lesson
+cache: true

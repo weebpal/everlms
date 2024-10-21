@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 909c844b-45b8-42c8-a879-9674fe70a6d4
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Dragging out the demonstration'
+  created:
+    -
+      value: 1702953293
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>The answer "Dragging out the demonstration" is correct because the other three points mentioned (setting the tone for good communication, keeping the demonstration simple, and not wandering from the main idea) are all important aspects to consider during a demonstration. However, dragging out the demonstration can lead to boredom and loss of interest from the audience, so it is not a point to observe during a demonstration.</p>'
+      format: full_html
+      summary: ''
+  field_correct:
+    -
+      value: true

@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: cd9b096a-e5fe-4ca7-b44e-c5890ce51ab4
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'A statement that appears to contradict itself but holds some truth.'
+  created:
+    -
+      value: 1702955570
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

@@ -1,0 +1,20 @@
+uuid: 50b2481d-661b-4eee-b192-7cefa00355bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_quiz_result
+id: lms_quiz_result.field_score
+field_name: field_score
+entity_type: lms_quiz_result
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 76f3f9fb-19b3-4fd3-85d4-25b0e22697d6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: yKQ7_cvzUdklrL6-SOJ1FKSEZ9-Aqz238uiIw-KucUA.jpg
+  uri:
+    -
+      value: 'public://oembed_thumbnails/2023-12/yKQ7_cvzUdklrL6-SOJ1FKSEZ9-Aqz238uiIw-KucUA.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 33154
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703143932

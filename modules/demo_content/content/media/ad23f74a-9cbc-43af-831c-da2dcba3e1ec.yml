@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: ad23f74a-9cbc-43af-831c-da2dcba3e1ec
+  bundle: image
+  default_langcode: en
+  depends:
+    5ff25e5b-42cd-4522-bf18-d533c683e197: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'English Speaking Course for Beginners.jpg'
+  created:
+    -
+      value: 1702959221
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 5ff25e5b-42cd-4522-bf18-d533c683e197
+      alt: 'English Speaking Course for Beginners'
+      title: ''
+      width: 750
+      height: 422

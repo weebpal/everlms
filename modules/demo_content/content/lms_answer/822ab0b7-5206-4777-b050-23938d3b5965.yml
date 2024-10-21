@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 822ab0b7-5206-4777-b050-23938d3b5965
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: '"Ago" and "last night" are keywords for this tense.'
+  created:
+    -
+      value: 1702954336
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: true

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6583c4c8-b083-4e09-89ac-30d8f6d86f16
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Communicate effectively to achieve more in life.png'
+  uri:
+    -
+      value: 'public://2023-12/Communicate effectively to achieve more in life.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 36647
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703042686

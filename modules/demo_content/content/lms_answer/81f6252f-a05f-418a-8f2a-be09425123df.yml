@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 81f6252f-a05f-418a-8f2a-be09425123df
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'See whether the place is right'
+  created:
+    -
+      value: 1702953454
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

@@ -1,0 +1,7 @@
+lms_answer.root:
+  path: '/admin/lms/lms-answer'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Answer'
+  requirements:
+    _permission: 'administer lms_answer'

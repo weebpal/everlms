@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c04f760b-bebd-4822-a34e-b27fb5f1ea92
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 56835_056e_8.jpg
+  uri:
+    -
+      value: 'public://2023-12/56835_056e_8_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 80753
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703132224

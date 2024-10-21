@@ -1,0 +1,24 @@
+{#
+/**
+ * @file
+ *
+ * Default template for notification item.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the wrapper.
+ * - we_notification: The rendered we_notification fields.
+ *   Use 'we_notification' to print them all, or print a subset such as
+ *   'we_notification.name'. Use the following code to exclude the
+ *   printing of a given field:
+ *   @code
+ *   {{ we_notification|without('name') }}
+ *   @endcode
+ * - we_notification_entity: The we_notification entity.
+ * - we_notification_url: The we_notification URL.
+ *
+ * @ingroup themeable
+ */
+#}
+<article{{ attributes }}>
+  {{ we_notification }}
+</article>

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 9d14ad91-3721-4024-91cc-047d47f917f9
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: 2. Discuss news on a regular basis'
+  title:
+    -
+      value: '2. Discuss news on a regular basis'
+  created:
+    -
+      value: 1702916361
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>You’ll need a group of friends or an English tutor to debate news on a regular basis. Choose a topic for discussion in which you are all interested and schedule a regular meeting time. This practice will help you improve your public speaking skills and boost your confidence. This allows you to effortlessly and confidently share your ideas with others. You can create a word list and utilize it during your debate.</p>'
+      format: full_html
+      summary: ''

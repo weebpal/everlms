@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: cc4d9508-14c5-446e-9721-430037639e2f
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The beginning of a lesson'
+  created:
+    -
+      value: 1702951118
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

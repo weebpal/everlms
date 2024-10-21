@@ -1,0 +1,9 @@
+administer lms_quiz_type:
+  title: 'Administer lms_quiz types'
+  description: 'Maintain the types of quiz types available and the fields that are associated with those types.'
+  restrict access: true
+
+access take quiz:
+  title: 'Quiz: Take Quiz Form'
+  description: 'Only the user who purchased the course can access it.'
+

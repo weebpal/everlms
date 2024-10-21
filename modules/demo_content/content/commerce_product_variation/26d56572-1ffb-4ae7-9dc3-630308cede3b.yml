@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 26d56572-1ffb-4ae7-9dc3-630308cede3b
+  bundle: course
+  default_langcode: en
+  depends:
+    6630b9b1-3ace-4029-b564-ca90081bf1a5: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 6630b9b1-3ace-4029-b564-ca90081bf1a5
+  sku:
+    -
+      value: 'Ovation Public Speaking'
+  title:
+    -
+      value: 'Ovation Public Speaking - Speaking Methods Master Class'
+  list_price:
+    -
+      number: '35.000000'
+      currency_code: USD
+      formatted: $35.00
+  price:
+    -
+      number: '28.000000'
+      currency_code: USD
+      formatted: $28.00
+  created:
+    -
+      value: 1702978013

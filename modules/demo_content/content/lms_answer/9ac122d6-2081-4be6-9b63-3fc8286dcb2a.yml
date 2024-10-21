@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 9ac122d6-2081-4be6-9b63-3fc8286dcb2a
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Related clauses not separated by conjunctions.'
+  created:
+    -
+      value: 1702955731
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

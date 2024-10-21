@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1857fce2-4ee3-4aea-9023-a3d90558334a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'English Pronunciation.jpg'
+  uri:
+    -
+      value: 'public://2023-12/English Pronunciation.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 68113
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702950355

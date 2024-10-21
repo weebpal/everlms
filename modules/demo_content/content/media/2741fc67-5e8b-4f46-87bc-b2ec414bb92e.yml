@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 2741fc67-5e8b-4f46-87bc-b2ec414bb92e
+  bundle: video
+  default_langcode: en
+  depends:
+    0936c313-6616-414b-aa03-57879c05c74a: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Ovation Public Speaking - Speaking Methods Master Class.mp4'
+  created:
+    -
+      value: 1702977915
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_video_file:
+    -
+      entity: 0936c313-6616-414b-aa03-57879c05c74a
+      display: false
+      description: ''

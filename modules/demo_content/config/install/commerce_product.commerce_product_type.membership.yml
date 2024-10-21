@@ -1,0 +1,14 @@
+uuid: 5d84d5c9-dde0-41a0-9cba-6398b2f4114e
+langcode: en
+status: true
+dependencies: {  }
+id: membership
+label: Membership
+traits: {  }
+locked: false
+description: ''
+variationType: membership
+variationTypes:
+  - membership
+multipleVariations: true
+injectVariationFields: true

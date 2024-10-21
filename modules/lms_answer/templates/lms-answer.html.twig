@@ -1,0 +1,24 @@
+{#
+/**
+ * @file
+ *
+ * Default template for answer item.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the wrapper.
+ * - lms_answer: The rendered lms_answer fields.
+ *   Use 'lms_answer' to print them all, or print a subset such as
+ *   'lms_answer.name'. Use the following code to exclude the
+ *   printing of a given field:
+ *   @code
+ *   {{ lms_answer|without('name') }}
+ *   @endcode
+ * - lms_answer_entity: The lms_answer entity.
+ * - lms_answer_url: The lms_answer URL.
+ *
+ * @ingroup themeable
+ */
+#}
+<article{{ attributes }}>
+  {{ lms_answer }}
+</article>

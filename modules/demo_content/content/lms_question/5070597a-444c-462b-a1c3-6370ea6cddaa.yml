@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 5070597a-444c-462b-a1c3-6370ea6cddaa
+  bundle: default
+  default_langcode: en
+  depends:
+    0eefee13-715c-4e77-853a-6073b4eb6f64: lms_answer
+    6d2dea63-a620-4a7c-aaa3-dd3bce22eab6: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'True or false? The present perfect tense is created using a form of "have" plus a present participle.'
+  created:
+    -
+      value: 1702954504
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 0eefee13-715c-4e77-853a-6073b4eb6f64
+    -
+      entity: 6d2dea63-a620-4a7c-aaa3-dd3bce22eab6
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

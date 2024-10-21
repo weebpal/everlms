@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 52286a5d-d905-44d8-858f-5c36605e90ab
+  bundle: image
+  default_langcode: en
+  depends:
+    d3ab3131-855b-4376-ac40-f6a8335f8f57: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Young-Preply-character-reading-English-stories-scaled.jpg
+  created:
+    -
+      value: 1703128320
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: d3ab3131-855b-4376-ac40-f6a8335f8f57
+      alt: 'English Through Story - English Language Course- Grammar'
+      title: ''
+      width: 2048
+      height: 1174

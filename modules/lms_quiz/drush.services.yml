@@ -1,0 +1,7 @@
+services:
+  lms_quiz.commands:
+    class: \Drupal\lms_quiz\Commands\LMSQuizCommands
+    arguments:
+      - '@lms_quiz.quiz_manager'
+    tags:
+      - { name: drush.command }

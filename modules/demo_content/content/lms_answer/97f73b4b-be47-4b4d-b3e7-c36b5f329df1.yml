@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 97f73b4b-be47-4b4d-b3e7-c36b5f329df1
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: '"For" and "never" are keywords for this tense.'
+  created:
+    -
+      value: 1702954325
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

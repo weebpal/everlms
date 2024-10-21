@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 3fe6250c-1d98-43b7-987d-a02ada287cc5
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Visual presentation'
+  created:
+    -
+      value: 1702953322
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

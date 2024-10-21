@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: ccaf0e13-c00d-4824-8e47-70305851590e
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Saw
+  created:
+    -
+      value: 1702956931
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

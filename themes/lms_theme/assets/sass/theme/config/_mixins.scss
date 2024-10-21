@@ -1,0 +1,270 @@
+/* --- Font awesome --- */
+
+@mixin fontawesome($font-family: fa) {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  @if $font-family==fab {
+    font-family: "Font Awesome 5 Brands";
+  } @else if $font-family==far {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 400;
+  } @else if $font-family==fal {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 300;
+  } @else if $font-family==fa {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+  } @else if $font-family==fas {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+  }
+}
+
+/* --- Font style --- */
+
+@mixin font-plexsans-regular($font-size, $line-height, $color) {
+  font-size: $font-size;
+  line-height: $line-height;
+  color: $color;
+  font-weight: 400;
+  font-family: $font-plexsans;
+}
+
+@mixin font-plexsans-medium($font-size, $line-height, $color) {
+  font-size: $font-size;
+  line-height: $line-height;
+  color: $color;
+  font-weight: 500;
+  font-family: $font-plexsans;
+}
+
+@mixin font-plexsans-semibold($font-size, $line-height, $color) {
+  font-size: $font-size;
+  line-height: $line-height;
+  color: $color;
+  font-weight: 600;
+  font-family: $font-plexsans;
+}
+
+@mixin font-plexsans-bold($font-size, $line-height, $color) {
+  font-size: $font-size;
+  line-height: $line-height;
+  color: $color;
+  font-weight: 700;
+  font-family: $font-plexsans;
+}
+
+@mixin font-roboto-medium($font-size, $line-height, $color) {
+  font-size: $font-size;
+  line-height: $line-height;
+  color: $color;
+  font-weight: 500;
+  font-family: $font-roboto-medium;
+}
+
+@mixin font-roboto-bold($font-size, $line-height, $color) {
+  font-size: $font-size;
+  line-height: $line-height;
+  color: $color;
+  font-weight: 700;
+  font-family: $font-roboto-bold;
+}
+
+@mixin font-robotoserif-semibold($font-size, $line-height, $color) {
+  font-size: $font-size;
+  line-height: $line-height;
+  color: $color;
+  font-weight: 600;
+  font-family: $font-robotoserif-semibold;
+}
+
+@mixin font-res($font-size, $line-height) {
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+@mixin btn-default(
+  $bg: $border-color,
+  $border: $border-color,
+  $color: $white-color
+) {
+  background: #eb5757;
+  border: 1px solid #eb5757;
+  display: inline-block;
+  text-align: center;
+  padding: 13px 32px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  font-family: $font-plexsans-semibold;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+  box-sizing: border-box;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    background: #a83939;
+    border: 1px solid #a83939;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+  }
+}
+
+@mixin btn-green(
+  $bg: $border-color,
+  $border: $border-color,
+  $color: $white-color
+) {
+  background: #14a67b;
+  border: 1px solid #14a67b;
+  display: inline-block;
+  text-align: center;
+  padding: 13px 32px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  font-family: $font-plexsans-semibold;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+  box-sizing: border-box;
+  text-decoration: none;
+  height: auto;
+  width: auto;
+  &:hover,
+  &:focus {
+    background: #0e7959;
+    border: 1px solid #0e7959;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+  }
+}
+
+@mixin btn-white(
+  $bg: $border-color,
+  $border: $border-color,
+  $color: $white-color
+) {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  display: inline-block;
+  text-align: center;
+  padding: 13px 32px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #121212;
+  font-family: $font-plexsans-semibold;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+  box-sizing: border-box;
+  text-decoration: none;
+  height: auto;
+  &:hover,
+  &:focus {
+    background: #e0e0e0;
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@mixin flex-layout($columns: null, $gap: null) {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: $gap;
+  margin-left: calc(($gap / 2) * -1) !important;
+  margin-right: calc(($gap / 2) * -1) !important;
+  @media (max-width: 575px) {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  > * {
+    margin-left: calc($gap / 2) !important;
+    margin-right: calc($gap / 2) !important;
+
+    @if ($columns == two) {
+      flex: 0 0 calc(50% - $gap) !important;
+      max-width: calc(50% - $gap) !important;
+
+      @media (max-width: 575px) {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+      }
+    } @else if ($columns == three) {
+      flex: 0 0 calc((100% / 3) - $gap);
+      max-width: calc((100% / 3) - $gap);
+
+      @media (max-width: 991px) {
+        flex: 0 0 calc(50% - $gap);
+        max-width: calc(50% - $gap);
+      }
+
+      @media (max-width: 575px) {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    } @else if ($columns == four) {
+      flex: 0 0 calc(25% - $gap);
+      max-width: calc(25% - $gap);
+
+      @media (max-width: 1190px) {
+        flex: 0 0 calc((100% / 3) - $gap);
+        max-width: calc((100% / 3) - $gap);
+      }
+
+      @media (max-width: 991px) {
+        flex: 0 0 calc(50% - $gap);
+        max-width: calc(50% - $gap);
+      }
+      @media (max-width: 575px) {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+    @media (max-width: 575px) {
+      margin: 0 !important;
+    }
+  }
+}
+
+@mixin resetGrid() {
+  .views-row {
+    float: none !important;
+    width: auto;
+
+    .views-col {
+      float: none !important;
+    }
+  }
+}
+
+@mixin select($type: null) {
+  display: inline-flex;
+  gap: 8px;
+  @include font-plexsans-bold(16px, 19px, null);
+  padding: 10.5px 40px 10.5px 20px;
+  border: none;
+  border-radius: 20px;
+  background-image: url("../../../images/arrow-down-1.svg");
+  background-repeat: no-repeat;
+  background-size: 18px 9px;
+  background-position: calc(100% - 20px) center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  @if ($type == bg-black) {
+    background-color: #121212;
+    color: #fff;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}

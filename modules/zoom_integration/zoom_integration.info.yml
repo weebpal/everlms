@@ -1,0 +1,8 @@
+name: Zoom Integration
+type: module
+description: 'Provides functionality interacting with the Zoom.us API. This is mainly meant to be a developer module. See the README.'
+package: Web Services
+core_version_requirement: ^9.1 || ^10
+configure: zoom_integration.settings
+dependencies:
+  - apitools:apitools

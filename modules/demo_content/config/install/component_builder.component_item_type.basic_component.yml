@@ -1,0 +1,7 @@
+uuid: 551cceaf-c85b-4296-ad86-fcf909c2f0d4
+langcode: en
+status: true
+dependencies: {  }
+id: basic_component
+label: 'Basic component'
+description: ''

@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 785e1421-d94c-4c33-b1bc-9dded0b1def2
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Using humor to break tension.'
+  created:
+    -
+      value: 1702955817
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

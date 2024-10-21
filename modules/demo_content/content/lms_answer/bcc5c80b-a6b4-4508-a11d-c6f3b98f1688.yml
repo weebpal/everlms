@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: bcc5c80b-a6b4-4508-a11d-c6f3b98f1688
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Present perfect is used to talk about an action at a specific time in the past, but simple past is not.'
+  created:
+    -
+      value: 1702954467
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

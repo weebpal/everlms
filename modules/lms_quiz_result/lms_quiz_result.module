@@ -1,0 +1,46 @@
+<?php
+
+/**
+ * @file
+ * Defines the LMSQuizResult entity and associated features.
+ */
+
+use Drupal\Core\Render\Element;
+use Drupal\Core\Entity\EntityInterface;
+
+/**
+ * Implements hook_theme().
+ */
+function lms_quiz_result_theme() {
+  return [
+    'lms_quiz_result' => [
+      'render element' => 'elements',
+    ],
+    'lms_quiz_result_form' => [
+      'render element' => 'form',
+    ],
+  ];
+}
+
+/**
+ * Prepares variables for lms_quiz_result templates.
+ *
+ * Default template: lms-quiz-result.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An associative array containing rendered fields.
+ *   - attributes: HTML attributes for the containing element.
+ */
+function template_preprocess_lms_quiz_result(array &$variables) {
+  /** @var Drupal\lms_quiz_result\Entity\LMSQuizResultInterface $lms_quiz_result */
+  $lms_quiz_result = $variables['elements']['#lms_quiz_result'];
+
+  $variables['lms_quiz_result_entity'] = $lms_quiz_result;
+  $variables['lms_quiz_result_url'] = $lms_quiz_result->isNew() ? '' : $lms_quiz_result->toUrl();
+  $variables['lms_quiz_result'] = [];
+  foreach (Element::children($variables['elements']) as $key) {
+    $variables['lms_quiz_result'][$key] = $variables['elements'][$key];
+  }
+}
+

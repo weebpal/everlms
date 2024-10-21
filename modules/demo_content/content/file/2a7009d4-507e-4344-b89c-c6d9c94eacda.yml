@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2a7009d4-507e-4344-b89c-c6d9c94eacda
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bavitrip_755x9999.jpg
+  uri:
+    -
+      value: 'public://2023-12/bavitrip_755x9999.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 67182
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702915696

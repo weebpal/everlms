@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 225acc3d-548a-4c58-832e-a90d2f0607fc
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: QEFRWpG8vzwPFp2AheTpXfS_vQMk1xL8TW-y_43Kslo.jpg
+  uri:
+    -
+      value: 'public://oembed_thumbnails/2024-02/QEFRWpG8vzwPFp2AheTpXfS_vQMk1xL8TW-y_43Kslo.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 39100
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1707986791

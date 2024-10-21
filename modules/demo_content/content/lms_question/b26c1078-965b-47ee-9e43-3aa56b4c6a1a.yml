@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: b26c1078-965b-47ee-9e43-3aa56b4c6a1a
+  bundle: default
+  default_langcode: en
+  depends:
+    24416eba-7809-46eb-b847-ab3423a3ec22: lms_answer
+    1e00b2ce-809e-4e73-b137-40d9a3eff4d2: lms_answer
+    68e4e105-4513-40b1-850e-7623cb6af280: lms_answer
+    b0820d0d-c949-4521-a059-3578ea97e9a1: lms_answer
+    8b13e3bf-cdb3-4fbe-8648-d1a335ac1830: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Alliteration
+  created:
+    -
+      value: 1702955393
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 24416eba-7809-46eb-b847-ab3423a3ec22
+    -
+      entity: 1e00b2ce-809e-4e73-b137-40d9a3eff4d2
+    -
+      entity: 68e4e105-4513-40b1-850e-7623cb6af280
+    -
+      entity: b0820d0d-c949-4521-a059-3578ea97e9a1
+    -
+      entity: 8b13e3bf-cdb3-4fbe-8648-d1a335ac1830
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

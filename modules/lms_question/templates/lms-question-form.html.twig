@@ -1,0 +1,22 @@
+{#
+/**
+ * @file
+ * Template for the lms_question add/edit form.
+ *
+ * Available variables:
+ * - form: The form.
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="layout-lms-question-form clearfix">
+  <div class="layout-region layout-region-lms-question-main">
+    {{ form|without('advanced', 'actions') }}
+  </div>
+  <div class="layout-region layout-region-lms-question-secondary">
+    {{ form.advanced }}
+  </div>
+  <div class="layout-region layout-region-lms-question-footer">
+    {{ form.actions }}
+  </div>
+</div>

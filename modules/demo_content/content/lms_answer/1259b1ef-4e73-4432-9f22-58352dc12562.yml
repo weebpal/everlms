@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 1259b1ef-4e73-4432-9f22-58352dc12562
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Peruse, Answer, Reflect'
+  created:
+    -
+      value: 1702951587
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

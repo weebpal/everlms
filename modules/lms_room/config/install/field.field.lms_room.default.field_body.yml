@@ -1,0 +1,28 @@
+uuid: 18d87b54-e514-487d-b717-b63588928669
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_room.field_body
+    - filter.format.basic_html
+    - lms_room.lms_room_type.default
+  module:
+    - text
+_core:
+  default_config_hash: W1xar5yFehiFZtfRqS-ZahOsWgEdzQqoG7VFS7_nMc4
+id: lms_room.default.field_body
+field_name: field_body
+entity_type: lms_room
+bundle: default
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats:
+    - basic_html
+field_type: text_with_summary

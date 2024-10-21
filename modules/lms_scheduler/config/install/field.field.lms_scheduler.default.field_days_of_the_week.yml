@@ -1,0 +1,29 @@
+uuid: 9f639f79-a999-47c6-9640-fe8201878029
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_scheduler.field_days_of_the_week
+    - lms_scheduler.lms_scheduler_type.default
+    - taxonomy.vocabulary.days_of_the_week
+id: lms_scheduler.default.field_days_of_the_week
+field_name: field_days_of_the_week
+entity_type: lms_scheduler
+bundle: default
+label: 'Days of the Week'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      days_of_the_week: days_of_the_week
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

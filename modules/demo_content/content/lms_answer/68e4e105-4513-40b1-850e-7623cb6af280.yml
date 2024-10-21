@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 68e4e105-4513-40b1-850e-7623cb6af280
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Representation of abstract ideas through a character, symbol, or story; an extended metaphor with an underlying meaning.'
+  created:
+    -
+      value: 1702955367
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

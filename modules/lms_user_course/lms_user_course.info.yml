@@ -1,0 +1,9 @@
+name: User Course
+type: module
+description: 'Defines the LMSUserCourse entity and associated features.'
+package: Custom Entity Modules
+core_version_requirement: ^9.3 || ^10
+configure: entity.lms_user_course.collection
+dependencies:
+  - entity:entity
+  - lms_base:lms_base

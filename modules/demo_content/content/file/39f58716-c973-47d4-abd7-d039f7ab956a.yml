@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 39f58716-c973-47d4-abd7-d039f7ab956a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: EnglishcompetitiondistrictThanhXuan2_755x9999_0.jpg
+  uri:
+    -
+      value: 'public://2023-12/EnglishcompetitiondistrictThanhXuan2_755x9999_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 79233
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702915832

@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: fed3f445-651f-4a80-9009-ff22ad888854
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Cheering
+  created:
+    -
+      value: 1702957169
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

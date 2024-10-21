@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 9351f62d-726d-4e67-9e2d-fb5ee4de86a1
+  bundle: course
+  default_langcode: en
+  depends:
+    f49a2cc8-62c8-455b-8567-7800559798ca: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: f49a2cc8-62c8-455b-8567-7800559798ca
+  sku:
+    -
+      value: 'Communication Strategies'
+  title:
+    -
+      value: 'Communication Strategies: Speaking, Listening and Online'
+  price:
+    -
+      number: '0.000000'
+      currency_code: USD
+      formatted: $0.00
+  created:
+    -
+      value: 1703144560

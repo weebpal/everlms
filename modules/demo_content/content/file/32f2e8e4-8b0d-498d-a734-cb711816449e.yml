@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 32f2e8e4-8b0d-498d-a734-cb711816449e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 4752796_a6e4.jpg
+  uri:
+    -
+      value: 'public://2023-12/4752796_a6e4.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 54430
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703038990

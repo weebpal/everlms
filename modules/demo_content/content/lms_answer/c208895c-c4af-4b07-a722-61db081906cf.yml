@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: c208895c-c4af-4b07-a722-61db081906cf
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'A similarity between two things in which a comparison can be made ; a comparison of two things, usually for the sake of argument.'
+  created:
+    -
+      value: 1702955659
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: true

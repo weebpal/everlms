@@ -1,0 +1,45 @@
+<?php
+
+/**
+ * @file
+ * Defines the LMSScheduler entity and associated features.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Render\Element;
+
+/**
+ * Implements hook_theme().
+ */
+function lms_scheduler_theme() {
+  return [
+    'lms_scheduler' => [
+      'render element' => 'elements',
+    ],
+    'lms_scheduler_form' => [
+      'render element' => 'form',
+    ],
+  ];
+}
+
+/**
+ * Prepares variables for lms_scheduler templates.
+ *
+ * Default template: lms-scheduler-template.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An associative array containing rendered fields.
+ *   - attributes: HTML attributes for the containing element.
+ */
+function template_preprocess_lms_scheduler(array &$variables) {
+  /** @var Drupal\lms_scheduler\Entity\LMSSchedulerInterface $lms_scheduler */
+  $lms_scheduler = $variables['elements']['#lms_scheduler'];
+
+  $variables['lms_scheduler_entity'] = $lms_scheduler;
+  $variables['lms_scheduler_url'] = $lms_scheduler->isNew() ? '' : $lms_scheduler->toUrl();
+  $variables['lms_scheduler'] = [];
+  foreach (Element::children($variables['elements']) as $key) {
+    $variables['lms_scheduler'][$key] = $variables['elements'][$key];
+  }
+}

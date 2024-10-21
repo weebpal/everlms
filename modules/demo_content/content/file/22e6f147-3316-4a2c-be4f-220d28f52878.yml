@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 22e6f147-3316-4a2c-be4f-220d28f52878
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 455146_f3f0_7.jpg
+  uri:
+    -
+      value: 'public://2023-12/455146_f3f0_7.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 59251
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703133728

@@ -1,0 +1,8 @@
+uuid: ec5f25d9-2e22-429d-a0f3-023cc9c31213
+langcode: en
+status: true
+dependencies: {  }
+name: 'Lesson type'
+vid: lesson_type
+description: 'Lesson type (Embedded video, Zoom class, Google meet)'
+weight: 0

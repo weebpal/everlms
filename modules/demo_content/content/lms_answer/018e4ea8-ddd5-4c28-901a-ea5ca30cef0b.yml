@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 018e4ea8-ddd5-4c28-901a-ea5ca30cef0b
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Increasing the pace of your lesson'
+  created:
+    -
+      value: 1702951398
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

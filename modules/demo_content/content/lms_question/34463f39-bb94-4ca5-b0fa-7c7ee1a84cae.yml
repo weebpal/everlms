@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 34463f39-bb94-4ca5-b0fa-7c7ee1a84cae
+  bundle: default
+  default_langcode: en
+  depends:
+    5a3f6e71-1e05-4d07-a72f-9b8f1c1ad9cc: lms_answer
+    88a75774-d4cd-4e76-a3a5-8716729c3053: lms_answer
+    f0ba4a75-b605-4cda-a370-22c5832bbd51: lms_answer
+    909c844b-45b8-42c8-a879-9674fe70a6d4: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Which of the following is not included as points to observe during demonstration'
+  created:
+    -
+      value: 1702953293
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 5a3f6e71-1e05-4d07-a72f-9b8f1c1ad9cc
+    -
+      entity: 88a75774-d4cd-4e76-a3a5-8716729c3053
+    -
+      entity: f0ba4a75-b605-4cda-a370-22c5832bbd51
+    -
+      entity: 909c844b-45b8-42c8-a879-9674fe70a6d4
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

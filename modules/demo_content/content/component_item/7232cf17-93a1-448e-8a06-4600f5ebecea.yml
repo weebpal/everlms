@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 7232cf17-93a1-448e-8a06-4600f5ebecea
+  bundle: basic_component
+  default_langcode: en
+  depends:
+    d15c06c2-e9d9-476a-82e9-21d1fa71ab88: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Untitled'
+  created:
+    -
+      value: 1702915492
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>This week, the whole of Year 11 had a chance to collaborate with Operation Smile Vietnam and visited the Vietnam-Cuba Friendship Hospital.</p><p>Year 11 Volunteered for Operation Smile Mission in Vietnam This week, the whole of Year 11 had a chance to collaborate with Operation Smile Vietnam and visited the Vietnam-Cuba Friendship Hospital.<br>This week, the whole of Year 11 had a chance to collaborate with Operation Smile Vietnam and visited the Vietnam-Cuba Friendship Hospital.</p><p>It was one of the volunteer project held by Operation Smile to help unlucky children who suffer from cleft lips and palates. We divided Year 11 into 4 different groups and each group attended a single day. On Monday, group 1 helped children to apply for the surgeries and write the patient record. From Tuesday to Friday, doctors started to do surgeries for over 150 patients. Each operation took from 45 minutes to 2 hours, depends on ages and issues with the patient. We donated lots of food, milk to children because in order to do the operation, they are not allowed to eat or drink for 12 hours so it is essential for them to have a small meal after the surgery. Moreover, we played with children before their surgery to give them an enormous motivation. &nbsp;We also brought colouring books, toys to play with them and they were all very happy about it. For me personally and for Year 11 as a whole, this was such a meaningful thing that we can do at this age to help all of these children. I’m really looking forward to more missions with Operation Smile, as well as with other charity organisation in the future.</p><p><strong>Steve (Long) - Year 11 Student</strong></p><p>Cover photo by: Steve - Year 11 Student</p>'
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: d15c06c2-e9d9-476a-82e9-21d1fa71ab88
+      alt: ''
+      title: ''
+      width: 887
+      height: 499

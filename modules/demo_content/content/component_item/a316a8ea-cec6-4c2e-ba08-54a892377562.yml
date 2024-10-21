@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: a316a8ea-cec6-4c2e-ba08-54a892377562
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: 5. Read News Articles Aloud'
+  title:
+    -
+      value: '5. Read News Articles Aloud'
+  created:
+    -
+      value: 1702916424
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Instead of just reading the words of a news article in your head, try reading the word out loud to help you sort out the words meaning. With this practice, you can easily remember the new vocabulary rather than just hearing or reading the word and then forgetting them. If you read a word and the meaning is not clear, note it down or highlight it and go back and look it up in a dictionary.</p>'
+      format: full_html
+      summary: ''

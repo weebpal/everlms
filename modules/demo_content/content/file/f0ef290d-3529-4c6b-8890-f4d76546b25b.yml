@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f0ef290d-3529-4c6b-8890-f4d76546b25b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: man-reading-news.jpg
+  uri:
+    -
+      value: 'public://2023-12/man-reading-news.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 185909
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702916655

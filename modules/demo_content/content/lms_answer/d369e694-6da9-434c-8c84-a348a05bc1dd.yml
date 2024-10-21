@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: d369e694-6da9-434c-8c84-a348a05bc1dd
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Qualified Teacher Learning & Skills'
+  created:
+    -
+      value: 1702951343
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: "<p>QTLS stands for Qualified Teacher Learning &amp; Skills. This acronym represents a professional status for teachers in the Further Education and Training sector in the United Kingdom. It is a recognition of an individual's expertise and qualifications in teaching and learning within this specific educational sector.</p>"
+      format: full_html
+      summary: ''
+  field_correct:
+    -
+      value: true

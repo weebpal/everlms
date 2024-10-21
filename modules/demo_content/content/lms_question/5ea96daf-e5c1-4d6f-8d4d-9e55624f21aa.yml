@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 5ea96daf-e5c1-4d6f-8d4d-9e55624f21aa
+  bundle: default
+  default_langcode: en
+  depends:
+    977fc54a-5711-4433-ae14-78c4e71746f9: lms_answer
+    0e37b98f-8959-4617-b84b-7577d866cc9b: lms_answer
+    5184fc15-e0b8-4dc5-a638-30bd6ff11993: lms_answer
+    44da2b5a-8426-407e-974b-25182ae9b85f: lms_answer
+    f264ecd5-f761-4771-a40e-9c5b7d1d2924: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Anadiplosis
+  created:
+    -
+      value: 1702955637
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 977fc54a-5711-4433-ae14-78c4e71746f9
+    -
+      entity: 0e37b98f-8959-4617-b84b-7577d866cc9b
+    -
+      entity: 5184fc15-e0b8-4dc5-a638-30bd6ff11993
+    -
+      entity: 44da2b5a-8426-407e-974b-25182ae9b85f
+    -
+      entity: f264ecd5-f761-4771-a40e-9c5b7d1d2924
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

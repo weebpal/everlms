@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 40f84549-b96b-4c91-8396-c1880ec69cfd
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Activists air their grievances and publicly denounce the acts of a person or institutions'
+  created:
+    -
+      value: 1702952857
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

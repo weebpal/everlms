@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: d431483c-1ee8-426c-a349-98bffe0cf439
+  bundle: image
+  default_langcode: en
+  depends:
+    7328f4a3-618e-4c02-81cf-129ef74a5a1f: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: iStock-983901710-min-1-ps3avvkcdj2252dlwwpou4ki7ftd9x286xzspay808.jpg
+  created:
+    -
+      value: 1702957781
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 7328f4a3-618e-4c02-81cf-129ef74a5a1f
+      alt: 'Basic information in different categories of English'
+      title: ''
+      width: 750
+      height: 500

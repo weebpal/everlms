@@ -1,0 +1,5 @@
+name: Lms Membership
+description: 'Lms membership functions'
+type: module
+package: Custom Entity Modules
+core_version_requirement: ^9.3 || ^10

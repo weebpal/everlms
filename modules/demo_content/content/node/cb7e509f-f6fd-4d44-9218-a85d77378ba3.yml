@@ -1,0 +1,70 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: cb7e509f-f6fd-4d44-9218-a85d77378ba3
+  bundle: news
+  default_langcode: en
+  depends:
+    37b6ef42-612c-4244-829f-c31ef8983e40: component_wrapper
+    29a58032-9cc6-4c6c-9261-0ca1bfaf0680: component_wrapper
+    906ea3bd-dfe3-4321-b009-188c59f85f94: component_wrapper
+    5a5eddd0-c84c-487b-8a16-8218ee23097f: component_wrapper
+    0fa8bddd-e455-4b7a-a19b-61a3c2b5fa43: component_wrapper
+    a666e165-966a-4095-997b-dc4899bdd0f8: taxonomy_term
+    7ef4e99a-c83d-4027-a111-0b1225f90b9b: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'What is IELTS'
+  created:
+    -
+      value: 1703477937
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /news/what-ielts
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>IELTS is hugely popular across the world with some 5 million tests taken each year with an average score on 6.5 -8. &nbsp;It’s owned by is jointly owned by the British Council; IDP (International Development Program) IELTS; and Cambridge University Press &amp; Assessment. It’s accepted in 140 countries and considered essential for students planning to study or work in English speaking countries.</p>'
+      format: full_html
+      summary: ''
+  field_components:
+    -
+      entity: 37b6ef42-612c-4244-829f-c31ef8983e40
+    -
+      entity: 29a58032-9cc6-4c6c-9261-0ca1bfaf0680
+    -
+      entity: 906ea3bd-dfe3-4321-b009-188c59f85f94
+    -
+      entity: 5a5eddd0-c84c-487b-8a16-8218ee23097f
+    -
+      entity: 0fa8bddd-e455-4b7a-a19b-61a3c2b5fa43
+  field_tags:
+    -
+      entity: a666e165-966a-4095-997b-dc4899bdd0f8
+  field_thumb:
+    -
+      entity: 7ef4e99a-c83d-4027-a111-0b1225f90b9b
+      alt: 'What is IELTS'
+      title: ''
+      width: 1000
+      height: 667

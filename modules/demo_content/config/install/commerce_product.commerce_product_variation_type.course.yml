@@ -1,0 +1,10 @@
+uuid: 45666cda-6765-49d8-8ea2-fb5ace2150e1
+langcode: en
+status: true
+dependencies: {  }
+id: course
+label: Course
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: true

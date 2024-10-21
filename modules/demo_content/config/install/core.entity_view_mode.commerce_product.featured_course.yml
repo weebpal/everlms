@@ -1,0 +1,10 @@
+uuid: 0f14873a-1e3e-4b33-af68-0787328d7921
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product.featured_course
+label: 'Featured Course'
+targetEntityType: commerce_product
+cache: true

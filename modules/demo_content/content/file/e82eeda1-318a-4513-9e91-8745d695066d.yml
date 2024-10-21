@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e82eeda1-318a-4513-9e91-8745d695066d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Get-a-high-IELTS-score_0.jpg
+  uri:
+    -
+      value: 'public://2023-12/Get-a-high-IELTS-score_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 44990
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703478335

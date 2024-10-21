@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: d442980f-546c-43bf-9e88-fd73352cb10d
+  bundle: membership
+  default_langcode: en
+  depends:
+    b3dcd1be-d48f-441b-9a96-0ea0569da245: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: b3dcd1be-d48f-441b-9a96-0ea0569da245
+  sku:
+    -
+      value: year
+  title:
+    -
+      value: Year
+  list_price:
+    -
+      number: '99.990000'
+      currency_code: USD
+      formatted: $99.99
+  price:
+    -
+      number: '9.990000'
+      currency_code: USD
+      formatted: $9.99
+  created:
+    -
+      value: 1699929976

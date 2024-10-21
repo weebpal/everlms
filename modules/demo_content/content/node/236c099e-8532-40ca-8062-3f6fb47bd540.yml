@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 236c099e-8532-40ca-8062-3f6fb47bd540
+  bundle: news
+  default_langcode: en
+  depends:
+    a63ab809-8b07-4142-9223-a90b0252a2af: component_wrapper
+    c81baa19-7bdc-4b72-850e-75700fc3bb0c: component_wrapper
+    f5ff6bd6-c732-45f2-b696-26209a5e83c8: component_wrapper
+    2d54f5a8-3425-46a3-a592-1d288a4c19c2: component_wrapper
+    a666e165-966a-4095-997b-dc4899bdd0f8: taxonomy_term
+    4601b55b-d72d-411a-8667-fba6e07ab698: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'How to read the IELTS score'
+  created:
+    -
+      value: 1703476450
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /news/how-read-ielts-score
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>IELTS stands for “International English Language Testing System.” It is a globally recognized test designed to assess the English language proficiency of non-native English speakers. Whether you are a student, a professional, or an immigrant, IELTS can play a crucial role in achieving your dreams of studying, working, or settling in a country where English is the native language.</p><p>IELTS measures your ability to communicate effectively in English across four key language skills: listening, reading, writing, and speaking. These skills are essential for your success in academic and professional environments. Many universities, colleges, and employers in English-speaking countries require IELTS scores as part of their admission or hiring process.</p>'
+      format: full_html
+      summary: ''
+  field_components:
+    -
+      entity: a63ab809-8b07-4142-9223-a90b0252a2af
+    -
+      entity: c81baa19-7bdc-4b72-850e-75700fc3bb0c
+    -
+      entity: f5ff6bd6-c732-45f2-b696-26209a5e83c8
+    -
+      entity: 2d54f5a8-3425-46a3-a592-1d288a4c19c2
+  field_tags:
+    -
+      entity: a666e165-966a-4095-997b-dc4899bdd0f8
+  field_thumb:
+    -
+      entity: 4601b55b-d72d-411a-8667-fba6e07ab698
+      alt: 'How to read the IELTS score'
+      title: ''
+      width: 1000
+      height: 628

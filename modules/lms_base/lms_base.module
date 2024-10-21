@@ -1,0 +1,113 @@
+<?php
+
+use Drupal\commerce_order\Entity\OrderItem;
+use Drupal\commerce_product\Entity\ProductVariation;
+use Drupal\Core\Url;
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_alter
+ */
+function lms_base_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  $route_name = Drupal::routeMatch()->getRouteName();
+  if (stripos($form_id, 'commerce_order_item_add_to_cart_form_commerce_product') !== FALSE) {
+    if (isset($form['actions']['submit']['#value'])) {
+      $form['actions']['submit']['#value'] = t('Buy now');
+    }
+    $form_object = $form_state->getFormObject();
+    $entity = $form_object->getEntity();
+    if ($entity instanceof OrderItem) {
+      $purchased_entity = $entity->getPurchasedEntity();
+      if ($purchased_entity instanceof ProductVariation) {
+        $product = $purchased_entity->getProduct();
+        $bundle = $product->bundle();
+        if ($bundle !== 'membership') {
+          $product_id = $purchased_entity->getProductId();
+          $current_user = \Drupal::currentUser();
+          $user_id = $current_user->id();
+          $permission_manager = \Drupal::service('lms_base.permission_manager');
+          $has_permission = $permission_manager->checkCoursePermission($user_id, $product_id);
+          if ($has_permission) {
+            unset($form['actions']['submit']);
+            if (!in_array($route_name, ['entity.commerce_product.canonical'])) {
+              $url = Url::fromRoute('entity.commerce_product.canonical', ['commerce_product' => $product_id]);
+              $form['actions']['view_detail'] = [
+                '#type' => 'link',
+                '#title' => t('View Detail'),
+                '#url' => $url,
+                '#attributes' => [
+                  'class' => ['btn-view-detail'],
+                ],
+              ];
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/**
+ * Implements hook_theme_registry_alter.
+ */
+function lms_base_theme_registry_alter(&$theme_registry) {
+  $module_handler = \Drupal::service('module_handler');
+  $module = $module_handler->getModule('lms_base');
+  if ($module instanceof Drupal\Core\Extension\Extension) {
+    $module_path = $module->getPath();
+    $templates_path = $module_path . '/templates';
+    $theme_registry['commerce_coupon_redemption_form']['path'] = $templates_path;
+    $theme_registry['facets_result_item']['path'] = $templates_path;
+  }
+}
+
+/**
+ * Implements hook_preprocess_HOOK.
+ */
+function lms_base_preprocess_commerce_product(&$variables) {
+  $product = $variables['elements']['#commerce_product'];
+  if ($variables['elements']['#view_mode'] == 'full') {
+    $variables['elements']['#group_children']['variation_list_price'] = 'group_group_variation';
+    $variables['elements']['#group_children']['variation_price'] = 'group_group_variation';
+    $variation_weight = $variables['product']['variations']['#weight'];
+    $variables['product']['variation_list_price']['#weight'] = $variation_weight + 1;
+    $variables['product']['variation_price']['#weight'] = $variation_weight + 1;
+    if (isset($variables['product']['uid'])) {
+      $variables['product']['uid']['#title'] = t('By');
+    }
+  }
+  elseif ($variables['elements']['#view_mode'] == 'teaser') {
+    $variables['elements']['#group_children']['variation_list_price'] = 'group_price';
+    $variables['elements']['#group_children']['variation_price'] = 'group_price';
+    if ($product->hasField('field_free')) {
+      $isFree = $product->get('field_free')->value;
+      if ($isFree) {
+        $variables['product']['field_free'][0]['#markup'] = 'Free';
+      }
+      else {
+        $variables['product']['field_free'][0]['#access'] = FALSE;
+      }
+    }
+    if (isset($variables['product']['uid'])) {
+      $variables['product']['uid']['#title'] = t('By');
+    }
+  }
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_presave().
+ */
+function lms_base_commerce_product_presave(\Drupal\Core\Entity\EntityInterface $entity) {
+  if ($entity->hasField('field_total_lessons') && $entity->hasField('field_lessons')) {
+    $field_lessons = $entity->get('field_lessons')->getValue();
+    if ($field_lessons) {
+      $entity->set('field_total_lessons', count($field_lessons));
+    }
+  }
+  if ($entity->hasField('field_total_quizzes') && $entity->hasField('field_quizzes')) {
+    $field_quizzes = $entity->get('field_quizzes')->getValue();
+    if ($field_quizzes) {
+      $entity->set('field_total_quizzes', count($field_quizzes));
+    }
+  }
+}

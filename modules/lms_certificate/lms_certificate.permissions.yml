@@ -1,0 +1,4 @@
+administer lms_certificate_type:
+  title: 'Administer lms_certificate types'
+  description: 'Maintain the types of certificate types available and the fields that are associated with those types.'
+  restrict access: true

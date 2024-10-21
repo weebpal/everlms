@@ -1,0 +1,9 @@
+uuid: 6770445b-335d-4494-9a05-63b24909a796
+langcode: en
+status: true
+dependencies: {  }
+id: host_zoom_class
+label: 'Host zoom class'
+weight: -3
+is_admin: null
+permissions: {  }

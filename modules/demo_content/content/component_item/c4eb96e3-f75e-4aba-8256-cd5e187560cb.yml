@@ -1,0 +1,26 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: c4eb96e3-f75e-4aba-8256-cd5e187560cb
+  bundle: push_image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Push Image Item: Untitled'
+  created:
+    -
+      value: 1703477181
+  revision_translation_affected:
+    -
+      value: true
+  field_pi_body:
+    -
+      value: '<p>Remember, IELTS scores are not only a reflection of your language proficiency but also an opportunity to grow and improve. That’s why all our courses at Perfectly Spoken align with IELTS levels so you can easily check the best courses and practice at your level.</p><p><strong>Our message to you:</strong></p><p>Stay focused, practise diligently, and you’ll be well on your way to achieving your desired IELTS score and fulfilling your dreams in an English-speaking world.</p><p>Good luck!</p>'
+      format: full_html

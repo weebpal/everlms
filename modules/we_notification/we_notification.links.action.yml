@@ -1,0 +1,11 @@
+entity.we_notification.add_page:
+  route_name: entity.we_notification.add_page
+  title: 'Add notification item'
+  appears_on:
+    - entity.we_notification.collection
+
+entity.we_notification_type.add_form:
+  route_name: entity.we_notification_type.add_form
+  title: 'Add notification type'
+  appears_on:
+    - entity.we_notification_type.collection

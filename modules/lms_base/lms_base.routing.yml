@@ -1,0 +1,14 @@
+lms_base.admin:
+  path: '/admin/lms'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'LMS'
+  requirements:
+    _permission: 'administer site configuration'
+lms_base.test:
+  path: '/admin/lms/test'
+  defaults:
+    _controller: '\Drupal\lms_base\Controller\LmsBaseController::test'
+    _title: 'LMS'
+  requirements:
+    _access: 'TRUE'

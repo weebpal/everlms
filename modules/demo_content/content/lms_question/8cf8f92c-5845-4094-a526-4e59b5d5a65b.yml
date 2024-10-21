@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 8cf8f92c-5845-4094-a526-4e59b5d5a65b
+  bundle: default
+  default_langcode: en
+  depends:
+    831c6933-1dc7-48b8-8621-b706280f459f: lms_answer
+    cee7738a-58d5-4354-b289-e07727c01d7f: lms_answer
+    87b73910-3065-4ac3-9fac-24cddedf8fcd: lms_answer
+    59c72643-d028-4963-9c10-ea87f4967b61: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Did they ______ the dogs last night?'
+  created:
+    -
+      value: 1702957290
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 831c6933-1dc7-48b8-8621-b706280f459f
+    -
+      entity: cee7738a-58d5-4354-b289-e07727c01d7f
+    -
+      entity: 87b73910-3065-4ac3-9fac-24cddedf8fcd
+    -
+      entity: 59c72643-d028-4963-9c10-ea87f4967b61
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

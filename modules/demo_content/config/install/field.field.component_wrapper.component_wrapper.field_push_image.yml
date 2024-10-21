@@ -1,0 +1,25 @@
+uuid: ebcd87d0-5abf-46fa-84be-aecb3795c94f
+langcode: en
+status: true
+dependencies:
+  config:
+    - component_builder.component_item_type.push_image
+    - field.storage.component_wrapper.field_push_image
+  module:
+    - component_builder
+id: component_wrapper.component_wrapper.field_push_image
+field_name: field_push_image
+entity_type: component_wrapper
+bundle: component_wrapper
+label: 'Push image Items'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:component_item'
+  handler_settings:
+    target_bundles:
+      - push_image
+field_type: entity_reference

@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 709891df-f7e6-4dd5-b31b-c2677f797c63
+  bundle: course
+  default_langcode: en
+  depends:
+    abe94f3a-6f12-4262-a3ba-265079390a27: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: abe94f3a-6f12-4262-a3ba-265079390a27
+  sku:
+    -
+      value: 'Master English Sentence Structure'
+  title:
+    -
+      value: 'Master English Sentence Structure | Better Grammar, Writing'
+  price:
+    -
+      number: '0.000000'
+      currency_code: USD
+      formatted: $0.00
+  created:
+    -
+      value: 1702958075

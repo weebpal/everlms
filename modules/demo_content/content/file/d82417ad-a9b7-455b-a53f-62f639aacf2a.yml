@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d82417ad-a9b7-455b-a53f-62f639aacf2a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Presentation Skills.jpg'
+  uri:
+    -
+      value: 'public://2023-12/Presentation Skills.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 142850
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702950479

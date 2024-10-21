@@ -1,0 +1,19 @@
+uuid: bfb7ba44-3971-430a-8f3c-eb61a598c545
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_lesson.field_google_meet_data
+    - lms_lesson.lms_lesson_type.default
+id: lms_lesson.default.field_google_meet_data
+field_name: field_google_meet_data
+entity_type: lms_lesson
+bundle: default
+label: 'Google meet data'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

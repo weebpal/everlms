@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 35c90f86-1dc4-4d32-8ba4-3044e416d34c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 2014224_8b50_5.jpg
+  uri:
+    -
+      value: 'public://2023-12/2014224_8b50_5_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 30475
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703063818

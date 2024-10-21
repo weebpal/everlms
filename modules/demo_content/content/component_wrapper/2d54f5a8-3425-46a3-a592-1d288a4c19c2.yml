@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: component_wrapper
+  uuid: 2d54f5a8-3425-46a3-a592-1d288a4c19c2
+  default_langcode: en
+  depends:
+    2008392b-183b-41fb-819a-3bee9e14e4b7: taxonomy_term
+    c4eb96e3-f75e-4aba-8256-cd5e187560cb: component_item
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  title:
+    -
+      value: 'Take note'
+  component_type:
+    -
+      entity: 2008392b-183b-41fb-819a-3bee9e14e4b7
+  display_title:
+    -
+      value: false
+  display_header:
+    -
+      value: false
+  display_footer:
+    -
+      value: false
+  display_image:
+    -
+      value: false
+  display_in_region:
+    -
+      value: false
+  field_region:
+    -
+      value: headline
+  field_properties:
+    -
+      value: '{"properties":{"styles":{"image-position":"_none","background-color":"gray"}}}'
+  created:
+    -
+      value: 1703477186
+  revision_translation_affected:
+    -
+      value: true
+  field_push_image:
+    -
+      entity: c4eb96e3-f75e-4aba-8256-cd5e187560cb

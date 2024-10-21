@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c582190e-6901-4579-8145-d2b2816ecbbf
+  bundle: news
+  default_langcode: en
+  depends:
+    003b1980-71cb-43de-8d4f-93f6efc08dc4: component_wrapper
+    85494eee-d1e3-44b4-8309-0f3ae88d2efc: taxonomy_term
+    f0ef290d-3529-4c6b-8890-f4d76546b25b: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Why News is So Important for English Learners'
+  created:
+    -
+      value: 1702916647
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /news/why-news-so-important-english-learners
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>If you are learning English there are lots of different ways you can help support your English lessons and courses. Watching movies in English can be very useful and a great way to test yourself and be aware of different accents. Music can also be very helpful; trying to learn the words and practising English by singing but there is one more way you can use the media to help you and that’s by reading lots of online news. There are actually lots of reasons why reading the news can be useful so here is why!</p>'
+      format: full_html
+      summary: ''
+  field_components:
+    -
+      entity: 003b1980-71cb-43de-8d4f-93f6efc08dc4
+  field_tags:
+    -
+      entity: 85494eee-d1e3-44b4-8309-0f3ae88d2efc
+  field_thumb:
+    -
+      entity: f0ef290d-3529-4c6b-8890-f4d76546b25b
+      alt: man-reading-news
+      title: ''
+      width: 1350
+      height: 901

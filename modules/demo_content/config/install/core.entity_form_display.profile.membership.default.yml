@@ -1,0 +1,29 @@
+uuid: d16010ef-8b72-4c87-9f93-d87638826004
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.membership.field_membership_time
+    - field.field.profile.membership.field_membership_type
+    - profile.type.membership
+  module:
+    - datetime_range
+id: profile.membership.default
+targetEntityType: profile
+bundle: membership
+mode: default
+content:
+  field_membership_time:
+    type: daterange_default
+    weight: 28
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_membership_type:
+    type: options_buttons
+    weight: 27
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  is_default: true

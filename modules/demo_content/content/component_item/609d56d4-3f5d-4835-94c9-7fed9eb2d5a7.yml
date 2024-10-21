@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 609d56d4-3f5d-4835-94c9-7fed9eb2d5a7
+  bundle: push_image
+  default_langcode: en
+  depends:
+    26badcff-e3ff-4c54-a4f0-03911a4d5637: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Push Image Item: Untitled'
+  created:
+    -
+      value: 1703477703
+  revision_translation_affected:
+    -
+      value: true
+  field_pi_body:
+    -
+      value: '<p>While Duolingo is a popular language learning app, there are other excellent alternatives available for English language learners. Some of the best alternatives include:</p><p><strong>Rosetta Stone:</strong> Known for its immersive language learning approach, Rosetta Stone provides comprehensive courses that focus on all aspects of language acquisition, including speaking, listening, reading, and writing.<br>However, it is argued that its content tends to prioritize vocabulary and sentence structure over practical conversational skills and students may have limited ability to understand and communicate effectively in real-life situations.</p><p><strong>Babbel: </strong>Babbel offers a wide range of interactive lessons designed by language experts. The app provides real-life dialogues, grammar exercises, and vocabulary building exercises to help learners develop practical language skills.<br>Language experts argue that Babbel’s main limitation is its focus on vocabulary and basic grammar without offering extensive practice in speaking and listening skills which will limit its attraction for students who want to develop fluency and engage in real-life conversations.</p>'
+      format: full_html
+  field_pi_image:
+    -
+      entity: 26badcff-e3ff-4c54-a4f0-03911a4d5637
+      alt: Is-duolingo-the-best-way-to-learn-a-language
+      title: ''
+      width: 1000
+      height: 667

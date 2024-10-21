@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 52f6d76b-89cb-47ef-8fdf-d072fa7db779
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: writingskills.jpg
+  uri:
+    -
+      value: 'public://2023-12/writingskills.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 185245
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703143122

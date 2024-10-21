@@ -1,0 +1,28 @@
+uuid: dbc4d758-38d9-45af-b34e-e673f808af8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_scheduler.field_body
+    - filter.format.basic_html
+    - lms_scheduler.lms_scheduler_type.default
+  module:
+    - text
+_core:
+  default_config_hash: maFRcSWy0qqh3buSfwB9dABxM7h7TtHo8ThHYNl2j6A
+id: lms_scheduler.default.field_body
+field_name: field_body
+entity_type: lms_scheduler
+bundle: default
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats:
+    - basic_html
+field_type: text_with_summary

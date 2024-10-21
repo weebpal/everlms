@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 68de0675-fd26-415a-809b-5818f8739c9c
+  bundle: default
+  default_langcode: en
+  depends:
+    40f84549-b96b-4c91-8396-c1880ec69cfd: lms_answer
+    a62fe6d7-833f-4bdc-ab9a-7c11ddf5381a: lms_answer
+    0dc1f458-d616-4173-a52d-20d640d39f09: lms_answer
+    088631f3-87c3-49ba-9019-5b26555df0ce: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Which of the following situations best describes Demonstration in Teaching'
+  created:
+    -
+      value: 1702952893
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 40f84549-b96b-4c91-8396-c1880ec69cfd
+    -
+      entity: a62fe6d7-833f-4bdc-ab9a-7c11ddf5381a
+    -
+      entity: 0dc1f458-d616-4173-a52d-20d640d39f09
+    -
+      entity: 088631f3-87c3-49ba-9019-5b26555df0ce
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

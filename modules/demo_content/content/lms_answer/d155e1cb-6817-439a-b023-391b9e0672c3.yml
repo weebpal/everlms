@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: d155e1cb-6817-439a-b023-391b9e0672c3
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'All of the above'
+  created:
+    -
+      value: 1702953355
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

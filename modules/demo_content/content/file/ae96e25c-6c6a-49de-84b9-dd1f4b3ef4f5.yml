@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ae96e25c-6c6a-49de-84b9-dd1f4b3ef4f5
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'How to book more Public Speaking Opportunities - Mini Course.mp4'
+  uri:
+    -
+      value: 'public://2023-12/How to book more Public Speaking Opportunities - Mini Course.mp4'
+  filemime:
+    -
+      value: video/mp4
+  filesize:
+    -
+      value: 22160591
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702966055

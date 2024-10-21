@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9a5fc1df-7496-4508-a522-1d422da8e15a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: effective-communication-strategies.png
+  uri:
+    -
+      value: 'public://2023-12/effective-communication-strategies.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 35445
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703143910

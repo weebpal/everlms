@@ -1,0 +1,28 @@
+uuid: 8f141c0a-8775-40d2-ac74-9b22b0108496
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_quiz.field_prerequisite_quizes
+    - lms_quiz.lms_quiz_type.default
+id: lms_quiz.default.field_prerequisite_quizes
+field_name: field_prerequisite_quizes
+entity_type: lms_quiz
+bundle: default
+label: 'Prerequisite Quizes'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:lms_quiz'
+  handler_settings:
+    target_bundles:
+      default: default
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

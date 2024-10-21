@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: baf113e3-b467-4545-9927-fbbe8cb15790
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: How-to-Improve-Your-English-Speaking-Skills-Online-3-1536x864.jpg
+  uri:
+    -
+      value: 'public://2023-12/How-to-Improve-Your-English-Speaking-Skills-Online-3-1536x864.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 212148
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703472871

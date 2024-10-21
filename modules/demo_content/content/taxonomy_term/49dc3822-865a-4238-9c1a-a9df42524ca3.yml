@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 49dc3822-865a-4238-9c1a-a9df42524ca3
+  bundle: category
+  default_langcode: en
+  depends:
+    14b4d020-a554-4dc6-9b8f-f768828bc823: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'English Grammar'
+  description:
+    -
+      value: '<p>English grammar is a grammatical structure in English that refers to placing sentences in the correct order, correct relationships and harmony between words and elements to create a complete, normative sentence to convey information clearly. the most accurate, methodical and scientific way. English grammar can be generalized into the form in a sentence, the harmony between elements in a sentence.</p>'
+      format: basic_html
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /category/english-grammar
+      langcode: en
+      pathauto: 1
+  field_image:
+    -
+      entity: 14b4d020-a554-4dc6-9b8f-f768828bc823
+      alt: 'English Grammar'
+      title: ''
+      width: 1200
+      height: 900
+  field_top_category:
+    -
+      value: true

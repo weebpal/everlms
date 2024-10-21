@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 26a1344a-9acb-4c14-a814-82242c32adb8
+  bundle: image
+  default_langcode: en
+  depends:
+    869ebe30-7959-4e07-ab17-4cdc7183a704: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 1251088_0102_2.jpg
+  created:
+    -
+      value: 1703063266
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 869ebe30-7959-4e07-ab17-4cdc7183a704
+      alt: 'Table Talk: Learn How to Teach & Test English Conversation'
+      title: ''
+      width: 750
+      height: 422

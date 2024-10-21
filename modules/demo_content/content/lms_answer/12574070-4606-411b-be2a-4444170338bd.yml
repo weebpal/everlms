@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 12574070-4606-411b-be2a-4444170338bd
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'An exaggeration not intended to be serious.'
+  created:
+    -
+      value: 1702955508
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

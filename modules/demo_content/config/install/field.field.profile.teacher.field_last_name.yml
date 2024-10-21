@@ -1,0 +1,19 @@
+uuid: e383f1a3-fbab-46c2-a656-bf4d1ef260b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_last_name
+    - profile.type.teacher
+id: profile.teacher.field_last_name
+field_name: field_last_name
+entity_type: profile
+bundle: teacher
+label: 'Last Name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

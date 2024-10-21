@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 921b0948-66b9-43a5-94d1-d674ed4cd481
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Colleen_Link image.jpg'
+  uri:
+    -
+      value: 'public://2023-12/Colleen_Link image.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 59286
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702914947

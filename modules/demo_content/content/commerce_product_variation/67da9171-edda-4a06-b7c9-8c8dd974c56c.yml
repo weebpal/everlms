@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 67da9171-edda-4a06-b7c9-8c8dd974c56c
+  bundle: course
+  default_langcode: en
+  depends:
+    c7aaf674-09df-420a-b1d2-68cfa02f32b3: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: c7aaf674-09df-420a-b1d2-68cfa02f32b3
+  sku:
+    -
+      value: 'Sound Like a Native English Speaker'
+  title:
+    -
+      value: 'English Pronunciation | Sound Like a Native English Speaker'
+  list_price:
+    -
+      number: '35.000000'
+      currency_code: USD
+      formatted: $35.00
+  price:
+    -
+      number: '23.000000'
+      currency_code: USD
+      formatted: $23.00
+  created:
+    -
+      value: 1703131994

@@ -1,0 +1,13 @@
+lms_lesson.root:
+  path: '/admin/lms/lms-lesson'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Lesson'
+  requirements:
+    _permission: 'administer lms_lesson'
+lms_lesson.zoom_api:
+  path: '/lms/lms-lesson/zoom-api-callback'
+  defaults:
+    _controller: '\Drupal\lms_lesson\Controller\LMSLessonController::zoomAPICallBack'
+  requirements:
+    _permission: 'administer lms_lesson'

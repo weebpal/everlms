@@ -1,0 +1,24 @@
+uuid: 47117a55-359a-4a30-9bc0-92e8b460ac6d
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - field_permissions
+    - media
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: commerce_product.field_course_preview
+field_name: field_course_preview
+entity_type: commerce_product
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

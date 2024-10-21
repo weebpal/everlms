@@ -1,0 +1,83 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_quiz
+  uuid: fa9cdc4c-7d9b-4d17-86e8-ffb26a597571
+  bundle: default
+  default_langcode: en
+  depends:
+    b8287b6b-2505-40a2-b554-19f82a013bd6: lms_certificate
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+    cda05dbe-121d-4348-83e8-6d49ba1949ac: taxonomy_term
+    cce46126-d0ea-4670-b813-88dba3ff61a3: taxonomy_term
+    41e09b55-91ab-4588-be5f-c908021a33b9: taxonomy_term
+    fa9cdc4c-7d9b-4d17-86e8-ffb26a597571: lms_quiz
+    72fe0069-7224-49d5-ac58-aff62362114d: lms_question
+    cbb6523c-9bb8-4423-a277-a336761d8acf: lms_question
+    0518c676-7284-464e-9c98-e406a1906801: lms_question
+    22cc8fe6-27d7-4e9a-9d79-b2377e96267e: lms_question
+    73e88947-43af-4b02-b988-cb1c87a98c13: lms_question
+    4c2bbfb2-af95-4411-8744-216bc56b93c8: lms_question
+    f0f89da2-f04a-4b70-b765-79569cec2493: lms_question
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Teaching & Learning Quiz'
+  created:
+    -
+      value: 1693694685
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Lots of random teaching and learning questions and facts</p>'
+      format: basic_html
+      summary: ''
+  field_certificate:
+    -
+      entity: b8287b6b-2505-40a2-b554-19f82a013bd6
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_display_right_answer:
+    -
+      value: false
+  field_failed_title:
+    -
+      entity: cda05dbe-121d-4348-83e8-6d49ba1949ac
+  field_form_style:
+    -
+      entity: cce46126-d0ea-4670-b813-88dba3ff61a3
+  field_passed_title:
+    -
+      entity: 41e09b55-91ab-4588-be5f-c908021a33b9
+  field_prerequisite_quizes:
+    -
+      entity: fa9cdc4c-7d9b-4d17-86e8-ffb26a597571
+  field_question_count:
+    -
+      value: 7
+  field_questions:
+    -
+      entity: 72fe0069-7224-49d5-ac58-aff62362114d
+    -
+      entity: cbb6523c-9bb8-4423-a277-a336761d8acf
+    -
+      entity: 0518c676-7284-464e-9c98-e406a1906801
+    -
+      entity: 22cc8fe6-27d7-4e9a-9d79-b2377e96267e
+    -
+      entity: 73e88947-43af-4b02-b988-cb1c87a98c13
+    -
+      entity: 4c2bbfb2-af95-4411-8744-216bc56b93c8
+    -
+      entity: f0f89da2-f04a-4b70-b765-79569cec2493
+  field_threshold:
+    -
+      value: '70.00'
+  field_time_limit:
+    -
+      value: 30

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: db981038-bd3f-4c5f-9d8c-f20e3286f1cc
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: english-converstion-scaled.jpg
+  uri:
+    -
+      value: 'public://2023-12/english-converstion-scaled.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 80367
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702884699

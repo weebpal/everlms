@@ -1,0 +1,24 @@
+uuid: 957e9c4b-e82d-4860-a40a-bb7af3ff5b68
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - lms_user_course
+    - taxonomy
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: lms_user_course.field_result
+field_name: field_result
+entity_type: lms_user_course
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

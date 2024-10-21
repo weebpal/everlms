@@ -1,0 +1,25 @@
+uuid: b9f715ce-c0ab-4aff-b6c5-5331739e5e9e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:45c8e2cb-f6b3-4246-9692-480892dd4f7b'
+  module:
+    - block_content
+  theme:
+    - lms_theme
+id: copyright
+theme: lms_theme
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'block_content:45c8e2cb-f6b3-4246-9692-480892dd4f7b'
+settings:
+  id: 'block_content:45c8e2cb-f6b3-4246-9692-480892dd4f7b'
+  label: Copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

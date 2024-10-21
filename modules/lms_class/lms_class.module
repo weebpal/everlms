@@ -1,0 +1,45 @@
+<?php
+
+/**
+ * @file
+ * Defines the LMSClass entity and associated features.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Render\Element;
+
+/**
+ * Implements hook_theme().
+ */
+function lms_class_theme() {
+  return [
+    'lms_class' => [
+      'render element' => 'elements',
+    ],
+    'lms_class_form' => [
+      'render element' => 'form',
+    ],
+  ];
+}
+
+/**
+ * Prepares variables for lms_class templates.
+ *
+ * Default template: lms-class-template.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An associative array containing rendered fields.
+ *   - attributes: HTML attributes for the containing element.
+ */
+function template_preprocess_lms_class(array &$variables) {
+  /** @var Drupal\lms_class\Entity\LMSClassInterface $lms_class */
+  $lms_class = $variables['elements']['#lms_class'];
+
+  $variables['lms_class_entity'] = $lms_class;
+  $variables['lms_class_url'] = $lms_class->isNew() ? '' : $lms_class->toUrl();
+  $variables['lms_class'] = [];
+  foreach (Element::children($variables['elements']) as $key) {
+    $variables['lms_class'][$key] = $variables['elements'][$key];
+  }
+}

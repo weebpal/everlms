@@ -1,0 +1,43 @@
+uuid: 4907fd8c-357c-4836-9c87-c5ae271445ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.address
+    - profile.type.teacher
+  module:
+    - address
+id: profile.teacher.address
+field_name: address
+entity_type: profile
+bundle: teacher
+label: Address
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    langcode: null
+    country_code: VN
+    administrative_area: ''
+    locality: ''
+    dependent_locality: null
+    postal_code: ''
+    sorting_code: null
+    address_line1: ''
+    address_line2: ''
+    organization: ''
+    given_name: ''
+    additional_name: null
+    family_name: ''
+default_value_callback: null
+settings:
+  available_countries: {  }
+  langcode_override: ''
+  field_overrides:
+    givenName:
+      override: optional
+    familyName:
+      override: optional
+  fields: {  }
+field_type: address

@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: d731286d-2bf4-464d-b83d-514f2cf4764d
+  bundle: default
+  default_langcode: en
+  depends:
+    45af24b4-e3dd-4d06-a19a-bb2cb1b195f9: lms_answer
+    a2ec0f15-d91f-48c7-bafe-6097c744e38b: lms_answer
+    1416d803-9882-4c19-85c6-8fb4843f8706: lms_answer
+    47ec9c19-fb68-4276-8acc-70fd3e57d368: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: " She hasn't come home ........"
+  created:
+    -
+      value: 1702956893
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 45af24b4-e3dd-4d06-a19a-bb2cb1b195f9
+    -
+      entity: a2ec0f15-d91f-48c7-bafe-6097c744e38b
+    -
+      entity: 1416d803-9882-4c19-85c6-8fb4843f8706
+    -
+      entity: 47ec9c19-fb68-4276-8acc-70fd3e57d368
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

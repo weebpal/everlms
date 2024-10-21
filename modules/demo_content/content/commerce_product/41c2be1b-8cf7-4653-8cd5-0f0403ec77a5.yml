@@ -1,0 +1,136 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 41c2be1b-8cf7-4653-8cd5-0f0403ec77a5
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    8768eaae-a9d7-413e-8a9e-ed6a3d4bd349: commerce_product_variation
+    34d91d19-06fa-4cb6-b2d4-a9893464cbae: taxonomy_term
+    80606c78-8494-4485-8996-ae28b62436ac: media
+    d35d687d-af38-49be-8974-6e5645ac75be: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    af349c95-13ad-46ad-8e6f-a242f95f88d8: lms_lesson
+    ef98c3be-fa0a-49ed-aeb5-8dddf4483852: lms_lesson
+    c066e034-0435-439f-a9f3-33e492a14e83: lms_lesson
+    6b06f30d-d23e-4d62-9959-8549bf2c2480: lms_lesson
+    22fd04fe-30eb-4142-89f6-90fca5f882ce: lms_lesson
+    4fe024cf-521a-4294-97c2-ca2230c8e129: taxonomy_term
+    82410c0b-1326-4704-a3a5-e4dc43ed0333: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'Unlock your hidden potential: Public-Speaking'
+  variations:
+    -
+      entity: 8768eaae-a9d7-413e-8a9e-ed6a3d4bd349
+  default_variation:
+    -
+      entity: 8768eaae-a9d7-413e-8a9e-ed6a3d4bd349
+  path:
+    -
+      alias: /course/unlock-your-hidden-potential-public-speaking
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1703142078
+  body:
+    -
+      value: '<p>These are <strong>the 3 pillars that are the foundation</strong> of my work. By addressing the communication barriers from all these 3 angles, not only can we build clear and convincing messages, but we can also make you feel comfortable doing so.</p><p><strong>Why public speaking training?</strong></p><p>Are you dreading your next presentation?</p><p>Are you unsure where to start?</p><p>Public speaking is one of those skills and that could potentially be the deal-breaker for your success. Transmitting a message with honesty, integrity and authenticity is a gift. The good news is that it can be learned.</p><p>When working in international environments, the good news is that you won’t be the only person unsure about their language skills. However, having practical tools to give you agility in your spoken English will help boost your confidence, manage professional situations and open up new opportunities.</p><p>I will push you to aim higher than just being able to deliver a rational pitch. My mission is to train you to tell a compelling and memorable story. This will help you focus, build strong and lasting healthy relationships and achieve your desired results.</p><p>After this course, you will have a clear objective in your mind of how you wish your audience to leave. <strong>INSPIRED</strong>.</p><blockquote><p>"Communication is like a river running through the roots of trees in the forest.</p><p>The water covers all the roots of the trees, it nourishes them and it is in a constant flow."</p></blockquote><p><strong>This course contains:</strong></p><p>- 1 Digital Workbook</p><p>- 23 short videos (2-4min)</p><p>- 8 Meditation / Visualisation audio recordings</p><p>- 1 Powerful playlist</p><p>- 1 Ultimate Public Speaking Checklist</p><p><strong>KEYWORDS</strong></p><p><strong>Fearless Communication</strong>- "Being able to deliver a direct and honest message authentically without second-guessing or feeling small."</p><p><strong>Story-Teching</strong> - "Being able to explain something technical so that everyone understands whilst building solid relationships"</p><p><strong>Public Speaking</strong>- "Presenting your ideas to a group of people in an organized way"</p><p><strong>Presentation </strong>- " Speech that is prepared, organized, using visual aids, to a specific audience in a specific time frame. Also often includes answering the audience''s questions"</p><p><strong>Pitch</strong>- "A short and powerful message to a specific audience who you wish to inspire and then take action"</p><p><strong>Fear</strong>- "An emotion which we cannot avoid, but we can learn to feel comfortable with" #H2H - "Human to Human"</p>'
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: 34d91d19-06fa-4cb6-b2d4-a9893464cbae
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703142386
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: 80606c78-8494-4485-8996-ae28b62436ac
+  field_featured_course:
+    -
+      value: false
+  field_free:
+    -
+      value: false
+  field_image:
+    -
+      entity: d35d687d-af38-49be-8974-6e5645ac75be
+      alt: 'Unlock your hidden potential: Public-Speaking'
+      title: ''
+      width: 750
+      height: 422
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 12433
+  field_lessons:
+    -
+      entity: af349c95-13ad-46ad-8e6f-a242f95f88d8
+    -
+      entity: ef98c3be-fa0a-49ed-aeb5-8dddf4483852
+    -
+      entity: c066e034-0435-439f-a9f3-33e492a14e83
+    -
+      entity: 6b06f30d-d23e-4d62-9959-8549bf2c2480
+    -
+      entity: 22fd04fe-30eb-4142-89f6-90fca5f882ce
+  field_level:
+    -
+      entity: 4fe024cf-521a-4294-97c2-ca2230c8e129
+  field_quiz:
+    -
+      entity: 82410c0b-1326-4704-a3a5-e4dc43ed0333
+  field_quizzes:
+    -
+      entity: 82410c0b-1326-4704-a3a5-e4dc43ed0333
+  field_rating:
+    -
+      rating: 80
+      target: 0
+  field_requirements:
+    -
+      value: '<ul><li>No previous public speaking or presentation training required</li><li>This course will guide you from the first to the last step on how to prepare an impactful presentation</li><li>The course is ideal to use when preparing for a real presentation and this way follow all the steps</li></ul>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>A Presentation Skills 101 course | Master Public Speaking and Overcome Stage Fright Like a Pro</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 1
+  field_total_lessons:
+    -
+      value: 5
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>Learn how to structure a powerful presentation.</li><li>Bring clarity and method into the preparation process</li><li>Build a friendly relationship with your emotions and discomfort</li><li>Discover techniques on how to connect with your audience</li><li>Complete workbook to guide from beginning to end and build your presentation ready to go!</li><li>Course is designed for English as a Second Language speakers</li></ul>'
+      format: full_html

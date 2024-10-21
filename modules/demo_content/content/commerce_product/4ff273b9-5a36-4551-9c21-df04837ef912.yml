@@ -1,0 +1,133 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 4ff273b9-5a36-4551-9c21-df04837ef912
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    4ed5c550-f400-4251-9a67-5bd41b2601eb: commerce_product_variation
+    49dc3822-865a-4238-9c1a-a9df42524ca3: taxonomy_term
+    a03b7d9c-15ca-4bbf-a0c6-d642957ad930: media
+    2ad9b802-5fc4-48af-9fbb-6a3e4bc76538: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    157990a9-7db8-4570-af86-2f2d6f2e3577: lms_lesson
+    78da8330-8833-44f2-ae3a-bdd4580416d3: lms_lesson
+    4a3878c9-4286-4cb4-bd3c-13e1a0c752fe: lms_lesson
+    9528455e-fa33-4cb6-a58b-5624c61a08a1: lms_lesson
+    e74a7793-5a42-44dd-8cf1-d3d74b3d992f: taxonomy_term
+    61bef378-ed7b-460c-b196-d2a9ffcb6fb5: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'English Grammar'
+  variations:
+    -
+      entity: 4ed5c550-f400-4251-9a67-5bd41b2601eb
+  default_variation:
+    -
+      entity: 4ed5c550-f400-4251-9a67-5bd41b2601eb
+  path:
+    -
+      alias: /course/english-grammar
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1702958331
+  body:
+    -
+      value: '<p>You can speak English today! <strong>Improve your English</strong> grammar to start understanding and using English.</p><p>The video lectures explain the grammar rules and give you examples. The quizzes and assignments allow you to practice your skills and use your English. Plus, with video and written lessons, you can practice your listening and reading skills too!</p><p>This course is for anyone learning English, from beginner to advanced. Because it has so many grammar lessons, students of all English abilities can improve with this course.</p>'
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: 49dc3822-865a-4238-9c1a-a9df42524ca3
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1702958483
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: a03b7d9c-15ca-4bbf-a0c6-d642957ad930
+  field_featured_course:
+    -
+      value: false
+  field_free:
+    -
+      value: true
+  field_image:
+    -
+      entity: 2ad9b802-5fc4-48af-9fbb-6a3e4bc76538
+      alt: 'English Grammar'
+      title: ''
+      width: 1000
+      height: 470
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 13975
+  field_lessons:
+    -
+      entity: 157990a9-7db8-4570-af86-2f2d6f2e3577
+    -
+      entity: 78da8330-8833-44f2-ae3a-bdd4580416d3
+    -
+      entity: 4a3878c9-4286-4cb4-bd3c-13e1a0c752fe
+    -
+      entity: 9528455e-fa33-4cb6-a58b-5624c61a08a1
+  field_level:
+    -
+      entity: e74a7793-5a42-44dd-8cf1-d3d74b3d992f
+  field_quiz:
+    -
+      entity: 61bef378-ed7b-460c-b196-d2a9ffcb6fb5
+  field_quizzes:
+    -
+      entity: 61bef378-ed7b-460c-b196-d2a9ffcb6fb5
+  field_rating:
+    -
+      rating: 80
+      target: 0
+  field_requirements:
+    -
+      value: '<p>Understand and use basic English</p>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Learn the English grammar you need to understand and use English today!</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 2
+  field_total_lessons:
+    -
+      value: 4
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>Improve English grammar skills</li><li>Understand and use English</li></ul>'
+      format: full_html

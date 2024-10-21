@@ -1,0 +1,25 @@
+uuid: 1b400365-58e9-4293-b4bc-69db1e2e48f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.we_notification.field_body
+    - we_notification.we_notification_type.default
+  module:
+    - text
+_core:
+  default_config_hash: AcqKh0CiLI24V-a93o5E8K13gkaTRcY3vNgrXjvOaww
+id: we_notification.default.field_body
+field_name: field_body
+entity_type: we_notification
+bundle: default
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

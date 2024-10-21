@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 811f0d7f-b7b4-4ed9-a142-638695e29b1c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 130332_1119_9.jpg
+  uri:
+    -
+      value: 'public://2023-12/130332_1119_9.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 41470
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703140373

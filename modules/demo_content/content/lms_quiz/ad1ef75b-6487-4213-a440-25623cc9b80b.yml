@@ -1,0 +1,88 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_quiz
+  uuid: ad1ef75b-6487-4213-a440-25623cc9b80b
+  bundle: default
+  default_langcode: en
+  depends:
+    75952334-8f2a-48e5-b4dc-697ece036f5d: lms_certificate
+    71ade230-81dd-4575-859b-24db05e0b950: taxonomy_term
+    cda05dbe-121d-4348-83e8-6d49ba1949ac: taxonomy_term
+    9920f7c1-9056-4601-990f-d9f2de53bac8: taxonomy_term
+    41e09b55-91ab-4588-be5f-c908021a33b9: taxonomy_term
+    ec9bd919-abd5-496d-815f-1d913b2a2fdc: lms_question
+    071cb5b2-3211-4912-990f-a51240509e6c: lms_question
+    04807478-a63c-4f7a-b33b-96a8313e4d1b: lms_question
+    6e624630-de40-459f-8bc0-27be88510e50: lms_question
+    4ab30678-8fe8-45ca-8806-9fe0a1c2bfe9: lms_question
+    7e41faf8-d8fd-406c-97d0-129e0599d250: lms_question
+    dcd4cbd3-f3ad-478e-8ef7-2c822d1f7508: lms_question
+    13c97408-cbe2-4be5-815f-6a577af0a23a: lms_question
+    b2cdbd80-4fd2-4f7a-b3af-9cbb5ed58d1f: lms_question
+    d92a2107-ff2b-453f-ae9f-8eca1c1ee760: lms_question
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Teaching And Memorization Quiz'
+  created:
+    -
+      value: 1702954767
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Welcome to our Teaching and Memorization Quiz! Teaching and memory play crucial roles in our lives, shaping our education and knowledge retention. This quiz presents questions that challenge your understanding of effective teaching methods and memory-enhancing techniques. Explore the art of imparting knowledge and retaining it, from classroom strategies to memory aids. Are you ready to put your pedagogical and memorization skills to the test? This quiz is your opportunity to learn, evaluate, and potentially discover new techniques. Best of luck as you embark on this enlightening journey, where teaching and memory meet.</p>'
+      format: full_html
+      summary: ''
+  field_certificate:
+    -
+      entity: 75952334-8f2a-48e5-b4dc-697ece036f5d
+  field_difficulty:
+    -
+      entity: 71ade230-81dd-4575-859b-24db05e0b950
+  field_display_right_answer:
+    -
+      value: false
+  field_failed_title:
+    -
+      entity: cda05dbe-121d-4348-83e8-6d49ba1949ac
+  field_form_style:
+    -
+      entity: 9920f7c1-9056-4601-990f-d9f2de53bac8
+  field_passed_title:
+    -
+      entity: 41e09b55-91ab-4588-be5f-c908021a33b9
+  field_question_count:
+    -
+      value: 10
+  field_questions:
+    -
+      entity: ec9bd919-abd5-496d-815f-1d913b2a2fdc
+    -
+      entity: 071cb5b2-3211-4912-990f-a51240509e6c
+    -
+      entity: 04807478-a63c-4f7a-b33b-96a8313e4d1b
+    -
+      entity: 6e624630-de40-459f-8bc0-27be88510e50
+    -
+      entity: 4ab30678-8fe8-45ca-8806-9fe0a1c2bfe9
+    -
+      entity: 7e41faf8-d8fd-406c-97d0-129e0599d250
+    -
+      entity: dcd4cbd3-f3ad-478e-8ef7-2c822d1f7508
+    -
+      entity: 13c97408-cbe2-4be5-815f-6a577af0a23a
+    -
+      entity: b2cdbd80-4fd2-4f7a-b3af-9cbb5ed58d1f
+    -
+      entity: d92a2107-ff2b-453f-ae9f-8eca1c1ee760
+  field_threshold:
+    -
+      value: '70.00'
+  field_time_limit:
+    -
+      value: 20

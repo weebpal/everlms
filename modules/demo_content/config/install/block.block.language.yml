@@ -1,0 +1,29 @@
+uuid: a0938b65-78be-461a-b665-d5f778b56029
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.language
+  module:
+    - facets
+    - system
+  theme:
+    - we_core
+id: language
+theme: we_core
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'facet_block:language'
+settings:
+  id: 'facet_block:language'
+  label: Language
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: language
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /courses

@@ -1,0 +1,9 @@
+uuid: 29573237-7e1c-4039-9979-79d28acdaccf
+langcode: en
+status: true
+dependencies: {  }
+id: zoom_class
+label: 'Zoom class'
+description: ''
+traits: null
+locked: null

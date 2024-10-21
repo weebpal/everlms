@@ -1,0 +1,25 @@
+uuid: 91f9f93b-1907-4625-bf9f-65f81ecf1bfe
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.categories
+  module:
+    - system
+  theme:
+    - lms_theme
+id: categories
+theme: lms_theme
+region: footer_second
+weight: -14
+provider: null
+plugin: 'system_menu_block:categories'
+settings:
+  id: 'system_menu_block:categories'
+  label: Categories
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 24416eba-7809-46eb-b847-ab3423a3ec22
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Repetition of ending sounds.'
+  created:
+    -
+      value: 1702955347
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

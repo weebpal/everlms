@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 123af2a6-d4dd-4e88-8456-a1ad504632f6
+  bundle: membership
+  default_langcode: en
+  depends:
+    806ea88e-37fa-48b5-b3d7-331a015bc659: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 806ea88e-37fa-48b5-b3d7-331a015bc659
+  sku:
+    -
+      value: month
+  title:
+    -
+      value: Month
+  list_price:
+    -
+      number: '9.990000'
+      currency_code: USD
+      formatted: $9.99
+  price:
+    -
+      number: '0.990000'
+      currency_code: USD
+      formatted: $0.99
+  created:
+    -
+      value: 1699930010

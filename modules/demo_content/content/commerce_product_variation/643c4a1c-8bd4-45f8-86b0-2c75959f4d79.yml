@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 643c4a1c-8bd4-45f8-86b0-2c75959f4d79
+  bundle: course
+  default_langcode: en
+  depends:
+    1443de94-229f-42f2-84a7-c3dc1a31947f: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 1443de94-229f-42f2-84a7-c3dc1a31947f
+  sku:
+    -
+      value: 'English Writing'
+  title:
+    -
+      value: 'English Writing: Perfect Your English Writing and Grammar'
+  list_price:
+    -
+      number: '25.000000'
+      currency_code: USD
+      formatted: $25.00
+  price:
+    -
+      number: '20.000000'
+      currency_code: USD
+      formatted: $20.00
+  created:
+    -
+      value: 1703064059

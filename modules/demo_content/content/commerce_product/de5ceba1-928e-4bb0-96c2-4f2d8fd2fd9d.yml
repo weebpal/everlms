@@ -1,0 +1,142 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: de5ceba1-928e-4bb0-96c2-4f2d8fd2fd9d
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    2f58d93a-a544-4911-bf28-45e30095a044: commerce_product_variation
+    2e2cf387-c714-4b51-8926-e90e64948594: taxonomy_term
+    40fc9753-8a28-4336-a797-a8546a9d5177: media
+    0585724e-1f54-4561-8669-59dbadda939e: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    19230fdb-1c0e-495d-8ae3-0cf4faa0ec8c: lms_lesson
+    434cab7b-9a61-4025-a814-903581c7c0bd: lms_lesson
+    e7e8f312-a1e6-4b72-be5d-709321666218: lms_lesson
+    7b1b48fe-1d36-4900-911c-ae270f43987a: lms_lesson
+    ac2ff423-d417-4ad6-9cf3-827409c3c753: lms_lesson
+    066cd3a6-d0db-428c-a5e9-c2e06fe47bee: lms_lesson
+    1da0c882-4bed-478c-86fd-6986d3cb0dca: lms_lesson
+    5f208978-5612-43fc-875c-78507bfa534c: taxonomy_term
+    61bef378-ed7b-460c-b196-d2a9ffcb6fb5: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'Public SpPublic Speaking: Skills & Tools for Presenting for Impacteaking: Skills & Tools for Presenting for Impact'
+  variations:
+    -
+      entity: 2f58d93a-a544-4911-bf28-45e30095a044
+  default_variation:
+    -
+      entity: 2f58d93a-a544-4911-bf28-45e30095a044
+  path:
+    -
+      alias: /course/public-sppublic-speaking-skills-tools-presenting-impacteaking-skills-tools-presenting-impact
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1703068323
+  body:
+    -
+      value: "<p>Welcome to <strong>PRESENTING FOR IMPACT</strong>! brought to you by a Global Executive with more than 25 years of experience in public speaking, Lorraine Wiseman!</p><p>Whether you're just getting started, presenting at a workshop or on a stage with 20,000 people in the audience, this course will teach you how to create a powerful, engaging and impactful presentation!</p><p><strong>You Will Learn:</strong></p><ul><li>How to Create Energy within the Audience</li><li>How to Engage Your Audience so They Care</li><li>Preparation Tools and Techniques for Presenting</li><li>Power Point Tips and Other Resources to Use to Support Your Presentation</li><li>How to Deal with Tough Audience Questions</li><li>How to Flex Your Presentation Style to Cater to Multiple Types of Audiences</li><li>How to Use Your Voice, Speed and Tone for Impact</li></ul><p>And more!!!</p><p><strong>Who Should Take this Course?</strong></p><p>Anyone who wants to improve or learn speech/public speaking/presentation skills with impact<br>Anyone that wants to become a better public speaker<br>Anyone who makes presentations during meetings, workshops, or on stage</p><p><br>Your instructor for this course is Lorraine Wiseman. &nbsp;She has been the President and General Manager for 7 multinational companies in six countries. &nbsp;She is a global leader with more than 25 years of experience.</p><p>Lorraine will be available to answer any questions you may have as you proceed through this course.</p>"
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: 2e2cf387-c714-4b51-8926-e90e64948594
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703068410
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: 40fc9753-8a28-4336-a797-a8546a9d5177
+  field_featured_course:
+    -
+      value: true
+  field_free:
+    -
+      value: false
+  field_image:
+    -
+      entity: 0585724e-1f54-4561-8669-59dbadda939e
+      alt: 'Public Speaking: Skills & Tools for Presenting for Impact'
+      title: ''
+      width: 1920
+      height: 1080
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 2311
+  field_lessons:
+    -
+      entity: 19230fdb-1c0e-495d-8ae3-0cf4faa0ec8c
+    -
+      entity: 434cab7b-9a61-4025-a814-903581c7c0bd
+    -
+      entity: e7e8f312-a1e6-4b72-be5d-709321666218
+    -
+      entity: 7b1b48fe-1d36-4900-911c-ae270f43987a
+    -
+      entity: ac2ff423-d417-4ad6-9cf3-827409c3c753
+    -
+      entity: 066cd3a6-d0db-428c-a5e9-c2e06fe47bee
+    -
+      entity: 1da0c882-4bed-478c-86fd-6986d3cb0dca
+  field_level:
+    -
+      entity: 5f208978-5612-43fc-875c-78507bfa534c
+  field_quiz:
+    -
+      entity: 61bef378-ed7b-460c-b196-d2a9ffcb6fb5
+  field_quizzes:
+    -
+      entity: 61bef378-ed7b-460c-b196-d2a9ffcb6fb5
+  field_rating:
+    -
+      rating: 80
+      target: 0
+  field_requirements:
+    -
+      value: '<p>An eagerness to learn</p>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Public Speaking: Presentation Skills for Impact! Power Points that work, prep tools, techniques, learn to engage &amp; more!</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 2
+  field_total_lessons:
+    -
+      value: 7
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>Present with impact</li><li>Present confidentally</li></ul>'
+      format: full_html

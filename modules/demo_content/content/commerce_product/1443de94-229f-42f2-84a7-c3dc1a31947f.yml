@@ -1,0 +1,136 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 1443de94-229f-42f2-84a7-c3dc1a31947f
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    643c4a1c-8bd4-45f8-86b0-2c75959f4d79: commerce_product_variation
+    49dc3822-865a-4238-9c1a-a9df42524ca3: taxonomy_term
+    e0a3e4d1-a7bd-4dea-8350-9832b1ac4137: media
+    60ba2156-117f-417f-8ff5-2c395890653f: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    e1d66fce-fc8a-4278-ac12-458409490b73: lms_lesson
+    c15474a8-f827-4736-8a6f-de7344cb8ede: lms_lesson
+    1d51c31d-d439-4e54-882c-0ce722f45239: lms_lesson
+    b1a43ec7-ae38-4311-984f-6b2152fd160b: lms_lesson
+    778b04e6-364c-4115-97cc-03b55fdfe957: lms_lesson
+    e74a7793-5a42-44dd-8cf1-d3d74b3d992f: taxonomy_term
+    ad1ef75b-6487-4213-a440-25623cc9b80b: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'English Writing: Perfect Your English Writing and Grammar'
+  variations:
+    -
+      entity: 643c4a1c-8bd4-45f8-86b0-2c75959f4d79
+  default_variation:
+    -
+      entity: 643c4a1c-8bd4-45f8-86b0-2c75959f4d79
+  path:
+    -
+      alias: /course/english-writing-perfect-your-english-writing-and-grammar
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1703063635
+  body:
+    -
+      value: "<ul><li>Are you a victim of poor English grammar and persistent spelling mistakes?</li><li>Do you cringe every time you write something for work because you know someone will spot your mistakes and point them out to you?</li><li>Do you wish you had more confidence when writing your social media posts like other people seem to have down to perfection?</li><li>If you want to write English more clearly and want to write more accurately and confidently this course is for you!</li></ul><p>If you simply want to take your English writing to the next level, this course can help you achieve your goal of improving your English writing and English grammar knowledge.</p><p>Whatever situation you’re facing with your English writing and English grammar, one thing is sure - you need some help and guidance, and you want it now! I completely understand. That’s why I created this course for you.</p><p>Don't Let Poor English Writing and English Grammar Use Be Your Story!</p><p>I once worked with someone in the media who had shockingly bad spelling, poor English grammar and terrible punctuation. It was shocking because we worked together on magazines and websites and so the expectation was that the basic understanding of working with words would be present. But not for her…Sadly, even Microsoft spellcheck and grammar checks couldn't hide the fact.</p><p>I always felt for her because she knew that she needed some help with her writing, but didn’t know where to start. You would think that she had limited academic attainment, or that she spoke English as a second language - this was far from the reality! She was a graduate, and she had lived in the UK all her life. It’s just that, for some reason, the basic concepts just hadn’t been taught to her well enough to make her remember them. It was so sad to watch her work like this - I knew that her every written communication would be a cause of embarrassment.</p><p>I wish I’d had the time to create a course like this for her at the time. However, I was busy managing an entire team people. I shared lots of resources with her, but as you have probably experienced yourself, most of the books about writing don’t get down to the nitty gritty - there is always something missing.</p><p>That’s why I’ve created this course. I know that you probably haven't got all the time in the world to re-learn what you should have been taught years ago, or to catch up (if English is not your first language). You want someone to walk you through all the essentials so you can write English confidently and understand English grammar.</p><p>I also know that you want to see results quickly - how long would you want to suffer the embarrassment you're currently facing? Not for another minute, I’m sure.</p><p><strong>A Course that Gets the Job Done!</strong></p><p>This English writing and English grammar course is not a long-winded manual that bores you before you’ve finished the introduction. It’s video-based, so you can actually see how the English grammar and spelling rules work, and see the different examples of using different (and essential) English spelling rules.</p><p>As if that’s not enough, you’ll get downloadable pdfs that you can print off or read from your phone as a guide. So, when you start writing, you’ll have something to refer to - a pocket guide to perfecting your English writing and English grammar. I’ve created a dictionary of common English spelling mistakes to accompany the course, too. It’s a reference guide that I should really be selling separately, but I know what it’s like to have a useful resource to help you improve your English writing every day. So, I’ve included it in this course - FREE!</p>"
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: 49dc3822-865a-4238-9c1a-a9df42524ca3
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703064044
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: e0a3e4d1-a7bd-4dea-8350-9832b1ac4137
+  field_featured_course:
+    -
+      value: true
+  field_free:
+    -
+      value: false
+  field_image:
+    -
+      entity: 60ba2156-117f-417f-8ff5-2c395890653f
+      alt: 'English Writing: Perfect Your English Writing and Grammar'
+      title: ''
+      width: 750
+      height: 422
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 322
+  field_lessons:
+    -
+      entity: e1d66fce-fc8a-4278-ac12-458409490b73
+    -
+      entity: c15474a8-f827-4736-8a6f-de7344cb8ede
+    -
+      entity: 1d51c31d-d439-4e54-882c-0ce722f45239
+    -
+      entity: b1a43ec7-ae38-4311-984f-6b2152fd160b
+    -
+      entity: 778b04e6-364c-4115-97cc-03b55fdfe957
+  field_level:
+    -
+      entity: e74a7793-5a42-44dd-8cf1-d3d74b3d992f
+  field_quiz:
+    -
+      entity: ad1ef75b-6487-4213-a440-25623cc9b80b
+  field_quizzes:
+    -
+      entity: ad1ef75b-6487-4213-a440-25623cc9b80b
+  field_rating:
+    -
+      rating: 100
+      target: 0
+  field_requirements:
+    -
+      value: '<ul><li>Get your notebook ready for some effective English writing skills.</li><li>A desire to improve your English writing through practice</li><li>At least a basic to level of written English</li><li>The ability to read and write and just need to take your skills to the next level.</li></ul>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Achieve your goal of improving your English writing. Confidently use English grammar. Avoid Common Spelling Mistakes.</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 2
+  field_total_lessons:
+    -
+      value: 5
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>Write accurate and effective English sentences and paragraphs.</li><li>Understand and use English skills more effectively.</li><li>Improve your written and spoken English with confidence.</li><li>Learn useful skills for all English writing including essays, book reports, workplace writing, and creative writing as well.</li><li>Gain confidence in your written English</li><li>Gain understanding of English grammar</li><li>Gain a thorough understanding of English spelling rules</li><li>Learn how to avoid common spelling mistakes</li></ul>'
+      format: full_html

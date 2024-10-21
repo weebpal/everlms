@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 3b24d175-b28e-4f3d-8719-a28fbd611d48
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Deciding on the best university pathway'
+  title:
+    -
+      value: 'Deciding on the best university pathway'
+  created:
+    -
+      value: 1702915012
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Making a decision about the best university to attend requires a lot of considered research and comparisons. Our university counsellor plays an important role in guiding our students through this, highlighting the important key decision-making factors. For example:</p><ul><li>What are the differences in the degrees offered by universities?</li><li>What are the benefits and challenges that come from different teaching styles</li><li>What are the available pathways through each degree?</li><li>What benefits and career opportunities exist at individual universities?</li></ul><p>Often university rankings play a leading role when students decide on their university of choice, but in reality, there are a number of criteria that shape the overall university experience. Our university counsellor will help our students understand the finer details about that experience, like the university’s location, opportunities, and expectations.</p>'
+      format: full_html
+      summary: ''

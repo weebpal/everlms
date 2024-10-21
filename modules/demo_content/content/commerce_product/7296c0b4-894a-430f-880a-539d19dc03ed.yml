@@ -1,0 +1,139 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 7296c0b4-894a-430f-880a-539d19dc03ed
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    4f797ea6-1b5e-46fe-bd2a-a06d1f2593e7: commerce_product_variation
+    7ec8d4f0-2271-4012-ada5-5fd2deea26f1: taxonomy_term
+    26a1344a-9acb-4c14-a814-82242c32adb8: media
+    1520b76c-f3f2-41c3-8571-3bfc0c8e08a5: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    6ed1e34a-930a-4f1c-8c21-db1bd3674d0c: lms_lesson
+    b019781f-47e8-4fb7-8098-bc00158af7de: lms_lesson
+    ed33a133-f9e3-428d-97b6-8afe3d636131: lms_lesson
+    db60b760-21b9-4d34-9a20-9a1493a89e6b: lms_lesson
+    8a6b3df8-aa60-4f1a-909d-278ef3be2294: lms_lesson
+    ae6805c5-41fc-410c-bdf4-7dc47befa2bd: lms_lesson
+    4fe024cf-521a-4294-97c2-ca2230c8e129: taxonomy_term
+    75a2ac7a-3ef5-47ee-afbd-bf36a130db8d: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'Table Talk: Learn How to Teach & Test English Conversation'
+  variations:
+    -
+      entity: 4f797ea6-1b5e-46fe-bd2a-a06d1f2593e7
+  default_variation:
+    -
+      entity: 4f797ea6-1b5e-46fe-bd2a-a06d1f2593e7
+  path:
+    -
+      alias: /course/table-talk-learn-how-teach-test-english-conversation
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1703063251
+  body:
+    -
+      value: '<p>English conversation in an academic setting more closely resembles an interview or an interrogation rather than a relaxed and free-flowing exchange of information, ideas, and opinions. The purpose of Table Talk! Is to teach you how to create an enjoyable space for students to talk with each other about the big and not-so-big questions of life.</p><p>Table Talk is conversation-based learning. This course is designed to help teachers create an atmosphere conducive to conversation by making the language spoken in class both comprehensible and engaging while building student confidence in answering questions. This will allow students to practice speaking English without the fear of being “on stage”.</p><p>This course will show you how to help students spend time formulating their conversations, self-reflect and self-assess, have realistic conversations with peers of differing skill levels, and in the end, feel confident in their abilities. This will encourage participation by making sure everyone get a turn to use their ability in a way they are comfortable to.</p><p>The motto of this course is, "When something can be learned without effort, great effort has gone into its teaching."</p><p>This course has done the hard work for you. Enjoy.</p>'
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: 7ec8d4f0-2271-4012-ada5-5fd2deea26f1
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703063358
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: 26a1344a-9acb-4c14-a814-82242c32adb8
+  field_featured_course:
+    -
+      value: true
+  field_free:
+    -
+      value: false
+  field_image:
+    -
+      entity: 1520b76c-f3f2-41c3-8571-3bfc0c8e08a5
+      alt: 'Table Talk: Learn How to Teach & Test English Conversation'
+      title: ''
+      width: 750
+      height: 422
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 2421
+  field_lessons:
+    -
+      entity: 6ed1e34a-930a-4f1c-8c21-db1bd3674d0c
+    -
+      entity: b019781f-47e8-4fb7-8098-bc00158af7de
+    -
+      entity: ed33a133-f9e3-428d-97b6-8afe3d636131
+    -
+      entity: db60b760-21b9-4d34-9a20-9a1493a89e6b
+    -
+      entity: 8a6b3df8-aa60-4f1a-909d-278ef3be2294
+    -
+      entity: ae6805c5-41fc-410c-bdf4-7dc47befa2bd
+  field_level:
+    -
+      entity: 4fe024cf-521a-4294-97c2-ca2230c8e129
+  field_quiz:
+    -
+      entity: 75a2ac7a-3ef5-47ee-afbd-bf36a130db8d
+  field_quizzes:
+    -
+      entity: 75a2ac7a-3ef5-47ee-afbd-bf36a130db8d
+  field_rating:
+    -
+      rating: 80
+      target: 0
+  field_requirements:
+    -
+      value: '<p>An intermediate English language proficiency</p>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Learn how to teach in a way that makes sure that whatever your students are saying is worth hearing.</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 2
+  field_total_lessons:
+    -
+      value: 6
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>How to plan a conversation class.</li><li>How to choose topics for a conversation class.</li><li>How to test students speaking ability.</li><li>What makes a great speaking class.</li><li>How to improve students conversational competency and fluency.</li><li>Why having a conversation class is different than having a speaking class?</li><li>Reflect on how to cultivate a classroom culture of conversation.</li><li>Examine several core conversation skills and identify how these may be used and taught in various disciplines and grade levels.</li></ul>'
+      format: full_html

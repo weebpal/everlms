@@ -1,0 +1,24 @@
+uuid: db42664f-cbb0-478f-a11d-05b0667b6aa4
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - field_permissions
+    - user
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: commerce_product.field_teacher
+field_name: field_teacher
+entity_type: commerce_product
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

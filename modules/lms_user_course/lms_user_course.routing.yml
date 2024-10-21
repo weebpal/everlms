@@ -1,0 +1,43 @@
+lms_user_course.root:
+  path: '/admin/lms/lms-user-course'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'User Course'
+  requirements:
+    _permission: 'administer lms_user_course'
+lms_user_course.start_callback:
+  path: '/lms/lms-user-course/start-callback/{commerce_product}/{user}'
+  defaults:
+    _controller: '\Drupal\lms_user_course\Controller\LMSUserCourseCallbackController::startUserCourseCallback'
+    _title: 'User Course'
+  requirements:
+    _custom_access: '\Drupal\lms_user_course\Controller\LMSUserCourseAccessController::access'
+  options:
+    parameters:
+      commerce_product:
+        type: entity:commerce_product
+      user:
+        type: entity:user
+lms_user_course.result:
+  path: '/user-course/result/{lms_user_course}'
+  defaults:
+    _controller: '\Drupal\lms_user_course\Controller\LMSUserCourseController::resultPage'
+    _title: 'User Course Result'
+  requirements:
+    _permission: 'view lms_user_course'
+  options:
+    no_cache: TRUE
+    parameters:
+      lms_user_course:
+        type: 'entity:lms_user_course'
+lms_user_course.download_certificate:
+  path: '/user-course/{lms_user_course}/download'
+  defaults:
+    _controller: '\Drupal\lms_user_course\Controller\LMSUserCourseCertificateController::createCertificatePDF'
+    _title: 'Download Certificate'
+  requirements:
+    _permission: 'view lms_user_course'
+  options:
+    parameters:
+      lms_user_course:
+        type: 'entity:lms_user_course'

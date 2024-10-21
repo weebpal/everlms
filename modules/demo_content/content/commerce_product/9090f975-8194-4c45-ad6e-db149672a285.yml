@@ -1,0 +1,139 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 9090f975-8194-4c45-ad6e-db149672a285
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    cdbe5b88-e9b6-45e1-8e25-a604a0750377: commerce_product_variation
+    d10b48ac-fb53-406a-b22a-e0efc29c7b98: taxonomy_term
+    8eb169f6-ff6d-4407-9b32-c0155590c78d: media
+    d71cb587-71cc-4a4f-97e7-73563b805c3a: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    877a32fe-6255-41be-8cc0-9c84f36c5ea9: taxonomy_term
+    1c2e22bb-fa82-4abe-8bda-8d8e1e474b47: lms_lesson
+    f471bc9a-2ebc-41fe-a8d1-023a2b10c548: lms_lesson
+    041cc0d7-a798-45bb-9f4a-51d54ef7e533: lms_lesson
+    f0a96c09-9586-42d3-be82-b721e2754a77: lms_lesson
+    74f07ab8-5a4c-4e92-9fa6-d566a3c6d3d3: lms_lesson
+    5f208978-5612-43fc-875c-78507bfa534c: taxonomy_term
+    fa9cdc4c-7d9b-4d17-86e8-ffb26a597571: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'Advanced Communication Skills'
+  variations:
+    -
+      entity: cdbe5b88-e9b6-45e1-8e25-a604a0750377
+  default_variation:
+    -
+      entity: cdbe5b88-e9b6-45e1-8e25-a604a0750377
+  path:
+    -
+      alias: /course/advanced-communication-skills
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1703044705
+  body:
+    -
+      value: '<p>The quality of your communication skills determines the quality of your success. Hence, It is essential to master this skill. Now, the question arises is it a learnable skill or does it come naturally by the speakers.</p><p>Ofcource communication skills is a learnable skill unlike any other skill &amp; you can master it with the strategies, tricks &amp; tips we have covered in our program.</p><p>You can become an impeccable speaker, communicator &amp; enhance your professional growth with just some amount of efforts.</p><p>This course comprises of all the major and micro points required for a professional to develop and to move forward as a leader. This program helps you to learn how you can move and use your communication skills gradually into practice benefiting yourself at Workfront and automatically you would see people getting magnetically getting towards you as you start applying the learnings given in this program in your real life. We strongly believe that you will change your life to 360 degree if you have the zeal to learn, grow and you are serious towards your goals.</p><p>What are you waiting for???... get in the session now..enroll now &amp; see how you are going to change your career &amp; life. Enroll yourself in the communication Excellence program &amp; I will see on the other side.</p>'
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: d10b48ac-fb53-406a-b22a-e0efc29c7b98
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703044894
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: 8eb169f6-ff6d-4407-9b32-c0155590c78d
+  field_featured_course:
+    -
+      value: true
+  field_free:
+    -
+      value: false
+  field_image:
+    -
+      entity: d71cb587-71cc-4a4f-97e7-73563b805c3a
+      alt: 'Advanced Communication Skills'
+      title: ''
+      width: 780
+      height: 584
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+    -
+      entity: 877a32fe-6255-41be-8cc0-9c84f36c5ea9
+  field_learner_number:
+    -
+      value: 2234
+  field_lessons:
+    -
+      entity: 1c2e22bb-fa82-4abe-8bda-8d8e1e474b47
+    -
+      entity: f471bc9a-2ebc-41fe-a8d1-023a2b10c548
+    -
+      entity: 041cc0d7-a798-45bb-9f4a-51d54ef7e533
+    -
+      entity: f0a96c09-9586-42d3-be82-b721e2754a77
+    -
+      entity: 74f07ab8-5a4c-4e92-9fa6-d566a3c6d3d3
+  field_level:
+    -
+      entity: 5f208978-5612-43fc-875c-78507bfa534c
+  field_quiz:
+    -
+      entity: fa9cdc4c-7d9b-4d17-86e8-ffb26a597571
+  field_quizzes:
+    -
+      entity: fa9cdc4c-7d9b-4d17-86e8-ffb26a597571
+  field_rating:
+    -
+      rating: 80
+      target: 0
+  field_requirements:
+    -
+      value: '<ul><li>You should have a stable connection, mobile, tab Or computer</li><li>You should be open to adapt and apply all the learnings from day 1</li></ul>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Advanced Communication Skills, Confidence, Body Language, Personal Branding, Effective Writing skills, Articulation</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 2
+  field_total_lessons:
+    -
+      value: 5
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>Practical learning extract from the real life examples will help you to apply and adapt</li><li>Massively enhance your assertiveness</li><li>How to use your communication skills effectively to captivate your leadership and clients</li><li>Very detailed and in depth sessions on each topic with examples</li><li>An holistic program that provides you leadership skills, strong verbal &amp; non-verbal communication</li><li>Manage your verbal and non-verbal message</li><li>Boost your confidence &amp; self-esteem</li></ul>'
+      format: full_html

@@ -1,0 +1,11 @@
+uuid: 571c4c07-878b-4a94-85dc-a591c57a0bbe
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: HBe2B0oFe5WgL8aa0qEXKlePx4_AKmajZvG2qjVaveM
+id: default
+label: Lesson
+description: ''
+traits: null
+locked: null

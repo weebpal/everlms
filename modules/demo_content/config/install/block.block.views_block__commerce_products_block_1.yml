@@ -1,0 +1,33 @@
+uuid: c50d1ef1-fa72-4db0-a269-aa60f278df07
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.commerce_products
+  module:
+    - commerce_product
+    - views
+  theme:
+    - lms_theme
+id: views_block__commerce_products_block_1
+theme: lms_theme
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:commerce_products-block_1'
+settings:
+  id: 'views_block:commerce_products-block_1'
+  label: Comment
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: Comment
+  items_per_page: none
+visibility:
+  'entity_bundle:commerce_product':
+    id: 'entity_bundle:commerce_product'
+    negate: false
+    context_mapping:
+      commerce_product: '@commerce_product.product_route_context:commerce_product'
+    bundles:
+      course: course

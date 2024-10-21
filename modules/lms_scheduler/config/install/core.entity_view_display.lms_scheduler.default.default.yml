@@ -1,0 +1,65 @@
+uuid: 44d34f5d-1672-4f6f-8a98-85ef655229df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_scheduler.default.field_between_dates
+    - field.field.lms_scheduler.default.field_body
+    - field.field.lms_scheduler.default.field_days_of_the_week
+    - field.field.lms_scheduler.default.field_time_frames
+    - lms_scheduler.lms_scheduler_type.default
+  module:
+    - datetime_range
+    - text
+    - time_field
+_core:
+  default_config_hash: ZouJQe4QntORN8Z-E-LIhHzTi3xRBIzf_AUgNoOw2T0
+id: lms_scheduler.default.default
+targetEntityType: lms_scheduler
+bundle: default
+mode: default
+content:
+  field_between_dates:
+    type: daterange_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+      separator: '-'
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_days_of_the_week:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_time_frames:
+    type: time_range_formatter
+    label: above
+    settings:
+      time_format: 'h:i a'
+      timerange_format: 'start ~ end'
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  created: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  status: true
+  uid: true

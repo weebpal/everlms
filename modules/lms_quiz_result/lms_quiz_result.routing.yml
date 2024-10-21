@@ -1,0 +1,7 @@
+lms_quiz_result.root:
+  path: '/admin/lms/lms-quiz-result'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Quiz Result'
+  requirements:
+    _permission: 'administer lms_quiz_result'

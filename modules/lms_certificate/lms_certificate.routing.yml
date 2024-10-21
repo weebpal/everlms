@@ -1,0 +1,7 @@
+lms_certificate.root:
+  path: '/admin/lms/lms-certificate'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Certificate'
+  requirements:
+    _permission: 'administer lms_certificate'

@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 831c6933-1dc7-48b8-8621-b706280f459f
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Fed
+  created:
+    -
+      value: 1702957253
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

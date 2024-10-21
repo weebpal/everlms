@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: f3fe660c-60d6-4d17-a45b-921b062d1b86
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: "Mid 20's"
+  created:
+    -
+      value: 1702951514
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

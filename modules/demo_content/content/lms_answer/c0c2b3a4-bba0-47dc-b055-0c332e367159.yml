@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: c0c2b3a4-bba0-47dc-b055-0c332e367159
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Past perfect'
+  created:
+    -
+      value: 1702954604
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

@@ -1,0 +1,145 @@
+uuid: e32f2994-07d2-452d-a1ec-a5fcde9f7c4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.audio
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - media.type.video
+    - node.type.article
+    - node.type.page
+    - taxonomy.vocabulary.tags
+  module:
+    - comment
+    - component_builder
+    - contextual
+    - file
+    - lms_answer
+    - lms_certificate
+    - lms_lesson
+    - lms_question
+    - lms_question_response
+    - lms_quiz
+    - lms_quiz_result
+    - lms_scheduler
+    - lms_user_certificate
+    - media
+    - node
+    - path
+    - profile
+    - system
+    - taxonomy
+    - toolbar
+    - tour
+    - we_notification
+_core:
+  default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
+id: content_editor
+label: 'Content editor'
+weight: -5
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access lesson detail'
+  - 'access lms_answer overview'
+  - 'access lms_certificate overview'
+  - 'access lms_lesson overview'
+  - 'access lms_question overview'
+  - 'access lms_question_response overview'
+  - 'access lms_quiz overview'
+  - 'access lms_quiz_result overview'
+  - 'access lms_scheduler overview'
+  - 'access lms_user_certificate overview'
+  - 'access profile overview'
+  - 'access take quiz'
+  - 'access toolbar'
+  - 'access tour'
+  - 'administer url aliases'
+  - 'create article content'
+  - 'create audio media'
+  - 'create default lms_answer'
+  - 'create default lms_certificate'
+  - 'create default lms_lesson'
+  - 'create default lms_question'
+  - 'create default lms_question_response'
+  - 'create default lms_quiz'
+  - 'create default lms_quiz_result'
+  - 'create default lms_scheduler'
+  - 'create default lms_user_certificate'
+  - 'create document media'
+  - 'create image media'
+  - 'create media'
+  - 'create page content'
+  - 'create remote_video media'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'create video media'
+  - 'delete article revisions'
+  - 'delete own article content'
+  - 'delete own default lms_answer'
+  - 'delete own default lms_lesson'
+  - 'delete own default lms_quiz'
+  - 'delete own default lms_scheduler'
+  - 'delete own files'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'duplicate any default lms_answer'
+  - 'duplicate any default lms_quiz'
+  - 'duplicate any default lms_quiz_result'
+  - 'duplicate any default lms_scheduler'
+  - 'duplicate own default lms_certificate'
+  - 'duplicate own default lms_lesson'
+  - 'duplicate own default lms_scheduler'
+  - 'edit any audio media'
+  - 'edit any document media'
+  - 'edit any image media'
+  - 'edit any remote_video media'
+  - 'edit any video media'
+  - 'edit own article content'
+  - 'edit own audio media'
+  - 'edit own comments'
+  - 'edit own document media'
+  - 'edit own image media'
+  - 'edit own page content'
+  - 'edit own remote_video media'
+  - 'edit own video media'
+  - 'edit terms in tags'
+  - 'revert all revisions'
+  - 'update any default lms_answer'
+  - 'update any default lms_quiz'
+  - 'update any default lms_quiz_result'
+  - 'update any default lms_scheduler'
+  - 'update any default lms_user_certificate'
+  - 'update any media'
+  - 'update media'
+  - 'update own customer profile'
+  - 'update own default lms_answer'
+  - 'update own default lms_certificate'
+  - 'update own default lms_lesson'
+  - 'update own default lms_quiz'
+  - 'update own default lms_quiz_result'
+  - 'update own default lms_scheduler'
+  - 'update own default lms_user_certificate'
+  - 'view all revisions'
+  - 'view any profile'
+  - 'view default lms_answer'
+  - 'view default lms_certificate'
+  - 'view default lms_lesson'
+  - 'view default lms_question'
+  - 'view default lms_question_response'
+  - 'view default lms_scheduler'
+  - 'view default lms_user_certificate'
+  - 'view default we_notification'
+  - 'view lms_certificate'
+  - 'view lms_lesson'
+  - 'view lms_scheduler'
+  - 'view own unpublished component_item'
+  - 'view own unpublished component_wrapper'
+  - 'view own unpublished content'
+  - 'view the administration theme'
+  - 'view we_notification'

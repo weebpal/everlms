@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 114eb24e-a2c4-422d-b338-fb9fecd28a29
+  bundle: news
+  default_langcode: en
+  depends:
+    a9cfd1c4-6cff-48d7-8f2d-a7a5fd0a8d36: component_wrapper
+    7174fb06-52cd-4ee9-b4ee-7f648b69fe64: component_wrapper
+    fe05bd0b-d53a-488b-83a7-3117095e477f: component_wrapper
+    ba163e94-a25b-439b-86fe-7ea7b119f657: taxonomy_term
+    be27b538-63fe-4364-9dbe-1a0cf7486dd2: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'How to improve English-speaking skills online?'
+  created:
+    -
+      value: 1703471795
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /news/how-improve-english-speaking-skills-online
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Do you want to get better at speaking English? Maybe you want to speak with confidence and fluency, or perhaps you want to excel in your job or make new friends from around the world. The good news is that you can improve your English-speaking skills online, right from the comfort of your home. In this article, we’ll explore some practical advice for English language learners and introduce you to online learning platforms like Perfectly Spoken.</p><p>Remember, improving your speaking skills is not just about talking more; it’s about enhancing your overall English skills.</p>'
+      format: full_html
+      summary: ''
+  field_components:
+    -
+      entity: a9cfd1c4-6cff-48d7-8f2d-a7a5fd0a8d36
+    -
+      entity: 7174fb06-52cd-4ee9-b4ee-7f648b69fe64
+    -
+      entity: fe05bd0b-d53a-488b-83a7-3117095e477f
+  field_tags:
+    -
+      entity: ba163e94-a25b-439b-86fe-7ea7b119f657
+  field_thumb:
+    -
+      entity: be27b538-63fe-4364-9dbe-1a0cf7486dd2
+      alt: 'How to improve English-speaking skills online?'
+      title: ''
+      width: 1000
+      height: 628

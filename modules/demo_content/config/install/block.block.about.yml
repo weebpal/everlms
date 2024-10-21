@@ -1,0 +1,25 @@
+uuid: a78ac4c6-fad1-4e95-8b76-24b8de22f87e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.about
+  module:
+    - system
+  theme:
+    - lms_theme
+id: about
+theme: lms_theme
+region: footer_fourth
+weight: -15
+provider: null
+plugin: 'system_menu_block:about'
+settings:
+  id: 'system_menu_block:about'
+  label: About
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

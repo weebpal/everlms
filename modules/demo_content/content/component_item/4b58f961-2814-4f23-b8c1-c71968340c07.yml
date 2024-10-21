@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 4b58f961-2814-4f23-b8c1-c71968340c07
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Be Patiend and Persistent'
+  title:
+    -
+      value: 'Be Patiend and Persistent'
+  created:
+    -
+      value: 1703473023
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Improving your English-speaking skills will take time, so be patient with yourself. Don’t be discouraged by mistakes; they are part of the learning process. Keep practising, and you’ll see gradual improvement.&nbsp;</p>'
+      format: full_html
+      summary: ''

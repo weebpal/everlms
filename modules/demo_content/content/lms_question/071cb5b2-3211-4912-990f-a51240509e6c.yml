@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 071cb5b2-3211-4912-990f-a51240509e6c
+  bundle: default
+  default_langcode: en
+  depends:
+    fe9f9b5b-4cbf-404d-8e00-80fe5e3bf342: lms_answer
+    340decf5-3619-4d35-8397-47543630c098: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'We can train our brains to be more effective through teaching.'
+  created:
+    -
+      value: 1702954814
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: fe9f9b5b-4cbf-404d-8e00-80fe5e3bf342
+    -
+      entity: 340decf5-3619-4d35-8397-47543630c098
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

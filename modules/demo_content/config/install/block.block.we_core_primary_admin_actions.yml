@@ -1,0 +1,20 @@
+uuid: b19125f2-0803-41ee-860b-9d8973c44fb7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - we_core
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: we_core_primary_admin_actions
+theme: we_core
+region: content_above
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

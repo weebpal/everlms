@@ -1,0 +1,142 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 97094a9f-a60e-4a49-b5d6-68f00e7d6cfb
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    3802d961-e7a1-4e59-ae0a-992d5f58ea07: commerce_product_variation
+    d10b48ac-fb53-406a-b22a-e0efc29c7b98: taxonomy_term
+    f6614fd0-0b77-47fd-b156-efc6a91870b3: media
+    32f2e8e4-8b0d-498d-a734-cb711816449e: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    3d50ff14-c9f0-42cd-acd6-c0f401c3757e: lms_lesson
+    d6c2d74d-c144-4da7-87ea-75be898ec342: lms_lesson
+    ecc62a82-3b43-43c4-a109-c0a2ae7e16a7: lms_lesson
+    81457717-a8fa-43d6-b7f1-39f81b9ae924: lms_lesson
+    83225f80-5a10-493f-875b-3bb0a5a08901: lms_lesson
+    c965b009-d589-4a44-8020-6ac0638f29ee: lms_lesson
+    72320fa1-3fd8-45cb-823f-1a2d7f0ecadd: lms_lesson
+    4fe024cf-521a-4294-97c2-ca2230c8e129: taxonomy_term
+    4a3f31dc-925c-4a78-91e4-66106b217e2f: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'Communication skills | How to be a good communicator ?'
+  variations:
+    -
+      entity: 3802d961-e7a1-4e59-ae0a-992d5f58ea07
+  default_variation:
+    -
+      entity: 3802d961-e7a1-4e59-ae0a-992d5f58ea07
+  path:
+    -
+      alias: /course/communication-skills-how-be-good-communicator
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1703038967
+  body:
+    -
+      value: '<p>Welcome to the <strong>Communication Strategies workshop</strong>.</p><p>For the better part of every day, we are communicating to and with others. Whether it’s the speech you deliver in the boardroom, the level of attention you give your spouse when they are talking to you, or the look that you give to the cat, it all means something. This workshop will help participants understand the different methods of communication and how to make the most of each of them.</p><p>By the end of this workshop, you should be able to:</p><ul><li>Understand what communication is</li><li>Identify methods of communication</li><li>Identify barriers to communication and how to overcome them</li><li>Develop non-verbal and paraverbal communication skills</li><li>Use the STAR method</li><li>Listen actively and effectively</li><li>Ask good questions</li><li>Use appreciative inquiry as a communication tool</li><li>Adeptly converse and network with others</li><li>Identify and mitigate precipitating factors</li><li>Establish common ground with others</li><li>Use “I” messages</li></ul><p>During the workshop , you are advised to set a SMART action plan for each and every topic and to follow up closely on your goals .</p><p>The action plan uses the SMART system. This means that your goals must be Specific, Measurable, Attainable, Realistic, and Timely.</p><p>Wish for you a nice journey in Basic communication skills workshop and to get the maximum you can get from it.</p><p>Thank you</p>'
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: d10b48ac-fb53-406a-b22a-e0efc29c7b98
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703042224
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: f6614fd0-0b77-47fd-b156-efc6a91870b3
+  field_featured_course:
+    -
+      value: true
+  field_free:
+    -
+      value: false
+  field_image:
+    -
+      entity: 32f2e8e4-8b0d-498d-a734-cb711816449e
+      alt: 'Communication skills | How to be a good communicator ?'
+      title: ''
+      width: 750
+      height: 422
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 500
+  field_lessons:
+    -
+      entity: 3d50ff14-c9f0-42cd-acd6-c0f401c3757e
+    -
+      entity: d6c2d74d-c144-4da7-87ea-75be898ec342
+    -
+      entity: ecc62a82-3b43-43c4-a109-c0a2ae7e16a7
+    -
+      entity: 81457717-a8fa-43d6-b7f1-39f81b9ae924
+    -
+      entity: 83225f80-5a10-493f-875b-3bb0a5a08901
+    -
+      entity: c965b009-d589-4a44-8020-6ac0638f29ee
+    -
+      entity: 72320fa1-3fd8-45cb-823f-1a2d7f0ecadd
+  field_level:
+    -
+      entity: 4fe024cf-521a-4294-97c2-ca2230c8e129
+  field_quiz:
+    -
+      entity: 4a3f31dc-925c-4a78-91e4-66106b217e2f
+  field_quizzes:
+    -
+      entity: 4a3f31dc-925c-4a78-91e4-66106b217e2f
+  field_rating:
+    -
+      rating: 100
+      target: 0
+  field_requirements:
+    -
+      value: '<p>No requirements needed</p>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Communication barriers | STAR module | Appreciative inquiry | Networking skills | Non-verbal | Para-verbal</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 1
+  field_total_lessons:
+    -
+      value: 7
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>Understand what communication is</li><li>Identify methods of communication</li><li>Identify barriers to communication and how to overcome them</li><li>Develop non-verbal and paraverbal communication skills</li><li>Use the STAR method</li><li>Listen actively and effectively</li><li>Ask good questions</li><li>Use appreciative inquiry as a communication tool</li><li>Adeptly converse and network with others</li><li>Identify and mitigate precipitating factors</li><li>Establish common ground with others</li><li>Use “I” messages</li></ul>'
+      format: full_html

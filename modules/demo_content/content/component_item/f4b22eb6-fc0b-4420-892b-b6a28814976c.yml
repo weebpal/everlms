@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: f4b22eb6-fc0b-4420-892b-b6a28814976c
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Sings to Help You Remember'
+  title:
+    -
+      value: 'Sings to Help You Remember'
+  created:
+    -
+      value: 1702917412
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Another great way to use singing is to help you remember vocabulary and other parts of the English language. You may find it hard to remember a set of verbs or just a few new words. If you put them to the tune of your favourite song and sing it all day you will find it far easier to remember them for your next lesson.</p><p>Watching movies in English is certainly very helpful and should be something you do as often as you can but why not mix things up a bit and bring some English speaking music into your learning. There are lots of places to hear music but YouTube may be a good free place to start. Also, apps like Spotify work very well. You can also make playlists for friends who are learning English too and challenge each other to work out what the words all mean.</p><p>Learning English can be tough but it can also be fun and adding music, movies, games and more will really help you learn more and learn faster.</p>'
+      format: full_html
+      summary: ''

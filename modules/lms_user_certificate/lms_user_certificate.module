@@ -1,0 +1,47 @@
+<?php
+
+/**
+ * @file
+ * Defines the LMSUserCertificate entity and associated features.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Render\Element;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\we_notification\Controller\WeNotificationController;
+
+/**
+ * Implements hook_theme().
+ */
+function lms_user_certificate_theme() {
+  return [
+    'lms_user_certificate' => [
+      'render element' => 'elements',
+    ],
+    'lms_user_certificate_form' => [
+      'render element' => 'form',
+    ],
+  ];
+}
+
+/**
+ * Prepares variables for lms_user_certificate templates.
+ *
+ * Default template: lms-user-certificate.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An associative array containing rendered fields.
+ *   - attributes: HTML attributes for the containing element.
+ */
+function template_preprocess_lms_user_certificate(array &$variables) {
+  /** @var Drupal\lms_user_certificate\Entity\LMSUserCertificateInterface $lms_user_certificate */
+  $lms_user_certificate = $variables['elements']['#lms_user_certificate'];
+
+  $variables['lms_user_certificate_entity'] = $lms_user_certificate;
+  $variables['lms_user_certificate_url'] = $lms_user_certificate->isNew() ? '' : $lms_user_certificate->toUrl();
+  $variables['lms_user_certificate'] = [];
+  foreach (Element::children($variables['elements']) as $key) {
+    $variables['lms_user_certificate'][$key] = $variables['elements'][$key];
+  }
+}

@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: fa6b5dda-eebc-4c21-91ec-af1f3e07d452
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Departure from normal word order for the sake of emphasis.'
+  created:
+    -
+      value: 1702955807
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: true

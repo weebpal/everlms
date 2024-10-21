@@ -1,0 +1,75 @@
+.field {
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &.field--name-dynamic-block-fieldcommerce-product-course-content,
+  &.field--name-dynamic-block-fieldcommerce-product-frequently-bought-together,
+  &.field--name-dynamic-block-fieldcommerce-product-recommended-for-you {
+    margin-bottom: 50px;
+
+    h2 {
+      margin-bottom: 20px;
+    }
+  }
+
+  &.field--name-field-review {
+    &.field--type-comment {
+      max-width: 700px;
+    }
+  }
+
+  //&.field--name-field-questions {
+  //  .field__items {
+  //    display: flex;
+  //    flex-wrap: wrap;
+  //
+  //    .field__item {
+  //      ~ .field__item {
+  //        position: relative;
+  //
+  //        &:before {
+  //          content: ',';
+  //          margin-right: 10px;
+  //        }
+  //      }
+  //    }
+  //  }
+  //}
+}
+
+.field--name-field-membership-type {
+  display: flex;
+  align-items: center;
+
+  .field__item a {
+    @include font-plexsans-semibold(inherit, inherit, #121212);
+  }
+}
+
+.field--name-variations {
+  .field__label {
+    margin-bottom: 8px;
+  }
+}
+
+.field--name-price {
+  display: flex;
+  align-items: center;
+
+  .field__item {
+    @include font-plexsans-semibold(inherit, inherit, #121212);
+  }
+}
+
+.field--name-field-zoom-class {
+  .field__label {
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .field__item a {
+    @include btn-white();
+  }
+}

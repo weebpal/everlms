@@ -1,0 +1,58 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5fea12c0-152c-4448-a238-f8c3255b7e7c
+  bundle: news
+  default_langcode: en
+  depends:
+    f9379e6c-e43c-4903-9b55-cb3093870da0: component_wrapper
+    85494eee-d1e3-44b4-8309-0f3ae88d2efc: taxonomy_term
+    144039f9-3641-490e-95f6-c5be417fc301: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Watch More Movies – and improve your spoken English'
+  created:
+    -
+      value: 1702916874
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /news/watch-more-movies-and-improve-your-spoken-english
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>There are not man times in school where a teacher will say “you should watch more movies” but when it comes to learning English movies (or films as many English people call them) can be a brilliant way to improve your English learning both in terms of listening and understanding English conversations and improving your spoken English.</p>'
+      format: full_html
+      summary: ''
+  field_components:
+    -
+      entity: f9379e6c-e43c-4903-9b55-cb3093870da0
+  field_tags:
+    -
+      entity: 85494eee-d1e3-44b4-8309-0f3ae88d2efc
+  field_thumb:
+    -
+      entity: 144039f9-3641-490e-95f6-c5be417fc301
+      alt: cinema-food-movie-theater
+      title: ''
+      width: 1440
+      height: 1080

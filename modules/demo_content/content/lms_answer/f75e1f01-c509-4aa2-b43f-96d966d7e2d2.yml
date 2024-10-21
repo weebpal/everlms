@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: f75e1f01-c509-4aa2-b43f-96d966d7e2d2
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'A simile with important cultural background.'
+  created:
+    -
+      value: 1702955265
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

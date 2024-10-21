@@ -1,0 +1,19 @@
+uuid: a2dbb261-862a-4300-8b95-799caad36780
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_full_name
+    - profile.type.teacher
+id: profile.teacher.field_full_name
+field_name: field_full_name
+entity_type: profile
+bundle: teacher
+label: 'Full name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

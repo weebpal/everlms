@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: fa63e45b-d76a-4762-9a6f-e82593d0464e
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Record Yourself'
+  title:
+    -
+      value: 'Record Yourself'
+  created:
+    -
+      value: 1703473010
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Recording your own speech can be a valuable tool for self-assessment. You can identify areas where you need improvement, such as pronunciation or fluency. Listen to your recordings and compare them to native speakers to gauge your progress.</p>'
+      format: full_html
+      summary: ''

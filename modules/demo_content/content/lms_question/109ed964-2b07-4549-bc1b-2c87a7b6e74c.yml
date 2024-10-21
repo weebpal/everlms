@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 109ed964-2b07-4549-bc1b-2c87a7b6e74c
+  bundle: default
+  default_langcode: en
+  depends:
+    48b84c4c-d01d-46ae-be6c-96c121aae7fb: lms_answer
+    e48a7739-5f72-4fcf-b28e-49742fe728c5: lms_answer
+    dd101175-43bc-4655-8918-6c5d3653c7e4: lms_answer
+    52aee68a-cb7a-416d-956d-8c3876e849d1: lms_answer
+    cd9b096a-e5fe-4ca7-b44e-c5890ce51ab4: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Anachronism
+  created:
+    -
+      value: 1702955570
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 48b84c4c-d01d-46ae-be6c-96c121aae7fb
+    -
+      entity: e48a7739-5f72-4fcf-b28e-49742fe728c5
+    -
+      entity: dd101175-43bc-4655-8918-6c5d3653c7e4
+    -
+      entity: 52aee68a-cb7a-416d-956d-8c3876e849d1
+    -
+      entity: cd9b096a-e5fe-4ca7-b44e-c5890ce51ab4
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

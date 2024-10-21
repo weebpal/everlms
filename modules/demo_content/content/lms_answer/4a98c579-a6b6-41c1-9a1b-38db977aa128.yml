@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 4a98c579-a6b6-41c1-9a1b-38db977aa128
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Keep the demonstration simple'
+  created:
+    -
+      value: 1702953513
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

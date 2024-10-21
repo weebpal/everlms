@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: cd265497-ec84-4928-9d86-09dff7228ea2
+  bundle: default
+  default_langcode: en
+  depends:
+    7caf85d1-4b29-43db-9398-ef916cdeb4db: lms_answer
+    645e1447-349b-4757-9291-5224e82ac05a: lms_answer
+    a1aaf8fc-2bea-4e9a-b85a-b9635a4eae93: lms_answer
+    a96f2471-8644-4c9b-9387-e73ad370f95a: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Which of the following situations is not included in Demonstration in Teaching'
+  created:
+    -
+      value: 1702953417
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 7caf85d1-4b29-43db-9398-ef916cdeb4db
+    -
+      entity: 645e1447-349b-4757-9291-5224e82ac05a
+    -
+      entity: a1aaf8fc-2bea-4e9a-b85a-b9635a4eae93
+    -
+      entity: a96f2471-8644-4c9b-9387-e73ad370f95a
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

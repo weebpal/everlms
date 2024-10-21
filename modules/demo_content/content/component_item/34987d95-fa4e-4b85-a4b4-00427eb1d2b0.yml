@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 34987d95-fa4e-4b85-a4b4-00427eb1d2b0
+  bundle: basic_component
+  default_langcode: en
+  depends:
+    9edead3d-1255-4b94-81db-4afcc36564ef: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Untitled'
+  created:
+    -
+      value: 1702914533
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>The online English language learning market has seen simultaneous growth in the private tutoring market and subscription-based LMS and learning platforms market. With so many options for virtual classrooms, student and administrative management tools and more, today’s private tutors, tutoring organizations and teaching businesses have a lot of choices.</p><blockquote><p>My biggest advice to teacherpreneurs is to keep it simple. Start with a learning platform that is easy to manage and use.</p></blockquote><p>The shift to cloud-based subscription models makes them accessible and affordable to small business owners. Some platforms are specifically designed for private language teachers or tutors, featuring more robust offerings of curricula and lesson content, multilingual support and language learning tools, while others are designed for businesses with multiple teachers or tutors, with more administrative features that may be more appealing to larger schools and tutoring organizations.</p><p>Before choosing a platform, it’s important to have a clear understanding of your unique needs and the features of the platforms you’re considering. For private ESL teachers or tutors with small businesses, the vast array of LMS and learning platform options can be overwhelming.</p><p>“My biggest advice to teacherpreneurs is to keep it simple,” said Anna Hearrell, Director of Teacher Training Products at Bridge. “Start with a learning platform that is easy to manage and use. The world of eLearning has grown so much, and new software/technological advances have exploded over the past few years. It is really easy to get distracted by ‘shiny object syndrome.’”</p><p>Choosing a platform is a big step. The first step is to conduct a needs analysis to determine your top priorities and growth strategy. “It is important to choose a platform that meets your immediate needs but also one that has the potential to grow with you and your business,” Hearrell said.</p><p>Before diving into some of the popular LMS and platforms for language teachers and tutors, let’s define some key terminology.</p>'
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: 9edead3d-1255-4b94-81db-4afcc36564ef
+      alt: ''
+      title: ''
+      width: 500
+      height: 375

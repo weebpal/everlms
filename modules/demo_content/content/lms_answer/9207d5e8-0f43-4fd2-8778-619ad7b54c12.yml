@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 9207d5e8-0f43-4fd2-8778-619ad7b54c12
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Set the the time limits'
+  created:
+    -
+      value: 1702953521
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

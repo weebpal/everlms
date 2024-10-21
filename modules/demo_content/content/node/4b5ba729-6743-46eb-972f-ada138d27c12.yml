@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4b5ba729-6743-46eb-972f-ada138d27c12
+  bundle: news
+  default_langcode: en
+  depends:
+    f4d87363-7922-4d3f-8a1f-d9d6166c10d2: component_wrapper
+    85494eee-d1e3-44b4-8309-0f3ae88d2efc: taxonomy_term
+    8459ff22-1892-4ae6-8247-feae660dcc7c: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Duke of Edinburgh Silver Expedition to Thac Ba Lake'
+  created:
+    -
+      value: 1702915529
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /news/duke-edinburgh-silver-expedition-thac-ba-lake
+      langcode: en
+      pathauto: 1
+  field_components:
+    -
+      entity: f4d87363-7922-4d3f-8a1f-d9d6166c10d2
+  field_tags:
+    -
+      entity: 85494eee-d1e3-44b4-8309-0f3ae88d2efc
+  field_thumb:
+    -
+      entity: 8459ff22-1892-4ae6-8247-feae660dcc7c
+      alt: 'Duke of Edinburgh'
+      title: ''
+      width: 887
+      height: 499

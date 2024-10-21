@@ -1,0 +1,133 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: c7aaf674-09df-420a-b1d2-68cfa02f32b3
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    67da9171-edda-4a06-b7c9-8c8dd974c56c: commerce_product_variation
+    14fc57bd-f457-4e49-8c66-4061d84ed247: taxonomy_term
+    b9e7252f-d5b8-4b55-92e3-ae404d4f5139: media
+    7f23a7b2-312d-475e-8fe8-fb3b32273423: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    87f1cbb3-1e75-47f7-a3b8-a0262d5e9a6b: lms_lesson
+    4baadaca-5345-4e1e-b6cd-df10c99d9ff9: lms_lesson
+    14582586-5466-44c2-87fc-f9e526eea1f3: lms_lesson
+    df06ce14-eec1-4e62-95cf-a70c40ed7a32: lms_lesson
+    4fe024cf-521a-4294-97c2-ca2230c8e129: taxonomy_term
+    4a3f31dc-925c-4a78-91e4-66106b217e2f: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'English Pronunciation | Sound Like a Native English Speaker'
+  variations:
+    -
+      entity: 67da9171-edda-4a06-b7c9-8c8dd974c56c
+  default_variation:
+    -
+      entity: 67da9171-edda-4a06-b7c9-8c8dd974c56c
+  path:
+    -
+      alias: /course/english-pronunciation-sound-native-english-speaker
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1703131831
+  body:
+    -
+      value: "<p>Some English skills take a long time to improve, but some can be learned and mastered very quickly. <strong>The English skills in this course are the type you can start using right away! </strong>Once you've got these keys to fluency down, you'll be more confident whenever you find yourself in an English conversation, especially with a native English speaker.</p><p><strong>In this course, you will learn how to:</strong></p><ul><li><strong>Sound more natural</strong> when speaking English in conversation</li><li><strong>Blend </strong>common English words when speaking continuously</li><li>Pronounce sounds in the right way so that your speaking <strong>flows easily</strong></li><li>Master intonation, and how to use stress to get your meaning across in a natural way, so that <strong>your English sounds more native</strong></li></ul><p>Finally, this course will cover some really useful exercises for improving fluency and building mouth muscle memory. This course is intended for serious English language learners, who want to sound more natural when speaking English, and take their American English pronunciation to the next level.</p><p>You will be able to see my face and mouth clearly in each video lesson, and I will use a blackboard at all times.</p><p>Each lesson focuses on a single idea, and each is comprehensive. You can go at your own pace and should take your time, with lots of practice between videos. Replaying each lesson is highly recommended.</p>"
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: 14fc57bd-f457-4e49-8c66-4061d84ed247
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703131973
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: b9e7252f-d5b8-4b55-92e3-ae404d4f5139
+  field_featured_course:
+    -
+      value: false
+  field_free:
+    -
+      value: false
+  field_image:
+    -
+      entity: 7f23a7b2-312d-475e-8fe8-fb3b32273423
+      alt: 'English Pronunciation | Sound Like a Native English Speaker'
+      title: ''
+      width: 750
+      height: 422
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 345
+  field_lessons:
+    -
+      entity: 87f1cbb3-1e75-47f7-a3b8-a0262d5e9a6b
+    -
+      entity: 4baadaca-5345-4e1e-b6cd-df10c99d9ff9
+    -
+      entity: 14582586-5466-44c2-87fc-f9e526eea1f3
+    -
+      entity: df06ce14-eec1-4e62-95cf-a70c40ed7a32
+  field_level:
+    -
+      entity: 4fe024cf-521a-4294-97c2-ca2230c8e129
+  field_quiz:
+    -
+      entity: 4a3f31dc-925c-4a78-91e4-66106b217e2f
+  field_quizzes:
+    -
+      entity: 4a3f31dc-925c-4a78-91e4-66106b217e2f
+  field_rating:
+    -
+      rating: 80
+      target: 0
+  field_requirements:
+    -
+      value: '<ul><li>A basic understanding of English.</li><li>A willingness to practice what you learn!</li></ul>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Take your English pronunciation to the next level. Learn how to make your English sentences flow like a native speaker.</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 1
+  field_total_lessons:
+    -
+      value: 4
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: "<ul><li>Speak English smoothly with confidence.</li><li>Use 'jumping' and 'linking' to connect common English sounds.</li><li>Speak without stopping for long periods of time.</li><li>Build muscle memory to speak English automatically.</li></ul>"
+      format: full_html

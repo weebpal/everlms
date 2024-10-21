@@ -1,0 +1,114 @@
+uuid: 63dee042-c2fa-4ca9-9283-e0d2f9e32c0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.profile.teaser
+    - field.field.profile.customer.address
+    - field.field.profile.customer.field_description
+    - field.field.profile.customer.field_first_name
+    - field.field.profile.customer.field_full_name
+    - field.field.profile.customer.field_last_name
+    - field.field.profile.customer.tax_number
+    - profile.type.customer
+  module:
+    - field_group
+    - text
+  enforced:
+    module:
+      - commerce_order
+third_party_settings:
+  field_group:
+    group_wrapper:
+      children:
+        - group_left
+        - group_right
+        - field_description
+      label: Wrapper
+      parent_name: ''
+      region: content
+      weight: 0
+      format_type: html_element
+      format_settings:
+        classes: group-wrapper
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_left:
+      children:
+        - field_image
+      label: Left
+      parent_name: group_wrapper
+      region: content
+      weight: 20
+      format_type: html_element
+      format_settings:
+        classes: group-left
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_right:
+      children:
+        - field_full_name
+        - field_teaching_field
+        - field_course_number
+        - field_learner_number
+      label: Right
+      parent_name: group_wrapper
+      region: content
+      weight: 21
+      format_type: html_element
+      format_settings:
+        classes: group-right
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+_core:
+  default_config_hash: zA0MBGUGdWqnBBoC762uDcH92qRZHC8KllbkpOjNUcs
+id: profile.customer.teaser
+targetEntityType: profile
+bundle: customer
+mode: teaser
+content:
+  field_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 22
+    region: content
+  field_full_name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  address: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_first_name: true
+  field_last_name: true
+  search_api_excerpt: true
+  tax_number: true

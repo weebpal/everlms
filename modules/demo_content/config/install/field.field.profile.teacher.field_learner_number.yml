@@ -1,0 +1,23 @@
+uuid: 64911260-0497-4ef9-9a91-08651d5eae7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_learner_number
+    - profile.type.teacher
+id: profile.teacher.field_learner_number
+field_name: field_learner_number
+entity_type: profile
+bundle: teacher
+label: 'Learner number'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

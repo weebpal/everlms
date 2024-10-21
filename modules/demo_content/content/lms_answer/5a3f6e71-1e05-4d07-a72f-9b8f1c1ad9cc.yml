@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 5a3f6e71-1e05-4d07-a72f-9b8f1c1ad9cc
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Set the tone for good communication'
+  created:
+    -
+      value: 1702953258
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

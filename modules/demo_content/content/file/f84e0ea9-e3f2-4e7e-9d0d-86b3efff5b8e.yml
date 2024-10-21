@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f84e0ea9-e3f2-4e7e-9d0d-86b3efff5b8e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Rectangle 14.jpg'
+  uri:
+    -
+      value: 'public://2023-12/Rectangle 14.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 25722
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702912509

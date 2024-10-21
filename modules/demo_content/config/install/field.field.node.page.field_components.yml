@@ -1,0 +1,21 @@
+uuid: bc343c34-ea5f-4edb-a1eb-a0bb5af3f69d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_components
+    - node.type.page
+id: node.page.field_components
+field_name: field_components
+entity_type: node
+bundle: page
+label: Components
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:component_wrapper'
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,38 @@
+uuid: 126a3529-81ef-4c7f-9893-4b283bc2848f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.membership.field_membership_time
+    - field.field.profile.membership.field_membership_type
+    - profile.type.membership
+  module:
+    - datetime_range
+id: profile.membership.default
+targetEntityType: profile
+bundle: membership
+mode: default
+content:
+  field_membership_time:
+    type: daterange_default
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: medium
+      separator: '-'
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_membership_type:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  search_api_excerpt: true

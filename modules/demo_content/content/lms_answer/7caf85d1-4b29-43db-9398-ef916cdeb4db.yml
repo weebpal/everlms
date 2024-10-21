@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 7caf85d1-4b29-43db-9398-ef916cdeb4db
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Demonstrating how to operate an overhead projector'
+  created:
+    -
+      value: 1702953383
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

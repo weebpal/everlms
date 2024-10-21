@@ -1,0 +1,23 @@
+uuid: 7e488446-eca2-4668-a0b5-05d44a29ce16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_lesson.field_free
+    - lms_lesson.lms_lesson_type.default
+id: lms_lesson.default.field_free
+field_name: field_free
+entity_type: lms_lesson
+bundle: default
+label: Free
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

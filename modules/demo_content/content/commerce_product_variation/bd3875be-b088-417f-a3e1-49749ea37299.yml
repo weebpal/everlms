@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: bd3875be-b088-417f-a3e1-49749ea37299
+  bundle: course
+  default_langcode: en
+  depends:
+    cf078610-aa2f-478d-8e0f-4ce611a79c90: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: cf078610-aa2f-478d-8e0f-4ce611a79c90
+  sku:
+    -
+      value: 'Public Speaking Crash Course'
+  title:
+    -
+      value: 'Public Speaking Crash Course! (Fast Paced)'
+  list_price:
+    -
+      number: '50.000000'
+      currency_code: USD
+      formatted: $50.00
+  price:
+    -
+      number: '30.000000'
+      currency_code: USD
+      formatted: $30.00
+  created:
+    -
+      value: 1703133820

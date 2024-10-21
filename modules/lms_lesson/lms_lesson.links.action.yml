@@ -1,0 +1,11 @@
+entity.lms_lesson.add_page:
+  route_name: entity.lms_lesson.add_page
+  title: 'Add lesson item'
+  appears_on:
+    - entity.lms_lesson.collection
+
+entity.lms_lesson_type.add_form:
+  route_name: entity.lms_lesson_type.add_form
+  title: 'Add lesson type'
+  appears_on:
+    - entity.lms_lesson_type.collection

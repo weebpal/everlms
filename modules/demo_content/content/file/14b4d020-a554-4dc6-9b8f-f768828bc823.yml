@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 14b4d020-a554-4dc6-9b8f-f768828bc823
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: english_istock.jpg
+  uri:
+    -
+      value: 'public://2023-12/english_istock.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 131211
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702884505

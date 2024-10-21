@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 6e624630-de40-459f-8bc0-27be88510e50
+  bundle: default
+  default_langcode: en
+  depends:
+    7c1f378e-f4b1-4402-9848-6bfe4ffd66dd: lms_answer
+    48f1572a-c625-4a18-90c1-94e2815ac72f: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Memory is useful for many reasons.'
+  created:
+    -
+      value: 1702954866
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 7c1f378e-f4b1-4402-9848-6bfe4ffd66dd
+    -
+      entity: 48f1572a-c625-4a18-90c1-94e2815ac72f
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '9.99'

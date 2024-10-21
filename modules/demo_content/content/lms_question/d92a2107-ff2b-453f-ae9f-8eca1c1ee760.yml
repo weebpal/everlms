@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: d92a2107-ff2b-453f-ae9f-8eca1c1ee760
+  bundle: default
+  default_langcode: en
+  depends:
+    19f33681-c8b4-4e0d-b5e1-5901afb7e857: lms_answer
+    c151199a-de0c-4826-8677-30d5f7a3401a: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Writing shopping lists can easily improve your memory.'
+  created:
+    -
+      value: 1702955046
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 19f33681-c8b4-4e0d-b5e1-5901afb7e857
+    -
+      entity: c151199a-de0c-4826-8677-30d5f7a3401a
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

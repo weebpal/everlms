@@ -1,0 +1,25 @@
+uuid: de6a8f19-fcfc-4cbf-a41d-7ed4102f87ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.useful-links
+  module:
+    - system
+  theme:
+    - lms_theme
+id: usefullinks
+theme: lms_theme
+region: footer_third
+weight: -13
+provider: null
+plugin: 'system_menu_block:useful-links'
+settings:
+  id: 'system_menu_block:useful-links'
+  label: 'Useful Links'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

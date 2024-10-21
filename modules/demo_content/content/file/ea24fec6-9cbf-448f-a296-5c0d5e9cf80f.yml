@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ea24fec6-9cbf-448f-a296-5c0d5e9cf80f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 5106134_145c_5.jpg
+  uri:
+    -
+      value: 'public://2023-12/5106134_145c_5_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 37823
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703142093

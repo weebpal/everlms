@@ -1,0 +1,29 @@
+uuid: 35e2f638-d8e7-4f73-a2e3-748ba01ae6d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_user_course.field_quiz_results
+    - lms_quiz_result.lms_quiz_result_type.default
+    - lms_user_course.lms_user_course_type.default
+id: lms_user_course.default.field_quiz_results
+field_name: field_quiz_results
+entity_type: lms_user_course
+bundle: default
+label: 'Quiz results'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:lms_quiz_result'
+  handler_settings:
+    target_bundles:
+      default: default
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

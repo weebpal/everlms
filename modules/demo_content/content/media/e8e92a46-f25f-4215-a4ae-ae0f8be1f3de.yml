@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: e8e92a46-f25f-4215-a4ae-ae0f8be1f3de
+  bundle: image
+  default_langcode: en
+  depends:
+    15deb69d-e509-4406-8655-5af2de77454b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 5257400_67a3_2.jpg
+  created:
+    -
+      value: 1703059193
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 15deb69d-e509-4406-8655-5af2de77454b
+      alt: 'Advanced English Fluency - The Complete Guide'
+      title: ''
+      width: 480
+      height: 270

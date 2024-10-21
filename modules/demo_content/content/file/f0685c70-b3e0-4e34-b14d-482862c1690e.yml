@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f0685c70-b3e0-4e34-b14d-482862c1690e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 656678_318e_7.jpg
+  uri:
+    -
+      value: 'public://2023-12/656678_318e_7.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 70849
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702957866

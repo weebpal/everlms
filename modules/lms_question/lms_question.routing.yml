@@ -1,0 +1,7 @@
+lms_question.root:
+  path: '/admin/lms/lms-question'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Question'
+  requirements:
+    _permission: 'administer lms_question'

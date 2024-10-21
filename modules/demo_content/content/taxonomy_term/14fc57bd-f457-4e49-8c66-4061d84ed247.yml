@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 14fc57bd-f457-4e49-8c66-4061d84ed247
+  bundle: category
+  default_langcode: en
+  depends:
+    1857fce2-4ee3-4aea-9023-a3d90558334a: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'English Pronunciation'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /category/english-pronunciation
+      langcode: en
+      pathauto: 1
+  field_image:
+    -
+      entity: 1857fce2-4ee3-4aea-9023-a3d90558334a
+      alt: 'English Pronunciation'
+      title: ''
+      width: 1500
+      height: 1125
+  field_top_category:
+    -
+      value: false

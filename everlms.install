@@ -1,0 +1,68 @@
+<?php
+
+use Drupal\shortcut\Entity\Shortcut;
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ *
+ * @see system_install()
+ */
+function everlms_install() {
+  \Drupal::service('router.builder')->rebuildIfNeeded();
+
+  $shortcut = Shortcut::create([
+    'shortcut_set' => 'default',
+    'title' => t('Add content'),
+    'weight' => -20,
+    'link' => ['uri' => 'internal:/node/add'],
+  ]);
+  $shortcut->save();
+
+  $shortcut = Shortcut::create([
+    'shortcut_set' => 'default',
+    'title' => t('All content'),
+    'weight' => -19,
+    'link' => ['uri' => 'internal:/admin/content'],
+  ]);
+  $shortcut->save();
+  \Drupal::configFactory()->getEditable('system.theme')
+    ->set('admin', 'claro')
+    ->save();
+  \Drupal::configFactory()->getEditable('system.theme')
+    ->set('default', 'lms_theme')
+    ->save();
+  \Drupal::configFactory()->getEditable('node.settings')
+    ->set('use_admin_theme', 1)
+    ->save();
+  \Drupal::configFactory()->getEditable('system.site')
+    ->set('page.front', '/home')
+    ->set('page.403', '/user/login')
+    ->save();
+
+  $modules_to_enable = [
+    'lms_base',
+    'lms_scheduler',
+    'lms_answer',
+    'lms_certificate',
+    'lms_user_certificate',
+    'lms_user_ceritificate',
+    'lms_question',
+    'lms_quiz',
+    'lms_quiz',
+    'lms_question_response',
+    'lms_quiz_result',
+    'lms_room',
+    'lms_lesson',
+    'lms_membership',
+    'lms_class',
+    'we_notification',
+    'zoom_integration',
+    'demo_content',
+    'lms_user_course',
+  ];
+  foreach ($modules_to_enable as $module) {
+    \Drupal::service('module_installer')->install([$module], TRUE);
+  }
+}

@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: fbdc9b81-e239-401a-aa92-383324e4a4df
+  bundle: course
+  default_langcode: en
+  depends:
+    5667752d-3517-4717-8c30-6dc50f640e60: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 5667752d-3517-4717-8c30-6dc50f640e60
+  sku:
+    -
+      value: 'Writing Academic English for Beginner'
+  title:
+    -
+      value: 'Writing Academic English for Beginner'
+  list_price:
+    -
+      number: '35.000000'
+      currency_code: USD
+      formatted: $35.00
+  price:
+    -
+      number: '24.000000'
+      currency_code: USD
+      formatted: $24.00
+  created:
+    -
+      value: 1703133101

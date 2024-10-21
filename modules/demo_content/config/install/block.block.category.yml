@@ -1,0 +1,29 @@
+uuid: 9dbada5d-3af9-475c-94c3-8454f9f6d054
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.category
+  module:
+    - facets
+    - system
+  theme:
+    - we_core
+id: category
+theme: we_core
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'facet_block:category'
+settings:
+  id: 'facet_block:category'
+  label: Category
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: category
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /courses

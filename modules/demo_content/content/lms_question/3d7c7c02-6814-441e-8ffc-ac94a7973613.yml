@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 3d7c7c02-6814-441e-8ffc-ac94a7973613
+  bundle: default
+  default_langcode: en
+  depends:
+    a7d466ff-2d83-4840-93db-846d1930cbca: lms_answer
+    33d83706-366a-4ccf-bbb0-c07e8747790b: lms_answer
+    0af8f2c9-7c4a-4019-a82e-89a5cadc5570: lms_answer
+    c21bb5c3-a6c1-4419-ba90-c01e30ffd933: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Some people only read the ....... lines in a newspaper.'
+  created:
+    -
+      value: 1702957085
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: a7d466ff-2d83-4840-93db-846d1930cbca
+    -
+      entity: 33d83706-366a-4ccf-bbb0-c07e8747790b
+    -
+      entity: 0af8f2c9-7c4a-4019-a82e-89a5cadc5570
+    -
+      entity: c21bb5c3-a6c1-4419-ba90-c01e30ffd933
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

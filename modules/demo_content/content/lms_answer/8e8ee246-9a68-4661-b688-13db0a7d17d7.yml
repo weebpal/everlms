@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 8e8ee246-9a68-4661-b688-13db0a7d17d7
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: ' See whether participants are appropriate'
+  created:
+    -
+      value: 1702953461
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

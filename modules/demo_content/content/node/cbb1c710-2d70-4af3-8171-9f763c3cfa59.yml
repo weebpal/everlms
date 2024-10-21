@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: cbb1c710-2d70-4af3-8171-9f763c3cfa59
+  bundle: news
+  default_langcode: en
+  depends:
+    021de019-dacf-48f4-9cab-c37474f74cbe: component_wrapper
+    85494eee-d1e3-44b4-8309-0f3ae88d2efc: taxonomy_term
+    9b9940a8-9ba7-4abe-a0c7-54eda96ca402: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'STEAM learning soars in popularity, Nord Anglia data shows'
+  created:
+    -
+      value: 1702915131
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /news/steam-learning-soars-popularity-nord-anglia-data-shows
+      langcode: en
+      pathauto: 1
+  field_components:
+    -
+      entity: 021de019-dacf-48f4-9cab-c37474f74cbe
+  field_tags:
+    -
+      entity: 85494eee-d1e3-44b4-8309-0f3ae88d2efc
+  field_thumb:
+    -
+      entity: 9b9940a8-9ba7-4abe-a0c7-54eda96ca402
+      alt: 'STEAM learning soars in popularity, Nord Anglia data shows'
+      title: ''
+      width: 887
+      height: 499

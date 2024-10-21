@@ -1,0 +1,23 @@
+uuid: 399bc8c9-06b5-4472-ba44-8f27d36a7049
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - lms_lesson
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: lms_lesson.field_google_meet_data
+field_name: field_google_meet_data
+entity_type: lms_lesson
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

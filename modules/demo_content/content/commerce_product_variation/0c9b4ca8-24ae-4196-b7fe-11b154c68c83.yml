@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 0c9b4ca8-24ae-4196-b7fe-11b154c68c83
+  bundle: course
+  default_langcode: en
+  depends:
+    0f1e0e5c-26b5-46ac-a2fa-093a0eae8857: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 0f1e0e5c-26b5-46ac-a2fa-093a0eae8857
+  sku:
+    -
+      value: 'How to speak like an American'
+  title:
+    -
+      value: 'How to speak like an American: Part 2'
+  list_price:
+    -
+      number: '25.000000'
+      currency_code: USD
+      formatted: $25.00
+  price:
+    -
+      number: '15.000000'
+      currency_code: USD
+      formatted: $15.00
+  created:
+    -
+      value: 1703132456

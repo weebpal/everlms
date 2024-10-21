@@ -1,0 +1,8 @@
+administer lms_lesson_type:
+  title: 'Administer lms_lesson types'
+  description: 'Maintain the types of lesson types available and the fields that are associated with those types.'
+  restrict access: true
+
+access lesson detail:
+  title: 'Lesson: access Lesson Detail'
+  description: 'Only the user who purchased the course can access it.'

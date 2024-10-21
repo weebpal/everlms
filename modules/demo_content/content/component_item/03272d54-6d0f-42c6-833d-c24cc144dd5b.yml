@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 03272d54-6d0f-42c6-833d-c24cc144dd5b
+  bundle: push_image
+  default_langcode: en
+  depends:
+    bed04130-1fba-460b-b206-e39ff94c85d7: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Push Image Item: Untitled'
+  created:
+    -
+      value: 1703475449
+  revision_translation_affected:
+    -
+      value: true
+  field_pi_body:
+    -
+      value: '<p><strong>Their vs. There vs. They’re:</strong></p><ul><li>Their (pronoun): Shows possession by a group.</li><li>There (adverb): Indicates a location or a place.</li><li>They’re (contraction): Short for “they are.”</li></ul><p>Confusion: These three words sound the same but have different meanings.</p><p><em>Example:</em><br>Correct: They’re going to their favourite restaurant, which is over there.<br>Incorrect: They’re going to they’re favourite restaurant, which is over their.</p><p>&nbsp;</p><p><strong>To vs. Too vs. Two:</strong></p><ul><li>To (preposition): Used to indicate direction, purpose, or action.</li><li>Too (adverb): Means “also” or “excessively.”</li><li>Two (number): The word for the number 2.</li></ul><p>Confusion: These words sound alike but have different meanings.</p><p><em>Example:</em><br>Correct: They want to go to the show, too, but there are only two tickets.<br>Incorrect: They want too go two the show, to, but there are only 2 tickets.</p>'
+      format: full_html
+  field_pi_image:
+    -
+      entity: bed04130-1fba-460b-b206-e39ff94c85d7
+      alt: 'Their and To'
+      title: ''
+      width: 768
+      height: 512

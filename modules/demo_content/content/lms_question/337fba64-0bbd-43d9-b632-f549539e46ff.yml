@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 337fba64-0bbd-43d9-b632-f549539e46ff
+  bundle: default
+  default_langcode: en
+  depends:
+    0a295575-812b-44db-9edf-cc37b90be585: lms_answer
+    81f6252f-a05f-418a-8f2a-be09425123df: lms_answer
+    8e8ee246-9a68-4661-b688-13db0a7d17d7: lms_answer
+    f17cb769-49a2-4428-8ac7-a53dbb9c2c33: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'At the end of the demonstration, it is better if we can'
+  created:
+    -
+      value: 1702953472
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 0a295575-812b-44db-9edf-cc37b90be585
+    -
+      entity: 81f6252f-a05f-418a-8f2a-be09425123df
+    -
+      entity: 8e8ee246-9a68-4661-b688-13db0a7d17d7
+    -
+      entity: f17cb769-49a2-4428-8ac7-a53dbb9c2c33
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

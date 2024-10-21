@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: c940af3d-3034-49a5-9f95-e98e9fd463ec
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'A reversal in the order of words in otherwise parallel phrases.'
+  created:
+    -
+      value: 1702955755
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

@@ -1,0 +1,133 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: cf078610-aa2f-478d-8e0f-4ce611a79c90
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    bd3875be-b088-417f-a3e1-49749ea37299: commerce_product_variation
+    34d91d19-06fa-4cb6-b2d4-a9893464cbae: taxonomy_term
+    61817e2d-ec2a-4c79-a451-8e49a00d1805: media
+    22e6f147-3316-4a2c-be4f-220d28f52878: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    877a32fe-6255-41be-8cc0-9c84f36c5ea9: taxonomy_term
+    884bf76d-78f4-400d-9f06-c1ea7e3c5a69: lms_lesson
+    afba441f-3054-4903-b50d-e1ed94d5010f: lms_lesson
+    c10c7a9d-c29b-47e1-83e2-7b742c9ec129: lms_lesson
+    e74a7793-5a42-44dd-8cf1-d3d74b3d992f: taxonomy_term
+    4a3f31dc-925c-4a78-91e4-66106b217e2f: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'Public Speaking Crash Course! (Fast Paced)'
+  variations:
+    -
+      entity: bd3875be-b088-417f-a3e1-49749ea37299
+  default_variation:
+    -
+      entity: bd3875be-b088-417f-a3e1-49749ea37299
+  path:
+    -
+      alias: /course/public-speaking-crash-course-fast-paced
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1703133719
+  body:
+    -
+      value: "<p>One of the world's most successful billionaires (an introvert), Warren Buffet let us in on one of his greatest secret weapons: He said that a public speaking course became his most important degree.</p><p>Notice his advice here: \"You've got to be able to communicate in life, and it's enormously important. Schools, to some extent, under emphasize that. If you can't communicate and talk to other people and get across your ideas, you're giving up your potential.\"</p><p>With this course, you will learn creative presentation &amp; speaking skills in a short time. Find out what really matters &amp; what you can leave out. Challenge your mind the right way &amp; take your audience on a journey they'll never forget!</p><p>This course is not the typical learning style. I use an unconventional teaching style that is anything but boring (most lectures on speaking can be boring) But strap on your seatbelts to keep up with this fast-paced &amp; practical course.</p><p>We are going to let you practice by example &amp; methodology. You'll understand not just how to structure your speeches &amp; presentation but also how to breathe life into every word so that they all count. You're going to learn simple methods that skyrocket your performance &amp; speed up your learning curve!</p><p>I'll see you inside for a journey that you'll never forget!</p>"
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: 34d91d19-06fa-4cb6-b2d4-a9893464cbae
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703133807
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: 61817e2d-ec2a-4c79-a451-8e49a00d1805
+  field_featured_course:
+    -
+      value: false
+  field_free:
+    -
+      value: false
+  field_image:
+    -
+      entity: 22e6f147-3316-4a2c-be4f-220d28f52878
+      alt: 'Public Speaking Crash Course! (Fast Paced)'
+      title: ''
+      width: 750
+      height: 422
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+    -
+      entity: 877a32fe-6255-41be-8cc0-9c84f36c5ea9
+  field_learner_number:
+    -
+      value: 2111
+  field_lessons:
+    -
+      entity: 884bf76d-78f4-400d-9f06-c1ea7e3c5a69
+    -
+      entity: afba441f-3054-4903-b50d-e1ed94d5010f
+    -
+      entity: c10c7a9d-c29b-47e1-83e2-7b742c9ec129
+  field_level:
+    -
+      entity: e74a7793-5a42-44dd-8cf1-d3d74b3d992f
+  field_quiz:
+    -
+      entity: 4a3f31dc-925c-4a78-91e4-66106b217e2f
+  field_quizzes:
+    -
+      entity: 4a3f31dc-925c-4a78-91e4-66106b217e2f
+  field_rating:
+    -
+      rating: 80
+      target: 0
+  field_requirements:
+    -
+      value: '<p>Must Understand English</p>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Instant Practical Steps to Jump Into Public Speaking, Communicating &amp; Presenting Anything</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 2
+  field_total_lessons:
+    -
+      value: 3
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: "<ul><li>Be More Creative in how you Talk, Speak &amp; Grab Everyone's Attention Right Away, Own the Room!</li></ul>"
+      format: full_html

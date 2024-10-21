@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 13c97408-cbe2-4be5-815f-6a577af0a23a
+  bundle: default
+  default_langcode: en
+  depends:
+    2075e16b-0fe7-44f6-8e5d-70d7a1a2cb01: lms_answer
+    4326a89d-9530-4caf-93d4-62797533b04c: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'There are two different forms of memorization.'
+  created:
+    -
+      value: 1702954991
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 2075e16b-0fe7-44f6-8e5d-70d7a1a2cb01
+    -
+      entity: 4326a89d-9530-4caf-93d4-62797533b04c
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

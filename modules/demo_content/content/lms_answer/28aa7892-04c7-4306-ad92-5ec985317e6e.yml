@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 28aa7892-04c7-4306-ad92-5ec985317e6e
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The middle of a lesson'
+  created:
+    -
+      value: 1702951129
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

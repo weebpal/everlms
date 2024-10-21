@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: e90fc037-6e0a-4042-b95c-a0bc8d751f5e
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Repetition of the same word or words at the end of successive phrases, clauses or sentences'
+  created:
+    -
+      value: 1702955796
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

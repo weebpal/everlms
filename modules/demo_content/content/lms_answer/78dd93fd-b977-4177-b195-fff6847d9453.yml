@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 78dd93fd-b977-4177-b195-fff6847d9453
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: '1988'
+  created:
+    -
+      value: 1702951042
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: "<p>The Education Reform Act 1988 is widely regarded as the most important single piece of education legislation in England, Wales and Northern Ireland since the 'Butler' Education Act 1944<br>The main provisions of the Education Reform Act are as follows:</p><p>Grant-maintained schools (GMS) were introduced. Primary and secondary schools could, under this provision, remove themselves fully from their respective Local Education Authorities and would be completely funded by central government. Secondary schools also had limited selection powers at the age of 11. It also included Local Management of Schools.</p>"
+      format: full_html
+      summary: ''
+  field_correct:
+    -
+      value: true

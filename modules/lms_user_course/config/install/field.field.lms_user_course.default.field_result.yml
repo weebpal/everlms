@@ -1,0 +1,29 @@
+uuid: 3bce367d-da2c-41e8-9537-b20a7d8c8517
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_user_course.field_result
+    - lms_user_course.lms_user_course_type.default
+    - taxonomy.vocabulary.quiz_results
+id: lms_user_course.default.field_result
+field_name: field_result
+entity_type: lms_user_course
+bundle: default
+label: Result
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      quiz_results: quiz_results
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

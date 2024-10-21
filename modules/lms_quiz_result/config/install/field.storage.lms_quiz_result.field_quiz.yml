@@ -1,0 +1,20 @@
+uuid: 054668f9-828a-42e2-8043-5e1851898637
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_quiz
+    - lms_quiz_result
+id: lms_quiz_result.field_quiz
+field_name: field_quiz
+entity_type: lms_quiz_result
+type: entity_reference
+settings:
+  target_type: lms_quiz
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

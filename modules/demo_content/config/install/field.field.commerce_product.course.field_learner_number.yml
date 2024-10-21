@@ -1,0 +1,23 @@
+uuid: 346b4777-1821-47dd-8166-8ffb5aa0079c
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.course
+    - field.storage.commerce_product.field_learner_number
+id: commerce_product.course.field_learner_number
+field_name: field_learner_number
+entity_type: commerce_product
+bundle: course
+label: 'Learner number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' learners'
+field_type: integer

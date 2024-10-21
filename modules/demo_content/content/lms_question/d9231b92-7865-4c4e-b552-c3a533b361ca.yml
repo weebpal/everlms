@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: d9231b92-7865-4c4e-b552-c3a533b361ca
+  bundle: default
+  default_langcode: en
+  depends:
+    22204530-6785-42e7-8aa3-5fe1ab471d07: lms_answer
+    2238c2bc-49e3-4b15-9f94-f11bbab6a40c: lms_answer
+    bcc5c80b-a6b4-4508-a11d-c6f3b98f1688: lms_answer
+    358eef75-260f-47ab-bc82-2fd7aeb3f34f: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Which of the following is one of the biggest differences between simple past and present perfect tenses?'
+  created:
+    -
+      value: 1702954477
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 22204530-6785-42e7-8aa3-5fe1ab471d07
+    -
+      entity: 2238c2bc-49e3-4b15-9f94-f11bbab6a40c
+    -
+      entity: bcc5c80b-a6b4-4508-a11d-c6f3b98f1688
+    -
+      entity: 358eef75-260f-47ab-bc82-2fd7aeb3f34f
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

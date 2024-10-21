@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: f787c83e-f868-4108-8918-e564ec407979
+  bundle: push_image
+  default_langcode: en
+  depends:
+    a1a2a926-d61f-42ce-9441-d7eff9296778: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Push Image Item: How is IELTS Scored?'
+  title:
+    -
+      value: 'How is IELTS Scored?'
+  created:
+    -
+      value: 1703476807
+  revision_translation_affected:
+    -
+      value: true
+  field_pi_body:
+    -
+      value: '<p>The IELTS scoring system uses a band scale from 1 to 9, with each band representing a specific level of English proficiency:</p><ul><li><strong>Band 1 to 3: </strong>Non-user: You have little or no ability to use English for communication.</li><li><strong>Band 4 to 5: </strong>Limited user: You can understand basic English but struggle in</li><li><strong>Band 6:</strong> Competent user: You have an effective command of English, especially in familiar situations.</li><li><strong>Band 7 to 8: </strong>Good user: You can handle complex language and understand detailed reasoning.</li><li><strong>Band 9: </strong>Expert user: Your English proficiency is almost at a native speaker’s level.</li></ul>'
+      format: full_html
+  field_pi_image:
+    -
+      entity: a1a2a926-d61f-42ce-9441-d7eff9296778
+      alt: Get-a-high-IELTS-score
+      title: ''
+      width: 1000
+      height: 668

@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 59c72643-d028-4963-9c10-ea87f4967b61
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Feded
+  created:
+    -
+      value: 1702957290
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

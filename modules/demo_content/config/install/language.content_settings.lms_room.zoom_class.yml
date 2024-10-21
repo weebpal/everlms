@@ -1,0 +1,11 @@
+uuid: a01ce0ea-36d1-4a07-bcfe-c11d15e79fef
+langcode: en
+status: true
+dependencies:
+  config:
+    - lms_room.lms_room_type.zoom_class
+id: lms_room.zoom_class
+target_entity_type_id: lms_room
+target_bundle: zoom_class
+default_langcode: site_default
+language_alterable: false

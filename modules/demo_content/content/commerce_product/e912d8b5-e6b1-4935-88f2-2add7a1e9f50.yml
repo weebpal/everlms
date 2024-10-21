@@ -1,0 +1,142 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: e912d8b5-e6b1-4935-88f2-2add7a1e9f50
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    10dcfb68-425e-48e7-b114-93c6cb39f3e7: commerce_product_variation
+    d10b48ac-fb53-406a-b22a-e0efc29c7b98: taxonomy_term
+    46e41b9d-d100-4941-82cf-798a069c83a9: media
+    e9eb38bb-20a2-467d-8875-bedaee90ea29: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    b3a93937-2c8e-4fa7-8777-564c3be3f7a9: lms_lesson
+    02e54c40-4697-4be0-aa7c-f169cb676bed: lms_lesson
+    0bcb6555-0b0d-460b-826a-02fc1f3b5806: lms_lesson
+    9b8bee40-0ee0-45a5-ae55-b2e9972fc097: lms_lesson
+    e30f7338-8ccb-428c-8095-7e8e9dcad1b1: lms_lesson
+    428c1134-80fc-4a6a-959d-cb65ca0cdfc1: lms_lesson
+    893c94b4-e55b-4e7d-ad5e-72cde29ba43f: lms_lesson
+    4fe024cf-521a-4294-97c2-ca2230c8e129: taxonomy_term
+    ad1ef75b-6487-4213-a440-25623cc9b80b: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'How to speak to anyone & be fearless - in less than 55 min'
+  variations:
+    -
+      entity: 10dcfb68-425e-48e7-b114-93c6cb39f3e7
+  default_variation:
+    -
+      entity: 10dcfb68-425e-48e7-b114-93c6cb39f3e7
+  path:
+    -
+      alias: /course/how-speak-anyone-be-fearless-less-55-min
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1702959766
+  body:
+    -
+      value: "<p><strong>The goals of this course are simple:</strong></p><ul><li>To learn the basics of public speaking</li><li>Learn advanced techniques to be more charismatic and more likable</li><li>How to be more powerful as a human being</li></ul><p>I (Ricky Mendoza) will be guiding you through the whole process in a fun and entertaining way.</p><p>If you're an entrepreneur with a great product and need to get better at your pitches, then TAKE THIS COURSE! &nbsp;</p><p>If you're job hunting and need to leave an impression at your next job interview, then TAKE THIS COURSE! &nbsp;</p><p>If you're a parent and want better tools to communicate to your loved ones, then TAKE THIS COURSE! &nbsp;</p><p>If you're in the dating world and want the skills of a ninja communicator, then TAKE THIS COURSE!</p><p>There's something for everyone and I want you to get a lot of value from learning and practicing these skills.</p><p>As a filmmaker, musician, public speaker coach &amp; entrepreneur I've done thousands of presentations and I've developed a simplified set of tools that have helped me along my way, I’m pleased to share them with you and hope you’ll get tremendous value from them.</p><p>PS: I'll be adding more videos and more value to this course. Feel free to message me for any questions or feedback to improve this course.</p>"
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: d10b48ac-fb53-406a-b22a-e0efc29c7b98
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1702960015
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: 46e41b9d-d100-4941-82cf-798a069c83a9
+  field_featured_course:
+    -
+      value: false
+  field_free:
+    -
+      value: true
+  field_image:
+    -
+      entity: e9eb38bb-20a2-467d-8875-bedaee90ea29
+      alt: 'How to speak to anyone & be fearless - in less than 55 min'
+      title: ''
+      width: 750
+      height: 422
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 2324
+  field_lessons:
+    -
+      entity: b3a93937-2c8e-4fa7-8777-564c3be3f7a9
+    -
+      entity: 02e54c40-4697-4be0-aa7c-f169cb676bed
+    -
+      entity: 0bcb6555-0b0d-460b-826a-02fc1f3b5806
+    -
+      entity: 9b8bee40-0ee0-45a5-ae55-b2e9972fc097
+    -
+      entity: e30f7338-8ccb-428c-8095-7e8e9dcad1b1
+    -
+      entity: 428c1134-80fc-4a6a-959d-cb65ca0cdfc1
+    -
+      entity: 893c94b4-e55b-4e7d-ad5e-72cde29ba43f
+  field_level:
+    -
+      entity: 4fe024cf-521a-4294-97c2-ca2230c8e129
+  field_quiz:
+    -
+      entity: ad1ef75b-6487-4213-a440-25623cc9b80b
+  field_quizzes:
+    -
+      entity: ad1ef75b-6487-4213-a440-25623cc9b80b
+  field_rating:
+    -
+      rating: 80
+      target: 0
+  field_requirements:
+    -
+      value: "<p>Not much! :) If you communicate with anyone, and want to be a better boss, spouse, freelancer or in any field that you're in, this course will help tremendously in making you a much better communicator</p>"
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Learn to quickly connect with crowds of strangers, be better on dates or ace that job interview.</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 2
+  field_total_lessons:
+    -
+      value: 7
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>Speak fearlessly to a crowd (or face to face)</li><li>Communicate more effectively</li><li>Learn better techniques</li></ul>'
+      format: full_html

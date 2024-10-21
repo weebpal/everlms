@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0936c313-6616-414b-aa03-57879c05c74a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Ovation Public Speaking - Speaking Methods Master Class.mp4'
+  uri:
+    -
+      value: 'public://2023-12/Ovation Public Speaking - Speaking Methods Master Class.mp4'
+  filemime:
+    -
+      value: video/mp4
+  filesize:
+    -
+      value: 59075034
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702977915

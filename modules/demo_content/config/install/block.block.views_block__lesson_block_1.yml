@@ -1,0 +1,37 @@
+uuid: acd2f447-cab0-4f1d-a003-77e2e7848e04
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.lesson
+  module:
+    - block_class
+    - commerce_product
+    - views
+  theme:
+    - lms_theme
+third_party_settings:
+  block_class:
+    classes: course-info-block--wrapper
+id: views_block__lesson_block_1
+theme: lms_theme
+region: content
+weight: -14
+provider: null
+plugin: 'views_block:lesson-block_1'
+settings:
+  id: 'views_block:lesson-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:commerce_product_variation':
+    id: 'entity_bundle:commerce_product_variation'
+    negate: false
+    context_mapping:
+      commerce_product_variation: '@commerce_product.product_variation_route_context:commerce_product_variation'
+    bundles:
+      course: course

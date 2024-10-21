@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 8ced36ae-84db-41ac-9d4b-b5b2925b3c4f
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Overlook
+  created:
+    -
+      value: 1702957130
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: true

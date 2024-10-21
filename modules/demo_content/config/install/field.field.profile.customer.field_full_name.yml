@@ -1,0 +1,19 @@
+uuid: 9e72ec75-2b75-4903-88a7-2e6e986e2c01
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_full_name
+    - profile.type.customer
+id: profile.customer.field_full_name
+field_name: field_full_name
+entity_type: profile
+bundle: customer
+label: 'Full name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

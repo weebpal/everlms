@@ -1,0 +1,15 @@
+uuid: 11299c52-330c-47ae-991d-4e842a29c7fb
+langcode: en
+status: true
+dependencies: {  }
+third_party_settings:
+  commerce_order:
+    customer_profile_type: false
+id: student
+label: Student
+display_label: ''
+multiple: false
+registration: false
+roles: {  }
+allow_revisions: false
+new_revision: false

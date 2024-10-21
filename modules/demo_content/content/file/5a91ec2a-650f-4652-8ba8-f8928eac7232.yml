@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5a91ec2a-650f-4652-8ba8-f8928eac7232
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: OperationSmileVietnamChildren_755x9999.jpg
+  uri:
+    -
+      value: 'public://2023-12/OperationSmileVietnamChildren_755x9999.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 59600
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702915406

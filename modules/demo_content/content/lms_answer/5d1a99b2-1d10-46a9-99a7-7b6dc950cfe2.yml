@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 5d1a99b2-1d10-46a9-99a7-7b6dc950cfe2
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Audio-visual presentation'
+  created:
+    -
+      value: 1702953343
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>A good demonstration in teaching includes audio-visual presentation because it combines both auditory and visual elements to enhance the learning experience. This approach appeals to different learning styles and helps to engage students by providing multiple sensory inputs. It allows for a more comprehensive understanding of the subject matter as students can both see and hear the information being presented. Additionally, audio-visual presentations often utilize multimedia tools such as videos, images, and animations, which can make the content more interesting and memorable for students.</p>'
+      format: full_html
+      summary: ''
+  field_correct:
+    -
+      value: true

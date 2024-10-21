@@ -1,0 +1,302 @@
+uuid: 9afc7de6-61e7-4778-a335-7cc76e8d94cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.course
+    - core.entity_view_mode.commerce_product.featured_course
+    - field.field.commerce_product.course.body
+    - field.field.commerce_product.course.field_age
+    - field.field.commerce_product.course.field_bestseller
+    - field.field.commerce_product.course.field_category
+    - field.field.commerce_product.course.field_certificate
+    - field.field.commerce_product.course.field_comments
+    - field.field.commerce_product.course.field_course_preview
+    - field.field.commerce_product.course.field_featured_course
+    - field.field.commerce_product.course.field_free
+    - field.field.commerce_product.course.field_image
+    - field.field.commerce_product.course.field_language
+    - field.field.commerce_product.course.field_learner_number
+    - field.field.commerce_product.course.field_lessons
+    - field.field.commerce_product.course.field_level
+    - field.field.commerce_product.course.field_quiz
+    - field.field.commerce_product.course.field_quizzes
+    - field.field.commerce_product.course.field_rating
+    - field.field.commerce_product.course.field_requirements
+    - field.field.commerce_product.course.field_short_description
+    - field.field.commerce_product.course.field_teacher
+    - field.field.commerce_product.course.field_threshold
+    - field.field.commerce_product.course.field_total_hours
+    - field.field.commerce_product.course.field_total_lessons
+    - field.field.commerce_product.course.field_total_quizzes
+    - field.field.commerce_product.course.field_what_you_learn
+    - image.style.image_220x124
+  module:
+    - field_group
+    - fivestar
+    - image
+    - lms_base
+third_party_settings:
+  field_group:
+    group_information:
+      children:
+        - group_image
+        - group_text
+      label: Information
+      parent_name: group_content_layout
+      region: content
+      weight: 3
+      format_type: html_element
+      format_settings:
+        classes: group-info
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_total:
+      children:
+        - field_language
+        - field_learner_number
+        - field_total_hours
+        - field_total_lessons
+      label: Total
+      parent_name: group_group_video
+      region: hidden
+      weight: 27
+      format_type: html_element
+      format_settings:
+        classes: group-total
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_group_video:
+      children:
+        - group_total
+      label: Video
+      parent_name: ''
+      region: hidden
+      weight: 19
+      format_type: html_element
+      format_settings:
+        classes: group-video
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_text:
+      children:
+        - title
+        - field_category
+        - uid
+        - field_rating
+      label: Text
+      parent_name: group_information
+      region: content
+      weight: 23
+      format_type: html_element
+      format_settings:
+        classes: group-text
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_content_layout:
+      children:
+        - group_information
+      label: 'Content layout'
+      parent_name: ''
+      region: content
+      weight: 0
+      format_type: html_element
+      format_settings:
+        classes: group-content-layout
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_group_variation:
+      children:
+        - variations
+      label: Variation
+      parent_name: ''
+      region: hidden
+      weight: 18
+      format_type: html_element
+      format_settings:
+        classes: group-variation
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_tags:
+      children:
+        - field_free
+        - field_bestseller
+      label: Tags
+      parent_name: group_image
+      region: content
+      weight: 22
+      format_type: html_element
+      format_settings:
+        classes: group-tags
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_image:
+      children:
+        - field_image
+        - group_tags
+      label: Image
+      parent_name: group_information
+      region: content
+      weight: 20
+      format_type: html_element
+      format_settings:
+        classes: group-image
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+id: commerce_product.course.featured_course
+targetEntityType: commerce_product
+bundle: course
+mode: featured_course
+content:
+  field_bestseller:
+    type: boolean
+    label: hidden
+    settings:
+      format: custom
+      format_custom_false: ''
+      format_custom_true: Bestseller
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_category:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 23
+    region: content
+  field_free:
+    type: boolean
+    label: hidden
+    settings:
+      format: custom
+      format_custom_false: ''
+      format_custom_true: Free
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: image_220x124
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 21
+    region: content
+  field_rating:
+    type: fivestar_stars
+    label: hidden
+    settings:
+      text_format: average
+      display_format: average
+      fivestar_widget: basic
+    third_party_settings: {  }
+    weight: 26
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: true
+    third_party_settings: {  }
+    weight: 22
+    region: content
+  uid:
+    type: er_label_before
+    label: hidden
+    settings:
+      label_before: 'By '
+      link: 0
+    third_party_settings: {  }
+    weight: 25
+    region: content
+hidden:
+  body: true
+  created: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_age: true
+  field_certificate: true
+  field_comments: true
+  field_course_preview: true
+  field_featured_course: true
+  field_language: true
+  field_learner_number: true
+  field_lessons: true
+  field_level: true
+  field_quiz: true
+  field_quizzes: true
+  field_requirements: true
+  field_short_description: true
+  field_teacher: true
+  field_threshold: true
+  field_total_hours: true
+  field_total_lessons: true
+  field_total_quizzes: true
+  field_what_you_learn: true
+  langcode: true
+  search_api_excerpt: true
+  stores: true
+  user_course_start_btn: true
+  variations: true

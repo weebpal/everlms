@@ -1,0 +1,22 @@
+uuid: 01e87068-c0ec-4e75-877e-be8a9527e5a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - lms_quiz
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: lms_quiz.field_display_right_answer
+field_name: field_display_right_answer
+entity_type: lms_quiz
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

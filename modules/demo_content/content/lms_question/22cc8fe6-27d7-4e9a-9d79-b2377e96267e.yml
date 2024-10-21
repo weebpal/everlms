@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 22cc8fe6-27d7-4e9a-9d79-b2377e96267e
+  bundle: default
+  default_langcode: en
+  depends:
+    458b6c04-c705-48c6-8577-ca290e050ac1: lms_answer
+    d369e694-6da9-434c-8c84-a348a05bc1dd: lms_answer
+    b8ab3a9b-4e18-460c-9fd8-807c2caa50e6: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'What does QTLS stand for?'
+  created:
+    -
+      value: 1702951353
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 458b6c04-c705-48c6-8577-ca290e050ac1
+    -
+      entity: d369e694-6da9-434c-8c84-a348a05bc1dd
+    -
+      entity: b8ab3a9b-4e18-460c-9fd8-807c2caa50e6
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

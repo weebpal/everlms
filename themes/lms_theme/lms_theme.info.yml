@@ -1,0 +1,31 @@
+name: LMS
+type: theme
+description: 'Theme for LMS'
+core_version_requirement: ^9 || ^10
+base theme: we_core
+libraries:
+  - lms_theme/global-styling
+regions:
+  headline: 'Headline'
+  header: 'Header'
+  mobile_menu: 'Mobile menu'
+  main_menu: 'Main menu'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  featured: 'Featured'
+  breadcrumb: 'Breadcrumb'
+  banner: 'Banner'
+  content_first: 'Content first'
+  sidebar_first: 'Sidebar first'
+  content: 'Content'
+  sidebar_second: 'Sidebar second'
+  content_second_left: 'Content second left'
+  content_second_right: 'Content second right'
+  content_third: 'Content third'
+  content_fourth: 'Content fourth'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+  footer_fifth: 'Footer fifth'
+  footer_bottom: 'Footer bottom'

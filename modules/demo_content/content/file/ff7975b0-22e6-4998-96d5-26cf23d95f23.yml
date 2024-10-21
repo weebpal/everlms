@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ff7975b0-22e6-4998-96d5-26cf23d95f23
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 2742336_cf70_3.jpg
+  uri:
+    -
+      value: 'public://2023-12/2742336_cf70_3.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 80148
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702958700

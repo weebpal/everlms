@@ -1,0 +1,49 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 0fddb220-889f-44e5-af46-219d6c4aebf5
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: teacher
+  pass:
+    -
+      value: $2y$10$t6XvDRan.LCYaZ.26Eivqu15sDSCnUsc0w6Lf1Eedh13/KbZi3fTO
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: abc06.tester@gmail.com
+  timezone:
+    -
+      value: UTC
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1695194447
+  access:
+    -
+      value: 1707995043
+  login:
+    -
+      value: 1707992664
+  init:
+    -
+      value: abc06.tester@gmail.com
+  roles:
+    -
+      target_id: teacher
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

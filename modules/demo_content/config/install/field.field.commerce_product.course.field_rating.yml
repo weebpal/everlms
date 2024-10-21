@@ -1,0 +1,29 @@
+uuid: 3b90b5e3-eced-4374-a1aa-8f8492222ef7
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.course
+    - field.storage.commerce_product.field_rating
+  module:
+    - fivestar
+id: commerce_product.course.field_rating
+field_name: field_rating
+entity_type: commerce_product
+bundle: course
+label: Rating
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  stars: 5
+  allow_clear: false
+  allow_revote: true
+  allow_ownvote: true
+  rated_while: viewing
+  enable_voting_target: false
+  target_bridge_field: ''
+  target_fivestar_field: ''
+field_type: fivestar

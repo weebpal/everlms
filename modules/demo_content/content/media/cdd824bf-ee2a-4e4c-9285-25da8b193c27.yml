@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: cdd824bf-ee2a-4e4c-9285-25da8b193c27
+  bundle: image
+  default_langcode: en
+  depends:
+    bb6e2dd6-ee4c-4b34-a867-99ebd738fff3: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Communicate effectively to achieve more in life.png'
+  created:
+    -
+      value: 1703043214
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: bb6e2dd6-ee4c-4b34-a867-99ebd738fff3
+      alt: 'Communicate effectively to achieve more in life'
+      title: ''
+      width: 1200
+      height: 680

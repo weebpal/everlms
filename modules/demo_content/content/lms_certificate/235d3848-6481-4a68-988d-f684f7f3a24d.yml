@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_certificate
+  uuid: 235d3848-6481-4a68-988d-f684f7f3a24d
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Default certificate'
+  created:
+    -
+      value: 1695354253
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Default certificate body</p>'
+      format: full_html
+      summary: ''
+  field_twig_template:
+    -
+      value: "<html>\r\n<head>\r\n<head>\r\n<body>\r\n    <div>\r\n             <h1>{{ certificate_name }} </h1>\r\n             <table>{{ certificate_name }} </table>\r\n    </div>\r\n</body>\r\n<html>"

@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: b5a42118-d7cb-4033-96f0-bdc6f2fd9d70
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Repetition of the same word or group of words at the beginning of successive sentences, clauses, phrases, or lines.'
+  created:
+    -
+      value: 1702955741
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: true

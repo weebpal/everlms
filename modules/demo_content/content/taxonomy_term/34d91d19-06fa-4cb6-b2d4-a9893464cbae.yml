@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 34d91d19-06fa-4cb6-b2d4-a9893464cbae
+  bundle: category
+  default_langcode: en
+  depends:
+    df4fc8b5-80ce-487b-ad0b-34e8df106305: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Public Speaking'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /category/public-speaking
+      langcode: en
+      pathauto: 1
+  field_image:
+    -
+      entity: df4fc8b5-80ce-487b-ad0b-34e8df106305
+      alt: 'Public Speaking'
+      title: ''
+      width: 1200
+      height: 672
+  field_top_category:
+    -
+      value: true

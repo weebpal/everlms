@@ -1,0 +1,15 @@
+uuid: 212bc4e3-c4b2-4911-93ef-798cbd85dff3
+langcode: en
+status: true
+dependencies: {  }
+name: image_220x140
+label: 'Image (220x140)'
+effects:
+  94f46c0e-e79a-456f-b652-03b8d26b1e33:
+    uuid: 94f46c0e-e79a-456f-b652-03b8d26b1e33
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 220
+      height: 140
+      anchor: center-center

@@ -1,0 +1,89 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_quiz
+  uuid: 4a3f31dc-925c-4a78-91e4-66106b217e2f
+  bundle: default
+  default_langcode: en
+  depends:
+    d58240c9-1e15-45ac-a15e-d75608069588: lms_certificate
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+    cda05dbe-121d-4348-83e8-6d49ba1949ac: taxonomy_term
+    9920f7c1-9056-4601-990f-d9f2de53bac8: taxonomy_term
+    41e09b55-91ab-4588-be5f-c908021a33b9: taxonomy_term
+    fa9cdc4c-7d9b-4d17-86e8-ffb26a597571: lms_quiz
+    68de0675-fd26-415a-809b-5818f8739c9c: lms_question
+    f138ab96-28dc-47c1-86c2-cb174d948ec5: lms_question
+    25d1b826-673c-49c1-bcf5-029116fef90e: lms_question
+    9a6f88b0-bac7-44b8-9528-4bc3bd5acbae: lms_question
+    34463f39-bb94-4ca5-b0fa-7c7ee1a84cae: lms_question
+    5adafc3e-7f22-44cd-a578-4a194bfb64ae: lms_question
+    cd265497-ec84-4928-9d86-09dff7228ea2: lms_question
+    337fba64-0bbd-43d9-b632-f549539e46ff: lms_question
+    12d30a8c-1576-4bdb-a4e9-ca73b34c6661: lms_question
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Demonstrations In Teaching Quiz'
+  created:
+    -
+      value: 1693964994
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Are you serious about becoming a teacher? Try this interesting " Demonstrations In Teaching Quiz" to see how much you know about teaching. This quiz covers the lessons on Demonstrations in Teaching. It applies the learners'' knowledge on demonstrations so that this can be applied effectively in the teaching-learning process. Pick the correct option to get the highest score. Good Luck!</p>'
+      format: basic_html
+      summary: ''
+  field_certificate:
+    -
+      entity: d58240c9-1e15-45ac-a15e-d75608069588
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_display_right_answer:
+    -
+      value: false
+  field_failed_title:
+    -
+      entity: cda05dbe-121d-4348-83e8-6d49ba1949ac
+  field_form_style:
+    -
+      entity: 9920f7c1-9056-4601-990f-d9f2de53bac8
+  field_passed_title:
+    -
+      entity: 41e09b55-91ab-4588-be5f-c908021a33b9
+  field_prerequisite_quizes:
+    -
+      entity: fa9cdc4c-7d9b-4d17-86e8-ffb26a597571
+  field_question_count:
+    -
+      value: 9
+  field_questions:
+    -
+      entity: 68de0675-fd26-415a-809b-5818f8739c9c
+    -
+      entity: f138ab96-28dc-47c1-86c2-cb174d948ec5
+    -
+      entity: 25d1b826-673c-49c1-bcf5-029116fef90e
+    -
+      entity: 9a6f88b0-bac7-44b8-9528-4bc3bd5acbae
+    -
+      entity: 34463f39-bb94-4ca5-b0fa-7c7ee1a84cae
+    -
+      entity: 5adafc3e-7f22-44cd-a578-4a194bfb64ae
+    -
+      entity: cd265497-ec84-4928-9d86-09dff7228ea2
+    -
+      entity: 337fba64-0bbd-43d9-b632-f549539e46ff
+    -
+      entity: 12d30a8c-1576-4bdb-a4e9-ca73b34c6661
+  field_threshold:
+    -
+      value: '75.00'
+  field_time_limit:
+    -
+      value: 10

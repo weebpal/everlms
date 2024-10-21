@@ -1,0 +1,133 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 18bbf216-0e17-4131-9077-4ed9a3bb82ae
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    40c84ce0-fd53-4cfd-b3c5-95c0b7b4a5f7: commerce_product_variation
+    d10b48ac-fb53-406a-b22a-e0efc29c7b98: taxonomy_term
+    cdd824bf-ee2a-4e4c-9285-25da8b193c27: media
+    6583c4c8-b083-4e09-89ac-30d8f6d86f16: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    aae65926-b11f-451d-9eef-37ff3c29eaf1: lms_lesson
+    222767cd-9a98-4ee6-b758-acef957d104c: lms_lesson
+    8e3eb28e-7584-477d-8f10-ae221062a7a8: lms_lesson
+    84a56f5a-997c-4445-803f-f990b8f77bf5: lms_lesson
+    4fe024cf-521a-4294-97c2-ca2230c8e129: taxonomy_term
+    4a3f31dc-925c-4a78-91e4-66106b217e2f: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'Communicate effectively to achieve more in life'
+  variations:
+    -
+      entity: 40c84ce0-fd53-4cfd-b3c5-95c0b7b4a5f7
+  default_variation:
+    -
+      entity: 40c84ce0-fd53-4cfd-b3c5-95c0b7b4a5f7
+  path:
+    -
+      alias: /course/communicate-effectively-achieve-more-life
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1703042671
+  body:
+    -
+      value: '<p>Communication is the first way we get connected to the outside world, but where this communication starts and how? Sometimes it seems like there are some barriers in the middle of the interaction and even if we are speaking in the same language, it makes it hard and frustrating to understand one another, what happens to the message in the middle of the way? And how to build stronger, lighter and more effective communications and relationships? Interaction starts with the self, only after we get connected to our feelings and needs, we can truly get in touch with the outside world. In this course you will learn about the nature of interaction, and the barriers that can cause disconnections and misunderstandings. You will also learn how to get more connected to your feelings and needs and how to be in peace and harmony with yourself and the outside world.</p>'
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: d10b48ac-fb53-406a-b22a-e0efc29c7b98
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703044301
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: cdd824bf-ee2a-4e4c-9285-25da8b193c27
+  field_featured_course:
+    -
+      value: true
+  field_free:
+    -
+      value: false
+  field_image:
+    -
+      entity: 6583c4c8-b083-4e09-89ac-30d8f6d86f16
+      alt: 'Communicate effectively to achieve more in life'
+      title: ''
+      width: 1200
+      height: 680
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 3222
+  field_lessons:
+    -
+      entity: aae65926-b11f-451d-9eef-37ff3c29eaf1
+    -
+      entity: 222767cd-9a98-4ee6-b758-acef957d104c
+    -
+      entity: 8e3eb28e-7584-477d-8f10-ae221062a7a8
+    -
+      entity: 84a56f5a-997c-4445-803f-f990b8f77bf5
+  field_level:
+    -
+      entity: 4fe024cf-521a-4294-97c2-ca2230c8e129
+  field_quiz:
+    -
+      entity: 4a3f31dc-925c-4a78-91e4-66106b217e2f
+  field_quizzes:
+    -
+      entity: 4a3f31dc-925c-4a78-91e4-66106b217e2f
+  field_rating:
+    -
+      rating: 100
+      target: 0
+  field_requirements:
+    -
+      value: '<ul><li>Motivation to learn more about yourself and the world.</li><li>No other things is required for this course.</li></ul>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Tools, exercises and practical examples to communicate effectively</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 2
+  field_total_lessons:
+    -
+      value: 4
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>The nature of human interaction, with the outside and your inner world</li><li>Mastering communication</li><li>How the behavior functions and what are the main components of it.</li><li>Discovering your needs and feelings</li><li>Learning to live in harmony and creating peace with yourself</li><li>Be assertive</li></ul>'
+      format: full_html

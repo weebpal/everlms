@@ -1,0 +1,9 @@
+services:
+  lms_membership.membership_manager:
+    class: Drupal\lms_membership\MembershipManager
+    arguments: [ '@entity_type.manager', '@config.factory' ]
+  lms_membership.order_complete:
+    class: Drupal\lms_membership\EventSubscriber\OrderComplete
+    arguments: [ '@entity_type.manager', '@current_user', '@lms_membership.membership_manager' ]
+    tags:
+      - { name: event_subscriber }

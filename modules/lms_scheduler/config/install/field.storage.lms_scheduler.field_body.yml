@@ -1,0 +1,21 @@
+uuid: be279933-53d4-4c67-b106-59730aabfae1
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_scheduler
+    - text
+_core:
+  default_config_hash: _yvi01kyA57NXOZqS6Y-l74gbEW0PshjTwbTwa24xYo
+id: lms_scheduler.field_body
+field_name: field_body
+entity_type: lms_scheduler
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

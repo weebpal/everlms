@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5ee3df19-ffff-415b-908b-65e83b24c286
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 3J5jmEOXYCbTbAsPypv-F6MGpn5ewEEY1dSRoBjP8kw.jpg
+  uri:
+    -
+      value: 'public://oembed_thumbnails/2023-12/3J5jmEOXYCbTbAsPypv-F6MGpn5ewEEY1dSRoBjP8kw.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 17625
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703143146

@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: cee7738a-58d5-4354-b289-e07727c01d7f
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Feeds
+  created:
+    -
+      value: 1702957265
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

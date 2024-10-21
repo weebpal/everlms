@@ -1,0 +1,136 @@
+{#
+/**
+ * @file
+ * Default theme implementation of a facet result item.
+ *
+ * Available variables:
+ * - value: The item value.
+ * - raw_value: The raw item value.
+ * - show_count: If this facet provides count.
+ * - count: The amount of results.
+ * - is_active: The item is active.
+ * - facet: The facet for this result item.
+ *   - id: the machine name for the facet.
+ *   - label: The facet label.
+ *
+ * @ingroup themeable
+ */
+#}
+{% if is_active %}
+  <span class="facet-item__status js-facet-deactivate">(-)</span>
+{% endif %}
+<span class="facet-item__value">
+    {% if facet.id  == 'rating' %}
+      {% if value == 20 %}
+        <div class="fivestar-default">
+          <div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix">
+              <div class="star star-1 star-odd star-first on">
+                  <span class="on"></span>
+              </div>
+              <div class="star star-2 star-even">
+                  <span class="off"></span>
+              </div>
+              <div class="star star-3 star-odd">
+                  <span class="off"></span>
+              </div>
+              <div class="star star-4 star-even">
+                  <span class="off"></span>
+              </div>
+              <div class="star star-5 star-odd star-last">
+                  <span class="off"></span>
+              </div>
+          </div>
+      </div>
+        <div class="20-rating">{{ value }}</div>
+        {% elseif value == 40 %}
+        <div class="fivestar-default">
+          <div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix">
+              <div class="star star-1 star-odd star-first on">
+                  <span class="on"></span>
+              </div>
+              <div class="star star-2 star-even">
+                  <span class="on"></span>
+              </div>
+              <div class="star star-3 star-odd">
+                  <span class="off"></span>
+              </div>
+              <div class="star star-4 star-even">
+                  <span class="off"></span>
+              </div>
+              <div class="star star-5 star-odd star-last">
+                  <span class="off"></span>
+              </div>
+          </div>
+      </div>
+        <div class="40-rating">{{ value }}</div>
+        {% elseif value == 60 %}
+        <div class="fivestar-default">
+          <div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix">
+              <div class="star star-1 star-odd star-first on">
+                  <span class="on"></span>
+              </div>
+              <div class="star star-2 star-even">
+                  <span class="on"></span>
+              </div>
+              <div class="star star-3 star-odd">
+                  <span class="on"></span>
+              </div>
+              <div class="star star-4 star-even">
+                  <span class="off"></span>
+              </div>
+              <div class="star star-5 star-odd star-last">
+                  <span class="off"></span>
+              </div>
+          </div>
+      </div>
+        <div class="60-rating">{{ value }}</div>
+        {% elseif value == 80 %}
+        <div class="fivestar-default">
+          <div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix">
+              <div class="star star-1 star-odd star-first on">
+                  <span class="on"></span>
+              </div>
+              <div class="star star-2 star-even">
+                  <span class="on"></span>
+              </div>
+              <div class="star star-3 star-odd">
+                  <span class="on"></span>
+              </div>
+              <div class="star star-4 star-even">
+                  <span class="on"></span>
+              </div>
+              <div class="star star-5 star-odd star-last">
+                  <span class="off"></span>
+              </div>
+          </div>
+      </div>
+        <div class="80-rating">{{ value }}</div>
+        {% elseif value == 100 %}
+        <div class="fivestar-default">
+          <div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix">
+              <div class="star star-1 star-odd star-first on">
+                  <span class="on"></span>
+              </div>
+              <div class="star star-2 star-even">
+                  <span class="on"></span>
+              </div>
+              <div class="star star-3 star-odd">
+                  <span class="on"></span>
+              </div>
+              <div class="star star-4 star-even">
+                  <span class="on"></span>
+              </div>
+              <div class="star star-5 star-odd star-last">
+                  <span class="on"></span>
+              </div>
+          </div>
+      </div>
+        <div class="100-rating">{{ value }}</div>
+      {% endif %}
+    {% else %}
+      {{ value }}
+    {% endif %}
+</span>
+{% if show_count %}
+  <span class="facet-item__count">({{ count }})</span>
+{% endif %}

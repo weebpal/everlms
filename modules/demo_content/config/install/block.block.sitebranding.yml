@@ -1,0 +1,23 @@
+uuid: 7ad83cdc-3ef2-42e2-b0f4-4c190b7aab74
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - lms_theme
+id: sitebranding
+theme: lms_theme
+region: footer_first
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

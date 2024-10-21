@@ -1,0 +1,136 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 545a14ab-fbc8-4fe2-8a74-842ec95d7ff1
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    56f05225-bc3a-4676-9831-2c18874bcd25: commerce_product_variation
+    7ec8d4f0-2271-4012-ada5-5fd2deea26f1: taxonomy_term
+    ad23f74a-9cbc-43af-831c-da2dcba3e1ec: media
+    0ad78340-2270-401b-a0a3-eb2fb7e35a0a: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    b6991988-f84c-43bd-90f5-c05a5acf56cd: lms_lesson
+    a350b8c9-cfbc-42fd-80c8-ecb98fdb6e4e: lms_lesson
+    5d2301e9-4b5b-4169-b693-a5663f1ed992: lms_lesson
+    f3908b5a-e6c5-4370-9864-54eac930a840: lms_lesson
+    ca07cc5f-9a93-4109-ad7d-23b7c1f484be: lms_lesson
+    4fe024cf-521a-4294-97c2-ca2230c8e129: taxonomy_term
+    75a2ac7a-3ef5-47ee-afbd-bf36a130db8d: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'English Speaking Course for Beginners'
+  variations:
+    -
+      entity: 56f05225-bc3a-4676-9831-2c18874bcd25
+  default_variation:
+    -
+      entity: 56f05225-bc3a-4676-9831-2c18874bcd25
+  path:
+    -
+      alias: /course/english-speaking-course-beginners
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1702959205
+  body:
+    -
+      value: "<p>You will learn basic English conversation phrases in 6 different topic areas: Greetings, Personal Information, Family, School, Shopping and Travel. &nbsp;A great way to remember new phrases and improve your pronunciation is to listen and repeat after a native English speaker.</p><p>I have an MA in Teaching and over 15 years teaching English as a second language to students from around the world. &nbsp;I currently teach English to international students in California, USA. &nbsp;I'm so honored to be able to use technology to help students meet their language learning goals. &nbsp;I look forward to teaching you and getting to know you better!&nbsp;</p>"
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: 7ec8d4f0-2271-4012-ada5-5fd2deea26f1
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1702959298
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: ad23f74a-9cbc-43af-831c-da2dcba3e1ec
+  field_featured_course:
+    -
+      value: false
+  field_free:
+    -
+      value: true
+  field_image:
+    -
+      entity: 0ad78340-2270-401b-a0a3-eb2fb7e35a0a
+      alt: 'English Speaking Course for Beginners'
+      title: ''
+      width: 750
+      height: 422
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 66333
+  field_lessons:
+    -
+      entity: b6991988-f84c-43bd-90f5-c05a5acf56cd
+    -
+      entity: a350b8c9-cfbc-42fd-80c8-ecb98fdb6e4e
+    -
+      entity: 5d2301e9-4b5b-4169-b693-a5663f1ed992
+    -
+      entity: f3908b5a-e6c5-4370-9864-54eac930a840
+    -
+      entity: ca07cc5f-9a93-4109-ad7d-23b7c1f484be
+  field_level:
+    -
+      entity: 4fe024cf-521a-4294-97c2-ca2230c8e129
+  field_quiz:
+    -
+      entity: 75a2ac7a-3ef5-47ee-afbd-bf36a130db8d
+  field_quizzes:
+    -
+      entity: 75a2ac7a-3ef5-47ee-afbd-bf36a130db8d
+  field_rating:
+    -
+      rating: 80
+      target: 0
+  field_requirements:
+    -
+      value: '<p>Ready to listen and repeat English sentences!</p>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Learn Basic English Conversation Phrases through Listening and Repeating after an American Native English Speaker!</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 1
+  field_total_lessons:
+    -
+      value: 5
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>Basic Conversation phrases in English. Improve American English pronunciation.</li></ul>'
+      format: full_html

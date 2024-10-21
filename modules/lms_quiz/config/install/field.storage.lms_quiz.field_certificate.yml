@@ -1,0 +1,20 @@
+uuid: 619184ff-d506-4180-acca-36385b0484de
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_certificate
+    - lms_quiz
+id: lms_quiz.field_certificate
+field_name: field_certificate
+entity_type: lms_quiz
+type: entity_reference
+settings:
+  target_type: lms_certificate
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

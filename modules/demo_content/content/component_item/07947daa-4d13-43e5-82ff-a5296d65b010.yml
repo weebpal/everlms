@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 07947daa-4d13-43e5-82ff-a5296d65b010
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: What is IELTS?'
+  title:
+    -
+      value: 'What is IELTS?'
+  created:
+    -
+      value: 1703478079
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>IELTS stands for International English Language Testing System and is one of the most widely recognized English language proficiency exams for non-native English speakers.</p><p>It serves as a measure of language skills required for study or work, and designed to help you study or migrate to a country where English is the native language including countries such as the UK, US, Australia and Canada.<br>Your listening, reading, writing and speaking skills in English are assessed during the test. IELTS is graded on a scale of 1-9.<br>Major institutions all over the USA recognise that IELTS gives a true reflection of a student’s ability to understand English and communicate in it.</p>'
+      format: full_html
+      summary: ''

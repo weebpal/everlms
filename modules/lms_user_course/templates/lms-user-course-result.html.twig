@@ -1,0 +1,23 @@
+{#
+/**
+ * @file
+ *
+ * Default template for quiz form.
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="lms-user-course-result--wrapper">
+  <p>{{ 'You got @correct of @total quizzes.'|t({'@correct': data['correct'] , '@total': data['total']}) }}</p>
+  <p>{{ 'Your score: @score %'|t ({'@score': data['score'] }) }} </p>
+  <p>{{ 'Result: @result'|t({'@result': data['result']  }) }}</p>
+  {% if data['user_certificate'] %}
+    <h3 class="take-quiz-certificate-title">Certificate</h3>
+    <div class="take-quiz-certificate">
+      {{ data['twig_template'] | raw }}
+      <a class="certificate-download" href="{{ data['url'] }}">Download</a>
+    </div>
+  {% endif %}
+
+</div>
+

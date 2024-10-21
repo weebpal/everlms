@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 49caf703-7544-4dd2-81d0-a463756fdd9d
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: ' "While" and "after" are keywords for this tense.'
+  created:
+    -
+      value: 1702954197
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

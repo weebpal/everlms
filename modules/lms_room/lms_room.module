@@ -1,0 +1,48 @@
+<?php
+
+/**
+ * @file
+ * Defines the LMSRoom entity and associated features.
+ */
+
+use Drupal\Core\Url;
+use Drupal\Core\Render\Element;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+
+/**
+ * Implements hook_theme().
+ */
+function lms_room_theme() {
+  return [
+    'lms_room' => [
+      'render element' => 'elements',
+    ],
+    'lms_room_form' => [
+      'render element' => 'form',
+    ],
+  ];
+}
+
+/**
+ * Prepares variables for lms_room templates.
+ *
+ * Default template: lms-room.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An associative array containing rendered fields.
+ *   - attributes: HTML attributes for the containing element.
+ */
+function template_preprocess_lms_room(array &$variables) {
+  /** @var Drupal\lms_room\Entity\LMSRoomInterface $lms_room */
+  $lms_room = $variables['elements']['#lms_room'];
+
+  $variables['lms_room_entity'] = $lms_room;
+  $variables['lms_room_url'] = $lms_room->isNew() ? '' : $lms_room->toUrl();
+  $variables['lms_room'] = [];
+  foreach (Element::children($variables['elements']) as $key) {
+    $variables['lms_room'][$key] = $variables['elements'][$key];
+  }
+}

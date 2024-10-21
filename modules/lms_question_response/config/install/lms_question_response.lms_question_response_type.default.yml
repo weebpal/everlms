@@ -1,0 +1,11 @@
+uuid: d5ae1140-6473-4de5-9b4e-5fa9551f8ee7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: HBe2B0oFe5WgL8aa0qEXKlePx4_AKmajZvG2qjVaveM
+id: default
+label: 'Question Response'
+description: ''
+traits: null
+locked: null

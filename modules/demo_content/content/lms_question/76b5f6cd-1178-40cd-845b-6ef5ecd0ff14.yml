@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 76b5f6cd-1178-40cd-845b-6ef5ecd0ff14
+  bundle: default
+  default_langcode: en
+  depends:
+    e2447a8c-0126-4f14-9a4d-0a3c3ace6f06: lms_answer
+    cff7d6db-e899-4cac-850e-83c6ddde06ab: lms_answer
+    cc0392fa-4fab-4847-9cf6-ba7c9a663d3a: lms_answer
+    26ed7bba-2a85-4154-ac84-d282ae8aa4a6: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: "What verb tense is used in the following sentence? My mom hasn't called me today."
+  created:
+    -
+      value: 1702954426
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: e2447a8c-0126-4f14-9a4d-0a3c3ace6f06
+    -
+      entity: cff7d6db-e899-4cac-850e-83c6ddde06ab
+    -
+      entity: cc0392fa-4fab-4847-9cf6-ba7c9a663d3a
+    -
+      entity: 26ed7bba-2a85-4154-ac84-d282ae8aa4a6
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

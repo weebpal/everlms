@@ -1,0 +1,25 @@
+lms_scheduler.root:
+  title: 'Scheduler'
+  description: 'Manage your quiz.'
+  parent: 'lms_base.admin'
+  route_name: 'lms_scheduler.root'
+  weight: -110
+
+entity.lms_scheduler.collection:
+  title: 'Scheduler items'
+  route_name: 'entity.lms_scheduler.collection'
+  parent: 'lms_scheduler.root'
+  description: 'Manage your lms scheduler items.'
+  weight: 50
+
+entity.lms_scheduler_type.collection:
+  title: 'Scheduler types'
+  route_name: 'entity.lms_scheduler_type.collection'
+  parent: 'lms_scheduler.root'
+  description: 'Manage fields, form and display settings for your lms scheduler types.'
+  weight: 50
+
+lms_scheduler.grouped_entity_links:
+  class: Drupal\lms_scheduler\Plugin\Menu\GroupedEntityLinks
+  deriver: Drupal\lms_scheduler\Plugin\Derivative\GroupedEntityLinksDeriver
+  menu_name: lms_scheduler

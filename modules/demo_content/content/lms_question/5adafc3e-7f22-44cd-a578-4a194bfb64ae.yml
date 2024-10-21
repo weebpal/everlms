@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 5adafc3e-7f22-44cd-a578-4a194bfb64ae
+  bundle: default
+  default_langcode: en
+  depends:
+    121f9d2b-cf17-44f5-855d-2aca8cb4c2d3: lms_answer
+    3fe6250c-1d98-43b7-987d-a02ada287cc5: lms_answer
+    5d1a99b2-1d10-46a9-99a7-7b6dc950cfe2: lms_answer
+    d155e1cb-6817-439a-b023-391b9e0672c3: lms_answer
+    6c494948-50ba-411d-946f-76c6d6cdeace: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'A good Demonstration in Teaching includes'
+  created:
+    -
+      value: 1702953364
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 121f9d2b-cf17-44f5-855d-2aca8cb4c2d3
+    -
+      entity: 3fe6250c-1d98-43b7-987d-a02ada287cc5
+    -
+      entity: 5d1a99b2-1d10-46a9-99a7-7b6dc950cfe2
+    -
+      entity: d155e1cb-6817-439a-b023-391b9e0672c3
+    -
+      entity: 6c494948-50ba-411d-946f-76c6d6cdeace
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

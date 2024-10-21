@@ -1,0 +1,67 @@
+lms_quiz.root:
+  path: '/admin/lms/lms-quiz'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Quiz'
+  requirements:
+    _permission: 'administer lms_quiz'
+
+lms_quiz.redirect_take_quiz_callback:
+  path: '/lms/take-quiz/redirect-callback'
+  defaults:
+    _controller: '\Drupal\lms_quiz\Controller\LMSQuizController::redirectTakeQuizCallback'
+  requirements:
+    _access: 'TRUE'
+  options:
+    no_cache: TRUE
+
+lms_quiz.take_quiz:
+  path: '/take-quiz/{lms_quiz}'
+  defaults:
+    _form: '\Drupal\lms_quiz\Form\TakeQuizForm'
+    _title_callback: '\Drupal\lms_quiz\Form\TakeQuizForm::titleCallback'
+  requirements:
+    _custom_access: '\Drupal\lms_quiz\Form\TakeQuizForm::access'
+  options:
+    parameters:
+      lms_quiz:
+        type: 'entity:lms_quiz'
+
+#lms_quiz.step_take_quiz:
+#  path: '/take-quiz/{lms_quiz_id}/question/{question_order}'
+#  defaults:
+#    _form: '\Drupal\lms_quiz\Form\TakeQuizForm'
+#    _title: 'Step Quiz'
+#  requirements:
+#    _custom_access: '\Drupal\lms_quiz\Form\TakeQuizForm::accessTakeQuiz'
+#  options:
+#    parameters:
+#      lms_quiz_id:
+#        type: string
+#      question_order:
+#        type: string
+
+lms_quiz.result_quiz:
+  path: '/take-quiz/result/{lms_quiz_result}'
+  defaults:
+    _controller: '\Drupal\lms_quiz\Controller\LMSQuizResultController::resultPage'
+    _title: 'Result Page'
+  requirements:
+    _permission: 'access take quiz'
+  options:
+    no_cache: TRUE
+    parameters:
+      lms_quiz_result:
+        type: 'entity:lms_quiz_result'
+
+lms_quiz.download_certificate:
+  path: '/take-quiz/result/{lms_quiz_result}/download'
+  defaults:
+    _controller: '\Drupal\lms_quiz\Controller\LMSCertificateController::createCertificatePDF'
+    _title: 'Download Certificate'
+  requirements:
+    _permission: 'access take quiz'
+  options:
+    parameters:
+      lms_quiz_result:
+        type: 'entity:lms_quiz_result'

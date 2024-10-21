@@ -1,0 +1,21 @@
+uuid: 3b743ec4-5af4-4c23-95d9-da22f383e3bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_certificate.field_twig_template
+    - lms_certificate.lms_certificate_type.default
+id: lms_certificate.default.field_twig_template
+field_name: field_twig_template
+entity_type: lms_certificate
+bundle: default
+label: 'Twig Template'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: "<html>\r\n<head>\r\n <styles>\r\n\r\n</styles>\r\n</head>\r\n<body>\r\n<div class=\"certificate\">\r\n<div class=\"border-pattern\">\r\n<div class=\"content\">\r\n<div class=\"inner-content\">\r\n<h1 class=\"title\">Certificate</h1>\r\n<h2 class=\"certificate-type\">of Excellence</h2>\r\n<h3 class=\"\">This Certificate Is Proudly Presented To</h3>\r\n<p>[name]</p>\r\n<h3 class=\"certificate-course\">Has Completed</h3>\r\n<p>[course]</p>\r\n<h3 class=\"certificate-score\">Score</h3>\r\n<p>[score]</p>\r\n<h3 class=\"certificate-date\">On</h3>\r\n<p>[date]</p>\r\n<div class=\"badge\">\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</body>\r\n</html>"
+default_value_callback: ''
+settings: {  }
+field_type: string_long

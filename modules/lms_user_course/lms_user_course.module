@@ -1,0 +1,127 @@
+<?php
+
+/**
+ * @file
+ * Defines the LMSUserCourse entity and associated features.
+ */
+
+use Drupal\Core\Url;
+use Drupal\Core\Render\Element;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+
+/**
+ * Implements hook_theme().
+ */
+function lms_user_course_theme() {
+  return [
+    'lms_user_course' => [
+      'render element' => 'elements',
+    ],
+    'lms_user_course_form' => [
+      'render element' => 'form',
+    ],
+    'lms_user_course_result' => [
+      'variables' => [
+        'data' => [],
+      ],
+    ],
+  ];
+}
+
+/**
+ * Prepares variables for lms_user_course templates.
+ *
+ * Default template: lms-user-course.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An associative array containing rendered fields.
+ *   - attributes: HTML attributes for the containing element.
+ */
+function template_preprocess_lms_user_course(array &$variables) {
+  /** @var Drupal\lms_user_course\Entity\LMSUserCourseInterface $lms_user_course */
+  $lms_user_course = $variables['elements']['#lms_user_course'];
+
+  $variables['lms_user_course_entity'] = $lms_user_course;
+  $variables['lms_user_course_url'] = $lms_user_course->isNew() ? '' : $lms_user_course->toUrl();
+  $variables['lms_user_course'] = [];
+  foreach (Element::children($variables['elements']) as $key) {
+    $variables['lms_user_course'][$key] = $variables['elements'][$key];
+  }
+}
+
+/**
+ * Implements hook_entity_extra_field_info().
+ */
+function lms_user_course_entity_extra_field_info() {
+  $extra = [];
+
+  $extra['commerce_product']['course']['display']['user_course_start_btn'] = [
+    'label' => t('User course start button'),
+    'description' => t('Provide button to create user course'),
+    'weight' => 100,
+    'visible' => FALSE,
+  ];
+
+  return $extra;
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_view().
+ */
+function lms_user_course_commerce_product_view(array &$build, EntityInterface $entity, EntityViewDisplayInterface $display, $view_mode) {
+  $bundle = $entity->bundle();
+  if ($bundle !== 'membership') {
+    $product_id = $entity->id();
+    $current_user = \Drupal::currentUser();
+    $user_id = $current_user->id();
+    $permissionManager = \Drupal::service('lms_base.permission_manager');
+    $userCourseManager = \Drupal::service('lms_user_course.manager');
+    $has_permission = $permissionManager->checkCoursePermission($user_id, $product_id);
+    $user_course = $userCourseManager->getUserCourseExist($product_id, $user_id);
+    if ($has_permission && !$user_course && $display->getComponent('user_course_start_btn')) {
+      if ($current_user->isAnonymous()) {
+        $language = \Drupal::languageManager()->getCurrentLanguage();
+        $url = Url::fromRoute('user.login', [], ['language' => $language]);
+        $build['user_course_start_btn'] = [
+          '#type' => 'container',
+          '#attributes' => [
+            'class' => ['user-course-start--wrapper'],
+          ],
+          'btn_link' => [
+            '#type' => 'link',
+            '#title' => t('Login'),
+            '#url' => $url,
+            '#attributes' => [
+              'class' => ['btn', 'btn-start-course'],
+            ],
+          ]
+        ];
+      } else {
+        $current_uri = \Drupal::request()->getRequestUri();
+        $url = Url::fromRoute('lms_user_course.start_callback', ['commerce_product' => $product_id, 'user' => $user_id], ['query' => ['destination' => $current_uri]]);
+        $build['user_course_start_btn'] = [
+          '#type' => 'container',
+          '#attributes' => [
+            'class' => ['user-course-start--wrapper'],
+          ],
+          'btn_link' => [
+            '#type' => 'link',
+            '#title' => t('Start Course'),
+            '#url' => $url,
+            '#attributes' => [
+              'class' => ['btn', 'btn-start-course'],
+            ],
+          ]
+        ];
+      }
+    } else {
+      $build['user_course_start_btn'] = [
+        '#type' => 'markup',
+        '#markup' => NULL,
+      ];
+    }
+  }
+}

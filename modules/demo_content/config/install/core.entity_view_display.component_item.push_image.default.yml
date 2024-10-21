@@ -1,0 +1,66 @@
+uuid: 11c00264-b3ad-4923-8728-e2b315c32d7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - component_builder.component_item_type.push_image
+    - field.field.component_item.push_image.field_pi_body
+    - field.field.component_item.push_image.field_pi_image
+    - field.field.component_item.push_image.field_pi_link
+    - image.style.we_528_352
+  module:
+    - image
+    - link
+    - text
+id: component_item.push_image.default
+targetEntityType: component_item
+bundle: push_image
+mode: default
+content:
+  field_pi_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_pi_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: we_528_352
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_pi_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  admin_title: true
+  created: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true
+  search_api_excerpt: true
+  uid: true

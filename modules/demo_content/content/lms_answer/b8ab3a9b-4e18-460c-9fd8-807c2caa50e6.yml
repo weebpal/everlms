@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: b8ab3a9b-4e18-460c-9fd8-807c2caa50e6
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Qualified Teacher Lecturing Skills'
+  created:
+    -
+      value: 1702951353
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

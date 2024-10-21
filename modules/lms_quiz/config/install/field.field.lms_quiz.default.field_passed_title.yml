@@ -1,0 +1,33 @@
+uuid: d51b69b6-226c-4425-a9d3-9853f18dae08
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_quiz.field_passed_title
+    - lms_quiz.lms_quiz_type.default
+    - taxonomy.vocabulary.quiz_results
+  content:
+    - 'taxonomy_term:quiz_results:41e09b55-91ab-4588-be5f-c908021a33b9'
+id: lms_quiz.default.field_passed_title
+field_name: field_passed_title
+entity_type: lms_quiz
+bundle: default
+label: 'Passed title'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 41e09b55-91ab-4588-be5f-c908021a33b9
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      quiz_results: quiz_results
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,25 @@
+uuid: b8ca36bb-4774-4e2b-ad2e-121d72d1c0d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_certificate.field_body
+    - lms_certificate.lms_certificate_type.default
+  module:
+    - text
+_core:
+  default_config_hash: B5CX_49gfsUYrvBIqH9Q7fLTXmSJZ6wW2shg2_bD8zY
+id: lms_certificate.default.field_body
+field_name: field_body
+entity_type: lms_certificate
+bundle: default
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

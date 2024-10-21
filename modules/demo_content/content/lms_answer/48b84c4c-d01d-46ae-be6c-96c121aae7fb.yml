@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 48b84c4c-d01d-46ae-be6c-96c121aae7fb
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Repetition of the same letter of sound at the beginning of words in a word group.'
+  created:
+    -
+      value: 1702955528
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

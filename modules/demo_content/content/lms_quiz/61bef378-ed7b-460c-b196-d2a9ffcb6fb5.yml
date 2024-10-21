@@ -1,0 +1,85 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_quiz
+  uuid: 61bef378-ed7b-460c-b196-d2a9ffcb6fb5
+  bundle: default
+  default_langcode: en
+  depends:
+    6d745e71-e2dc-4d43-8dea-f7a8a897e776: lms_certificate
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+    cda05dbe-121d-4348-83e8-6d49ba1949ac: taxonomy_term
+    9920f7c1-9056-4601-990f-d9f2de53bac8: taxonomy_term
+    41e09b55-91ab-4588-be5f-c908021a33b9: taxonomy_term
+    b2c4ed9d-2d9d-4181-991a-152334c7b88e: lms_question
+    db7a457e-e93b-42df-b54b-7edfcb659b19: lms_question
+    c3cb82c1-756c-4607-a726-e9d0b13e3dad: lms_question
+    76b5f6cd-1178-40cd-845b-6ef5ecd0ff14: lms_question
+    d9231b92-7865-4c4e-b552-c3a533b361ca: lms_question
+    5070597a-444c-462b-a1c3-6370ea6cddaa: lms_question
+    21d381ab-b45a-4fdf-bb22-75377a16f894: lms_question
+    9e48da28-71d0-4c71-9f49-a6570cf3b747: lms_question
+    b2e5ba44-b283-4cb0-8e77-cdf644ae5f41: lms_question
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Quiz On Teaching Grammar'
+  created:
+    -
+      value: 1702954104
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>This quiz covers the videos and reading material in the Teaching Grammar lesson.</p>'
+      format: full_html
+      summary: ''
+  field_certificate:
+    -
+      entity: 6d745e71-e2dc-4d43-8dea-f7a8a897e776
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_display_right_answer:
+    -
+      value: false
+  field_failed_title:
+    -
+      entity: cda05dbe-121d-4348-83e8-6d49ba1949ac
+  field_form_style:
+    -
+      entity: 9920f7c1-9056-4601-990f-d9f2de53bac8
+  field_passed_title:
+    -
+      entity: 41e09b55-91ab-4588-be5f-c908021a33b9
+  field_question_count:
+    -
+      value: 9
+  field_questions:
+    -
+      entity: b2c4ed9d-2d9d-4181-991a-152334c7b88e
+    -
+      entity: db7a457e-e93b-42df-b54b-7edfcb659b19
+    -
+      entity: c3cb82c1-756c-4607-a726-e9d0b13e3dad
+    -
+      entity: 76b5f6cd-1178-40cd-845b-6ef5ecd0ff14
+    -
+      entity: d9231b92-7865-4c4e-b552-c3a533b361ca
+    -
+      entity: 5070597a-444c-462b-a1c3-6370ea6cddaa
+    -
+      entity: 21d381ab-b45a-4fdf-bb22-75377a16f894
+    -
+      entity: 9e48da28-71d0-4c71-9f49-a6570cf3b747
+    -
+      entity: b2e5ba44-b283-4cb0-8e77-cdf644ae5f41
+  field_threshold:
+    -
+      value: '70.00'
+  field_time_limit:
+    -
+      value: 15

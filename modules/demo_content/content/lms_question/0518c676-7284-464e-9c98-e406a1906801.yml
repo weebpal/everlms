@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: 0518c676-7284-464e-9c98-e406a1906801
+  bundle: default
+  default_langcode: en
+  depends:
+    6109df3b-7b3e-473e-99e4-ad5b22e2a88b: lms_answer
+    c35ccceb-c413-4b52-9464-9e78020e9ca7: lms_answer
+    5453079f-ea03-4e42-a718-aea9eabc0323: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'In England how many children in ten do not own a book'
+  created:
+    -
+      value: 1702951296
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 6109df3b-7b3e-473e-99e4-ad5b22e2a88b
+    -
+      entity: c35ccceb-c413-4b52-9464-9e78020e9ca7
+    -
+      entity: 5453079f-ea03-4e42-a718-aea9eabc0323
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

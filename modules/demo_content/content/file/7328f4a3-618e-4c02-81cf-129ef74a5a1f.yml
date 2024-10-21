@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7328f4a3-618e-4c02-81cf-129ef74a5a1f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: iStock-983901710-min-1-ps3avvkcdj2252dlwwpou4ki7ftd9x286xzspay808.jpg
+  uri:
+    -
+      value: 'public://2023-12/iStock-983901710-min-1-ps3avvkcdj2252dlwwpou4ki7ftd9x286xzspay808_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 73069
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702957781

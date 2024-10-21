@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 0a295575-812b-44db-9edf-cc37b90be585
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Distribute to the audience written hand out materials'
+  created:
+    -
+      value: 1702953444
+  status:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>The correct answer is "distribute to the audience written hand out materials". This is because providing written hand out materials at the end of a demonstration allows the audience to have a physical reference to take away with them. It helps reinforce the information presented during the demonstration and allows the audience to review the content at their own pace. Additionally, it can serve as a reminder of the key points discussed and can be a helpful resource for future reference.</p>'
+      format: full_html
+      summary: ''
+  field_correct:
+    -
+      value: true

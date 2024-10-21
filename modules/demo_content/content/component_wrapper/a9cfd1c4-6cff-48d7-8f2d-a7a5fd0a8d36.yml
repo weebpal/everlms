@@ -1,0 +1,54 @@
+_meta:
+  version: '1.0'
+  entity_type: component_wrapper
+  uuid: a9cfd1c4-6cff-48d7-8f2d-a7a5fd0a8d36
+  default_langcode: en
+  depends:
+    7d67e02d-eb5d-418e-b1ff-021d7bf7ddc2: taxonomy_term
+    f60e30f0-010b-4dc8-ab90-11efabdd8bd1: component_item
+    ee7602f6-da26-46b3-bda1-e8b9d6de5693: component_item
+    94ed6d52-a11a-4391-b152-5c9ff7587a68: component_item
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  title:
+    -
+      value: 'Follow these tips and  improve your English-speaking skills online'
+  component_type:
+    -
+      entity: 7d67e02d-eb5d-418e-b1ff-021d7bf7ddc2
+  display_title:
+    -
+      value: true
+  display_header:
+    -
+      value: false
+  display_footer:
+    -
+      value: false
+  display_image:
+    -
+      value: false
+  display_in_region:
+    -
+      value: false
+  field_region:
+    -
+      value: headline
+  created:
+    -
+      value: 1703472815
+  revision_translation_affected:
+    -
+      value: true
+  field_basic_component:
+    -
+      entity: f60e30f0-010b-4dc8-ab90-11efabdd8bd1
+    -
+      entity: ee7602f6-da26-46b3-bda1-e8b9d6de5693
+    -
+      entity: 94ed6d52-a11a-4391-b152-5c9ff7587a68

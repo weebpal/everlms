@@ -1,0 +1,43 @@
+uuid: 05ce7636-82bb-4ec9-8925-50d4ff5011d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.lesson_default
+    - field.field.comment.lesson_default.comment_body
+  module:
+    - text
+id: comment.lesson_default.default
+targetEntityType: comment
+bundle: lesson_default
+mode: default
+content:
+  author:
+    weight: -2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  comment_body:
+    type: text_textarea
+    weight: 11
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: 10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

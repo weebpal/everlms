@@ -1,0 +1,54 @@
+_meta:
+  version: '1.0'
+  entity_type: component_wrapper
+  uuid: 7174fb06-52cd-4ee9-b4ee-7f648b69fe64
+  default_langcode: en
+  depends:
+    2008392b-183b-41fb-819a-3bee9e14e4b7: taxonomy_term
+    c4532397-0234-44cd-a320-2c6721d09512: component_item
+    7ec74243-7cf1-43b2-a1cd-a8dd4b83a0af: component_item
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  title:
+    -
+      value: 'Expand Your Vocabulary'
+  component_type:
+    -
+      entity: 2008392b-183b-41fb-819a-3bee9e14e4b7
+  display_title:
+    -
+      value: false
+  display_header:
+    -
+      value: false
+  display_footer:
+    -
+      value: false
+  display_image:
+    -
+      value: false
+  display_in_region:
+    -
+      value: false
+  field_region:
+    -
+      value: headline
+  field_properties:
+    -
+      value: '{"properties":{"styles":{"image-position":"left","background-color":"_none"}}}'
+  created:
+    -
+      value: 1703472916
+  revision_translation_affected:
+    -
+      value: true
+  field_push_image:
+    -
+      entity: c4532397-0234-44cd-a320-2c6721d09512
+    -
+      entity: 7ec74243-7cf1-43b2-a1cd-a8dd4b83a0af

@@ -1,0 +1,23 @@
+uuid: e1be5879-6e05-487c-b67a-f5d08cb46b1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - component_builder.component_item_type.basic_component
+    - field.storage.component_item.field_body
+  module:
+    - text
+id: component_item.basic_component.field_body
+field_name: field_body
+entity_type: component_item
+bundle: basic_component
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: df4fc8b5-80ce-487b-ad0b-34e8df106305
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: public-speaking-tips-header-1200.png
+  uri:
+    -
+      value: 'public://2023-12/public-speaking-tips-header-1200.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 32097
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702950244

@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: b2e5ba44-b283-4cb0-8e77-cdf644ae5f41
+  bundle: default
+  default_langcode: en
+  depends:
+    3af47362-1f1c-4acd-9f7a-fabf42b4838e: lms_answer
+    d2e6269c-fa85-40a0-9437-650dd4f1168d: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Simple past tense and present perfect tense are rarely used in English.'
+  created:
+    -
+      value: 1702954650
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 3af47362-1f1c-4acd-9f7a-fabf42b4838e
+    -
+      entity: d2e6269c-fa85-40a0-9437-650dd4f1168d
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

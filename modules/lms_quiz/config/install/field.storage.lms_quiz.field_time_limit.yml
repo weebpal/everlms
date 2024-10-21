@@ -1,0 +1,20 @@
+uuid: 6bd4a200-7be1-4710-8041-49d484ff9b87
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_quiz
+id: lms_quiz.field_time_limit
+field_name: field_time_limit
+entity_type: lms_quiz
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: a8a01f8e-2cc4-4f25-b227-7fa6fe30878b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_quiz.field_time_limit
+    - lms_quiz.lms_quiz_type.default
+id: lms_quiz.default.field_time_limit
+field_name: field_time_limit
+entity_type: lms_quiz
+bundle: default
+label: 'Time limit (minutes)'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

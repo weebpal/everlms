@@ -1,0 +1,25 @@
+uuid: 67f89ad3-5dd1-4448-90a1-73749bb4064e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_quiz.field_threshold
+    - lms_quiz.lms_quiz_type.default
+id: lms_quiz.default.field_threshold
+field_name: field_threshold
+entity_type: lms_quiz
+bundle: default
+label: 'Threshold (%)'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 70.0
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

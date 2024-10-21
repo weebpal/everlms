@@ -1,0 +1,21 @@
+uuid: 0ec71449-eddf-488e-9a80-d426d729d655
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.course
+    - field.storage.commerce_product.field_requirements
+  module:
+    - text
+id: commerce_product.course.field_requirements
+field_name: field_requirements
+entity_type: commerce_product
+bundle: course
+label: Requirements
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

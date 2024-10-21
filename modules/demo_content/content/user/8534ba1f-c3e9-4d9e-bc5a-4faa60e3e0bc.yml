@@ -1,0 +1,49 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 8534ba1f-c3e9-4d9e-bc5a-4faa60e3e0bc
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: hainn
+  pass:
+    -
+      value: $2y$10$jG47WBcd9df00dO6tjAopeE69idBUiP8q5RY2U4KZ./1NF2physTe
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: hainn.we@gmail.com
+  timezone:
+    -
+      value: UTC
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1707988847
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  init:
+    -
+      value: hainn.we@gmail.com
+  roles:
+    -
+      target_id: host_zoom_class
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

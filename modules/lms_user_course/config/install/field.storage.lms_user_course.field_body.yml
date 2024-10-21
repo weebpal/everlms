@@ -1,0 +1,21 @@
+uuid: 4c2d3b7a-49e4-4d45-8094-67eee790ccf0
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_user_course
+    - text
+_core:
+  default_config_hash: nDJBDS9D5SZ_TNlPCXl-o2RviuAa8Ou_9iVCz3Y51Jw
+id: lms_user_course.field_body
+field_name: field_body
+entity_type: lms_user_course
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: cc71af7b-6c03-4f35-838f-91211d3d4465
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: How Do Movies Help You Improve Your English?'
+  title:
+    -
+      value: 'How Do Movies Help You Improve Your English?'
+  created:
+    -
+      value: 1702916962
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>Quite simply a movie in English is 1.5-2 hours of solid English speaking and if you are trying to learn English this is a great way to hear new words, understand new ways of saying things and also improve your spoken English because you get to hear how people say words you may have learned in a lesson. While full online English courses are the best way to learn English watching movies will help further improve and broaden your knowledge. It is like being in a room with people speaking English without having to find a group of people to be in a room with.</p>'
+      format: full_html
+      summary: ''

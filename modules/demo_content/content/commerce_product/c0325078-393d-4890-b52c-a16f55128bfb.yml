@@ -1,0 +1,127 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: c0325078-393d-4890-b52c-a16f55128bfb
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    3513f603-eec4-41e4-8ec2-223fcc4bdfdd: commerce_product_variation
+    5cf94678-ce71-4db4-825b-06a3d186a250: taxonomy_term
+    52286a5d-d905-44d8-858f-5c36605e90ab: media
+    aaecf4fa-a794-457b-af7a-2558766e5a3c: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    63a81a21-df10-4a72-b572-c9abccf2aa71: lms_lesson
+    0e899d78-395c-46a2-96a0-dfa32625a8a1: lms_lesson
+    e74a7793-5a42-44dd-8cf1-d3d74b3d992f: taxonomy_term
+    61bef378-ed7b-460c-b196-d2a9ffcb6fb5: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'English Through Story - English Language Course- Grammar'
+  variations:
+    -
+      entity: 3513f603-eec4-41e4-8ec2-223fcc4bdfdd
+  default_variation:
+    -
+      entity: 3513f603-eec4-41e4-8ec2-223fcc4bdfdd
+  path:
+    -
+      alias: /course/english-through-story-english-language-course-grammar
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1703128289
+  body:
+    -
+      value: "<p>Are you interested in improving your English language skills? Do you want to improve your English Grammar? Do you want to improve your spoken English? Do you want to be able to read stories in English, watch movies in English, or listen to music in English? If so, you might find my Three Way English program helpful. I've taken a story-based approach to learning English that has been around for awhile and adapted it to an online learning environment.</p><p>In this course, I take you through a short, easy-to-understand story three different ways. First, I present the story at a very basic English level so that even beginners can understand. Then I present the story twice more with increasing difficulty. The third time through, you will be able to understand the story presented in native-level English.</p><p>After introducing you to the story, I have several lessons that use the story to expand your understanding of English. You will learn English vocabulary words, English grammar structures, and common English expressions. In my experience, students who learn English in context like this find the information easier to remember and use. At the end of the course, I have a lesson on some cultural insights that you can gain from the story.</p><p>All the lessons are presented in English spoken slowly and carefully by a native speaker. Check out the Introduction video for a sample.</p>"
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: true
+  field_category:
+    -
+      entity: 5cf94678-ce71-4db4-825b-06a3d186a250
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703128401
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: 52286a5d-d905-44d8-858f-5c36605e90ab
+  field_featured_course:
+    -
+      value: false
+  field_free:
+    -
+      value: false
+  field_image:
+    -
+      entity: aaecf4fa-a794-457b-af7a-2558766e5a3c
+      alt: 'English Through Story - English Language Course- Grammar'
+      title: ''
+      width: 2048
+      height: 1174
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 25
+  field_lessons:
+    -
+      entity: 63a81a21-df10-4a72-b572-c9abccf2aa71
+    -
+      entity: 0e899d78-395c-46a2-96a0-dfa32625a8a1
+  field_level:
+    -
+      entity: e74a7793-5a42-44dd-8cf1-d3d74b3d992f
+  field_quiz:
+    -
+      entity: 61bef378-ed7b-460c-b196-d2a9ffcb6fb5
+  field_quizzes:
+    -
+      entity: 61bef378-ed7b-460c-b196-d2a9ffcb6fb5
+  field_rating:
+    -
+      rating: 80
+      target: 0
+  field_requirements:
+    -
+      value: '<p>Have at least a beginner-level knowledge of English</p>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Learn English language vocabulary, English Grammar, English Expressions, and Culture Using Stories</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 1
+  field_total_lessons:
+    -
+      value: 2
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>You can improve your English Speaking skills.</li><li>You can practice your English Listening skills.</li><li>You can learn English Grammar.</li><li>You can learn English Vocabulary.</li></ul>'
+      format: full_html

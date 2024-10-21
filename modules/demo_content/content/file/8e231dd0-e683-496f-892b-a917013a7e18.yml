@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8e231dd0-e683-496f-892b-a917013a7e18
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: primaryinvitation_755x9999.jpg
+  uri:
+    -
+      value: 'public://2023-12/primaryinvitation_755x9999.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 46699
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702914846

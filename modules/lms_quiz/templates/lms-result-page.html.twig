@@ -1,0 +1,65 @@
+{#
+/**
+ * @file
+ *
+ * Default template for quiz form.
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="take-quiz-result">
+  <p>{{ 'You got @correct of @total question.'|t({'@correct': quiz_result['correct'] , '@total': quiz_result['total']}) }}</p>
+  <p>{{ 'Your score: @score %'|t ({'@score': quiz_result['score'] }) }} </p>
+  <p>{{ 'Result: @result'|t({'@result': quiz_result['result']  }) }}</p>
+  {% if quiz_result['display_right_answer'] == true  %}
+    <h3>{{ quiz_result['quiz'].name.value }}</h3>
+  <div class="quiz-result-table">
+    {% for id, table in quiz_result['tables'] %}
+      <table class="{{ 'quiz-result-' ~ id }}">
+        <thead>
+        <tr class="{{ 'quiz-result-headers' }}">
+          {% for header in quiz_result['table_header'] %}
+            {% if header.count is not empty %}
+              {% set header_title_count = header.title ~ ' ' ~ ( id + 1 ) %}
+              <th class="{{ header.class }}">{{ header_title_count }}</th>
+            {% else %}
+              <th class="{{ header.class }}">{{ header.title }}</th>
+            {% endif %}
+          {% endfor %}
+        </tr>
+        </thead>
+        <tbody>
+        {% for row_id, row in table %}
+          <tr class="{{ 'quiz-result-choice-' ~ row_id }}">
+            {% for data_id, data in row %}
+              {% if data.rowspan %}
+                <td class="{{ 'quiz-result-data-' ~ data_id }}" rowspan="{{ data.rowspan }}">
+                  {{ data.data }}
+                </td>
+              {% else %}
+                <td class="{{ 'quiz-result-data-' ~ data_id }}">
+                  {% if data == 'selected' %}
+                    &#10004;
+                  {% else %}
+                    <p>{{ data }}</p>
+                  {% endif %}
+                </td>
+              {% endif %}
+            {% endfor %}
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% if quiz_result['user_certificate'] %}
+    <h3 class="take-quiz-certificate-title">Certificate</h3>
+    <div class="take-quiz-certificate">
+      {{ quiz_result['twig_template'] | raw }}
+      <a class="certificate-download" href="{{ quiz_result['url'] }}">Download</a>
+    </div>
+  {% endif %}
+
+</div>
+

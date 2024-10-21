@@ -1,0 +1,8 @@
+uuid: 0275d673-5b83-4a07-b67e-e429bee6849c
+langcode: en
+status: true
+dependencies: {  }
+name: 'Days of the Week'
+vid: days_of_the_week
+description: 'Days of the Week (Monday, ..., Sunday)'
+weight: 0

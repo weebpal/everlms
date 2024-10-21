@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 4ae4f278-572d-459b-afff-2b6b49aeda1a
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Present, Assess, Reciprocate'
+  created:
+    -
+      value: 1702951577
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

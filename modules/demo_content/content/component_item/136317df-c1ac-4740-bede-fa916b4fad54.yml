@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 136317df-c1ac-4740-bede-fa916b4fad54
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Understanding the application process'
+  title:
+    -
+      value: 'Understanding the application process'
+  created:
+    -
+      value: 1702915052
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>It is not uncommon for our students to apply to a selection of universities in numerous countries. Popular destinations include anywhere from the UK, America, Australia, Canada and South Korea. This gives students many options, but it also requires navigation through a variety of application systems, where the requirements and structure may vary significantly.</p><p>As well as providing a new challenge to students, the application process is often unfamiliar to parents too, and the university counsellor plays a key part in guiding families through this. They have the experience and knowledge of international application processes and are equipped to steer students through this system, ensuring that they are prepared rather than overwhelmed by the challenge.</p>'
+      format: full_html
+      summary: ''

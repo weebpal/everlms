@@ -1,0 +1,23 @@
+uuid: e4ab0b17-fe0f-484f-a449-e942e5156d41
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_quiz.field_display_right_answer
+    - lms_quiz.lms_quiz_type.default
+id: lms_quiz.default.field_display_right_answer
+field_name: field_display_right_answer
+entity_type: lms_quiz
+bundle: default
+label: 'Display right answer'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

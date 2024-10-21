@@ -1,0 +1,72 @@
+<?php
+
+/**
+ * @file
+ * Defines the WeNotification entity and associated features.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Render\Element;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Url;
+
+/**
+ * Implements hook_theme().
+ */
+function we_notification_theme() {
+  return [
+    'we_notification' => [
+      'render element' => 'elements',
+    ],
+    'we_notification_form' => [
+      'render element' => 'form',
+    ],
+  ];
+}
+
+/**
+ * Prepares variables for we_notification templates.
+ *
+ * Default template: we-notification.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An associative array containing rendered fields.
+ *   - attributes: HTML attributes for the containing element.
+ */
+function template_preprocess_we_notification(array &$variables) {
+  /** @var Drupal\we_notification\Entity\WeNotificationInterface $we_notification */
+  $we_notification = $variables['elements']['#we_notification'];
+
+  $variables['we_notification_entity'] = $we_notification;
+  $variables['we_notification_url'] = $we_notification->isNew() ? '' : $we_notification->toUrl();
+  $variables['we_notification'] = [];
+  foreach (Element::children($variables['elements']) as $key) {
+    $variables['we_notification'][$key] = $variables['elements'][$key];
+  }
+}
+
+/**
+ * Implements hook_entity_operation() for we_notification.
+ */
+function we_notification_entity_operation(EntityInterface $entity) {
+  $operations = [];
+
+  if ($entity->getEntityTypeId() == 'we_notification') {
+    $updateMarkReadUrl = Url::fromRoute('we_notification.mark_notification_as_read', ['notificationId' => $entity->id()]);
+    $operations['update_marked_read'] = [
+      'title' => t('Update Marked Read'),
+      'weight' => '100',
+      'url' => $updateMarkReadUrl,
+    ];
+
+    $loadUrl = Url::fromRoute('we_notification.load_notification', ['notificationId' => $entity->id()]);
+    $operations['load_notification'] = [
+      'title' => t('Load Notification'),
+      'weight' => '100',
+      'url' => $loadUrl,
+    ];
+  }
+
+  return $operations;
+}

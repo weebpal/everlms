@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 473e35f6-55b7-4b02-99ee-74f537c8c89e
+  bundle: book
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'How can one register for membership?'
+  created:
+    -
+      value: 1698983498
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /guides/how-can-one-register-membership
+      langcode: en
+      pathauto: 0

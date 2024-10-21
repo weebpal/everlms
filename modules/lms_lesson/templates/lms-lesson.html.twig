@@ -1,0 +1,24 @@
+{#
+/**
+ * @file
+ *
+ * Default template for lesson item.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the wrapper.
+ * - lms_lesson: The rendered lms_lesson fields.
+ *   Use 'lms_lesson' to print them all, or print a subset such as
+ *   'lms_lesson.name'. Use the following code to exclude the
+ *   printing of a given field:
+ *   @code
+ *   {{ lms_lesson|without('name') }}
+ *   @endcode
+ * - lms_lesson_entity: The lms_lesson entity.
+ * - lms_lesson_url: The lms_lesson URL.
+ *
+ * @ingroup themeable
+ */
+#}
+<article{{ attributes }}>
+  {{ lms_lesson }}
+</article>

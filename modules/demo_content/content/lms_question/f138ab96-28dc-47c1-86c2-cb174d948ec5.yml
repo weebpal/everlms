@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: f138ab96-28dc-47c1-86c2-cb174d948ec5
+  bundle: default
+  default_langcode: en
+  depends:
+    d489d1ad-2e06-487b-a040-9d1d7994d13c: lms_answer
+    b6635eeb-555b-4468-a5b0-80775b022316: lms_answer
+    864cfe35-998e-4e43-80fe-213ab7aa2285: lms_answer
+    4272b306-8360-45c3-8cef-5f7063bb56a6: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Which of the following is the first guiding principle in using demonstration in teaching-learning process'
+  created:
+    -
+      value: 1702952965
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: d489d1ad-2e06-487b-a040-9d1d7994d13c
+    -
+      entity: b6635eeb-555b-4468-a5b0-80775b022316
+    -
+      entity: 864cfe35-998e-4e43-80fe-213ab7aa2285
+    -
+      entity: 4272b306-8360-45c3-8cef-5f7063bb56a6
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

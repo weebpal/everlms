@@ -1,0 +1,101 @@
+uuid: 48bc027b-a5cb-4371-9dcf-dee41d7a4eae
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.lms_question_response.inline_entity_form
+    - field.field.lms_question_response.default.field_answers
+    - field.field.lms_question_response.default.field_body
+    - field.field.lms_question_response.default.field_correct
+    - field.field.lms_question_response.default.field_question
+    - field.field.lms_question_response.default.field_quiz
+    - field.field.lms_question_response.default.field_score
+    - lms_question_response.lms_question_response_type.default
+  module:
+    - text
+_core:
+  default_config_hash: inOpiyO8TBdw2wqImI4ohOHeMKhZr9ZzMS4PZ8DZ7rM
+id: lms_question_response.default.inline_entity_form
+targetEntityType: lms_question_response
+bundle: default
+mode: inline_entity_form
+content:
+  field_answers:
+    type: entity_reference_autocomplete
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_body:
+    type: text_textarea_with_summary
+    weight: 6
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_correct:
+    type: boolean_checkbox
+    weight: 4
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_question:
+    type: entity_reference_autocomplete
+    weight: 2
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_quiz:
+    type: entity_reference_autocomplete
+    weight: 1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_score:
+    type: number
+    weight: 5
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

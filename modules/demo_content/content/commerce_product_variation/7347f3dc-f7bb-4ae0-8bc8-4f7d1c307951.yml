@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 7347f3dc-f7bb-4ae0-8bc8-4f7d1c307951
+  bundle: course
+  default_langcode: en
+  depends:
+    0ff71456-d72a-46f4-af03-b05b0225472e: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 0ff71456-d72a-46f4-af03-b05b0225472e
+  sku:
+    -
+      value: 'Freelance Online'
+  title:
+    -
+      value: 'Freelance Online English Teaching with LessonSpeak'
+  price:
+    -
+      number: '0.000000'
+      currency_code: USD
+      formatted: $0.00
+  created:
+    -
+      value: 1702958980

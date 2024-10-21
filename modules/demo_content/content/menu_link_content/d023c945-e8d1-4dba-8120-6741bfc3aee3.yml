@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: d023c945-e8d1-4dba-8120-6741bfc3aee3
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    c16144ee-a50a-4885-a2e8-23a0cbdd80fe: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Demo: BarMasters LMS'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'https://bartender.everlms.com/'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -48
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:c16144ee-a50a-4885-a2e8-23a0cbdd80fe'
+  revision_translation_affected:
+    -
+      value: true

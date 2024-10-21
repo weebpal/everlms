@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: bd6ca6f2-4665-4a58-9deb-c10fb699adb5
+  bundle: book
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'How many types of samples are there for multiple-choice exercises?'
+  created:
+    -
+      value: 1698983526
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /guides/how-many-types-samples-are-there-multiple-choice-exercises
+      langcode: en
+      pathauto: 0

@@ -1,0 +1,9 @@
+output_format: svg
+field_exclude: "uid\r\n"
+property_include: ''
+entity_reference_only: 1
+save: Save
+form_build_id: form-pt1qS76f7Lz-SZ4m10yUuNgZ5xUkqnMlAEBYmKYH4Kg
+form_token: xijoiqaNJxMU29cnlVdpkCkVw_wN_xKX77IAIWtcE9I
+form_id: erd_settings
+op: Save

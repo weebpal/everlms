@@ -1,0 +1,24 @@
+lms_lesson.add_form:
+  js:
+    js/add_form.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+lms_lesson.inline_entity_add_form:
+  js:
+    js/inline_entity_add_form.js: {}
+  css:
+    theme:
+      css/inline_entity_add_form.css: { }
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+lms_lesson.embed_zoom:
+  js:
+    js/embed_zoom.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal

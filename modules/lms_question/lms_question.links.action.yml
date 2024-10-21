@@ -1,0 +1,11 @@
+entity.lms_question.add_page:
+  route_name: entity.lms_question.add_page
+  title: 'Add question item'
+  appears_on:
+    - entity.lms_question.collection
+
+entity.lms_question_type.add_form:
+  route_name: entity.lms_question_type.add_form
+  title: 'Add question type'
+  appears_on:
+    - entity.lms_question_type.collection

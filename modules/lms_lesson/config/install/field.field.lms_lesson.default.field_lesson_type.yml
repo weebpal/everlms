@@ -1,0 +1,29 @@
+uuid: ce474d51-7de2-4b51-aee0-84c9a032de2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_lesson.field_lesson_type
+    - lms_lesson.lms_lesson_type.default
+    - taxonomy.vocabulary.lesson_type
+id: lms_lesson.default.field_lesson_type
+field_name: field_lesson_type
+entity_type: lms_lesson
+bundle: default
+label: 'Lesson type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      lesson_type: lesson_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,24 @@
+uuid: 6cd8a354-7260-4b1d-baa7-5ba2f0b23a7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.category
+  module:
+    - facets
+  theme:
+    - lms_theme
+id: category_2
+theme: lms_theme
+region: sidebar_first
+weight: -15
+provider: null
+plugin: 'facet_block:category'
+settings:
+  id: 'facet_block:category'
+  label: Category
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: category_2
+visibility: {  }

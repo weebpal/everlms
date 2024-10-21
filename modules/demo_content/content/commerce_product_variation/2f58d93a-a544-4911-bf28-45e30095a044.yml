@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 2f58d93a-a544-4911-bf28-45e30095a044
+  bundle: course
+  default_langcode: en
+  depends:
+    de5ceba1-928e-4bb0-96c2-4f2d8fd2fd9d: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: de5ceba1-928e-4bb0-96c2-4f2d8fd2fd9d
+  sku:
+    -
+      value: 'Public SpPublic Speaking'
+  title:
+    -
+      value: 'Public SpPublic Speaking: Skills & Tools for Presenting for Impacteaking: Skills & Tools for Presenting for Impact'
+  list_price:
+    -
+      number: '45.000000'
+      currency_code: USD
+      formatted: $45.00
+  price:
+    -
+      number: '35.000000'
+      currency_code: USD
+      formatted: $35.00
+  created:
+    -
+      value: 1703068430

@@ -1,0 +1,145 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 6630b9b1-3ace-4029-b564-ca90081bf1a5
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    26d56572-1ffb-4ae7-9dc3-630308cede3b: commerce_product_variation
+    34d91d19-06fa-4cb6-b2d4-a9893464cbae: taxonomy_term
+    2741fc67-5e8b-4f46-87bc-b2ec414bb92e: media
+    de302498-3105-4a5a-8ff2-0a58c3eeb8d6: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    9aea50ec-3bff-4e87-ac90-fba07d3f5e0a: lms_lesson
+    666679da-dd13-4cc6-91b7-9402d2a47c6b: lms_lesson
+    94271d8b-042b-446b-896d-2eda8e8af553: lms_lesson
+    a8fb1cb1-47b4-45a7-a651-07c21232e338: lms_lesson
+    b6d43039-5029-4dfa-ad17-ec4e41c9b9d9: lms_lesson
+    8ec11258-2ca6-49b6-bb15-9f80fbabdf66: lms_lesson
+    d833364d-fc2f-4249-add2-db44f935f523: lms_lesson
+    91665c4a-db7b-44c5-9b0e-b96ad93c979a: lms_lesson
+    e74a7793-5a42-44dd-8cf1-d3d74b3d992f: taxonomy_term
+    4a3f31dc-925c-4a78-91e4-66106b217e2f: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'Ovation Public Speaking - Speaking Methods Master Class'
+  variations:
+    -
+      entity: 26d56572-1ffb-4ae7-9dc3-630308cede3b
+  default_variation:
+    -
+      entity: 26d56572-1ffb-4ae7-9dc3-630308cede3b
+  path:
+    -
+      alias: /course/ovation-public-speaking-speaking-methods-master-class
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1702977762
+  body:
+    -
+      value: '<p>Have you ever been in fear of public speaking or been in dread of getting up to speak in front of an audience? Be assured, you are not alone in the way you feel. There are ways for you to build confidence in the way you speak and to feel comfortable speaking in front of a group of people. Anyone can achieve this confidence with the right tools and practice.</p><p>We’ve designed six lessons that pinpoint six different speaking methods that will help you achieve success in public speaking. This class encompasses six speaking methods in the Ovation Public Speaking tutorial.</p><p>The class is designed to aid you in speaking effectively before an audience, so that you can be well understood and professional. This class will benefit any student who wants to excel at public speaking at school or also any business professionals who want to excel and build their career.</p><p>Highlights of this course:</p><ul><li>Speaking clearly and effectively</li><li>Speaking fluently and with ease</li><li>Speaking with power and conviction</li><li>Speaking with balance and modulation</li><li>Speaking with energy and enthusiasm</li><li>Speaking with animation and gestures</li></ul><p>Includes the following:</p><ul><li>Almost 4 hours of Instructor Video</li><li>Interactive Practice Sessions</li><li>Skill building exercises</li></ul><p>The way this class is structured is by dividing it into 13 parts. Each part will have video lectures first. Throughout the video lectures there are interactive practice sessions, practical suggestions, and tips on ways you can practice and improve for each point. You are invited to pause the video during the lecture and practice the point. At the end of each part, there are a series of exercises to help you practice and gain experience.</p><p>This comprehensive course can be taken at the pace of the student. It requires a basic understanding of English, and a desire to improve your speaking ability. &nbsp;Students do not need any prerequisites or requirements to join this class. &nbsp;Each participant will find that this will benefit a wide array of students with a business, educational, or leadership focus.</p><p>While a student can take each course individually, this Master Class is a total package of all the lessons combined.</p>'
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: 34d91d19-06fa-4cb6-b2d4-a9893464cbae
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1702977994
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: 2741fc67-5e8b-4f46-87bc-b2ec414bb92e
+  field_featured_course:
+    -
+      value: true
+  field_free:
+    -
+      value: false
+  field_image:
+    -
+      entity: de302498-3105-4a5a-8ff2-0a58c3eeb8d6
+      alt: 'Ovation Public Speaking - Speaking Methods Master Class'
+      title: ''
+      width: 750
+      height: 422
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 123
+  field_lessons:
+    -
+      entity: 9aea50ec-3bff-4e87-ac90-fba07d3f5e0a
+    -
+      entity: 666679da-dd13-4cc6-91b7-9402d2a47c6b
+    -
+      entity: 94271d8b-042b-446b-896d-2eda8e8af553
+    -
+      entity: a8fb1cb1-47b4-45a7-a651-07c21232e338
+    -
+      entity: b6d43039-5029-4dfa-ad17-ec4e41c9b9d9
+    -
+      entity: 8ec11258-2ca6-49b6-bb15-9f80fbabdf66
+    -
+      entity: d833364d-fc2f-4249-add2-db44f935f523
+    -
+      entity: 91665c4a-db7b-44c5-9b0e-b96ad93c979a
+  field_level:
+    -
+      entity: e74a7793-5a42-44dd-8cf1-d3d74b3d992f
+  field_quiz:
+    -
+      entity: 4a3f31dc-925c-4a78-91e4-66106b217e2f
+  field_quizzes:
+    -
+      entity: 4a3f31dc-925c-4a78-91e4-66106b217e2f
+  field_rating:
+    -
+      rating: 80
+      target: 0
+  field_requirements:
+    -
+      value: '<p>No requirements needed</p>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Public speaking is a crucial skill to have in order to make advancement in your education, career, or personal life.</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 2
+  field_total_lessons:
+    -
+      value: 8
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>Speaking in front of an audience</li><li>Speaking with confidence</li><li>Speaking with power</li><li>Ability to teach and explain difficult concepts</li><li>Expressing yourself clearly</li></ul>'
+      format: full_html

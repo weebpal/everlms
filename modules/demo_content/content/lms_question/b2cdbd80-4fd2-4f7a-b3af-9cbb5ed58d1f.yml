@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: b2cdbd80-4fd2-4f7a-b3af-9cbb5ed58d1f
+  bundle: default
+  default_langcode: en
+  depends:
+    be09f330-1a06-4e4e-b069-148b6b8c74d3: lms_answer
+    4b5e2f2b-92ef-4fa0-8256-ec2caa7d6c41: lms_answer
+    f2781227-4116-4dc5-b809-fdd9186a6f28: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'We are taught how to improve our memory in history lessons.'
+  created:
+    -
+      value: 1702955019
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: be09f330-1a06-4e4e-b069-148b6b8c74d3
+    -
+      entity: 4b5e2f2b-92ef-4fa0-8256-ec2caa7d6c41
+  field_difficulty:
+    -
+      entity: f2781227-4116-4dc5-b809-fdd9186a6f28
+  field_score:
+    -
+      value: '10.00'

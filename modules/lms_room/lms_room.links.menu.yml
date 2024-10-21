@@ -1,0 +1,25 @@
+lms_room.root:
+  title: 'Room'
+  description: 'Manage your room.'
+  parent: 'lms_base.admin'
+  route_name: 'lms_room.root'
+  weight: -95
+
+entity.lms_room.collection:
+  title: 'Room items'
+  route_name: 'entity.lms_room.collection'
+  parent: 'lms_room.root'
+  description: 'Manage your room items.'
+  weight: 50
+
+entity.lms_room_type.collection:
+  title: 'Room types'
+  route_name: 'entity.lms_room_type.collection'
+  parent: 'lms_room.root'
+  description: 'Manage fields, form and display settings for your room types.'
+  weight: 50
+
+lms_room.grouped_entity_links:
+  class: Drupal\lms_room\Plugin\Menu\GroupedEntityLinks
+  deriver: Drupal\lms_room\Plugin\Derivative\GroupedEntityLinksDeriver
+  menu_name: lms_room

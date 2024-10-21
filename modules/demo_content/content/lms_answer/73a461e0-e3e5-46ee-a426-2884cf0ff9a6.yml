@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: 73a461e0-e3e5-46ee-a426-2884cf0ff9a6
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The repetition of a word or a phrase at both the beginning and the end of a sentence or paragraph.'
+  created:
+    -
+      value: 1702955484
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

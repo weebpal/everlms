@@ -1,0 +1,8 @@
+uuid: f2315abc-2497-4d22-98e7-7926b297e798
+langcode: en
+status: true
+dependencies: {  }
+name: 'Quiz form styles'
+vid: quiz_form_styles
+description: 'Quiz form styles (One page or Question step)'
+weight: 0

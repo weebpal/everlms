@@ -1,0 +1,20 @@
+uuid: 2fe7728a-62d5-4f27-9cae-c8c320711328
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_quiz
+id: lms_quiz.field_threshold
+field_name: field_threshold
+entity_type: lms_quiz
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

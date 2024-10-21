@@ -1,0 +1,29 @@
+uuid: 8818acb2-d4f3-461b-bc7c-2211b1cab466
+langcode: en
+status: true
+dependencies:
+  config:
+    - component_builder.component_item_type.embed_block
+    - field.storage.component_item.field_block_reference
+  module:
+    - block_field
+id: component_item.embed_block.field_block_reference
+field_name: field_block_reference
+entity_type: component_item
+bundle: embed_block
+label: 'Block Reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  selection: blocks
+  selection_settings:
+    plugin_ids:
+      search_form_block: search_form_block
+      help_block: help_block
+      'views_block:category-block_top_category': 'views_block:category-block_top_category'
+      'views_block:product_index-block_1': 'views_block:product_index-block_1'
+      'views_block:product_index-block_2': 'views_block:product_index-block_2'
+field_type: block_field

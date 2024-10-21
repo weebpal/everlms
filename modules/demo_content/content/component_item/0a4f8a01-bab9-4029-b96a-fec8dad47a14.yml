@@ -1,0 +1,26 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 0a4f8a01-bab9-4029-b96a-fec8dad47a14
+  bundle: embed_block
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Embed Block Item: Untitled'
+  created:
+    -
+      value: 1698734063
+  revision_translation_affected:
+    -
+      value: true
+  field_block_reference:
+    -
+      plugin_id: 'views_block:product_index-block_1'
+      settings: {  }

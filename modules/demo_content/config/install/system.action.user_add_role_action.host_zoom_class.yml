@@ -1,0 +1,14 @@
+uuid: ceb877f5-4c5f-4e6f-acb0-180d3891a2fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.host_zoom_class
+  module:
+    - user
+id: user_add_role_action.host_zoom_class
+label: 'Add the Host zoom class role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: host_zoom_class

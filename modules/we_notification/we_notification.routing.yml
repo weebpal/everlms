@@ -1,0 +1,47 @@
+we_notification.create_notification_take_quiz:
+  path: '/we-notification/create/take-quiz'
+  defaults:
+    _controller: '\Drupal\we_notification\Controller\WeNotificationController::createNotificationTakeQuiz'
+    _title: 'Create Notification Take Quiz'
+  requirements:
+    _permission: 'administer site configuration'
+
+we_notification.create_notification_buy_course:
+  path: '/we-notification/create/buy-course'
+  defaults:
+    _controller: '\Drupal\we_notification\Controller\WeNotificationController::createNotificationBuyCourse'
+    _title: 'Create Notification BuyCourse'
+  requirements:
+    _permission: 'administer site configuration'
+
+we_notification.create_notification_certificate:
+  path: '/we-notification/create/certificate'
+  defaults:
+    _controller: '\Drupal\we_notification\Controller\WeNotificationController::createNotificationCertificate'
+    _title: 'Create Notification Certificate'
+  requirements:
+    _permission: 'administer site configuration'
+
+we_notification.load_notification:
+  path: '/we-notification/{notificationId}'
+  defaults:
+    _controller: '\Drupal\we_notification\Controller\WeNotificationController::loadNotification'
+    _title: 'View Notification'
+  requirements:
+    _permission: 'access content'
+
+we_notification.mark_notification_as_read:
+  path: '/we-notification/{notificationId}/mark-read'
+  defaults:
+    _controller: '\Drupal\we_notification\Controller\WeNotificationController::markReadNotification'
+    _title: 'Mark Notification as Read'
+  requirements:
+    _permission: 'access content'
+
+we_notification.root:
+  path: '/admin/lms/we-notification'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Notification'
+  requirements:
+    _permission: 'administer we_notification'

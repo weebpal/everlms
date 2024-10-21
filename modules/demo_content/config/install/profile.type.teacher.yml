@@ -1,0 +1,15 @@
+uuid: a5dffa73-ccc5-4366-ab2c-60bd9db2b1a1
+langcode: en
+status: true
+dependencies: {  }
+third_party_settings:
+  commerce_order:
+    customer_profile_type: true
+id: teacher
+label: Teacher
+display_label: Teacher
+multiple: false
+registration: false
+roles: {  }
+allow_revisions: false
+new_revision: false

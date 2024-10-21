@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f8c9e160-35db-42df-81d7-110637b2e54e
+  bundle: news
+  default_langcode: en
+  depends:
+    e3c95bbe-8281-4b72-a8ca-1fd5536fc1a7: component_wrapper
+    14b64d0d-a9d2-42d6-9e73-92f5e432791d: component_wrapper
+    a2cd2c23-cad5-4984-b868-af1e88beccae: component_wrapper
+    b886716f-fbcf-40bb-9647-c771ba90c876: component_wrapper
+    49eba60e-8921-497b-9cd6-e646e08db899: component_wrapper
+    9951042d-ad28-46c7-9031-feef771ca4a0: taxonomy_term
+    b334868b-1aef-4eb9-982e-dc00e40b4df8: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Common difficult words in English'
+  created:
+    -
+      value: 1703473259
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /news/common-difficult-words-english
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>English can be a difficult language to master, especially for non-native speakers. One of the common challenges faced by English language learners is the confusion between words that sound similar or have similar meanings. Are you sure you know the difference between ‘it’s’ from ‘its’ and ‘your’ from ‘you’re’?</p><p>In this article, we will explore 10 of the most common difficult words in English, their meanings, the words they often get confused with, and why this confusion occurs. We’ll also provide examples of correct and incorrect usage to help you better understand these tricky words.</p>'
+      format: full_html
+      summary: ''
+  field_components:
+    -
+      entity: e3c95bbe-8281-4b72-a8ca-1fd5536fc1a7
+    -
+      entity: 14b64d0d-a9d2-42d6-9e73-92f5e432791d
+    -
+      entity: a2cd2c23-cad5-4984-b868-af1e88beccae
+    -
+      entity: b886716f-fbcf-40bb-9647-c771ba90c876
+    -
+      entity: 49eba60e-8921-497b-9cd6-e646e08db899
+  field_tags:
+    -
+      entity: 9951042d-ad28-46c7-9031-feef771ca4a0
+  field_thumb:
+    -
+      entity: b334868b-1aef-4eb9-982e-dc00e40b4df8
+      alt: 'Common difficult words in English'
+      title: ''
+      width: 1000
+      height: 628

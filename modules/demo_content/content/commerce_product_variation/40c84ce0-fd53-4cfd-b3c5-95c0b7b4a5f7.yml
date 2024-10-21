@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 40c84ce0-fd53-4cfd-b3c5-95c0b7b4a5f7
+  bundle: course
+  default_langcode: en
+  depends:
+    18bbf216-0e17-4131-9077-4ed9a3bb82ae: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 18bbf216-0e17-4131-9077-4ed9a3bb82ae
+  sku:
+    -
+      value: 'Communicate effectively'
+  title:
+    -
+      value: 'Communicate effectively to achieve more in life'
+  list_price:
+    -
+      number: '25.000000'
+      currency_code: USD
+      formatted: $25.00
+  price:
+    -
+      number: '20.000000'
+      currency_code: USD
+      formatted: $20.00
+  created:
+    -
+      value: 1703044315

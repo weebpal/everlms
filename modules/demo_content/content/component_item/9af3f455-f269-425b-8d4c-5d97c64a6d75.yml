@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 9af3f455-f269-425b-8d4c-5d97c64a6d75
+  bundle: push_image
+  default_langcode: en
+  depends:
+    412cbd05-6dd7-4671-90fd-75521cf9f1fc: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Push Image Item: Untitled'
+  created:
+    -
+      value: 1703475564
+  revision_translation_affected:
+    -
+      value: true
+  field_pi_body:
+    -
+      value: '<p><strong>Accept vs. Except:</strong></p><ul><li>Accept (verb): To receive or agree to something willingly.</li><li>Except (preposition): Excluding or not including something or someone.</li></ul><p>Confusion: These two words sound similar, but they have opposite meanings.</p><p><em>Example:</em><br>Correct: She accepted the job offer. Everyone was invited to the party except me.<br>Incorrect: She excepted the job offer. Everyone was invited to the party accept me.</p><p>&nbsp;</p><p><strong>Advice vs. Advise:</strong></p><ul><li>Advice (noun): Recommendations or suggestions given to someone.</li><li>Advise (verb): To offer guidance or counsel.</li></ul><p>Confusion: These words have different meanings and are often swapped.</p><p><em>Example:</em><br>Correct: I received valuable advice from my friend, who advised me on my career.<br>Incorrect: I received valuable advise from my friend, who advice me on my career.</p>'
+      format: full_html
+  field_pi_image:
+    -
+      entity: 412cbd05-6dd7-4671-90fd-75521cf9f1fc
+      alt: 'Accept and Advice'
+      title: ''
+      width: 1000
+      height: 667

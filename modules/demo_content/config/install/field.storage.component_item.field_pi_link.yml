@@ -1,0 +1,19 @@
+uuid: 21ddb33e-32f6-4a95-9467-6a4c7ed120fd
+langcode: en
+status: true
+dependencies:
+  module:
+    - component_builder
+    - link
+id: component_item.field_pi_link
+field_name: field_pi_link
+entity_type: component_item
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

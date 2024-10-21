@@ -1,0 +1,29 @@
+uuid: 0fa25c67-a429-491a-bcc5-2f5d94f21f6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_user_course.field_user_certificate
+    - lms_user_certificate.lms_user_certificate_type.default
+    - lms_user_course.lms_user_course_type.default
+id: lms_user_course.default.field_user_certificate
+field_name: field_user_certificate
+entity_type: lms_user_course
+bundle: default
+label: 'User Certificate'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:lms_user_certificate'
+  handler_settings:
+    target_bundles:
+      default: default
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

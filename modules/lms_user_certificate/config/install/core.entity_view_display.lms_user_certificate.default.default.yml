@@ -1,0 +1,90 @@
+uuid: 3c6231e5-b503-4336-86e2-2fc55166b343
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_user_certificate.default.field_body
+    - field.field.lms_user_certificate.default.field_certificate
+    - field.field.lms_user_certificate.default.field_get_time
+    - field.field.lms_user_certificate.default.field_holder
+    - field.field.lms_user_certificate.default.field_link
+    - field.field.lms_user_certificate.default.field_pdf
+    - lms_user_certificate.lms_user_certificate_type.default
+  module:
+    - file
+    - text
+_core:
+  default_config_hash: t9EMsUGPk9K3rITDUmdXoj35LTMnoHW1USpQz6EVmBQ
+id: lms_user_certificate.default.default
+targetEntityType: lms_user_certificate
+bundle: default
+mode: default
+content:
+  field_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_certificate:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_get_time:
+    type: timestamp
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+      tooltip:
+        date_format: long
+        custom_date_format: ''
+      time_diff:
+        enabled: false
+        future_format: '@interval hence'
+        past_format: '@interval ago'
+        granularity: 2
+        refresh: 60
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_holder:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_link:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_pdf:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  created: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  status: true
+  uid: true

@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: acefb382-fe40-4184-984e-c76839b08719
+  bundle: push_image
+  default_langcode: en
+  depends:
+    f84e0ea9-e3f2-4e7e-9d0d-86b3efff5b8e: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Push Image Item: Confidently communicate in English'
+  title:
+    -
+      value: 'Confidently communicate in English'
+  created:
+    -
+      value: 1698734408
+  revision_translation_affected:
+    -
+      value: true
+  field_pi_body:
+    -
+      value: '<p>We have helped millions of students conquer their dreams. No matter what level you are at, our exclusive English learning method will help you learn English in the most effective way.</p><p>Learn English online and improve your skills through our high-quality courses and resources.</p>'
+      format: full_html
+  field_pi_image:
+    -
+      entity: f84e0ea9-e3f2-4e7e-9d0d-86b3efff5b8e
+      alt: 'Confidently communicate in English'
+      title: ''
+      width: 630
+      height: 442
+  field_pi_link:
+    -
+      uri: 'internal:/courses'
+      title: 'Start learning'
+      options: {  }

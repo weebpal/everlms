@@ -1,0 +1,130 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 09406d94-288f-48a4-84e8-7f4ed5e6ee1e
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    b1a0fb3a-aa9e-4869-a57d-d3f40f73d178: commerce_product_variation
+    100d2b6c-1630-48a9-8bd1-5c7e9ae75123: taxonomy_term
+    cd11a955-06f4-4872-9418-86ba75bb5682: media
+    52f6d76b-89cb-47ef-8fdf-d072fa7db779: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    2510248c-034e-47ef-bbbb-d369b6801af8: lms_lesson
+    1413de3c-1ead-4f61-a10c-952a43fb225f: lms_lesson
+    f6ee2239-bde3-41d5-99d7-077a6052b10d: lms_lesson
+    4fe024cf-521a-4294-97c2-ca2230c8e129: taxonomy_term
+    75a2ac7a-3ef5-47ee-afbd-bf36a130db8d: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'Written Communication: Improve Your Business Writing Skills'
+  variations:
+    -
+      entity: b1a0fb3a-aa9e-4869-a57d-d3f40f73d178
+  default_variation:
+    -
+      entity: b1a0fb3a-aa9e-4869-a57d-d3f40f73d178
+  path:
+    -
+      alias: /course/written-communication-improve-your-business-writing-skills
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1703143036
+  body:
+    -
+      value: "<p>In today's fast-paced business world, you have precious little time to write communications. Readers have little time to read your communications.</p><p>This course provides you with strategies and resources to enhance your written communication skills, so you can quickly deliver effective messages to your readers.</p><p>Written Communications will teach you the basic rules of business writing, how to successfully edit and proofread communications, and how to write a professional email.</p><p>You will learn how to Analyze your Audience &amp; Select the right Communication Medium.</p><p>Discover how to Organize your Key Points &amp; Use Top-Down Writing.</p><p>You will learn how to Include Only Relevant Details &amp; Structure your communication.</p><p>You will learn how to Write with Clarity and Conciseness, and how to Use the Right Tone.</p><p>Develop Strategies to Eliminate common Spelling and Grammar errors that cause readers to lose focus on a writer's message.</p><p>Identify Appropriate Subject Lines to get your emails read.</p><p>You will learn How and When to use the Reply All button.</p><p>You will learn how to setup and use a Proper Signature Block.</p><p>And, you will learn how to Avoid Legal Pitfalls.</p><p>In today’s fast-paced professional world, you need to be able to communicate properly and with efficiency. This course will teach you just that.</p>"
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: true
+  field_category:
+    -
+      entity: 100d2b6c-1630-48a9-8bd1-5c7e9ae75123
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703143350
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: cd11a955-06f4-4872-9418-86ba75bb5682
+  field_featured_course:
+    -
+      value: false
+  field_free:
+    -
+      value: false
+  field_image:
+    -
+      entity: 52f6d76b-89cb-47ef-8fdf-d072fa7db779
+      alt: 'Written Communication: Improve Your Business Writing Skills'
+      title: ''
+      width: 750
+      height: 450
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 2342
+  field_lessons:
+    -
+      entity: 2510248c-034e-47ef-bbbb-d369b6801af8
+    -
+      entity: 1413de3c-1ead-4f61-a10c-952a43fb225f
+    -
+      entity: f6ee2239-bde3-41d5-99d7-077a6052b10d
+  field_level:
+    -
+      entity: 4fe024cf-521a-4294-97c2-ca2230c8e129
+  field_quiz:
+    -
+      entity: 75a2ac7a-3ef5-47ee-afbd-bf36a130db8d
+  field_quizzes:
+    -
+      entity: 75a2ac7a-3ef5-47ee-afbd-bf36a130db8d
+  field_rating:
+    -
+      rating: 100
+      target: 0
+  field_requirements:
+    -
+      value: '<p>There are no prerequisites for this course.</p>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Write Better for Professional and Personal Success. Eliminate Bad Habits and Gain Credibility.</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 2
+  field_total_lessons:
+    -
+      value: 3
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: "<ul><li>You will learn how to Analyze your Audience &amp; Select the right Communication Medium.</li><li>Discover how to Organize your Key Points &amp; Use Top-Down Writing.</li><li>You will learn how to Include Only Relevant Details &amp; Structure your communication.</li><li>You will learn how to Write with Clarity and Conciseness, and how to Use the Right Tone.</li><li>Develop Strategies to Eliminate common Spelling and Grammar errors that cause readers to lose focus on a writer's message.</li><li>Identify Appropriate Subject Lines to get your emails read.</li><li>You will learn How and When to use the Reply All button.</li><li>You will learn how to setup and use a Proper Signature Block.</li><li>And, you will learn how to Avoid Legal Pitfalls.</li></ul>"
+      format: full_html

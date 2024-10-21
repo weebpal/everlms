@@ -1,0 +1,25 @@
+we_notification.root:
+  title: 'Notification'
+  description: 'Manage your notification.'
+  parent: 'lms_base.admin'
+  route_name: 'we_notification.root'
+  weight: 200
+
+entity.we_notification.collection:
+  title: 'Notification items'
+  route_name: 'entity.we_notification.collection'
+  parent: 'we_notification.root'
+  description: 'Manage your notification items.'
+  weight: 50
+
+entity.we_notification_type.collection:
+  title: 'Notification types'
+  route_name: 'entity.we_notification_type.collection'
+  parent: 'we_notification.root'
+  description: 'Manage fields, form and display settings for your notification types.'
+  weight: 50
+
+we_notification.grouped_entity_links:
+  class: Drupal\we_notification\Plugin\Menu\GroupedEntityLinks
+  deriver: Drupal\we_notification\Plugin\Derivative\GroupedEntityLinksDeriver
+  menu_name: we_notification

@@ -1,0 +1,31 @@
+{#
+/**
+ * @file
+ *
+ * Default template for quiz item.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the wrapper.
+ * - lms_quiz: The rendered lms_quiz fields.
+ *   Use 'lms_quiz' to print them all, or print a subset such as
+ *   'lms_quiz.name'. Use the following code to exclude the
+ *   printing of a given field:
+ *   @code
+ *   {{ lms_quiz|without('name') }}
+ *   @endcode
+ * - lms_quiz_entity: The lms_quiz entity.
+ * - lms_quiz_url: The lms_quiz URL.
+ *
+ * @ingroup themeable
+ */
+#}
+<article{{ attributes }}>
+  {{ lms_quiz }}
+{#  {% if lms_quiz_entity.field_form_style[0].target_id == '7' %}#}
+{#    <a class = "take-quiz" href = {{'/take-quiz/' ~ lms_quiz_entity.lms_quiz_id.value}}> Take Quiz </a>#}
+{#  {% elseif lms_quiz_entity.field_form_style[0].target_id == '8' %}#}
+{#    <a class = "take-quiz" href = {{'/take-quiz/' ~ lms_quiz_entity.lms_quiz_id.value ~ '/question/1'}}> Take Quiz </a>#}
+{#  {% endif %}#}
+{#  {{ dump(lms_take_quiz) }}#}
+  {{ lms_take_quiz }}
+</article>

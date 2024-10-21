@@ -1,0 +1,20 @@
+uuid: 552d70fc-0301-45a1-b443-686e5542446c
+langcode: en
+status: true
+dependencies:
+  module:
+    - lms_question_response
+id: lms_question_response.field_score
+field_name: field_score
+entity_type: lms_question_response
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

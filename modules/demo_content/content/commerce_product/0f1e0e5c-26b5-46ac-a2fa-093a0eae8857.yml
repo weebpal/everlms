@@ -1,0 +1,130 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 0f1e0e5c-26b5-46ac-a2fa-093a0eae8857
+  bundle: course
+  default_langcode: en
+  depends:
+    fffcb0bc-377b-4de8-b10e-0e19f523cb11: commerce_store
+    0c9b4ca8-24ae-4196-b7fe-11b154c68c83: commerce_product_variation
+    14fc57bd-f457-4e49-8c66-4061d84ed247: taxonomy_term
+    e00b48ea-7d5e-4826-80a1-9637cfb6937a: media
+    5769854d-5b5d-4878-9ac9-6c8bef0f62e5: file
+    779466a0-af90-4847-954f-957e56c694a9: taxonomy_term
+    09b442f4-1fe5-425d-bf63-7e5bbf45b849: lms_lesson
+    067bf62f-4227-4740-aaf1-fcbfd2c3df40: lms_lesson
+    4a65c736-9148-4847-8a82-dee9878a96e9: lms_lesson
+    e74a7793-5a42-44dd-8cf1-d3d74b3d992f: taxonomy_term
+    ad1ef75b-6487-4213-a440-25623cc9b80b: lms_quiz
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: fffcb0bc-377b-4de8-b10e-0e19f523cb11
+  title:
+    -
+      value: 'How to speak like an American: Part 2'
+  variations:
+    -
+      entity: 0c9b4ca8-24ae-4196-b7fe-11b154c68c83
+  default_variation:
+    -
+      entity: 0c9b4ca8-24ae-4196-b7fe-11b154c68c83
+  path:
+    -
+      alias: /course/how-speak-american-part-2
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1703132208
+  body:
+    -
+      value: '<p>This is a course for high intermediate advanced students of English. The course is given entirely in American English. The focus is on speaking with correct stress, intonation and"melody" in American English. The section focuses on stress and the many ways it is used. Skills are are explicitly taught by example. In the second section, the concentration changes to speaking phrases and sentences. Most of the lectures are provided in video. The last few lectures are given as a narrated PowerPoint. This is to provide practice listening.</p><p>Students who take this course will improve dramatically in their American English speaking skills.</p>'
+      format: full_html
+      summary: ''
+  field_bestseller:
+    -
+      value: false
+  field_category:
+    -
+      entity: 14fc57bd-f457-4e49-8c66-4061d84ed247
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1703132286
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_course_preview:
+    -
+      entity: e00b48ea-7d5e-4826-80a1-9637cfb6937a
+  field_featured_course:
+    -
+      value: false
+  field_free:
+    -
+      value: false
+  field_image:
+    -
+      entity: 5769854d-5b5d-4878-9ac9-6c8bef0f62e5
+      alt: 'How to speak like an American: Part 2'
+      title: ''
+      width: 750
+      height: 422
+  field_language:
+    -
+      entity: 779466a0-af90-4847-954f-957e56c694a9
+  field_learner_number:
+    -
+      value: 12312
+  field_lessons:
+    -
+      entity: 09b442f4-1fe5-425d-bf63-7e5bbf45b849
+    -
+      entity: 067bf62f-4227-4740-aaf1-fcbfd2c3df40
+    -
+      entity: 4a65c736-9148-4847-8a82-dee9878a96e9
+  field_level:
+    -
+      entity: e74a7793-5a42-44dd-8cf1-d3d74b3d992f
+  field_quiz:
+    -
+      entity: ad1ef75b-6487-4213-a440-25623cc9b80b
+  field_quizzes:
+    -
+      entity: ad1ef75b-6487-4213-a440-25623cc9b80b
+  field_rating:
+    -
+      rating: 60
+      target: 0
+  field_requirements:
+    -
+      value: '<ul><li>Students must be at an intermediate level of English speaking to benefit the most from this course.</li><li>Students are strongly encouraged to meet with the teacher in the live sessions for direction and extra practice.</li><li>Students will need a quiet place to listen to the videos and practice the exercises.</li></ul>'
+      format: full_html
+  field_short_description:
+    -
+      value: '<p>Learn stress and intonation skills to make you sound fluent and confident.</p>'
+      format: full_html
+  field_threshold:
+    -
+      value: '50.00'
+  field_total_hours:
+    -
+      value: 2
+  field_total_lessons:
+    -
+      value: 3
+  field_total_quizzes:
+    -
+      value: 1
+  field_what_you_learn:
+    -
+      value: '<ul><li>Student will be able to speak with appropriate contractions and reductions.</li><li>In this course, students will learn the rules off stress, and major exceptions to the rules.</li><li>In this course, students will learn what reductions and contractions are and when to use them.</li></ul>'
+      format: full_html

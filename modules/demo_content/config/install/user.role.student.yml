@@ -1,0 +1,28 @@
+uuid: e082d04d-0a2c-49cc-896e-e1a671226e3d
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - file
+    - lms_lesson
+    - lms_quiz
+    - profile
+    - we_notification
+id: student
+label: Student
+weight: -7
+is_admin: null
+permissions:
+  - 'access lesson detail'
+  - 'access profile overview'
+  - 'access take quiz'
+  - 'create student profile'
+  - 'delete own files'
+  - 'edit own comments'
+  - 'update own customer profile'
+  - 'update own student profile'
+  - 'view default lms_lesson'
+  - 'view default we_notification'
+  - 'view own student profile'
+  - 'view we_notification'

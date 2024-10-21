@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_question
+  uuid: f0f89da2-f04a-4b70-b765-79569cec2493
+  bundle: default
+  default_langcode: en
+  depends:
+    4ae4f278-572d-459b-afff-2b6b49aeda1a: lms_answer
+    1259b1ef-4e73-4432-9f22-58352dc12562: lms_answer
+    048b7fb1-d51a-462f-a9ab-64ccef4f27ad: lms_answer
+    5e1660d7-89f5-434c-82f2-2639b043b1a9: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'When referring to the PAR model, what does the abbreviation PAR stand for?'
+  created:
+    -
+      value: 1702951606
+  status:
+    -
+      value: true
+  field_choices:
+    -
+      entity: 4ae4f278-572d-459b-afff-2b6b49aeda1a
+    -
+      entity: 1259b1ef-4e73-4432-9f22-58352dc12562
+    -
+      entity: 048b7fb1-d51a-462f-a9ab-64ccef4f27ad
+  field_difficulty:
+    -
+      entity: 5e1660d7-89f5-434c-82f2-2639b043b1a9
+  field_score:
+    -
+      value: '20.00'

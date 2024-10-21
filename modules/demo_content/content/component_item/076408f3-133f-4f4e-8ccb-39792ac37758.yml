@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 076408f3-133f-4f4e-8ccb-39792ac37758
+  bundle: push_image
+  default_langcode: en
+  depends:
+    abeec6c8-5041-4769-b1f5-d98e65cfd231: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Push Image Item: Untitled'
+  created:
+    -
+      value: 1703477813
+  revision_translation_affected:
+    -
+      value: true
+  field_pi_body:
+    -
+      value: '<p><strong>Perfectly Spoken: </strong>Combining Self-Study and Live Practice</p><p>Perfectly Spoken is becoming an increasingly popular choice for English language learners, especially for those seeking a more comprehensive and immersive language learning experience. It offers a combination of self-study materials and live practice with expert teachers, providing a well-rounded approach to language acquisition.</p><p><strong>Self-Study Materials</strong> cover various aspects of language learning, such as grammar, pronunciation, listening skills, and vocabulary expansion. The structured curriculum ensures systematic progress through different levels of difficulty, enabling learners to develop a solid foundation in the English language.</p><p><strong>Live Practice with Expert Teachers: </strong>Experienced native teachers offer live online classes which allow learners to practice their speaking and listening skills in a supportive environment including engaging conversation practice where learners can enhance their fluency, pronunciation, and overall language proficiency. The combination of self-study and live practice ensures a holistic learning experience that addresses both individual study needs and the importance of real-life communication skills.</p>'
+      format: full_html
+  field_pi_image:
+    -
+      entity: abeec6c8-5041-4769-b1f5-d98e65cfd231
+      alt: Live-Practice-Header-Image
+      title: ''
+      width: 1500
+      height: 798

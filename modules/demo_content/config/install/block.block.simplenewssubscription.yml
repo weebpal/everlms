@@ -1,0 +1,29 @@
+uuid: 41d3be0f-1437-4b90-9848-0ba02e8234e1
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - simplenews
+  theme:
+    - lms_theme
+third_party_settings:
+  block_class:
+    classes: newsletter-block--wrapper
+id: simplenewssubscription
+theme: lms_theme
+region: footer_fifth
+weight: -15
+provider: null
+plugin: simplenews_subscription_block
+settings:
+  id: simplenews_subscription_block
+  label: Newsletter
+  label_display: '0'
+  provider: simplenews
+  newsletters: {  }
+  default_newsletters: {  }
+  message: 'Stay informed - subscribe to our newsletter.'
+  show_manage: false
+  unique_id: acec10d1-5f25-44e0-974f-7252aa16d646
+visibility: {  }

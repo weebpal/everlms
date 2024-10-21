@@ -1,0 +1,658 @@
+form {
+  input {
+    height: 48px;
+    padding: 12px 24px;
+    border: 1px solid #e8e6f8;
+    border-radius: 0;
+    //background-color: #f7f7fd;
+    box-sizing: border-box;
+
+    &[type="search"] {
+      box-sizing: border-box;
+    }
+
+    &[type="email"] {
+      display: block;
+      margin-top: 0.25rem;
+    }
+
+    &.button--add-to-cart {
+      @include btn-green;
+    }
+
+    &[type="submit"] {
+      @include btn-green;
+    }
+  }
+
+  //   star form login
+  &.user-login-form,
+  &.user-register-form,
+  &.user-pass {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    max-width: 800px;
+    //padding: 0 20px;
+    //margin: 0 auto;
+
+    label {
+      display: block;
+    }
+
+    .field--type-image {
+      .form-submit {
+        display: none;
+      }
+    }
+
+    input[type="submit"] {
+      @include btn-default;
+    }
+
+    input[type="file"] {
+      padding: 8px 24px;
+      margin-bottom: 4px;
+      height: auto;
+    }
+
+    .form-item-contact {
+      position: relative;
+      margin-top: -10px;
+      padding-left: 25px;
+    }
+
+    input[type="checkbox"] {
+      position: absolute;
+      top: -15px;
+      left: 0;
+    }
+
+    &[class*="user-"] {
+      .form-item {
+        margin-bottom: 24px;
+
+        & > label {
+          @include font-plexsans-medium(16px, 24px, #121212);
+        }
+
+        .description {
+          @include font-plexsans-regular(14px, 21px, #333);
+        }
+      }
+
+      .field--widget-image-image {
+        .image-widget-data {
+          display: flex;
+          gap: 16px;
+          @media (max-width: 767px) {
+            display: block;
+          }
+        }
+      }
+
+      input {
+        background-color: #fdfdfd;
+
+        &[type="file"] {
+          margin-bottom: 0;
+        }
+      }
+
+      .form-wrapper {
+        input[type="submit"] {
+          @include btn-green();
+        }
+      }
+    }
+  }
+
+  //&.user-pass {
+  //  padding: 30px;
+  //  padding: 8px 24px;
+  //  border-radius: 8px;
+  //  box-shadow: 0 8px 24px 0 rgba(55, 84, 219, 0.08), 0 0 1px 0 rgba(55, 84, 219, 0.25);
+  //  border: none;
+  //  max-width: 700px;
+  //  margin: 0 auto;
+  //  margin-bottom: 48px;
+  //  @media (max-width: 767px) {
+  //    padding: 20px;
+  //  }
+  //
+  //  .form-item {
+  //    margin-bottom: 0;
+  //    margin-top: 0;
+  //
+  //    + p {
+  //      font-size: 12px;
+  //    }
+  //  }
+  //
+  //  .form-actions {
+  //    margin-bottom: 0;
+  //  }
+  //}
+  //
+  //&.user-login-form {
+  //  padding: 30px;
+  //  padding: 8px 24px;
+  //  border-radius: 8px;
+  //  box-shadow: 0 8px 24px 0 rgba(55, 84, 219, 0.08), 0 0 1px 0 rgba(55, 84, 219, 0.25);
+  //  border: none;
+  //  max-width: 700px;
+  //  margin: 0 auto;
+  //  margin-bottom: 48px;
+  //  @media (max-width: 767px) {
+  //    padding: 20px;
+  //  }
+  //
+  //  .form-item {
+  //    &:first-child {
+  //      margin-top: 0;
+  //    }
+  //  }
+  //}
+  //
+  //&.user-register-form {
+  //  @extend .user-login-form;
+  //}
+
+  .form-item-vote {
+    .form-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding-bottom: 8px;
+
+      .fivestar-widget-static .star {
+        background: unset;
+
+        .on {
+          background: url(../images/star-on.svg);
+          width: 16px;
+          height: 16px;
+          padding: 1px;
+          object-fit: contain;
+        }
+
+        .off {
+          background: url(../images/star-off.svg);
+          width: 16px;
+          height: 16px;
+          padding: 1px;
+          object-fit: contain;
+        }
+      }
+    }
+
+    .description {
+      @include font-plexsans-regular(14px, 16px, #4b4b4b);
+
+      span {
+        display: inline-block;
+        @include font-plexsans-regular(14px, 16px, #4b4b4b);
+        height: 16px;
+      }
+    }
+  }
+
+  &.webform-submission-contact-form {
+    border-top: 1px solid #ebebeb;
+
+    .form-textarea-wrapper {
+      width: 47.5%;
+    }
+
+    input {
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+    }
+  }
+
+  &.quiz-form {
+    max-width: 768px;
+    margin: 0 auto;
+    position: relative;
+
+    #take-quiz {
+      .messages--error {
+        background-color: #ee3124;
+        color: #fff;
+        padding: 10px;
+        margin-bottom: 16px;
+        border-radius: 4px;
+        font-weight: 600;
+      }
+    }
+
+    .count-down-label--wrapper {
+      //position: absolute;
+      //top: 24px;
+      //right: 20px;
+      display: flex;
+      gap: 8px;
+      font-size: 18px;
+      line-height: 24px;
+      color: #121212;
+      margin-bottom: 8px;
+
+      .label {
+        @include font-plexsans-semibold(null, null, null);
+      }
+    }
+
+    .take-quiz-form {
+      background-color: #fafafa;
+      padding: 20px;
+      border-radius: 4px;
+
+      [id*="question_"] {
+        br {
+          display: none;
+        }
+
+        h3 {
+          @include font-robotoserif-semibold(32px, 41.6px, #121212);
+          margin-bottom: 16px;
+        }
+
+        p {
+          @include font-plexsans-medium(18px, 31.5px, #14a67b);
+        }
+      }
+
+      [id*="answer_checkboxes_"] {
+        margin-bottom: 16px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      > .form-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        //justify-content: center;
+        //margin: 0 -8px;
+
+        //> div {
+        //  flex: 0 0 calc(50% - 16px);
+        //  margin: 0 8px;
+        //}
+      }
+    }
+
+    .form-checkboxes {
+      > .form-item {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 8px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        label {
+          @include font-plexsans-semibold(16px, 24px, #121212);
+        }
+
+        .form-checkbox {
+          width: 30px;
+          height: 30px;
+          order: 2;
+          flex: 0 0 30px;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    #confirm_submit,
+    #next_button {
+      margin-top: 16px;
+
+      input {
+        @include btn-green();
+      }
+
+      .ajax-progress {
+        display: none;
+      }
+    }
+
+    #back_button {
+      margin-top: 16px;
+
+      input {
+        @include btn-white();
+      }
+
+      .ajax-progress {
+        display: none;
+      }
+    }
+  }
+
+  &.commerce-checkout-flow {
+    .link--previous {
+      @include btn-green();
+    }
+
+    .checkout-pane {
+      margin-bottom: 30px;
+
+      legend {
+        @include font-plexsans-bold(18px, 31.5px, #121212);
+        margin-bottom: 12px;
+      }
+    }
+
+    .checkout-pane-payment-information {
+      > .fieldset-wrapper > .fieldgroup > .fieldset-wrapper {
+        padding: 15px;
+        background-color: #eee;
+        width: 50%;
+        margin-bottom: 20px;
+      }
+    }
+
+    .form-radios {
+      > .form-item {
+        margin-bottom: 16px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .form-type-radio {
+      display: flex;
+      justify-content: space-between;
+
+      input {
+        width: 30px;
+        height: 30px;
+        order: 2;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      label {
+        @include font-plexsans-bold(16px, 24px, #121212);
+      }
+    }
+
+    .layout-region-checkout-main {
+      .link--previous {
+        @include btn-green();
+      }
+    }
+
+    .layout-region-checkout-footer {
+      .button--primary {
+        @include btn-green();
+      }
+    }
+
+    .checkout-pane-order-summary {
+      .order-total-line {
+        @include font-plexsans-semibold(16px, 24px, #121212);
+        padding: 0;
+
+        .order-total-line-label {
+          position: relative;
+
+          &:after {
+            content: ":";
+            position: absolute;
+          }
+        }
+
+        &.order-total-line__total {
+          .order-total-line-label,
+          .order-total-line-value {
+            color: #14a67b;
+          }
+        }
+      }
+    }
+
+    .checkout-pane-coupon-redemption {
+      .form-wrapper {
+        > input[type="submit"] {
+          @include btn-green();
+          margin-top: 16px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+      .form-item-coupon-redemption-form-code {
+        label {
+          @include font-plexsans-bold(18px, 31.5px, #121212);
+        }
+      }
+
+      table {
+        width: 50%;
+
+        tbody td.remove-button--td {
+          width: 200px;
+        }
+      }
+    }
+
+    .layout-checkout-form {
+      .form-actions {
+        display: flex;
+        //justify-content: flex-end;
+        gap: 16px;
+
+        input[type="submit"],
+        .link--previous {
+          @include btn-green();
+          width: auto;
+        }
+      }
+    }
+
+    .coupon-redemption-form__coupons {
+      .button {
+        @include btn-green();
+        width: auto;
+        margin: 0 auto;
+      }
+    }
+
+    .form-item-payment-information-add-payment-method-payment-details-card-number,
+    .form-item-payment-information-add-payment-method-payment-details-expiration,
+    .form-item-payment-information-add-payment-method-payment-details-security-code {
+      label {
+        @include font-plexsans-bold(14px, 20px, #121212);
+      }
+    }
+
+    .form-wrapper__returning-customer {
+      .fieldset-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        .form-item {
+          margin-bottom: 16px;
+
+          &.form-type-password {
+            margin-bottom: 0;
+          }
+
+          label {
+            @include font-plexsans-bold(16px, 24px, #121212);
+          }
+        }
+      }
+
+      #edit-login-returning-customer-forgot-password {
+        margin-bottom: 16px;
+      }
+
+      .button {
+        display: block;
+        order: 4;
+        @include btn-green();
+      }
+    }
+
+    .form-wrapper__guest-checkout {
+      .button {
+        @include btn-green();
+      }
+    }
+  }
+
+  &.contact-form {
+    .form-item-copy {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 24px 0;
+
+      input {
+        width: 16px;
+        height: 16px;
+      }
+
+      label {
+        margin: 0;
+      }
+    }
+
+    .form-item {
+      > label {
+        @include font-plexsans-bold(16px, 24px, #121212);
+      }
+    }
+
+    > .form-actions {
+      display: flex;
+      gap: 16px;
+
+      input[type="submit"] {
+        @include btn-green();
+      }
+    }
+
+    > div {
+      margin-bottom: 16px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    textarea {
+      width: 100%;
+      border-color: #e6e9eb;
+    }
+  }
+
+  &.search-form {
+    .form-type-search {
+      display: block;
+      margin-bottom: 16px;
+
+      input {
+        margin-bottom: 16px;
+      }
+
+      label {
+        @include font-plexsans-bold(16px, 24px, #121212);
+        margin-bottom: 8px;
+      }
+    }
+
+    input[type="submit"] {
+      @include btn-green();
+      margin: 0;
+    }
+  }
+
+  &.user-form {
+    > .form-wrapper {
+      > .form-item {
+        label {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+.quiz-confirm-dialog {
+  border-radius: 4px;
+
+  &.ui-widget {
+    padding: 0;
+    border: none;
+  }
+
+  .ui-dialog-titlebar {
+    background-color: #14a67b;
+    color: #fff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  .ui-dialog-titlebar-close {
+    background-image: url("../images/close.svg");
+    background-repeat: no-repeat;
+    background-size: 13px;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: unset;
+  }
+
+  .ui-dialog-buttonpane {
+    background-color: #fff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  .ui-dialog-buttonset {
+    .button {
+      @include btn-default();
+      padding: 12px 16px;
+
+      &--primary {
+        @include btn-green();
+        padding: 12px 16px;
+      }
+    }
+  }
+}
+
+.comment-form {
+  > .form-wrapper {
+    margin-bottom: 24px;
+  }
+
+  .form-item {
+    > label {
+      font-weight: 600;
+      color: $txt-color;
+    }
+  }
+
+  input[type="submit"] {
+    @include btn-green();
+  }
+}

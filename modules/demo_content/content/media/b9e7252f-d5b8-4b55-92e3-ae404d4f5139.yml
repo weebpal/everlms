@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: b9e7252f-d5b8-4b55-92e3-ae404d4f5139
+  bundle: image
+  default_langcode: en
+  depends:
+    889578bc-612d-4c28-be52-7330e0b611fe: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 854500_4912_10.jpg
+  created:
+    -
+      value: 1703131856
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 889578bc-612d-4c28-be52-7330e0b611fe
+      alt: 'English Pronunciation | Sound Like a Native English Speaker'
+      title: ''
+      width: 750
+      height: 422

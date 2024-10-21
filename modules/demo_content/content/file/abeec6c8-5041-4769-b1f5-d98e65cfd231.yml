@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: abeec6c8-5041-4769-b1f5-d98e65cfd231
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Live-Practice-Header-Image_.jpg
+  uri:
+    -
+      value: 'public://2023-12/Live-Practice-Header-Image_.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 166154
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1703477784

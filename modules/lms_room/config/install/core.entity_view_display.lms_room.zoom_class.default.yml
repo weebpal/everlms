@@ -1,0 +1,30 @@
+uuid: f318aa0e-109c-4d59-a068-7c8bbdac3e4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lms_room.zoom_class.field_host
+    - lms_room.lms_room_type.zoom_class
+id: lms_room.zoom_class.default
+targetEntityType: lms_room
+bundle: zoom_class
+mode: default
+content:
+  field_host:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  created: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  status: true
+  uid: true

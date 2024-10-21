@@ -1,0 +1,25 @@
+uuid: 9b04b9b1-559b-48cc-b023-efb8e0afa926
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_quiz.field_take_quiz_number
+    - lms_quiz.lms_quiz_type.default
+id: lms_quiz.default.field_take_quiz_number
+field_name: field_take_quiz_number
+entity_type: lms_quiz
+bundle: default
+label: 'Take quiz number'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

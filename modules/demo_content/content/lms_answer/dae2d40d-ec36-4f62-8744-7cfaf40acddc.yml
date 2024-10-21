@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: lms_answer
+  uuid: dae2d40d-ec36-4f62-8744-7cfaf40acddc
+  bundle: default
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'We present the demonstration hurriedly'
+  created:
+    -
+      value: 1702953124
+  status:
+    -
+      value: true
+  field_correct:
+    -
+      value: false

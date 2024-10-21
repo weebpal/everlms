@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: 94ed6d52-a11a-4391-b152-5c9ff7587a68
+  bundle: basic_component
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Listen Actively'
+  title:
+    -
+      value: 'Listen Actively'
+  created:
+    -
+      value: 1703472809
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>To become a better speaker, you must also become a better listener. Pay close attention when native speakers talk. Watch English movies, TV shows, and listen to podcasts or audiobooks. Try to understand the pronunciation, intonation, and the way they express themselves. This will help you in your own speaking.</p>'
+      format: full_html
+      summary: ''

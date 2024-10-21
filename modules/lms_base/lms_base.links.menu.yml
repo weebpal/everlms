@@ -1,0 +1,5 @@
+lms_base.admin:
+  title: LMS
+  parent: 'system.admin'
+  route_name: lms_base.admin
+  weight: -8

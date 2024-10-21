@@ -1,0 +1,25 @@
+uuid: 8c9f5ddf-fb6e-4b41-8636-d74200ac335a
+langcode: en
+status: true
+dependencies:
+  config:
+    - component_builder.component_item_type.embed_block
+    - field.storage.component_wrapper.field_embed_block
+  module:
+    - component_builder
+id: component_wrapper.component_wrapper.field_embed_block
+field_name: field_embed_block
+entity_type: component_wrapper
+bundle: component_wrapper
+label: 'Embed Block Items'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:component_item'
+  handler_settings:
+    target_bundles:
+      - embed_block
+field_type: entity_reference

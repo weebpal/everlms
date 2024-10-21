@@ -1,0 +1,26 @@
+uuid: 66403155-7886-4192-af4e-84ac905b74bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lms_lesson.field_class_time
+    - lms_lesson.lms_lesson_type.default
+  module:
+    - datetime_range
+id: lms_lesson.default.field_class_time
+field_name: field_class_time
+entity_type: lms_lesson
+bundle: default
+label: 'Class time'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+    default_end_date_type: relative
+    default_end_date: '+1 hour'
+default_value_callback: ''
+settings: {  }
+field_type: daterange

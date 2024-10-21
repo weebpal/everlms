@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a2e771b9-141e-47b7-8678-abfe716cdd62
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Freelance Online English Teaching with LessonSpeak.mp4'
+  uri:
+    -
+      value: 'public://2023-12/Freelance Online English Teaching with LessonSpeak.mp4'
+  filemime:
+    -
+      value: video/mp4
+  filesize:
+    -
+      value: 13722591
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702958772

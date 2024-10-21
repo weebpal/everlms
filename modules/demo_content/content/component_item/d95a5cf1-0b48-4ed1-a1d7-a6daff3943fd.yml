@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: component_item
+  uuid: d95a5cf1-0b48-4ed1-a1d7-a6daff3943fd
+  bundle: basic_component
+  default_langcode: en
+  depends:
+    d0462b0f-e57b-48e1-a116-c963a1d38fbd: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  admin_title:
+    -
+      value: 'Basic Component Item: Speak with Native Speakers'
+  title:
+    -
+      value: 'Speak with Native Speakers'
+  created:
+    -
+      value: 1703472996
+  revision_translation_affected:
+    -
+      value: true
+  field_body:
+    -
+      value: '<p>One of the best ways to improve your speaking skills is to converse with native speakers. You can find language exchange partners or join language exchange groups online. This will expose you to different accents and help you adapt to various English-speaking styles.</p>'
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: d0462b0f-e57b-48e1-a116-c963a1d38fbd
+      alt: ''
+      title: ''
+      width: 1536
+      height: 1024

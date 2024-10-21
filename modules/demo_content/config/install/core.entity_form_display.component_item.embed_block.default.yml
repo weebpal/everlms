@@ -1,0 +1,50 @@
+uuid: b782170b-8493-48ec-a798-95b097176b50
+langcode: en
+status: true
+dependencies:
+  config:
+    - component_builder.component_item_type.embed_block
+    - field.field.component_item.embed_block.field_block_reference
+  module:
+    - block_field
+id: component_item.embed_block.default
+targetEntityType: component_item
+bundle: embed_block
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_block_reference:
+    type: block_field_default
+    weight: 3
+    region: content
+    settings:
+      plugin_id: ''
+      settings: {  }
+      configuration_form: full
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true
