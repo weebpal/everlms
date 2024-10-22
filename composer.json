@@ -1,5 +1,5 @@
 {
-    "name": "weebpal/everlms",
+    "name": "drupal/everlms",
     "description": "WeebPal EverLMS profile",
     "type": "drupal-profile",
     "license": "GPL-2.0-or-later",
@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "composer/installers": "^1.9",
+        "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.4",
         "drupal/apitools": "^2.0@alpha",
