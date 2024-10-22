@@ -10,6 +10,8 @@ use Drupal\Core\Render\Element;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+use Drupal\user\Entity\Role;
+use Drupal\user\RoleInterface;
 
 /**
  * Implements hook_theme().
@@ -133,7 +135,7 @@ function lms_user_course_commerce_product_view(array &$build, EntityInterface $e
  *
  * @see system_install()
  */
-function demo_content_install() {
+function lms_user_course_install() {
   $permissions_anonymous = [
     "access comments",
     "access content",
@@ -143,7 +145,7 @@ function demo_content_install() {
     "search content",
     "subscribe to newsletters",
     "use text format restricted_html",
-    "view commerce_product",
+//    "view commerce_product",
     "view component_item",
     "view component_wrapper",
     "view default lms_quiz",
@@ -156,8 +158,8 @@ function demo_content_install() {
     "view media"
   ];
   $permissions_authenticate = [
-    "access checkout",
-    "access comments",
+//    "access checkout",
+//    "access comments",
     "access content",
     "access lesson detail",
     "access shortcuts",
@@ -165,18 +167,18 @@ function demo_content_install() {
     "access take quiz",
     "access user profiles",
     "create customer profile",
-    "create default lms_user_course",
-    "delete own files",
-    "duplicate own default lms_user_course",
+//    "create default lms_user_course",
+//    "delete own files",
+//    "duplicate own default lms_user_course",
     "edit own comments",
-    "manage own commerce_payment_method",
+//    "manage own commerce_payment_method",
     "post comments",
     "rate content",
-    "search content",
-    "skip comment approval",
+//    "search content",
+//    "skip comment approval",
     "subscribe to newsletters",
-    "update own customer profile",
-    "update own default lms_user_course",
+//    "update own customer profile",
+//    "update own default lms_user_course",
     "use text format basic_html",
     "use text format full_html",
     "view commerce_product",
@@ -197,8 +199,8 @@ function demo_content_install() {
     "view lms_quiz_result",
     "view lms_user_certificate",
     "view lms_user_course",
-    "view media",
-    "view own commerce_order",
+//    "view media",
+//    "view own commerce_order",
     "view own customer profile",
     "view own profile",
   ];
