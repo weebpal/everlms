@@ -19,13 +19,13 @@ nav {
           background-position: center;
         }
 
-        &[href="/user/logout"] {
+        &[href="/user/logout"], &.user-logout {
           background: url(../images/logout.png) no-repeat;
           background-size: 16px;
           background-position: center;
         }
 
-        &[href="/user/login"] {
+        &[href="/user/login"], &.user-login {
           background: url(../images/login.png) no-repeat;
           background-size: 16px;
           background-position: center;
